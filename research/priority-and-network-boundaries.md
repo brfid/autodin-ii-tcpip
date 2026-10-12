@@ -80,7 +80,7 @@ Read the [findings and limits](priority-and-network-boundaries.md#findings-and-l
 - [BBN 3119: alternatives and allocation of functions](priority-and-network-boundaries.md#bbn-3119-alternatives-and-allocation-of-functions)
 - [Administrative agreement in the shared service](priority-and-network-boundaries.md#administrative-agreement-in-the-shared-service)
 - [Architectural attributions the evidence leaves open](priority-and-network-boundaries.md#architectural-attributions-the-evidence-leaves-open)
-- [Synthesis and missing decision evidence](priority-and-network-boundaries.md#missing-decision-evidence)
+- [Missing decision evidence](priority-and-network-boundaries.md#missing-decision-evidence)
 - [The November 1975 System Performance Specification](priority-and-network-boundaries.md#the-november-1975-system-performance-specification)
 - [USC-ISI correspondence and INWG comparisons](priority-and-network-boundaries.md#usc-isi-correspondence-and-inwg-comparisons)
 
