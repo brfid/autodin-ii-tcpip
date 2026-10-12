@@ -80,10 +80,9 @@ Read the [findings and limits](priority-and-network-boundaries.md#findings-and-l
 - [BBN 3119: alternatives and allocation of functions](priority-and-network-boundaries.md#bbn-3119-alternatives-and-allocation-of-functions)
 - [Administrative agreement in the shared service](priority-and-network-boundaries.md#administrative-agreement-in-the-shared-service)
 - [Architectural attributions the evidence leaves open](priority-and-network-boundaries.md#architectural-attributions-the-evidence-leaves-open)
-- [Synthesis and missing decision evidence](priority-and-network-boundaries.md#synthesis-and-missing-decision-evidence)
+- [Synthesis and missing decision evidence](priority-and-network-boundaries.md#missing-decision-evidence)
 - [The November 1975 System Performance Specification](priority-and-network-boundaries.md#the-november-1975-system-performance-specification)
 - [USC-ISI correspondence and INWG comparisons](priority-and-network-boundaries.md#usc-isi-correspondence-and-inwg-comparisons)
-- [Limits on institutional and economic interpretation](priority-and-network-boundaries.md#limits-on-institutional-and-economic-interpretation)
 
 ### The committee review: proposed responsibilities
 
@@ -342,13 +341,9 @@ Keep the claim specific. [RFC 675, section 2.2](https://www.rfc-editor.org/rfc/r
 
 Clark also connects the priority of survivability over resource accounting to the military setting, and discusses difficulties turning architectural flexibility into procurement performance requirements (pp. 107, 110-111). These are useful broader questions about what standards left to implementations and purchasers. They need AUTODIN II-specific contracts or decision records before being used as evidence of that program's individual influence.
 
-### Synthesis and missing decision evidence
+### Missing decision evidence
 
-The best-supported deeper formulation is: **AUTODIN II was one of the operational projects through which Internet designers worked out the separation between packet carriage, host services, and administrative controls. Its requirements could both enter the protocol and furnish reasons to reorganize protocol responsibilities. Some controls survived in the standards; some service assumptions later conflicted with changes elsewhere in the Internet.**
-
-The proposed influence on Postel's layering and the TCP/IP split is grounded in both companion 1976 specifications and explicit BBN architectural alternatives. The remaining inference is the connection from those deliberations to the later split decision. The newly examined INWG material shows that role separation, port mapping, and alternative transport services circulated more broadly. IEN 66 documents contemporary fragmentation and low-delay service concerns without assigning them to AUTODIN II. Direct influence on security and precedence is better established than causation of the split. This preserves the account's focus on concurrent development and on the AUTODIN II-to-DDN transition while allowing fundamental architectural change to be part of the explanation.
-
-The complete TCP source and its relation to THP are now resolved. The strongest remaining evidence would be correspondence connecting the 1976 work to the 1977-78 split, and procurement/decision revisions showing what became of Kahn's and BBN's recommendations. The present comparison establishes substantive architectural reasoning in AUTODIN II work and later adaptation to TCP/IP, while leaving causal attribution of the split open. The SRI/ISI correspondence collections have not been exhaustively searched.
+No recovered correspondence or decision record connects the 1976 AUTODIN II work to the 1977–78 TCP/IP split. Current source comparisons do not establish that causal connection.
 
 ### The November 1975 System Performance Specification
 
@@ -386,12 +381,6 @@ The [Alex McKenzie inventory](../sources/README.md#inwg-photographs) led to orig
 The SRI specification itself supplies a firmer citation link to the wider work. Its complete references page, **printed p. 104 / PDF p. 113**, was inspected: it cites INWG 72, Tomlinson's and Dalal's sequence-number notes, Dalal's connection-establishment note, and Cerf's *TCP Resynchronization*, SU-DSL Technical Note 79, January 1976. It does not cite INWG 96 on that page. This establishes explicit engagement with earlier internetwork research while leaving a direct INWG 96-to-AUTODIN mapping unproved. Cerf's resynchronization note is a specific follow-up source, not newly examined content.
 
 For competing explanations of the split, Postel's [IEN 66 meeting notes](https://www.rfc-editor.org/ien/ien66.pdf), meeting October 13-14, 1977, notes dated October 21, **printed/PDF pp. 6-7**, were inspected. They discuss moving fragmentation/reassembly into a separate internet protocol, judge that too large a change for TCP-3, and consider it for TCP-4. The next page discusses speech, conferencing, low delay, and possible unreliable service. This is direct evidence of the contemporary design agenda and incremental decision process. These passages do not attribute those changes to AUTODIN II. Read them with IEN 2's modularity argument, rather than replacing their stated concerns with an inferred single cause.
-
-### Limits on institutional and economic interpretation
-
-A candidate explanation is their ability to make architectural generality useful to an operational constituency: meeting particular service requirements while preserving room for independent development and interconnection. The economic mechanism to examine is the allocation of work, procurement, and control among backbone contractors, access-equipment suppliers, hosts, and network administrators. Kahn's draft review, pp. 4, 7, and 11, is especially useful because it explicitly connects management and contracting arrangements to technical boundaries, and uses priority requirements to argue for moving sequencing out of the backbone. Those original photographs were rechecked for this discussion. The recommendations speak for a committee, including an explicit reference to its unanimous view on p. 4; the report's preparation by Kahn does not establish his sole authorship of every recommendation.
-
-Keep three questions distinct as the narrative develops: what the documents show the designers deliberately preserving; how they secured institutional support, which requires correspondence, funding, or decision evidence; and the economic or political possibilities the resulting architecture opened, which are historical interpretations requiring their own mechanisms. Identify the relevant DARPA, DCA, operational, and contractor interests in each episode. The present evidence does not establish that a unified sponsor was kept satisfied throughout, that Cerf and Kahn foresaw a particular commercial order, or that distributed technical functions by themselves redistributed ownership or political power. Their individual roles and the contribution of the wider research and procurement community need to remain visible. The historical account develops the documented institutional relationships; broader claims about funding strategy or later commercialization remain outside its established argument.
 
 ## Unresolved questions
 
