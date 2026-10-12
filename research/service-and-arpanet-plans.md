@@ -118,7 +118,7 @@ Together these sources support an argument about additional technical and instit
 
 [RFC 675, December 1974](https://www.rfc-editor.org/rfc/rfc675.html), pp. 1-3, already specifies internetwork TCP and gateways. Cerf's [IEN 151 final report](https://history.rfc-editor.org/ien/ien151.txt), April 1, 1980, p. 1, visually checked, locates the Stanford effort in 1973-76 and identifies the 1976 AUTODIN II specification as an intermediate version. These are evidence against an exclusive original-purpose claim.
 
-David Clark's [1988 design-philosophy paper](https://groups.csail.mit.edu/ana/Publications/PubPDFs/The design philosophy of the DARPA internet protocols.pdf), pp. 106-107 and 110, is a useful participant retrospective. It explicitly discusses military priorities, but also describes integrating separately administered networks as an ambition. It supports the importance of changing priorities; it does not identify AUTODIN II as the exclusive origin. Contemporaneous specifications should carry more weight for the precise scope of a 1970s design.
+David Clark's [1988 design-philosophy paper](https://groups.csail.mit.edu/ana/Publications/PubPDFs/The%20design%20philosophy%20of%20the%20DARPA%20internet%20protocols.pdf), pp. 106-107 and 110, is a useful participant retrospective. It explicitly discusses military priorities, but also describes integrating separately administered networks as an ambition. It supports the importance of changing priorities; it does not identify AUTODIN II as the exclusive origin. Contemporaneous specifications should carry more weight for the precise scope of a 1970s design.
 
 ## Unresolved questions
 
