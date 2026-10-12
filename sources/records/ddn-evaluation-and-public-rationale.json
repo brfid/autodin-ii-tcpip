@@ -1,0 +1,188 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "focus": "The 1981-82 AUTODIN II-to-DDN selection",
+  "date": "2026-09-16",
+  "state": "pass complete, question open. The evaluation report is still not held, but a named working paper of the evaluation is now identified and partly relayed, and its cost figure is independently corroborated.",
+  "supplements": [
+    "ddn-selection-initial-reading.json",
+    "ddn-reports-page-verification.json"
+  ],
+  "current_state": "../../questions.md",
+  "principal_findings": [
+    {
+      "id": "F1",
+      "finding": "A named working paper of the DCA evaluation is identified: 'Factor Comparison Narrative Summary Sheet, DRAFT, For Official Use Only, 23 February 1982, n. pag.' It is cited as reference 15 by an NPS thesis of March 1983. Dated two days before the evaluation panel's recorded conclusion of 25 February 1982.",
+      "source": "Mary McLendon-Koenig, Impact of the WIS Modernization Plan on the Joint Deployment System, M.S. thesis, Naval Postgraduate School, March 1983 (thesis advisor L. B. Garden); DTIC ADA128127",
+      "locator": "List of References, printed p. 77 / ADA128127 PDF p. 80; same page in the NPS library scan, PDF p. 157",
+      "reading": "Visually read in both copies. The OCR of the NPS scan reads the date as '23 Tenruary'; both images read '23 February 1982'.",
+      "limits": "Not held. Attribution to the evaluation team is inferred from the title, date and relayed content. The reported FOUO marking establishes contemporary handling, not current access status or the reason it was not recovered."
+    },
+    {
+      "id": "F2",
+      "finding": "The thesis relays from that sheet: evaluation factors 'survivability, security, system design, and cost'; the Replica 'seemed better able to withstand network element losses, proposed a more flexible routing algorithm, and afforded a greater mobility capability'; 'In the area of large data transfers, AUTODIN II was superior to the Replica design', because smaller packets raise overhead; 'If AUTODIN II had been available for implementation during the evaluation effort time frame, the technology, schedule, and cost risks associated with the Replica proposal would certainly have cancelled some of the benefits. However, having no satisfactory AUTODIN II system online, the benefits of the Replica approach justified the risks'; and 'In constant FY82 dollars, AUTODIN II total system cost was estimated at $588 million where the Replica total system cost was $429 million', with annual-cost projections and Figure 2.3.",
+      "locator": "printed pp. 22-24 / ADA128127 PDF pp. 25-27, each paragraph cited '[Ref. 15]'",
+      "reading": "Visually read.",
+      "limits": "Second-hand paraphrase by a student, not quotation of the sheet. The sentence on the six-year-old design and eight-year computer life is not itself attributed and may be the author's. Text and figure disagree: the text says the Replica annual cost falls to 'the $40 million range in 1987' and that AUTODIN II rises to $72 million 'until 1995', while Figure 2.3 shows the Replica curve levelling near $35-36 million after about 1987 and AUTODIN II peaking near $72 million about 1987 and settling near $55 million after about 1995. No weights or scores are given."
+    },
+    {
+      "id": "F3",
+      "finding": "An Air Force answer for the record states: 'The total cost (all appropriations) of DDN program is projected to be $535 million for FY 82-88 (escalated FY 82 dollars). The cost advantage of the DDN program over AUTODIN II is calculated to be $159 million in (unescalated) FY 82 dollars.' $588M - $429M = $159M exactly.",
+      "source": "Department of Defense Appropriations for Fiscal Year 1984, Hearings before a Subcommittee of the Committee on Appropriations, United States Senate, 98th Congress, 1st session, S. Hrg. 98-361, Part 2 (GPO 1984); Internet Archive micro_IA41152844_0773 (catalogue S181-25)",
+      "locator": "printed p. 840, heading 'DEFENSE DATA NETWORK PROGRAM', within the Air Force operation and maintenance questions and answers; IA leaf n840",
+      "reading": "Visually read from the IA page derivative.",
+      "significance": "A separate official Air Force statement corroborates the reported $159 million difference. It and the thesis may share underlying estimates. It does not establish who produced them, common dollar bases for every total, or numerical soundness; the Task Force questioned absolute validity (ADA127476 p. 21).",
+      "also_on_page": "The same answer says that when the FY 1983 President's Budget was submitted, SECDEF direction to switch had not been received, so it requested $2 million for AUTODIN II and nothing for DDN; the Air Force O&M share of DDN is $4.2 million for FY 1983 and $14.1 million for FY 1984.",
+      "limits": "The session date and the questioner are not identified on the page; the answer sits in a block of Air Force O&M questions after the hearings of July-August 1983 in this part."
+    },
+    {
+      "id": "F4",
+      "finding": "The Secretary of Defense's public statement during the evaluation frames it around survivability: 'As a consequence of our increased emphasis on system survivability and endurance, we are evaluating whether AUTODIN II remains the most attractive option for common-user data communications. Alternative options under consideration include a larger number of smaller communications nodes employed in networks such as the ... (WIN) and the ARPANET. Our evaluation will be completed prior to the transfer of the first operational user to AUTODIN II, now scheduled for March 1982.'",
+      "source": "Report of Secretary of Defense Caspar W. Weinberger to the Congress on the FY 1983 Budget, FY 1984 Authorization Request and FY 1983-87 Defense Programs, 8 February 1982; DTIC ADA113991",
+      "locator": "printed III-85 / PDF p. 166",
+      "reading": "Visually read.",
+      "limits": "A statement of the question being asked, not of how it was answered."
+    },
+    {
+      "id": "F5",
+      "finding": "The post-decision official rationale is one clause: 'This past year, we terminated the AUTODIN II program and replaced it with the more survivable and less costly DDN. Formed from existing DoD networks, the DDN is a common-user data communications network providing end-to-end encryption and direct terminal access.'",
+      "source": "Department of Defense Annual Report, Fiscal Year 1984, February 1983; DTIC ADA160713",
+      "locator": "printed p. 255 / IA leaf n243",
+      "reading": "Visually read.",
+      "limits": "Names two criteria, survivability and cost; says nothing of architecture, maturity, security certification or protocols. Not evidence of their weight within the evaluation."
+    },
+    {
+      "id": "F6",
+      "finding": "The thesis supplies a pre-evaluation sequence, citing Stephen T. Walker, 'Department of Defense Data Network', Signal vol. 37 no. 2, October 1982: IOC extensions from 1979 until July 1980, when ASD(C3I) requested a review with alternatives; in July 1981 DUSD(C3I) questioned AUTODIN II's wartime survivability, focused on the small number of switching nodes; 'Immediately after this, the Air Force Test Director issued a report concerning the increasing cost of the system and doubts about the technology and future system performance'; in late 1981 the Director of DCA set up three teams, the third 'a 30-day evaluation team' that 'was to establish guidance for the two design teams and develop evaluation criteria'.",
+      "locator": "printed p. 22 / PDF p. 25, cited '[Ref. 14: p. 45]'",
+      "reading": "Visually read.",
+      "limits": "Relayed from Walker, whose article is not held. The in-text p. 45 can be a pinpoint within an article beginning on p. 42; 41 is an index item number, not a conflicting page. The thesis says the Deputy Under Secretary ordered termination; the order was signed by Deputy Secretary Carlucci (ADA127476 App. C), so the thesis is wrong on that point, which is a caution on its other second-hand details. The July 1981 DUSD(C3I) memorandum and the Air Force Test Director's report are new, unheld leads."
+    },
+    {
+      "id": "F7",
+      "finding": "The Carter-Reagan transition papers carry an OSD C3I program sheet for AUTODIN II (Director Mr. Stephen T. Walker; action officer LtCol John J. Lane): three initial switching centers and the System Testing Facility installed; site testing complete 'with deficiencies noted to be cleared'; system testing 'projected to begin in January following repeated delays' plus at least two months of security validation testing; 'Projected IOC if tests are successfully completed is mid March 1981'. FY81 O&M 10.339 and FY82 22.554 ($M), 'This system will be leased from Western Union'. The Issues and 'Decisions Jan - June 81' fields are blank. The mission-area plans list names 'Defense Audit Service Report on the Review of AUTODIN II (No. 81-005) 6 Oct 80'.",
+      "source": "Internet Archive item Carter-ReaganTransitionPapers, 'Carter and Reagan Transition Team Papers Folder 2.pdf'",
+      "locator": "PDF pp. 115 (plans list, sheet folio 48) and 125 (program sheet); p. 114 (mission area description) also read",
+      "reading": "Visually read.",
+      "limits": "Late 1980, before the alternative designs; context for the program's state, not evidence about the 1982 weighting. The blank Issues field records nothing."
+    },
+    {
+      "id": "F8",
+      "finding": "The FY 1984 RDT&E descriptive summary for DCA (dated 3 December 1982), program element 33126K, project 1033, records that the FY 83 'AUTODIN Improvement Program' project 'has been increased and redirected to include the development of the Defense Data Network' and retitled 'Defense Data Communications Program'.",
+      "source": "Justification of Estimates for Fiscal Year 1984 Submitted to Congress, RDT&E Defense Agencies, January 1983; DTIC ADA125228",
+      "locator": "printed pp. 426-428 of the OCR text",
+      "reading": "OCR only; not visually checked. Budgetary context, not relied on for any claim about the decision.",
+      "limits": "No evaluation rationale."
+    }
+  ],
+  "corrections_and_strengthenings_of_existing_records": [
+    "research.md treated the evaluation's criteria and weights as available only through the Task Force's description. A named evaluation working paper and a second-hand summary of its factors and costs now exist (F1-F2); weights and scores remain unavailable.",
+    "The 'heavy edge to REPLICA' cost comparison at ADA127476 printed p. 21 now has a magnitude, relayed at second hand and corroborated in a separate official statement, potentially from the same underlying estimates: $588M against $429M in constant FY82 dollars, a $159M difference (F2-F3).",
+    "The evaluation's recorded reasoning was not uniformly favourable to the winner: it credited AUTODIN II with superiority for large data transfers, and conditioned the choice on AUTODIN II not being available (F2).",
+    "The 23 February date means working evaluation material existed in draft two days before the panel's recorded conclusion. It says nothing about changes between draft and final.",
+    "The local DDN Program Plan and the thesis share pagination and figures (91 subscriber systems, 488 hosts, 1,446 terminals, 171 nodes). The thesis's '91 dedicated systems ... cost over $35.2 million' conflates those 91 subscriber systems with the plan's 72 dedicated systems at printed p. 255."
+  ],
+  "searched_without_success": [
+    "The evaluation team's report itself, and the Factor Comparison sheet by title: IA metadata and full text (the title occurs only in the thesis).",
+    "The DCEC technical-note series 1981-84 in the IA DTIC mirror by corporate author: 11 items, none but TN-8-83 on the fly-off.",
+    "The DIN II team plan: full text for DCA200-C-637 finds only the 1980 Western Union specifications and 1979-80 GRA&I entries.",
+    "A GAO report on the termination: 439 GAO DoD reports for 1982-83 in Justia's listings, two web searches, and IA full text. None found. This bounds Justia's DoD category and the IA index; it does not show the review never issued, which could have been a letter or briefing outside both.",
+    "Walker's October 1982 Signal article: the issue is not in the Internet Archive; only the volume index is."
+  ],
+  "retrieval_limits_kept_separate_from_negatives": [
+    "apps.dtic.mil not attempted, by instruction.",
+    "The IA full-text index returned the first 100 hits per query only; responsive items beyond page 1 for the broadest queries ('REPLICA' 'AUTODIN II', 143; 'terminated' ... 1982, 181) were not reviewed."
+  ],
+  "exact_remaining_retrieval_handles": [
+    "Factor Comparison Narrative Summary Sheet, DRAFT, FOUO, 23 February 1982 (DCA evaluation). Not public by any route tried; an archival or FOIA target, outside current scope.",
+    "Stephen T. Walker, 'Department of Defense Data Network', Signal 37(2), October 1982, starting p. 42, confirmed by the Signal index during the September 17 sweep. A library or interlibrary-loan item.",
+    "DUSD(C3I) survivability challenge to AUTODIN II, July 1981, and the Air Force Test Director's cost-and-technology report that followed, both known only through the thesis.",
+    "Defense Audit Service, Report on the Review of AUTODIN II, No. 81-005, 6 October 1980 (Chunk 2 and Chunk 4 context).",
+    "Decisions of the Comptroller General, September 1984 (vol. 63), which cites B-206979; not opened.",
+    "Unchanged from earlier records: the DIN II team plan (DCA200-C-637); the unabridged January and May 1982 program plans; the 1975 DoD Data Internet Study; the July 1980 OSD review group record."
+  ],
+  "scope_observed": {
+    "boundaries": "Later NPS theses (1985-91) that restate the decision were identified but not mined; they postdate the decision and depend on the sources above. Deployment-phase material was not pursued."
+  },
+  "source_fingerprints": [
+    {
+      "source": "DTIC ADA128127 (NPS thesis, DTIC copy)",
+      "url": "https://archive.org/download/DTIC_ADA128127/DTIC_ADA128127.pdf",
+      "bytes": 3522871,
+      "md5": "80aafd174915780894be37de3e3cde52",
+      "sha256": "5baf2f7568229212487b50d62214b0d19434d2ad4525ae3093e6de8ac8692907",
+      "pdf_pages": 83,
+      "page_mapping": "printed p = PDF p - 3 for pp. 22-24 and 77, confirmed on the images"
+    },
+    {
+      "source": "NPS library scan of the same thesis",
+      "url": "https://archive.org/download/impactofwismoder00mcle/impactofwismoder00mcle.pdf",
+      "bytes": 6320640,
+      "md5": "6054bf46db78e434c5468eedaa3b6e5f",
+      "sha256": "4144ab8523133ea905f77a250de0540648cffe293160cb85122bf135d3e28035",
+      "pdf_pages": 164
+    },
+    {
+      "source": "DTIC ADA113991 (SecDef FY1983 report)",
+      "url": "https://archive.org/download/DTIC_ADA113991/DTIC_ADA113991.pdf",
+      "bytes": 19663271,
+      "md5": "7c4b272333c89ef5d24438e935af02d7",
+      "sha256": "8571b9edcf1d0e67c9968c4c32350c171c10f5066c85f4185998d64bc61ef2d7",
+      "pdf_pages": 436,
+      "page_mapping": "III-84 = PDF 165, III-85 = PDF 166"
+    },
+    {
+      "source": "S. Hrg. 98-361 Pt. 2 (IA micro_IA41152844_0773)",
+      "url": "https://archive.org/download/micro_IA41152844_0773/page/n840_w1400.jpg",
+      "item_pdf": {
+        "name": "micro_IA41152844_0773.pdf",
+        "bytes": 227120072,
+        "md5": "2dc642b0a4f7841a613e38d6f7dab936",
+        "downloaded": false
+      },
+      "page_mapping": "IA leaf n<k> = printed p. k near p. 840 (n849 shows folio 849)"
+    },
+    {
+      "source": "DTIC ADA160713 (DoD Annual Report FY1984)",
+      "url": "https://archive.org/download/DTIC_ADA160713/page/n243_w1400.jpg",
+      "item_pdf": {
+        "name": "DTIC_ADA160713.pdf",
+        "bytes": 17133666,
+        "md5": "c34e353f1749e17d8f8d29d979f67ad0",
+        "downloaded": false
+      },
+      "page_mapping": "leaf n242 = printed 254, n243 = printed 255"
+    },
+    {
+      "source": "Carter and Reagan Transition Team Papers Folder 2",
+      "url": "https://archive.org/download/Carter-ReaganTransitionPapers/Carter%20and%20Reagan%20Transition%20Team%20Papers%20Folder%202.pdf",
+      "bytes": 45051156,
+      "md5": "d877617254a109f938eb30bd52448677",
+      "sha256": "e9c94bfd90322d270e73e1ffb3438a29e80c8d9ea12f599c5b7def07388703c6",
+      "pdf_pages": 1562,
+      "note": "image-only PDF; pages located through the companion _text.pdf (md5 c978a76d75fdb9ad4b1ae94a83c5acda)"
+    },
+    {
+      "source": "DTIC ADA125228 (FY1984 justification of estimates)",
+      "url": "https://archive.org/download/DTIC_ADA125228/DTIC_ADA125228_djvu.txt",
+      "item_pdf": {
+        "name": "DTIC_ADA125228.pdf",
+        "bytes": 17851347,
+        "md5": "66b40a30389e7c1767e9f295ca71b96e",
+        "downloaded": false
+      }
+    },
+    {
+      "source": "GAO B-206979",
+      "url": "https://www.gao.gov/products/b-206979"
+    }
+  ],
+  "handoff": {
+    "current_work_queue": "notes.md",
+    "evidence_and_open_questions": "research.md"
+  },
+  "validation": {
+    "date": "2026-09-19",
+    "status": "Interpretive corrections applied; original dated retrieval observations retained.",
+    "limits": "Thesis pp. 22-24 and Senate p. 840 independently checked visually. The cost figures are relayed estimates with differing dollar bases and time spans; the underlying evaluation paper remains unheld."
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "result": "identity established; relevance gate not met; stopped after six images",
+  "source_directory": "Recorded capture, not distributed: 5936 ddn comparative cost analysis",
+  "document": {
+    "printed_title": "DDN Comparative Cost Analysis",
+    "report_number": "5936",
+    "corporate_author_or_issuer": "BBN Communications Corporation",
+    "named_authors": [
+      "James A. Kane",
+      "Peter J. Sevcik",
+      "Gary H. Tauss"
+    ],
+    "historical_date": "1985-04",
+    "historical_date_evidence": "Recorded capture, not distributed: 2015-07-27 09.22.57.jpg, unnumbered title: April 1985",
+    "revision": "No revision or edition statement observed in the six inspected images; uninspected remainder could contain other information",
+    "contract": "DCA200-84-C-0017",
+    "task_order": "4-2A",
+    "prepared_for": "Defense Communications Agency",
+    "photograph_filename_date": "2015-07-27; capture-sequence label, not historical document date",
+    "status": "Later contractor analytical study for current and prospective subscribers; not established as a selection evaluation"
+  },
+  "scope": {
+    "visible_folder_jpegs": 31,
+    "selected_images": 6,
+    "visually_inspected_images": 6,
+    "visually_inspected_written_faces": 9,
+    "face_coverage": [
+      "unnumbered title",
+      "unnumbered abstract",
+      "i",
+      "ii",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "contextual_blank_faces": 3,
+    "uninspected_images": 25,
+    "uninspected_original_paths": [
+      "Recorded capture, not distributed: 2015-07-27 09.23.24.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.23.27.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.23.30.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.23.33.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.23.38.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.23.41.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.23.43.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.23.47.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.23.50.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.23.53.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.23.56.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.23.58.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.00.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.03.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.06.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.10.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.14.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.17.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.20.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.23.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.27.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.30.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.33.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.36.jpg",
+      "Recorded capture, not distributed: 2015-07-27 09.24.40.jpg"
+    ],
+    "stop_reason": "April 1985 date plus explicit subscriber/tariff comparison against public and dedicated private networks; no explicit connection to 1981–82 selection or relevant earlier cost analysis in inspected pages",
+    "negative_scope_limit": "No conclusion about absence of retrospective material anywhere in the remaining 25 uninspected photographs"
+  },
+  "item_boundaries": {
+    "start": "First photograph is the title page of report 5936; inspected subsequent headers and pagination form one continuous item",
+    "observed_sequence": "title, abstract, i, ii, 1, 2, 3, 4, 5",
+    "end": "Reading stops at printed p. 5, whose final sentence continues beyond the selected photograph",
+    "advertised_extent": "TOC lists references at p. 51 and appendix at p. 52; list of tables gives a table at p. 53",
+    "completeness": "Report end, whole-folder membership, missing pages, additional items, and full-copy completeness not verified"
+  },
+  "selected_sources": [
+    {
+      "original_path": "Recorded capture, not distributed: 2015-07-27 09.22.57.jpg",
+      "original_filename": "2015-07-27 09.22.57.jpg",
+      "bytes": 751594,
+      "sha256": "1b082018259be2d652afdc57cfe706e7ac7faa7104c239c50bbb20b97d6d9b6c",
+      "printed_pages": [
+        "unnumbered title"
+      ],
+      "written_faces": 1,
+      "visual_inspection": "all visible printed text on the listed face(s); source photograph viewed directly",
+      "inspection_subjects": [
+        "Report number, printed title, authors, contract, task order, April 1985 date and sponsor; blank facing leaf"
+      ],
+      "full_resolution_pixels": [
+        3264,
+        2448
+      ],
+      "tool_display_pixels": [
+        1824,
+        1368
+      ],
+      "readability": "decisive text legible; no uncertain decisive transcription"
+    },
+    {
+      "original_path": "Recorded capture, not distributed: 2015-07-27 09.23.00.jpg",
+      "original_filename": "2015-07-27 09.23.00.jpg",
+      "bytes": 926632,
+      "sha256": "5d97c9c0e23f6347cde3e9a9ade198ea14ef4da388c35c5a7e8e06f4bb06da4d",
+      "printed_pages": [
+        "unnumbered abstract"
+      ],
+      "written_faces": 1,
+      "visual_inspection": "all visible printed text on the listed face(s); source photograph viewed directly",
+      "inspection_subjects": [
+        "Abstract: analytical comparison of DDN, public data networks, private dedicated networks; Marine Corps Data Network case; blank facing leaf"
+      ],
+      "full_resolution_pixels": [
+        3264,
+        2448
+      ],
+      "tool_display_pixels": [
+        1824,
+        1368
+      ],
+      "readability": "decisive text legible; no uncertain decisive transcription"
+    },
+    {
+      "original_path": "Recorded capture, not distributed: 2015-07-27 09.23.04.jpg",
+      "original_filename": "2015-07-27 09.23.04.jpg",
+      "bytes": 1021868,
+      "sha256": "14d3cea7ed29752c0e6a29d6c1a60092204b345ec36b972f9de3dc1ae563797d",
+      "printed_pages": [
+        "i"
+      ],
+      "written_faces": 1,
+      "visual_inspection": "all visible printed text on the listed face(s); source photograph viewed directly",
+      "inspection_subjects": [
+        "Table of contents, through appendix beginning p. 52; blank facing leaf"
+      ],
+      "full_resolution_pixels": [
+        3264,
+        2448
+      ],
+      "tool_display_pixels": [
+        1824,
+        1368
+      ],
+      "readability": "decisive text legible; no uncertain decisive transcription"
+    },
+    {
+      "original_path": "Recorded capture, not distributed: 2015-07-27 09.23.11.jpg",
+      "original_filename": "2015-07-27 09.23.11.jpg",
+      "bytes": 1327582,
+      "sha256": "c239b234ec6b193cc6fc60f3cae907341d3a8b33456ed40da097f48d2888e17d",
+      "printed_pages": [
+        "ii",
+        "1"
+      ],
+      "written_faces": 2,
+      "visual_inspection": "all visible printed text on the listed face(s); source photograph viewed directly",
+      "inspection_subjects": [
+        "List of figures and tables",
+        "Introduction: hypothetical subscriber cost recovery and study purpose"
+      ],
+      "full_resolution_pixels": [
+        3264,
+        2448
+      ],
+      "tool_display_pixels": [
+        1824,
+        1368
+      ],
+      "readability": "decisive text legible; no uncertain decisive transcription"
+    },
+    {
+      "original_path": "Recorded capture, not distributed: 2015-07-27 09.23.14.jpg",
+      "original_filename": "2015-07-27 09.23.14.jpg",
+      "bytes": 1224765,
+      "sha256": "a19ec506ba5a8072a3c44c4e91b3295d03be45de31490ccd32c1668b2a7db8c1",
+      "printed_pages": [
+        "2",
+        "3"
+      ],
+      "written_faces": 2,
+      "visual_inspection": "all visible printed text on the listed face(s); source photograph viewed directly",
+      "inspection_subjects": [
+        "Introduction conclusion: MCDN case-study framing",
+        "Analytical method: hypothetical DDN tariff compared with public and dedicated private alternatives"
+      ],
+      "full_resolution_pixels": [
+        3264,
+        2448
+      ],
+      "tool_display_pixels": [
+        1824,
+        1368
+      ],
+      "readability": "decisive text legible; no uncertain decisive transcription"
+    },
+    {
+      "original_path": "Recorded capture, not distributed: 2015-07-27 09.23.21.jpg",
+      "original_filename": "2015-07-27 09.23.21.jpg",
+      "bytes": 1490604,
+      "sha256": "a316d412184b4f0a4417dc8537fa639023997a2d38bf823f356dc2821575d126",
+      "printed_pages": [
+        "4",
+        "5"
+      ],
+      "written_faces": 2,
+      "visual_inspection": "all visible printed text on the listed face(s); source photograph viewed directly",
+      "inspection_subjects": [
+        "Analytical method and network alternatives; current policy limit",
+        "DDN and public-network comparison; p. 5 ends in an unfinished sentence"
+      ],
+      "full_resolution_pixels": [
+        3264,
+        2448
+      ],
+      "tool_display_pixels": [
+        1824,
+        1368
+      ],
+      "readability": "decisive text legible; no uncertain decisive transcription"
+    }
+  ],
+  "decisive_transcriptions": [
+    {
+      "image": "2015-07-27 09.22.57.jpg",
+      "locator": "unnumbered title",
+      "transcription": "Report No. 5936\nDDN COMPARATIVE COST ANALYSIS\nJames A. Kane, Peter J. Sevcik, and Gary H. Tauss\nContract No. DCA200-84-C-0017\nTask Order 4-2A\nApril 1985\nPrepared for:\nDefense Communications Agency",
+      "status": "visually checked"
+    },
+    {
+      "image": "2015-07-27 09.23.00.jpg",
+      "locator": "unnumbered abstract, opening sentence",
+      "transcription": "This document describes an analytical method to compare the costs of the Defense Data Network, public data networks, and private dedicated networks for wide-area data communications.",
+      "status": "visually checked"
+    },
+    {
+      "image": "2015-07-27 09.23.00.jpg",
+      "locator": "unnumbered abstract, concluding sentences",
+      "transcription": "A case study of the Marine Corps Data Network is presented using the analysis framework. The case study shows that DDN is the least expensive alternative and that discretionary costs are a significant portion of total costs.",
+      "status": "visually checked; claim is the authors’ summary, not an independently audited result"
+    },
+    {
+      "image": "2015-07-27 09.23.11.jpg",
+      "locator": "printed p. 1, first paragraph",
+      "transcription": "The original program plan called for the DDN to be financed eventually by subscribers through a usage-based cost recovery system.",
+      "status": "visually checked; program plan not dated here"
+    },
+    {
+      "image": "2015-07-27 09.23.14.jpg",
+      "locator": "printed p. 3, opening paragraph",
+      "transcription": "The analytical framework presented in this section assumes that a current or prospective DDN subscriber wishes to compare DDN subscriber usage charges (were the hypothetical DDN tariff in effect) to the costs of comparable service from a public data network or a private dedicated network.",
+      "status": "visually checked"
+    },
+    {
+      "image": "2015-07-27 09.23.21.jpg",
+      "locator": "printed p. 4, first paragraph",
+      "transcription": "We recognize that it is unrealistic to think that some users actually could use network alternatives other than DDN because of current DoD policy and other considerations. Nevertheless, the analytical method provides for these alternatives in order to have a means of comparing subscriber costs of the hypothetical DDN tariff to actual costs and charges that a user would incur today for other network alternatives.",
+      "status": "visually checked"
+    },
+    {
+      "image": "2015-07-27 09.23.21.jpg",
+      "locator": "printed p. 4, section 2.1 opening",
+      "transcription": "The cost comparison methodology includes three network alternatives to fulfill subscribers’ data communication requirements: DDN, a public data network, and a dedicated private network.",
+      "status": "visually checked"
+    }
+  ],
+  "alternatives_and_cost_status": {
+    "actually_named_alternatives": [
+      "DDN",
+      "public data network (examples named on p. 5: Telenet and TYMNET)",
+      "dedicated private network"
+    ],
+    "case_study": "Marine Corps Data Network (MCDN); only summary and TOC inspected, not the case-study pages",
+    "competing_design_estimates": "No expanded AUTODIN II versus ARPANET Replica comparison established",
+    "dedicated_network_comparison": "Explicitly a comparison category, alongside public data networks; not evidence of the missing 1982 evaluation",
+    "later_subscriber_cost_analysis": "Established. Hypothetical DDN tariff, current/prospective subscribers, and actual costs and charges users would incur for alternatives",
+    "realized_expenditure": "Not established. No actual expenditure, realized savings, or final program-cost total checked",
+    "cost_categories": "Abstract distinguishes communications costs, induced costs from choosing a network alternative, and discretionary costs from using it in a particular manner"
+  },
+  "inference": "The identified report does not fill the missing 1981–82 selection or cost-comparison gap on the authorized reading. Its scope is later subscriber decision support. Date alone is not the exclusion basis; the explicit alternatives and hypothetical tariff are decisive.",
+  "contrary_or_limiting_evidence": [
+    "p. 1 refers to the original program plan, but only to subscriber financing; it does not date or quote an earlier comparative analysis.",
+    "Abstract says the MCDN case study finds DDN least expensive; the case-study calculations were not inspected.",
+    "p. 4 acknowledges that policy could prevent some users from choosing non-DDN alternatives.",
+    "The uninspected remainder could include references to earlier work; this pass cannot rule them out."
+  ],
+  "provenance": "Existing personal BBN photograph collection. Original physical holding, photography equipment/operator and acquisition chain were not investigated in this bounded pass."
+}

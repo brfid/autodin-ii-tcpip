@@ -1,0 +1,66 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-26",
+  "reading": "reading.md",
+  "source": {
+    "chm": "102697716",
+    "title": "Statement of Work for AUTODIN II File Transfer Protocol Type A Specification and Protocol Experiments",
+    "historical_date": "Undated; reference dates alone do not authenticate issue date.",
+    "source_path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697716-05-0001.pdf",
+    "source_path_absolute": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697716-05-0001.pdf",
+    "sha256": "327780f89cc52cefab60f77b4186d624d095714e88560ce64afe76ba983aaf49",
+    "bytes": 4619485,
+    "pdf_pages": 24,
+    "retrieval_url_inherited": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697716-05-0001.pdf",
+    "provenance": "Original retained by public-sweep-2026-09-17; no new download or live URL check. Hash matches Batch A.",
+    "visual_read_pages": [
+      9
+    ],
+    "embedded_ocr_extracted_pages": [
+      9
+    ],
+    "printed_page_mapping": {
+      "9": "6b"
+    },
+    "references": {
+      "12": "Transmission Control Protocol Specification, SRI, 15 July 1976.",
+      "13": "Terminal-to-Host Protocol Specification, SRI, 15 July 1976."
+    }
+  },
+  "retained_image": {
+    "path": "Recorded capture, not distributed: chm-102697716-pdf-09.png",
+    "sha256": "b6386afcb3d54750750cfa18780991762360ffa3fd20e78efb439bef14206797",
+    "render": "Poppler pdftoppm -f 9 -l 9 -singlefile -scale-to 2000 -gray -png; whole page inspected."
+  },
+  "embedded_ocr": {
+    "path": "Recorded capture, not distributed: chm-102697716-pdf-09-embedded-ocr.txt",
+    "sha256": "6b0bd64e32f9ae2d98a5e5fa900f6f3c911f879697b9b30aef6eca9c99a09edb"
+  },
+  "comparison": {
+    "record_scope": "The hashes and authorization below describe the original research comparison. Current editorial disposition and verification are recorded in ../article-source-record.json, editorial_reconciliation.",
+    "basis": "Batch A reading and extracts reused, not a repeat proposal reading.",
+    "sha256_before": "67d842b841a895a480e00710982450f68e793231bdf0e0a30149f504119636ee",
+    "sha256_after": "67d842b841a895a480e00710982450f68e793231bdf0e0a30149f504119636ee",
+    "editing_authorized": false,
+    "recommendation": "Two narrow changes in dca-requirements: split p. 6a/PDF 8 from p. 6b/PDF 9; qualify categorical post-July issue-date inference. No new body passage required.",
+    "disposition": "Both applied on 2026-09-26 using the completed readings and extracts; no further original-page inspection or retrieval."
+  },
+  "limits": [
+    "No other original PDF page opened or searched.",
+    "No proposal pages reread.",
+    "No DCA acceptance, issue date or causal decision chain established.",
+    "No independent second-reader review.",
+    "No public copy or source bundle changed."
+  ],
+  "validation": {
+    "status": "passed",
+    "checks": [
+      "Original PDF hash matches Batch A.",
+      "Page image and single-page OCR hashes match recorded values.",
+      "New reading and current notes local links resolve.",
+      "Both source records parse.",
+      "Article hash unchanged."
+    ],
+    "limits": "Local record and integrity checks; no additional original reading."
+  }
+}

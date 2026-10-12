@@ -1,0 +1,235 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-14",
+  "state": "pass complete, question open. The DDNCOG minutes were not obtained. The September 13 local negative is now sound and its collection is identified and dated. A second, independent catalogue witness to the minutes was located. The secondary target produced the substantive result: the 'update pending' note is dated to its first appearance, three editions earlier than the previous bracket, and it attaches to both DDN subscriber guides rather than to a security successor alone.",
+  "current_state": "../../questions.md",
+  "principal_findings": [
+    {
+      "id": "F1",
+      "claim": "NETINFO:DDNCOG-MIN-1.TXT is genuinely absent from the local collections, and the collection that would have held it is now identified and dated.",
+      "evidence": "Filename and content searches over 57 readable netinfo files and 279 readable etext/DDN files. The only hit for DDNCOG, NETINFO:DDNCOG, 'Communications Operations Group' or 'viewgraph' anywhere in either collection is DDN news/ddn-news.n43.1.",
+      "identification": "The local netinfo archive is a saved copy of http://cd.textfiles.com/internetinfo/inet/netinfo/ . 56 of its 57 files are byte-identical to that mirror by md5; the 57th, named 'inet', is the saved HTML directory index of the CD's parent directory, which settles the provenance. Mirror file timestamps run September 1991 to July 1994.",
+      "consequence": "The reported search covers this local 1991-94 snapshot, not the complete historical NIC offering. Its dates do not by themselves explain why a 1985 file is absent.",
+      "supersedes": "Supplies a reported content search over the named collections. The later dataless observation alone cannot establish what a September 13 pass successfully read.",
+      "artifact": "Recorded capture, not distributed: netinfo-archive-identity-and-recheck.txt"
+    },
+    {
+      "id": "F2",
+      "claim": "A second, independent catalogue witness to the minutes exists, and it is a better retrieval handle than the NIC filename.",
+      "source": "DDN LIBRARY INDEX BY DATE, created by Elizabeth 'Jake' Feinler, 2012, https://archive.computerhistory.org/resources/access/text/2012/11/500001011-05-01-acc.pdf , md5 439d0da706ca4414163b910d69a584e2, sha256 3d354a008cd03bc71d5c994e928412a66272ae1357d81aeaa7952c7d7113c02a, retrieved 14 September 2026.",
+      "entries": {
+        "85-1150": "Minutes - First meeting of the Defense Data Network communications operations group. The primary target as a physical item.",
+        "85-2099": "Copies of viewgraphs from DDNCOG meeting, Aug. 27-28, 1985, Vienna, VA.",
+        "85-2801": "Viewgraph presentation of NIC service and internet name service made by E. Feinler to DCA Communications Operations Group (COG), Aug. 1985.",
+        "86-2906": "Viewgraph presentation made by SRI-NIC at the 2nd DCA Communications Operations Group (COG) meeting, May 20-21, 1986.",
+        "88-2804": "Viewgraph presentation of MIL domain transition by Mary Stahl, briefing to the DDN Communications Operations Group, Nov. 29, 1988.",
+        "89-3351": "DCA Memo B650, Minutes of the Defense Data Network Communications Operations Group Meeting (DDNCOG)."
+      },
+      "corroboration": "DDN News 43 states the DDNCOG was chaired by DCA Code B645, Operations Management Division, 'now Code B650'. Entry 89-3351 names DCA Memo B650 as the instrument carrying DDNCOG minutes, which corroborates the issuing office.",
+      "limits": "This is a catalogue of a physical library, not a digitised collection, and its own head note warns that the sort discarded second and third title lines in many cases, so a short title may be truncated and an absent title is weak evidence. Inquiries remain excluded, so nothing here was requested. The text of the minutes is still not held.",
+      "artifact": "Recorded capture, not distributed: chm-ddn-library-index-cog-entries.txt"
+    },
+    {
+      "id": "F3",
+      "claim": "The 'update pending' sentence on the DDN Subscriber Security Guide first appears in the February 1988 edition of NIC 50002, three editions earlier than the previous February 1989 bracket, and it appears on BOTH DDN subscriber guides at once.",
+      "series": [
+        "February 1986, AD-A165418, titled 'TCP/IP Implementations and Vendors Guide': no entry for either guide. This edition is organised by vendor and has no 'Obtaining Protocol Documentation' section. Its silence is structural, not evidential.",
+        "August 1986, AD-A173060, printed 5-6 / PDF 20-21: Subscriber Security Guide entry, November 1983, no pending sentence.",
+        "August 1987, AD-A187689, printed 9 / PDF 19: no pending sentence and no publication date on either guide. Last edition before the note. Inspected as an image.",
+        "February 1988, AD-A192186, printed 7 / PDF 22: 'An update to this document is pending' on the Subscriber Interface Guide (July 1983) AND on the Subscriber Security Guide (November 1983). First appearance. Inspected as an image.",
+        "August 1988, AD-A199688, printed 7 / PDF 20: present.",
+        "February 1989, AD-A206354, printed 7 / PDF 25: present. Inspected as an image.",
+        "August 1990, local netinfo/vendors-guide.doc, title page 'August 1990', internal 'Last edit: April, 1990': the word 'pending' does not occur anywhere in the file. Both sentences gone, no successor named for either guide."
+      ],
+      "reading": "The same pending-update note appears on both subscriber guides in the sampled editions. This weakens a specific identification with BBN's cited guide. No successor is listed in the checked catalogues; that does not prove that none circulated, or that a general reissue effort was abandoned.",
+      "no_change_notes": "The August 1987 edition introduces a 'REVISIONS THIS EDITION' section, but it records only new and discontinued products. No edition carries a change note for section 1.3, so no edition states why the pending sentence was added or removed.",
+      "artifact": "Recorded capture, not distributed: *.png"
+    },
+    {
+      "id": "F4",
+      "claim": "From August 1986 through August 1990 the NIC's own catalogue listed the BLACKER Front End Interface Control Document as an online file available by FTP or Kermit at pathname NETINFO:BLACKER.DOC.",
+      "quotation_august_1986": "'The Blacker Front End Interface Control Document contains the specification for end-to-end data encryption on the DDN. It may be obtained via FTP or Kermit from the SRI-NIC.ARPA host using pathname NETINFO:BLACKER.DOC and is also reproduced in the 1985 DDN Protocol Handbook.' AD-A173060, printed 5 / PDF 20, inspected as an image.",
+      "continuity": "The entry is carried in every later edition checked. The August 1986 edition names the 1985 handbook; later editions drop the year. By the August 1990 edition the host name has changed from SRI-NIC.ARPA to NIC.DDN.MIL and the pathname is unchanged.",
+      "bearing_on_9d": "The catalogue attests online availability by August 1986, after BBN's March 1986 draft. It does not prove availability throughout the criticism period or identify the bytes of the online edition.",
+      "limit_kept_explicit": "The catalogue asserts the identity of the document, not the byte-level version of the online file. The local netinfo/blacker.doc is the later 21 March 1989 text at the same pathname, so the pathname was reused across editions and the catalogue entry cannot date which text sat there on a given day.",
+      "negative": "KI-111 occurs in none of the six editions."
+    },
+    {
+      "id": "F5",
+      "claim": "The catalogue-witness range for BBN's cited title now extends to February 1993, past the end of BBN's stated 1985-1992 range.",
+      "new_witnesses": [
+        "netinfo/nug.doc, DDN New User Guide, NIC 60001, February 1993, md5 1dc8114d90f789a364138ef7a982fcf5. Its bibliography names 'DDN Subscriber Security Guide. Defense Data Network, Program Management Office, Defense Information Systems Agency, Washington, D.C. 1983. [AD-A152 524]' and no successor.",
+        "netinfo/what-the-nic-does.txt, md5 f1b55d1ec68cda0d3fc4206f3fd822a9. The NIC's own file-and-publication list names the DDN Subscriber Security Guide among publications with NO online pathname, while netinfo/vendors-guide.doc and netinfo/x25.doc are given pathnames. The security guide was a hardcopy NIC publication, not an online one."
+      ],
+      "note": "Both files were dataless during the September 13 pass and are new to the record."
+    },
+    {
+      "id": "F6",
+      "claim": "DDN News 43's DDNCOG report, now read in full, adds three details and two dated conflicts.",
+      "details": [
+        "Venue and chair: 'The first meeting was held 27-28 August at Arlington, Virginia, and was chaired by the Defense Communications Agency (DCA) Code B645, Operations Management Division, (now Code B650).'",
+        "Agenda: 'Configuration management of the network was discussed, and an overview of the accepted security architecture was presented.'",
+        "Classified segment: 'Representatives from the classified network segments discussed progress they have made using the secure architecture and DoD protocols. Other concerns about integration of the classified and unclassified segments of the network were also voiced.'"
+      ],
+      "conflicts": [
+        "Venue: DDN News 43 says Arlington, Virginia; CHM 85-2099 says Vienna, VA. Unreconciled; no local source supports Vienna.",
+        "Second meeting: DDN News 43 announces 25-26 February 1986; CHM 86-2906 describes the 2nd DCA COG meeting as May 20-21, 1986. An announcement is not a record that a meeting occurred. Unreconciled."
+      ],
+      "bearing": "The integration concern is objective-level context for the consolidation goal, consistent with DoD IG 90-097's 1990 finding that the classified network was still isolated. It is NOT feature ancestry for the address rule.",
+      "artifact": "Recorded capture, not distributed: ddn-news-43-ddncog-section.txt"
+    }
+  ],
+  "four_open_questions_after_this_pass": {
+    "when_first_written": "Unchanged. 6 March 1985 remains the earliest recovered edition, not a recorded introduction. Nothing in this pass dates the clause.",
+    "why_written": "Unchanged as to rationale. F4 adds that the document carrying the clause was in NIC online distribution throughout the criticism window, which is context for availability, not a reason for the clause.",
+    "what_the_guide_required_at_p57": "Still unrecovered. F3 qualifies the pending-note hypothesis: the note covers both subscriber guides and is not specific to a security successor. F5 extends the non-recovery to February 1993.",
+    "autodin_ii_ancestry": "Unchanged. F6's integration concern is objective-level continuity only."
+  },
+  "searched_without_success": {
+    "local": "Both collections, by filename and by content, over files verified readable one by one. See text/netinfo-archive-identity-and-recheck.txt for the term lists and the two discarded false hits.",
+    "public": [
+      "archive.org metadata search for 'DDNCOG': 0 items.",
+      "archive.org metadata search for '\"Communications Operations Group\" AND DDN': 0 items.",
+      "Open web search for 'DDNCOG' and for 'DDNCOG-MIN-1.TXT': nothing responsive.",
+      "The InternetInfo CD's whole-disc listing (ls-lR, 21,407 lines): no filename matching 'cog'.",
+      "rscott.org/OldInternetFiles: hosts.txt, domain-info.txt and domain-contacts.txt series only.",
+      "The 144 already-OCRed SRI CHM photographs: no occurrence of DDNCOG or 'Communications Operations Group'. That is a 144-of-2,879 sample and is weak; the remaining photographs were not OCRed in this pass."
+    ]
+  },
+  "retrieval_limits_kept_separate_from_negatives": [
+    "archive.org's full-text search API host ia-fts.archive.org is unreachable through this session's proxy ('CONNECT tunnel failed, response 502'). Full-text search inside Internet Archive texts was NOT performed and remains an untried route for the minutes.",
+    "apps.dtic.mil probed once, as instructed: HTTP 403. Fourth consecutive pass, now across four passes and three networks. The six NIC 50002 PDFs came from the Internet Archive DTIC mirror.",
+    "etext/IEN, etext/TCP IP specs and etext/autodin ii remain dataless. No search was run over them and no negative is recorded for them."
+  ],
+  "exact_remaining_retrieval_handles": [
+    {
+      "handle": "CHM DDN Library, entry 85-1150",
+      "what": "Minutes - First meeting of the Defense Data Network communications operations group, 27-28 August 1985.",
+      "why": "The best handle located. A physical item in an identified library, with a companion viewgraph set at 85-2099 and a later-meeting counterpart at 89-3351. The 'DDN Index by Numbers' file in box 062309881 holds the untruncated title.",
+      "status": "Catalogue entry only. Inquiries remain excluded."
+    },
+    {
+      "handle": "NETINFO:DDNCOG-MIN-1.TXT",
+      "what": "The NIC's online copy of the same minutes, announced in DDN News 43.",
+      "status": "Not in the local collections, not in the InternetInfo CD mirror of the same directory, not found in any public mirror reached in this pass. The pathname no longer resolves anywhere located. NETINFO:DDNCOG.TXT, the representative list, is equally absent.",
+      "untried": "Internet Archive full-text search, blocked in this session by the proxy."
+    },
+    {
+      "handle": "NIC 50002 editions between February 1989 and August 1990",
+      "what": "An August 1989 or February 1990 edition, if either was issued.",
+      "why": "Would date the removal of the pending sentence as precisely as this pass dated its appearance. The Internet Archive DTIC mirror holds six editions and none in that window.",
+      "status": "Not located. The appearance of the note is now dated; only its removal is bracketed, to between February 1989 and April 1990, which is the 'Last edit' date of the August 1990 edition."
+    },
+    {
+      "handle": "Shirey, Computer Communication Review, April 1990",
+      "status": "Unchanged. ACM Digital Library returns HTTP 403; bibliography unread."
+    }
+  ],
+  "corrections_and_strengthenings_of_existing_records": [
+    "The September 13 finding that the DDNCOG minutes are absent from the local netinfo archive is CONFIRMED, and its basis is repaired: it was made over 57 dataless files and is now made over 57 readable ones, by filename and by content.",
+    "The bracket for the 'update pending' note changes shape. The previous record dated its disappearance to between February 1989 and August 1990 and treated it as a lead to a security successor. Its APPEARANCE is now dated to February 1988, and it covers the Subscriber Interface Guide as well, which weakens the security-successor reading.",
+    "9d's catalogue trail is extended at both ends: August 1986 and August 1987 editions of NIC 50002 at the early end, and the February 1993 DDN New User Guide at the late end.",
+    "New for 9d and independent of the guide question: the BFE ICD was a NIC online publication at NETINFO:BLACKER.DOC from at least August 1986 to August 1990.",
+    "DDN News 43's venue is Arlington, Virginia. Any later use of CHM's 'Vienna, VA' should be flagged as an unreconciled catalogue reading."
+  ],
+  "scope_observed": {
+    "not_redone": "The March 1985 and March 1989 ICD comparison, the deployment evidence, the February 2 1987 ASD(C3I) memorandum, DoD IG 90-097, the Configuration Control Group route, and the NARA rg-0371 route were all treated as settled and were not reopened."
+  },
+  "source_fingerprints": [
+    {
+      "id": "AD-A165418",
+      "what": "NIC 50002, TCP/IP Implementations and Vendors Guide, February 1986, 160 pages",
+      "url": "https://archive.org/download/DTIC_ADA165418/DTIC_ADA165418.pdf",
+      "sha256": "22b7b6612bc8f99dc740fcf74b07074d30b9ba0b2537e5608a7183d6ffd0426f",
+      "bytes": 5651333
+    },
+    {
+      "id": "AD-A173060",
+      "what": "NIC 50002, August 1986, 220 pages",
+      "url": "https://archive.org/download/DTIC_ADA173060/DTIC_ADA173060.pdf",
+      "sha256": "b728fb3da27b7a002343c1b2d737d1db072ecceaa868643acf82fe87bf248497",
+      "bytes": 9540312
+    },
+    {
+      "id": "AD-A187689",
+      "what": "NIC 50002, August 1987, 276 pages",
+      "url": "https://archive.org/download/DTIC_ADA187689/DTIC_ADA187689.pdf",
+      "sha256": "d639fe7ae9ca570eedf8f6d3b69630c7ad39ab33f59faa7ec6a621f6fa813a7e",
+      "bytes": 6944928
+    },
+    {
+      "id": "AD-A192186",
+      "what": "NIC 50002, February 1988, 342 pages",
+      "url": "https://archive.org/download/DTIC_ADA192186/DTIC_ADA192186.pdf",
+      "sha256": "dd99edb3065686bfc38535b2842968fb153e5d5a6553b93e35b14af32078d114",
+      "bytes": 15194963
+    },
+    {
+      "id": "AD-A199688",
+      "what": "NIC 50002, August 1988, 353 pages",
+      "url": "https://archive.org/download/DTIC_ADA199688/DTIC_ADA199688.pdf",
+      "sha256": "60228d28fa7f6e4b8744e0e24ecdfc08362f06616ce0e5d86a9db142f952d76d",
+      "bytes": 11070336
+    },
+    {
+      "id": "AD-A206354",
+      "what": "NIC 50002, February 1989, 405 pages",
+      "url": "https://archive.org/download/DTIC_ADA206354/DTIC_ADA206354.pdf",
+      "sha256": "ca66b0f75edce8b10954514105eb9ba1a3a900e9b10637473c6689f9727a7ba4",
+      "bytes": 12623537
+    },
+    {
+      "id": "CHM DDN Library Index by Date",
+      "what": "Feinler, 2012, 3180 extracted lines",
+      "url": "https://archive.computerhistory.org/resources/access/text/2012/11/500001011-05-01-acc.pdf",
+      "md5": "439d0da706ca4414163b910d69a584e2",
+      "sha256": "3d354a008cd03bc71d5c994e928412a66272ae1357d81aeaa7952c7d7113c02a",
+      "bytes": 285333
+    },
+    {
+      "id": "ddn-news.n43.1",
+      "what": "DDN News 43, 15 January 1986, local native ASCII",
+      "path": "https://ftp.ripe.net/rfc/museum/ddn-news/ddn-news.n43.1",
+      "md5": "6e9e299dd9b6ae48105cc19787ad0bbd"
+    },
+    {
+      "id": "vendors-guide.doc",
+      "what": "NIC 50002, August 1990, local native ASCII",
+      "path": "../unique/netinfo/vendors-guide.txt",
+      "md5": "bbfe3ec24d399cc68f27c02263f4c88e",
+      "bytes": 369367
+    },
+    {
+      "id": "nug.doc",
+      "what": "DDN New User Guide, NIC 60001, February 1993, local native ASCII",
+      "path": "../unique/netinfo/nug.txt",
+      "md5": "1dc8114d90f789a364138ef7a982fcf5"
+    },
+    {
+      "id": "what-the-nic-does.txt",
+      "what": "NIC file and publication list, local native ASCII",
+      "path": "../unique/netinfo/what-the-nic-does.txt",
+      "md5": "f1b55d1ec68cda0d3fc4206f3fd822a9"
+    }
+  ],
+  "handoff": {
+    "current_work_queue": "notes.md",
+    "evidence_and_open_questions": "research.md"
+  },
+  "validation": {
+    "date": "2026-09-19",
+    "status": "Interpretive corrections applied; original dated retrieval observations retained.",
+    "limits": "February 1988 pending-update page and August 1986 online-ICD page independently checked visually. The full local archive identity/search was not independently replayed; it remains a dated recorded result."
+  },
+  "collection_search_scope": {
+    "netinfo_native_files": 57,
+    "ddn_records": 279,
+    "search": "Filename and content searches of the readable named collections; no DDNCOG minutes recovered.",
+    "not_content_searched": [
+      "IEN collection",
+      "TCP/IP specifications collection",
+      "AUTODIN II collection"
+    ],
+    "limit": "The earlier filename-only negative did not establish a successful content search."
+  }
+}

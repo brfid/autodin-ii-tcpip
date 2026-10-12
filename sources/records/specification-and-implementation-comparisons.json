@@ -1,0 +1,942 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "research_date": "2026-09-11",
+  "purpose": "Second September 11 private AUTODIN II source batch: Western Union revision history/comparison, SRI/ISI correspondence discovery, INWG alternatives, DCA decision records, and DDN security interfaces.",
+  "evidence_policy": "Separate requirement, recommendation, specified interface, static implementation, reported test, measured behavior, operational deployment, catalog lead and unsuccessful retrieval. OCR supports discovery; decisive scanned passages use original images. Native ASCII is read directly. Original files remain intact; public sources are linked, with temporary downloads and derived research extracts separately recorded.",
+  "documents": [
+    {
+      "id": "western_union_rev3",
+      "title": "Final Computer Program Development Specification: Transmission Control Program (TCP)",
+      "organization": "Western Union Government Systems",
+      "document_id": "DIN II-F-622-13B06-1124",
+      "cdrl": "B006",
+      "contract": "DCA200-C-637",
+      "original_date": "1979-03-05",
+      "revisions": [
+        {
+          "revision": 1,
+          "date": "1979-07-04",
+          "replacement_pages": [
+            "Title",
+            "ii",
+            "9",
+            "10",
+            "18",
+            "32",
+            "37",
+            "A1",
+            "A4",
+            "A5",
+            "A6",
+            "A10",
+            "C1",
+            "D1",
+            "D2",
+            "D3",
+            "D14",
+            "D20",
+            "E1",
+            "E2",
+            "E3",
+            "E4"
+          ]
+        },
+        {
+          "revision": 2,
+          "date": "1979-08-03",
+          "replacement_pages": [
+            "Title",
+            "12",
+            "13",
+            "14",
+            "15",
+            "17",
+            "18",
+            "19",
+            "20",
+            "34",
+            "35",
+            "A1",
+            "C1",
+            "D7"
+          ]
+        },
+        {
+          "revision": 3,
+          "date": "1980-02-08",
+          "replacement_pages": [
+            "Title",
+            "10",
+            "18",
+            "30",
+            "B1",
+            "C1",
+            "C44",
+            "D4"
+          ]
+        }
+      ],
+      "source_url": "https://nsarchive.gwu.edu/sites/default/files/documents/5793287/National-Security-Archive-Western-Union.pdf",
+      "evidence_status": "Specified protocol and interfaces; not a recovered or executed implementation.",
+      "identity_limits": "Revision 3 is document revision, not TCP-3. References SRI July 1976 TCP and THP. No source-code lineage to BBN proved. Earlier full editions not retrieved; changed-page lists do not reconstruct earlier wording."
+    },
+    {
+      "id": "sri_tcp_35938",
+      "title": "Transmission Control Protocol Specification",
+      "authors": [
+        "Jonathan B. Postel",
+        "Larry L. Garlick",
+        "Raphael Rom"
+      ],
+      "date": "1976-07-15",
+      "identifiers": [
+        "ARC/DCEC 35938",
+        "appendices 35939",
+        "CHM 76-0947"
+      ],
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "evidence_status": "Recovered comparison baseline from first September 11 batch. TCP and THP both contain Appendix A address mappings; resolved, not a retrieval priority.",
+      "new_inspection": "Complete bibliography, printed p. 104 / PDF p. 113."
+    },
+    {
+      "id": "sri_32190",
+      "title": "Memorandum of agreement between Director DCA and Director DARPA on ARPANET management",
+      "journal_entered": "1975-03-25 14:15",
+      "nls_source_timestamp": "1975-02-28 13:56",
+      "source": "Recorded capture, not distributed: 102775942-05-01-acc.pdf",
+      "pdf_pages": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117
+      ],
+      "printed_pages": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "1, attribution"
+      ],
+      "evidence_status": "Complete extracted item read; selected original pages inspected. Unsigned text with blank execution dates; proposed July 1, 1975 transfer and DCA-authorized concept tests do not establish execution."
+    },
+    {
+      "id": "sri_32800",
+      "title": "DARPA Comments on AUTODIN II Phase I Program Memorandum",
+      "attributed_to": "David C. Russell",
+      "heading_date": "1975-06-23",
+      "journal_entry_date": "1975-06-22",
+      "source": "Recorded capture, not distributed: 102775961-05-01-acc.pdf",
+      "pdf_pages": [
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "printed_pages": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "1, attribution"
+      ],
+      "evidence_status": "Recommendations; all five pages visually examined across earlier and current batches. Adoption not established.",
+      "prior_visual_pages": [
+        97,
+        99,
+        100,
+        101
+      ],
+      "current_visual_pages": [
+        97,
+        98
+      ],
+      "cited_but_not_recovered": [
+        "D. ARPA memorandum to DTACCS, January 9, 1975, AUTODIN II Integrated Data Network Subsystem Project Plan 2-74",
+        "DTACCS memorandum to Telecommunications Council, June 1975; day clipped",
+        "Network Analysis Corporation study, June 1975; title not established by the cited passage"
+      ]
+    },
+    {
+      "id": "sri_36044",
+      "title": "Proposal for Research No. ISU 76-136: Network Operating System Study",
+      "nls_timestamp_date": "1976-07-16",
+      "rfp": "F30602-76-R-0299",
+      "source": "Recorded capture, not distributed: 102776261-05-01-acc.pdf",
+      "evidence_status": "Contemporaneous proposal for a different RADC project. Qualifications describe DCA100-76-C-0034, February-June 1976, Postel PI. Not the AUTODIN II contract, SOW, or review record."
+    },
+    {
+      "id": "inwg96",
+      "title": "Proposal for an Internetwork End to End Protocol",
+      "authors": [
+        "Vinton Cerf",
+        "Alex McKenzie",
+        "Roger Scantlebury",
+        "Hubert Zimmermann"
+      ],
+      "cover_date": "July 1975; London July 29, 1975",
+      "ccitt_contribution_date": "September 1975",
+      "source_sequence": "Recorded capture, not distributed: IMG_6641.JPG through IMG_6669.JPG",
+      "discovery_photos": 29,
+      "evidence_status": "Proposal; full photo-sequence OCR and focused original-page inspection. Common transport/addressing ideas, not proof of exclusive AUTODIN II origin or direct copying."
+    },
+    {
+      "id": "inwg961",
+      "title": "INWG 96.1 draft revision",
+      "date": "February 1978",
+      "source_directory": "Recorded capture, not distributed: INWG961",
+      "discovery_photos": 46,
+      "evidence_status": "Draft, comments requested May 1 and final planned before end of June. Explains adaptation to X.25 and other services. Not promoted to final adopted standard. Cropped page numbers replaced with section/figure and image locators."
+    },
+    {
+      "id": "ien66",
+      "title": "TCP meeting notes",
+      "author": "Jon Postel",
+      "meeting_dates": [
+        "1977-10-13",
+        "1977-10-14"
+      ],
+      "notes_date": "1977-10-21",
+      "source": "https://www.rfc-editor.org/ien/ien66.pdf",
+      "evidence_status": "Contemporaneous discussion of fragmentation/reassembly separation, revision scope, and low-delay/unreliable service; no explicit AUTODIN II causal attribution in inspected passages."
+    },
+    {
+      "id": "ien152",
+      "title": "DoD Protocol Standardization",
+      "source": "https://history.rfc-editor.org/ien/ien152.txt",
+      "embedded_dates": [
+        "1978-12-23",
+        "1980-04-03"
+      ],
+      "evidence_status": "Original scanned order, ratification and management plan examined. Analysis due April 1979; post-IOC transition allowed in 1980. Formal decisions and responsibilities do not supply the missing analysis or causal rationale for deferral."
+    },
+    {
+      "id": "blacker1989",
+      "title": "Specification for BLACKER Interfaces",
+      "date": "1989-03-21",
+      "source": "https://mirror.cyberbits.eu/textfiles.com/internet/blacker.txt",
+      "archive_wrapper": "[netinfo/blacker.doc] [8/89 AM]",
+      "format": "Native ASCII with page breaks, not a Word document or OCR; no image/PDF counterpart located.",
+      "evidence_status": "Direct native-text reading; public transcription body matches local body aside from wrapper and blank-line/line-ending differences.",
+      "decisive_sections": [
+        {
+          "section": "1.0.1",
+          "printed_page": "1-1",
+          "paraphrase": "Red interface supports a host or gateway."
+        },
+        {
+          "section": "2.4.3",
+          "printed_pages": [
+            "2-10",
+            "2-11"
+          ],
+          "paraphrase": "IP header gives actual Red IP destination; X.25 DDN RVN address may identify a gateway next hop for IP devices not directly attached to a BFE."
+        }
+      ],
+      "additional_context_read": [
+        {
+          "section": "2.4.5",
+          "printed_page": "2-11",
+          "paraphrase": "Revised IP security option and MIL-STD-1777 change 1; security option required first."
+        },
+        {
+          "section": "2.4.7",
+          "printed_page": "2-11",
+          "paraphrase": "Multiple host ports require separate BFEs and IP addresses; host selects BFE. This is not demonstrated connection continuity."
+        }
+      ],
+      "conclusion_limits": "Provides a later specified accommodation for the address distinction criticized in 1986. Cannot date initial introduction, identify author/cause, show adoption in response to BBN, establish AUTODIN II ancestry, or demonstrate deployment."
+    }
+  ],
+  "local_cited_sources": [
+    {
+      "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "bytes": 40664598,
+      "sha256": "431f4e75543cbab086fd8c8fef042740db0f8c77ea098961e3275ff2194804f6"
+    },
+    {
+      "path": "../unique/bbn-6223/bbn-6223-p18-19.jpg",
+      "bytes": 1508604,
+      "sha256": "3b1c3627a582d219757569bdf61a526e0994167dd4e7bb0245b938cb466e3596"
+    },
+    {
+      "path": "https://www.rfc-editor.org/ien/ien66.pdf",
+      "bytes": 7024533,
+      "sha256": "b4ac14079232693e39439fa7693d7cdaa5a22e9de48efe6085c9d713cf68741a"
+    },
+    {
+      "path": "https://history.rfc-editor.org/ien/ien152.txt",
+      "bytes": 6183150,
+      "sha256": "16ddfaa892b4186fd29267480a87017ffe39c2357bf8a7e17f6e93de47de88f5"
+    },
+    {
+      "path": "../unique/inwg-96/inwg-96-p1.jpg",
+      "bytes": 316597,
+      "sha256": "9e3681469943d3aaab1c31b5c4c5b3d56c92dd4e800aa27b884c853a7edefcac"
+    },
+    {
+      "path": "../unique/inwg-96/inwg-96-p3.jpg",
+      "bytes": 456041,
+      "sha256": "f9d77da0768d3a43bc2d6454cf955577391bc9f25ad78eaf84af9ffab1efe8b8"
+    },
+    {
+      "path": "../unique/inwg-96/inwg-96-p5.jpg",
+      "bytes": 516387,
+      "sha256": "a6d8f80c4162fd50bd8ff8a162084e71605e935fcaa88f6ce0eb3fb8b4137e41"
+    },
+    {
+      "path": "../unique/inwg-96/inwg-96-p11.jpg",
+      "bytes": 372372,
+      "sha256": "dc14a08566bd328371b3e3b0e7a860e6687178af4e47bb6814ed743f412b4165"
+    },
+    {
+      "path": "../unique/inwg-96/inwg-96-p24.jpg",
+      "bytes": 340406,
+      "sha256": "242d8c42294fca5d7e52206b386e7e04986fe5927060f0443cd211afbab704ab"
+    },
+    {
+      "path": "../unique/inwg-96/inwg-96-p27-Appendix-A.jpg",
+      "bytes": 490196,
+      "sha256": "f6ace3acfa26f1f41bc18253c9e15dbb97c44d0970e7d1b941b70b934903b819"
+    },
+    {
+      "path": "../README.md#inwg-photographs",
+      "bytes": 97199,
+      "sha256": "f1643a56a904864efaba36c800331e41718596cc0a458733d19771fe43d4d0b6"
+    },
+    {
+      "path": "../unique/inwg-96-1/inwg-96-1-pcover.jpg",
+      "bytes": 349490,
+      "sha256": "753c8ac6805ad1b103b42b32842b3ff722e4ff1ff8cc724e4a9f99ad21c26132"
+    },
+    {
+      "path": "../unique/inwg-96-1/inwg-96-1-p3.jpg",
+      "bytes": 447644,
+      "sha256": "1c350fe48e296f0033032e81c4560902f9324094cf083406d490c5cecefb9a67"
+    },
+    {
+      "path": "../unique/inwg-96-1/inwg-96-1-capture-03.jpg",
+      "bytes": 401474,
+      "sha256": "8acd84edcba0de667e2a87aa5b1531337b314184891f5775ba604112238fc73d"
+    },
+    {
+      "path": "../unique/inwg-96-1/inwg-96-1-capture-04.jpg",
+      "bytes": 511723,
+      "sha256": "59c7483da3ad1c6c8c3bb0139005005fc5baaac05bd3cd5a3632fbb761ef5b3c"
+    },
+    {
+      "path": "../unique/inwg-96-1/inwg-96-1-capture-05.jpg",
+      "bytes": 401106,
+      "sha256": "d9d185310c003d73e6695f7f22352df6c447f549857791188847317a415044a4"
+    },
+    {
+      "path": "Recorded capture, not distributed: 102775942-05-01-acc.pdf",
+      "bytes": 13386619,
+      "sha256": "6adbc379d458ab66b6087ca775b30aa98caf87e2a15c157d0b5e7f08387ba7ef"
+    },
+    {
+      "path": "Recorded capture, not distributed: 102775961-05-01-acc.pdf",
+      "bytes": 14490581,
+      "sha256": "25a17e92ca5ef01edd809400dabfaf4f1d08cc75b5775656f93ca2253dc4eae5"
+    },
+    {
+      "path": "Recorded capture, not distributed: 102776261-05-01-acc.pdf",
+      "bytes": 15202365,
+      "sha256": "94914b09355c7bdb13fc027b53c94602044d76fab21ad0fddb5c929898620c65"
+    },
+    {
+      "path": "https://mirror.cyberbits.eu/textfiles.com/internet/blacker.txt",
+      "bytes": 50873,
+      "sha256": "9861605b5d8d419417848c66e8b206d195bc3bc18c9903b354aef86ded3cb638"
+    }
+  ],
+  "public_sources": [
+    {
+      "url": "https://nsarchive.gwu.edu/document/18318-national-security-archive-western-union",
+      "identity": "National Security Archive Western Union document landing page",
+      "status": "Examined identity and linked complete original scan."
+    },
+    {
+      "url": "https://nsarchive.gwu.edu/sites/default/files/documents/5793287/National-Security-Archive-Western-Union.pdf",
+      "identity": "Western Union TCP final development specification, revision 3, February 8, 1980",
+      "status": "Complete scan retrieved to temporary storage; full text extracted and selected original pages visually inspected.",
+      "pdf_pages": 163,
+      "temporary_download": {
+        "bytes": 5164710,
+        "sha256": "d7999a8d5609b9e4346ea2174e3a3719aebb9f782bfdbab0439346c674cee22f"
+      }
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc760.html",
+      "identity": "RFC 760, January 1980, DoD Standard Internet Protocol",
+      "locators": "p. 17 security option; service-octet precedence",
+      "status": "Native published text examined; two security bits and eight-bit TCC in four-octet option, distinct from BBN custom packing."
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc761.txt",
+      "identity": "RFC 761, January 1980, DoD Standard Transmission Control Protocol",
+      "locators": "sections 1.1, 2.9, 3.1, 3.8",
+      "status": "Native published text examined after HTML retrieval failed; IP layering, checksum, authorization, connection matching, and active OPEN."
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc1038.html",
+      "identity": "RFC 1038, January 1988, Revised IP Security Option",
+      "status": "Native published text examined for classification/protection-authority option context; not the original TCC encoding."
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc4949.html",
+      "identity": "RFC 4949, August 2007, Internet Security Glossary Version 2",
+      "locators": "pp. 37-38, BLACKER",
+      "status": "Retrospective glossary identifies BFE as TSEC/KI-111; not independent evidence of deployment or revision decisions."
+    },
+    {
+      "url": "https://archive.computerhistory.org/resources/access/text/finding-aids/102706170-SRI/102706170-SRI.pdf",
+      "identity": "CHM SRI ARC/NIC finding aid, X3578.2006",
+      "locators": "pp. 26-27; subseries 3.3 DCA library 1971-1991; box 062309881 indexes",
+      "status": "Finding aid examined; collection lead for AUTODIN II, contractor, and protocol-panel records, not confirmation that a requested document survives."
+    },
+    {
+      "url": "https://archive.computerhistory.org/resources/access/text/2012/11/500001011-05-01-acc.pdf",
+      "identity": "DDN Library index by date",
+      "locators": "PDF p. 3: 76-0947 TCP and 76-0857 THP; p. 22: 85-1188 and 85-1190; p. 42: 85-2726",
+      "status": "Catalog examined. TCP 35938 recovered separately. 85-2726 identifies contractor BFE ICD, BLACKER Phase I, SDC document A016-65. Underlying 1985 guide/interface texts not retrieved."
+    },
+    {
+      "url": "https://www.gao.gov/products/b-206979",
+      "identity": "GAO B-206979, April 22, 1982",
+      "status": "Decision examined: company allegations, competing DCA design teams/program plans, evaluation and announced separate audit. Procedural dismissal does not decide engineering merits; audit and evaluation not retrieved."
+    },
+    {
+      "url": "https://mirror.cyberbits.eu/textfiles.com/internet/blacker.txt",
+      "identity": "Public transcription of Specification for BLACKER Interfaces, March 21, 1989",
+      "status": "Downloaded and body compared with local native netinfo/blacker.doc; same body after archive-wrapper and line-ending differences. These are copies of one document, not independent testimony.",
+      "temporary_download": {
+        "bytes": 52196,
+        "sha256": "5f4e06e7f579fbe4f2512b642d27c7e220df420dd28af18d5e97051348c81e74"
+      }
+    },
+    {
+      "url": "https://artofhacking.com/tucops3/hack/networks/live/aoh_blacker.htm",
+      "identity": "Second public BLACKER text mirror",
+      "status": "Downloaded and used as discovery/transcription comparator before local original native-text file was located. Derived filename retains earlier unverified label; current evidence rests on local netinfo text and direct comparison.",
+      "temporary_download": {
+        "bytes": 53199,
+        "sha256": "56abc778098a61495d278aee7ed7fbfe6d714b74bf007790e67d4a600e9a8ae1"
+      }
+    },
+    {
+      "url": "https://www.cisco.com/en/US/docs/ios/11_0/access/configuration/guide/acx25.html",
+      "identity": "Cisco IOS 11.0 X.25 configuration documentation",
+      "locators": "Configure BLACKER Emergency Mode and BFE encapsulation/address translation",
+      "status": "Official implementation documentation examined. References DCA ICD dated March 21, 1989 and describes host or gateway attachment; not proof of military deployment, exact section 2.4.3 execution, or the change decision."
+    }
+  ],
+  "original_image_inspections": [
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 6,
+      "printed_page": "title",
+      "passage_or_paraphrase": "Final Computer Program Development Specification; original March 5, 1979 and three revision dates; document and contract identifiers."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 7,
+      "printed_page": "revision 1 change list",
+      "passage_or_paraphrase": "Revision 1 replacement-page list, July 4, 1979. This is not the superseded edition."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 8,
+      "printed_page": "revision 2 change list",
+      "passage_or_paraphrase": "Revision 2 replacement-page list, August 3, 1979. This is not the superseded edition."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 9,
+      "printed_page": "revision 3 change list",
+      "passage_or_paraphrase": "February 8, 1980: Title, 10, 18, 30, B1, C1, C44, D4. Page 18 is visually present although OCR omitted it."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 12,
+      "printed_page": "3",
+      "passage_or_paraphrase": "Distinguishes TCP-TCP network protocol, CCU/TAC event interfaces, and MCCU implementation examples."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 13,
+      "printed_page": "4",
+      "passage_or_paraphrase": "Explicit references to the July 15, 1976 SRI TCP and THP specifications."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 19,
+      "printed_page": "10",
+      "passage_or_paraphrase": "Revision-3 error behavior, including new non-retransmitted SYN on an established connection, error transmission, and closure."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 23,
+      "printed_page": "14",
+      "passage_or_paraphrase": "CCU has one network subscriber address; TCP ports demultiplex user/host channels and supply user identity."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 27,
+      "printed_page": "18",
+      "passage_or_paraphrase": "One connection security value; 512 TCC codes; 16-bit subscriber address; 1/11/4 static-dynamic/user/function port division; preemptible flag."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 28,
+      "printed_page": "19",
+      "passage_or_paraphrase": "OPEN authorization for requested S/P/T without validating remote subscriber/port addresses; OPEN initializes state, SEND begins handshake."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 29,
+      "printed_page": "20",
+      "passage_or_paraphrase": "SIP extracts S/P/T from BSL. Specified security/TCC must match; unspecified values need authorization. Directional precedence may differ, with higher value used for preemption."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 47,
+      "printed_page": "38",
+      "passage_or_paraphrase": "Higher-category authorized SYN may preempt a marked established connection at an occupied local socket; category I protected; old TCB closed and new handshake."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 48,
+      "printed_page": "39",
+      "passage_or_paraphrase": "Resource exhaustion permits connection preemption as last resort; lowest category first, never category I."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 51,
+      "printed_page": "A1",
+      "passage_or_paraphrase": "Fixed 29-byte header, no format variation; unused fields zero; illustration uses DEC memory order."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 54,
+      "printed_page": "A4",
+      "passage_or_paraphrase": "Four-bit VER field without explicit protocol-version value; 31-bit sequence-number definition and header control definitions."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 55,
+      "printed_page": "A5",
+      "passage_or_paraphrase": "Eight-bit source/destination network fields currently zero; 16-bit subscriber and port components."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 56,
+      "printed_page": "A6",
+      "passage_or_paraphrase": "Two-byte checksum field reserved and unused by CCU/TAC/NCC TCPs."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 58,
+      "printed_page": "A8",
+      "passage_or_paraphrase": "Control repertoire includes errors, out-of-band interrupt/status. No DSN operation in the defined repertoire."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 97,
+      "printed_page": "C28",
+      "passage_or_paraphrase": "OPEN event represents TCC in a 16-bit parameter and prints range 0-512."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 126,
+      "printed_page": "C55",
+      "passage_or_paraphrase": "TCP/SIP Send Data event represents security and precedence with eight bits each, TCC with sixteen; TCC range printed 0-512."
+    },
+    {
+      "source_id": "western_union_rev3",
+      "pdf_page": 161,
+      "printed_page": "E3, Figure E1",
+      "passage_or_paraphrase": "BSL/TCP/THP layout without IP leader; nine bits per TCC copy, four per security copy; checksum unused note."
+    },
+    {
+      "source_id": "sri_32190",
+      "source": "Recorded capture, not distributed: 102775942-05-01-acc.pdf",
+      "pdf_page": 111,
+      "printed_page": "2",
+      "passage_or_paraphrase": "Title and opening of memorandum of agreement on transfer of ARPANET management to DCA; proposed July 1, 1975 effective date."
+    },
+    {
+      "source_id": "sri_32190",
+      "source": "Recorded capture, not distributed: 102775942-05-01-acc.pdf",
+      "pdf_page": 115,
+      "printed_page": "6",
+      "passage_or_paraphrase": "Clauses k-l: coordinated experimentation and DCA-authorized AUTODIN II concept tests."
+    },
+    {
+      "source_id": "sri_32190",
+      "source": "Recorded capture, not distributed: 102775942-05-01-acc.pdf",
+      "pdf_page": 116,
+      "printed_page": "7",
+      "passage_or_paraphrase": "Typed Paschall and Heilmeier names; blank signatures and dates. Execution not established."
+    },
+    {
+      "source_id": "sri_32190",
+      "source": "Recorded capture, not distributed: 102775942-05-01-acc.pdf",
+      "pdf_page": 117,
+      "printed_page": "1, journal attribution",
+      "passage_or_paraphrase": "Entered March 25, 1975 at 14:15; NLS source RUSSELL,DCAAGREEMENT.NLS;9, dated February 28, 1975 at 13:56."
+    },
+    {
+      "source_id": "sri_32800",
+      "source": "Recorded capture, not distributed: 102775961-05-01-acc.pdf",
+      "pdf_page": 97,
+      "printed_page": "2",
+      "passage_or_paraphrase": "June 23 heading, June 22 journal entry. January 9, 1975 D. ARPA memorandum and June 1975 DTACCS memorandum cited; latter day clipped."
+    },
+    {
+      "source_id": "sri_32800",
+      "source": "Recorded capture, not distributed: 102775961-05-01-acc.pdf",
+      "pdf_page": 98,
+      "printed_page": "3",
+      "passage_or_paraphrase": "Paragraph 5 attributes reliability and cost advantages of distributed switching to a June 1975 Network Analysis Corporation study; study itself not recovered."
+    },
+    {
+      "source_id": "sri_36044",
+      "source": "Recorded capture, not distributed: 102776261-05-01-acc.pdf",
+      "pdf_page": 113,
+      "printed_page": "1",
+      "passage_or_paraphrase": "July 16, 1976 raw NLS proposal ISU 76-136, Network Operating System Study; RADC RFP F30602-76-R-0299."
+    },
+    {
+      "source_id": "sri_36044",
+      "source": "Recorded capture, not distributed: 102776261-05-01-acc.pdf",
+      "pdf_page": 122,
+      "printed_page": "10",
+      "passage_or_paraphrase": "Qualifications describe TCP/THP specification work, DCA100-76-C-0034, February-June 1976, Postel as principal investigator."
+    },
+    {
+      "source_id": "sri_tcp_35938",
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 113,
+      "printed_page": "104",
+      "passage_or_paraphrase": "Complete references page cites INWG General Note 72; Tomlinson and Dalal sequence-number notes; Dalal connection-establishment note; Cerf TCP Resynchronization, SU-DSL Technical Note 79, January 1976. INWG 96 not listed on this page."
+    },
+    {
+      "source_id": "ien66",
+      "source": "https://www.rfc-editor.org/ien/ien66.pdf",
+      "pdf_page": 6,
+      "printed_page": "6",
+      "passage_or_paraphrase": "Moving fragmentation/reassembly into a separate IP gaining favor; too large a change for TCP-3, considered for TCP-4."
+    },
+    {
+      "source_id": "ien66",
+      "source": "https://www.rfc-editor.org/ien/ien66.pdf",
+      "pdf_page": 7,
+      "printed_page": "7",
+      "passage_or_paraphrase": "Speech/conferencing, low delay, unreliable service, and transit-service mapping are contemporaneous concerns; passage does not attribute them to AUTODIN II."
+    },
+    {
+      "source_id": "ien152",
+      "source": "https://history.rfc-editor.org/ien/ien152.txt",
+      "pdf_page": 3,
+      "printed_page": "second page of December 23, 1978 memorandum",
+      "passage_or_paraphrase": "DCA cost/schedule study due April 1979; Gerald P. Dinneen signature."
+    },
+    {
+      "source_id": "ien152",
+      "source": "https://history.rfc-editor.org/ien/ien152.txt",
+      "pdf_page": 4,
+      "printed_page": "April 3, 1980 memorandum",
+      "passage_or_paraphrase": "Ratification and implementation arrangements; AUTODIN II transition to standards after initial operational capability."
+    },
+    {
+      "source_id": "ien152",
+      "source": "https://history.rfc-editor.org/ien/ien152.txt",
+      "pdf_page": 6,
+      "printed_page": "2, Protocol Standardization Management Plan",
+      "passage_or_paraphrase": "DCA 1000 technical and DCA 500 configuration responsibilities; panel, control board, and steering group organization."
+    },
+    {
+      "source_id": "ien152",
+      "source": "https://history.rfc-editor.org/ien/ien152.txt",
+      "pdf_page": 7,
+      "printed_page": "3, management plan",
+      "passage_or_paraphrase": "Responsibilities and transition of leadership from research to operations as protocol standardization matures."
+    },
+    {
+      "source_id": "ien152",
+      "source": "https://history.rfc-editor.org/ien/ien152.txt",
+      "pdf_page": 9,
+      "printed_page": "5, management plan",
+      "passage_or_paraphrase": "PSTP membership including NBS and intelligence community ex officio; DCEC facilities including EDN for testing."
+    },
+    {
+      "source_id": "inwg96",
+      "source": "../unique/inwg-96/inwg-96-p1.jpg",
+      "printed_page": "1",
+      "passage_or_paraphrase": "INWG 96 cover; July 1975; London July 29, 1975; CCITT contribution September 1975; Cerf, McKenzie, Scantlebury, Zimmermann."
+    },
+    {
+      "source_id": "inwg96",
+      "source": "../unique/inwg-96/inwg-96-p3.jpg",
+      "printed_page": "3",
+      "passage_or_paraphrase": "Virtual host, transport station, and shared proposal context."
+    },
+    {
+      "source_id": "inwg96",
+      "source": "../unique/inwg-96/inwg-96-p5.jpg",
+      "printed_page": "5",
+      "passage_or_paraphrase": "Transport subscriber explicitly distinguished from packet-network subscriber; 16-bit port, local mapping, at least four low port bits."
+    },
+    {
+      "source_id": "inwg96",
+      "source": "../unique/inwg-96/inwg-96-p11.jpg",
+      "printed_page": "11",
+      "passage_or_paraphrase": "Datagram and transport headers may overlap or be separately encapsulated where a common standard datagram is unavailable."
+    },
+    {
+      "source_id": "inwg96",
+      "source": "../unique/inwg-96/inwg-96-p24.jpg",
+      "printed_page": "24",
+      "passage_or_paraphrase": "Optional letter checksum incompletely defined; user services include lettergrams and liaisons."
+    },
+    {
+      "source_id": "inwg96",
+      "source": "../unique/inwg-96/inwg-96-p27-Appendix-A.jpg",
+      "printed_page": "27, Appendix A",
+      "passage_or_paraphrase": "Further-study discussion of reliable interruption, sequence, flow control, and purging unprocessed data."
+    },
+    {
+      "source_id": "inwg961",
+      "source": "../unique/inwg-96-1/inwg-96-1-pcover.jpg",
+      "printed_page": "cover",
+      "section_or_figure": "title",
+      "page_number_limit": "Use section and image name where page number is cropped; no inferred page number asserted.",
+      "passage_or_paraphrase": "February 1978 draft revision marked 96.1; comments requested by May 1 and planned final before end of June."
+    },
+    {
+      "source_id": "inwg961",
+      "source": "../unique/inwg-96-1/inwg-96-1-p3.jpg",
+      "printed_page": "3",
+      "section_or_figure": "introduction",
+      "page_number_limit": "Use section and image name where page number is cropped; no inferred page number asserted.",
+      "passage_or_paraphrase": "Explains revision from earlier datagram assumption to X.25 and other facilities; service independent of particular protocol combinations."
+    },
+    {
+      "source_id": "inwg961",
+      "source": "../unique/inwg-96-1/inwg-96-1-capture-03.jpg",
+      "section_or_figure": "section 4, Figure 6",
+      "page_number_limit": "Use section and image name where page number is cropped; no inferred page number asserted.",
+      "passage_or_paraphrase": "Local interface functions mask underlying service differences, separated from overall end-to-end functions."
+    },
+    {
+      "source_id": "inwg961",
+      "source": "../unique/inwg-96-1/inwg-96-1-capture-04.jpg",
+      "section_or_figure": "section 5, Figure 9",
+      "page_number_limit": "Use section and image name where page number is cropped; no inferred page number asserted.",
+      "passage_or_paraphrase": "Illustrative 16-bit port with 12 user and 4 port bits; local mapping and recommendations distinguished from mandatory identical mappings."
+    },
+    {
+      "source_id": "inwg961",
+      "source": "../unique/inwg-96-1/inwg-96-1-capture-05.jpg",
+      "section_or_figure": "section 12, Figure 21",
+      "page_number_limit": "Use section and image name where page number is cropped; no inferred page number asserted.",
+      "passage_or_paraphrase": "Lettergrams, regular liaisons, and super liaisons have different initialization, sequencing, and error-service properties."
+    },
+    {
+      "source_id": "bbn6223",
+      "source": "../unique/bbn-6223/bbn-6223-p18-19.jpg",
+      "printed_pages": [
+        "18",
+        "19"
+      ],
+      "passage_or_paraphrase": "March 20, 1986 draft: KI-111 security interface criticism and footnote 2 referring to Subscriber Guide p. 57; network-address/individual-host problem."
+    }
+  ],
+  "native_text_inspection": {
+    "source_id": "blacker1989",
+    "path": "https://mirror.cyberbits.eu/textfiles.com/internet/blacker.txt",
+    "bytes": 50873,
+    "sha256": "9861605b5d8d419417848c66e8b206d195bc3bc18c9903b354aef86ded3cb638",
+    "printed_locators": [
+      "1-1, section 1.0.1",
+      "2-10 to 2-11, section 2.4.3",
+      "2-11, sections 2.4.5 and 2.4.7"
+    ],
+    "public_body_comparison": "Local wrapper [netinfo/blacker.doc] [8/89 AM] absent in mirror; body comparison showed no substantive changes beyond wrapper and trailing blank-line/line-ending differences.",
+    "no_image_claim": "Native ASCII file with page breaks; no PDF/image original recovered."
+  },
+  "bounded_discovery": [
+    {
+      "scope": "Recorded capture, not distributed: 1975-",
+      "terms": [
+        "AUTODIN",
+        "DCA100-76-C-0034",
+        "35938",
+        "32190",
+        "36044",
+        "32800",
+        "Postel",
+        "Garlick",
+        "Rom",
+        "Cerf",
+        "Kahn",
+        "layer",
+        "resynchronization"
+      ],
+      "outcome": "Journal identities and bibliography links clarified. No explicit correspondence decision chain from AUTODIN II to split recovered. Text-layer quality and selected subset limit negative results."
+    },
+    {
+      "scope": "Recorded capture, not distributed: SRI CHM archives",
+      "outcome": "AUTODIN hits in IMG_6475/IMG_6555 are general SRI past-work descriptions. No substantive argument relies on these OCR-only hits. Unsampled photographs not searched at content level."
+    },
+    {
+      "scope": "Recorded capture, not distributed: USC-ISI archives",
+      "outcome": "Later operational/military-message and reporting hits; no explicit 1976-to-1977/78 causal correspondence recovered. Handwriting often poor. postel notebooks.docx is researcher commentary, not original Postel notes."
+    },
+    {
+      "scope": "Recorded capture, not distributed: INWG",
+      "outcome": "Focused original-page comparison completed. Image-only PDF extraction empty. Box 6 newsletter inventory leads not newly processed."
+    },
+    {
+      "scope": "Recorded capture, not distributed: netinfo archive",
+      "outcome": "Located native blacker.doc after public transcription discovery; guide and cost analysis not found in selected searches. Does not establish collection-wide absence."
+    },
+    {
+      "scope": "Public repositories and search",
+      "query_families": [
+        "AUTODIN II TCP cost analysis 1979; cost tradeoff; protocol deferral; Protocol Standards Technical Panel minutes",
+        "DCA100-76-C-0034; AUTODIN II January 9 1975; DTACCS memoranda",
+        "DDN Subscriber Guide to Security Services 1985-1992; KI-111; KI111 gateway",
+        "BLACKER A016-65; Specification for BLACKER Interfaces; blacker.txt",
+        "AUTODIN II termination GAO audit 1982; B-206979"
+      ],
+      "outcome": "Recovered Western Union full scan and public BLACKER mirrors; examined IEN 152, CHM finding aid/index, GAO procedural decision, RFCs and Cisco documentation. Exact memoranda, contract/SOW, cost analysis, panel minutes, Subscriber Guide, earlier ICD texts and separate GAO audit not obtained. These are bounded unsuccessful retrievals, not proof of absence."
+    }
+  ],
+  "retrieval_failures_and_workarounds": [
+    {
+      "target": "RFC 761 HTML",
+      "result": "HTML retrieval failed twice; official TXT endpoint succeeded."
+    },
+    {
+      "target": "Public BLACKER mirrors through web fetch",
+      "result": "Web retrieval/cache failures; approved direct downloads succeeded, then local native netinfo original found."
+    },
+    {
+      "target": "INWG-96.pdf text layer",
+      "result": "Extraction returned no usable text; original photograph sequence used for OCR and visual evidence."
+    },
+    {
+      "target": "Handwritten/poor scans",
+      "result": "No OCR execution failures, but 8 main-manifest and 9 SRI-sample extracts under 25 characters. Weak OCR and negative matches retained without claims of archival absence."
+    },
+    {
+      "target": "NARA NAID 23063473/23063474",
+      "result": "Earlier catalog retrieval failures retained from prior discovery record; not newly retried in this batch. Local accession workbook remains historical collection lead."
+    }
+  ],
+  "corrections_and_conclusions": [
+    {
+      "claim": "Western Union continued a distinct, modified AUTODIN II branch into February 1980.",
+      "status": "Direct specification evidence",
+      "support": [
+        "western_union_rev3"
+      ],
+      "details": "Explicit SRI references; 29-byte header, zero network fields, unused checksum and BSL/TCP boundary coexist with changed fixed connection security, nine-bit TCC copies, and explicit connection preemption. RFC 760/761 supply the January 1980 standards comparison."
+    },
+    {
+      "claim": "Continuity of security/precedence/TCC requirements is selective, with incompatible formats and rules.",
+      "status": "Comparative finding",
+      "support": [
+        "sri_tcp_35938",
+        "western_union_rev3",
+        "prior BBN 3900 inspection",
+        "RFC 760",
+        "RFC 761"
+      ],
+      "details": "SRI/BBN eight-bit TCC, Western Union nine-bit copies, RFC 760 two security bits and eight-bit TCC, later RFC 791 24-bit TCC. Western Union 512-count versus 0-512 event range remains an unresolved internal discrepancy."
+    },
+    {
+      "claim": "Journal 32190 and 36044 are now identified beyond OCR leads.",
+      "status": "Original-page identity findings",
+      "support": [
+        "sri_32190",
+        "sri_36044"
+      ],
+      "details": "Unsigned agreement and different-project research proposal; neither proves an executed agreement, AUTODIN II tests, or recovered contract/SOW."
+    },
+    {
+      "claim": "Broader INWG ideas and contemporary TCP design concerns qualify exclusive or single-cause origin claims.",
+      "status": "Direct proposals and meeting record, with causal limits",
+      "support": [
+        "inwg96",
+        "inwg961",
+        "ien66",
+        "sri_tcp_35938 references"
+      ],
+      "details": "Transport/network customer distinction, port allocation and modular interfaces circulated across projects. SRI cites wider INWG work, not INWG 96 on its complete references page. No explicit AUTODIN II-to-split decision link recovered."
+    },
+    {
+      "claim": "The 1978/1980 DCA decisions can be dated and bounded more precisely.",
+      "status": "Direct order and ratification evidence",
+      "support": [
+        "ien152"
+      ],
+      "details": "Cost analysis due April 1979; April 3, 1980 ratification allows AUTODIN II post-IOC transition and defines implementation/panel responsibilities. Actual study, minutes and explanation remain missing."
+    },
+    {
+      "claim": "The 1986 KI-111 address restriction cannot be described as permanently unchanged.",
+      "status": "Later specified accommodation, not deployment or causal history",
+      "support": [
+        "bbn6223",
+        "blacker1989",
+        "RFC 4949",
+        "Cisco implementation documentation"
+      ],
+      "details": "March 1989 section 2.4.3 permits a distinct next-hop gateway address. Earlier guide and ICD revisions needed to determine when/how this entered the specification and whether it descended from AUTODIN II."
+    }
+  ],
+  "outstanding_in_resumption_order": [
+    {
+      "priority": 1,
+      "target": "Journal 32800 referenced memoranda and NAC study; DCA100-76-C-0034 contract/SOW/reviews and causal correspondence",
+      "status": "Not recovered in bounded local/public discovery",
+      "next_evidence": "Exact January 9, 1975 ARPA memo, June 1975 DTACCS memo and NAC study; unsampled SRI photographs; contract and review files. Preserve clipped date rather than guessing."
+    },
+    {
+      "priority": 2,
+      "target": "DCA cost/schedule analysis due April 1979, PSTP minutes, contractor implementation and deferral rationale",
+      "status": "Orders and management plan recovered; requested analysis, minutes and rationale not recovered",
+      "next_evidence": "CHM SRI ARC/NIC DCA library, subseries 3.3 and box 062309881 indexes; document presence not confirmed."
+    },
+    {
+      "priority": 3,
+      "target": "DDN Subscriber Guide to Security Services, 1985-1992, p. 57; 1985 KI-111/BLACKER ICDs",
+      "status": "Guide not recovered; 85-1188/1190/2726 are catalog leads only. Local March 1989 ICD recovered.",
+      "next_evidence": "Compare 85-1190 and 85-2726 (SDC A016-65) with March 1989 section 2.4.3; determine earlier revision, decision provenance and deployment. 85-1188 is separate evolution draft."
+    },
+    {
+      "priority": 4,
+      "target": "1981-82 design-team/program evaluations, alternative-system cost comparison, announced GAO audit and program-plan versions",
+      "status": "GAO procedural decision and prior abridged DDN plan available; missing evaluations/audit not retrieved",
+      "next_evidence": "B-206979 leads to Western Union DCA200-C-637, competing plans and evaluation board; no inference that allegations were engineering findings."
+    },
+    {
+      "priority": 5,
+      "target": "Earlier Western Union editions and implementation/acceptance records; Cerf January 1976 resynchronization note and adoption/rejection correspondence",
+      "next_evidence": "1979 editions; resolve 512 versus 0-512 TCC discrepancy; SU-DSL Technical Note 79 is a reference lead, not newly read."
+    },
+    {
+      "priority": 6,
+      "target": "BBN 3664 logs, 4471 later results, 4129 execution records and exact source-code revision identity",
+      "status": "Previously known gaps retained as secondary; no useful new direct lead emerged",
+      "next_evidence": "Use first September 11 source record and code-evidence index; do not reopen the resolved SRI Appendix A question."
+    }
+  ]
+}

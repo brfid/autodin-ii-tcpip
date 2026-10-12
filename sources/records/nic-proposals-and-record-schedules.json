@@ -1,0 +1,271 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-14",
+  "state": "pass complete, question open",
+  "question": "What explains the decision to postpone AUTODIN II's transition to standard TCP/IP until after initial operational capability? Test cost, schedule, compatibility, technical readiness, and contractual commitments against the records.",
+  "sequencing_note": "The September 13 record listed one defined first-pass item as not performed: the unprocessed SRI CHM photographs, omitted because etext/SRI was not connected to that session. This pass requested that folder before any public retrieval, as that record instructed, and ran the photograph leg first.",
+  "new_chronology_entries": [
+    {
+      "date": "1979-09-21",
+      "event": "SRI International Proposal for Research No. ECU 79-99, the NIC follow-on proposal to DCA. Its technical part contains Task 2, Production of a Protocol Locator, and Task 5, Transition of Information Services from ARPANET to AUTODIN II. The Protocol Locator task describes 1,500 copies whose contents depend on receipt of each official protocol from DCA, NSW or ARPA, covering ARPANET/AUTODIN, NSW and internet protocols, for distribution to bona fide ARPANET, NSW or AUTODIN II users.",
+      "source": "SRI CHM archives photographs IMG_6472, IMG_6473, IMG_6493, IMG_6501, IMG_6537, IMG_6538, IMG_6540, IMG_6553.",
+      "kind": "contractor proposal",
+      "evidence_level": "OCR discovery; proposal number and date read on IMG_6501 and IMG_6537"
+    },
+    {
+      "date": "undated addendum; associated cost sheet dated 1979-11-05",
+      "event": "DELETION OF TWO TASKS FROM THE NIC PROPOSAL. 'ADDENDUM TO PROPOSAL ECU 79-99' records that 'As a result of the discussions held between representatives of Defense Communications Agency and SRI, this addendum revises Proposal ECU 79-99', and deletes two tasks in their entirety: 'Task 2, Production of a Protocol Locator (pages 9 and 10)' and 'Task 5: Transition of Information Services from ARPANET to AUTODIN II (page 17)'. In their place a new Sub-task 10 provides online access to ARPANET and FTP protocols, with selection and approval resting on the NWG coordinator, 'currently Jon Postel', or another DCA-appointed representative. Task 3 is reduced to an eight-month period, 1 November 1979 to 30 June 1980.",
+      "source": "SRI CHM archives IMG_6527, inspected as an image at full resolution. The addendum page carries no date on its face; the revised cost estimates filed with it are headed 'Proposal for Research No. ECU 79-99 ... 5 November 1979' (IMG_6531, also inspected as an image).",
+      "kind": "contractor proposal revision following discussions with DCA",
+      "reading_limit": "The undated addendum revises proposed work following DCA/SRI discussions and accompanies dated cost sheets. It does not establish an executed contract change, an exact addendum date, the reason for deletion, or a program-level transition decision."
+    },
+    {
+      "date": "1980-02-08",
+      "event": "Western Union TCP specification Revision 3 delivered under DCA200-C-637. DTIC report number DCA 200-C-637-P005, secondary number AD-E100 342, FINAL, controlling and monitoring office Defense Communications Agency ATTN: Code 450, 155 pages, unclassified, approved for public release, DTIC stamp 7 MAR 80. Revision 3's list of changed pages is Title, 10, 30, B-1, C-1, C-44, D-4. Printed p. 4, the reference list, is not among them, so the reference list stood unchanged from the March 5, 1979 original issue. That list names ten documents: the NIC TELNET specification, the ARPANET Protocol Handbook, the two SRI specifications of 15 July 1976, the DCA System Performance Specification (Type A) for AUTODIN II Phase I, WU Proposal WU-301-1 of April 1976, the WU AUTODIN II Design Plan and its Executive Summary, and the AUTODIN II THP and SIP Transportable Specifications. No DoD standard protocol document is cited.",
+      "source": "AD-A081756, Internet Archive item DTIC_ADA081756. DD Form 1473 at PDF p. 5 and the reference list at PDF p. 13 / printed p. 4, both inspected as rendered images and retained in pages/.",
+      "kind": "contract specification",
+      "significance": "The TCP deliverable now matches the THP deliverable exactly on the point that mattered: same contract, same controlling office, same delivery date, and a reference list untouched since early 1979 that cites no DoD standard."
+    },
+    {
+      "date": "1980-12-18",
+      "event": "SRI Proposal for Research No. ECU 80-149, for the NIC contract year 1 January to 31 December 1981, proposes a NIC Protocol Repository. Its Attachment 1, 'Preliminary List of Protocols to be Maintained in the NIC Protocol Repository', lists two families. Under 'DoD Standard Protocols': Transmission Control Protocol, Internet Protocol, File Transfer Protocol, Mail Service, Telenet/Terminal Handling Protocols, Remote Job Entry, Interactive Graphics, Conferencing, Non-Interactive Graphics, Facsimile, Real Time Protocol, Network Voice Protocols, Multimedia Conferencing, Datagram, Message Protocols. Under 'AUTODIN II Protocols': Segment Interface Protocol, Transmission Control Protocol (TCP), Mode VI Link Protocol, Terminal to Host Protocol (THP), Terminal Access Controller (TAC) Link Protocols. The same proposal's optional tasks ask the NIC to support the DoD Standard Transmission Control and Internet Protocols and to provide configuration management of the DoD Standard Protocol Specifications (Type A) under DoD-STD-480A, DCA-100-50-2 and MIL-STD-483.",
+      "source": "SRI CHM archives IMG_6612 (inspected as an image), duplicated in draft at IMG_6615; optional tasks at IMG_6605; proposal number and date at IMG_6618, IMG_6632, IMG_6636.",
+      "kind": "contractor proposal",
+      "significance": "Eight months after the April 3, 1980 ratification, the NIC's own proposed repository still treats the AUTODIN II protocols as a separate family with its own Transmission Control Protocol, distinct from the DoD standard one. This is contemporaneous corroboration that the two branches were still maintained as different things after ratification, consistent with implementation being placed after IOC.",
+      "reading_limit": "A contractor's preliminary list of documents to hold, not a statement of DCA policy or of the transition schedule."
+    }
+  ],
+  "records_survival_findings": [
+    {
+      "finding": "RG 371 has 31 published disposition schedules. The September 13 record worked from one of them, n1-371-87-001, Section LXXVI, AUTODIN II Files. The other thirty were not previously searched.",
+      "coverage": "All 31 retrieved on 2026-09-14 from the NARA index at https://www.archives.gov/records-mgmt/rcs/schedules/index.html?dir=/departments/department-of-defense/defense-agencies/rg-0371 . Search used the files' existing searchable text layers; some are scans with OCR, not native born-digital text. Fingerprints and per-file URLs in text/nara-rg0371/manifest.json.",
+      "consequence": "No dedicated series was identified in this search. Searchable text, terminology and series descriptions limit that negative. General series, other offices and unlisted holdings remain possible; the function cannot be declared unscheduled or its records destroyed from this result."
+    },
+    {
+      "finding": "nc1-371-81-01, Section LXXV, ARPANET Files, is new to this brief. It schedules series 875-01 through 875-19 for DCA's operational management of the ARPANET.",
+      "permanent": [
+        "875-02 ARPANET Sponsors Group Files. Chaired by DCA; representatives of ARPANET sponsors meeting to review and coordinate all actions affecting network services, to coordinate proposed network changes, and to exchange information on network operations and future plans. Includes charter, announcements, agenda, minutes, group reports, recommendations. Disposition: HQ DCA permanent, offer to NARS in five-year blocks when twenty years old.",
+        "875-03 ARPANET Operational Management Files. Policies, procedures and standards for operation and maintenance; access criteria for new users; papers governing hardware, software and the Network Control Center; node-to-node and very distant host-to-node leases. Disposition: office of record permanent, same transfer terms."
+      ],
+      "consequence": "ARPANET Sponsors Group and operational-management records were scheduled permanent at the specified offices. They are possible routes for related material, not proof that they hold protocol-panel papers or survive today.",
+      "disposal_instructions": "875-01, 875-04 through 875-19 are all destroy-when-no-longer-needed, destroy-when-superseded, or destroy at 1, 3, 5 or 10 years. 875-13 ARPANET Modernization Program, the Honeywell-to-C/30 replacement, explicitly names a terminal control protocol (TCP) and is destroy when no longer needed at 5 years."
+    },
+    {
+      "finding": "nc1-371-78-01, approved February 1978, makes 203-01 Publications Record Set Files permanent — one copy of each publication or change issued by a DCA activity — and 203-02 Publications Background Files permanent, covering 'studies, recommendations, comments, concurrences, and similar documents that provide a basis for the publication or that contribute to its content'."
+    },
+    {
+      "finding": "nc1-371-81-02, Section 829, IAS files, schedules 829-52 IAS Data Handling/Network Design Files, whose contents include 'functional and operational description, protocol, addressing, signaling, and error control', as destroy at 20 years for the office of record.",
+      "consequence": "Recorded as context on how DCA scheduled protocol-bearing engineering files generally: twenty years and destroy, not permanent."
+    }
+  ],
+  "search_coverage": {
+    "local": [
+      {
+        "scope": "Recorded capture, not distributed: SRI CHM archives, photographs IMG_6460 through IMG_6649 inclusive, 190 files, 340 MB.",
+        "performed": "2026-09-14. This is the local leg the September 13 record defined but could not perform. Selected as the next unprocessed subset by locating the AUTODIN- and DCA-bearing neighbourhood in the existing every-twentieth sample (hits at IMG_6475, 6555, 6575, 6595, 6615) and densifying it to every photograph in that span, rather than extending a uniform sample.",
+        "terms": [
+          "AUTODIN",
+          "tradeoff",
+          "trade-off",
+          "Protocol Standard",
+          "IOC",
+          "initial operational",
+          "Dinneen",
+          "DCEC",
+          "Lyons",
+          "TCP",
+          "Transmission Control",
+          "cost analysis",
+          "panel",
+          "minutes",
+          "DCA library"
+        ],
+        "coverage_after_this_pass": "334 of 2,879 photographs have content-level OCR: the earlier every-twentieth sample of 144 plus 190 contiguous here. 2,545 remain unsearched."
+      },
+      {
+        "scope": "The SRI photograph sample was readable; the other targeted local collections were unavailable for content search on this date.",
+        "limit": "The unavailable collections support no content-level negative. Earlier successful readings remain bounded by their own records."
+      }
+    ],
+    "public": [
+      {
+        "scope": "NARA, published records disposition schedules for Record Group 371",
+        "outcome": "See records_survival_findings. Manifest with per-file URL, size and SHA-256 at text/nara-rg0371/manifest.json; the six schedules that carry findings are retained as text at text/nara-rg0371/.",
+        "method_note": "Probing filenames alone would have missed a third of the record group. Use the index page, not a pattern, for any future record-group sweep."
+      },
+      {
+        "scope": "Internet Archive, DTIC mirror",
+        "queries": [
+          "identifier:DTIC_ADA081756",
+          "identifier:DTIC_ADA081757",
+          "title:(Computer Internetting C3I Data Communications Networks)",
+          "title:(IDA Paper P-1402)",
+          "title:(Bartee Buneman Gardner Marcus internetting)"
+        ],
+        "outcome": "AD-A081756 recovered in full, 163 PDF pages, 5,164,710 bytes, md5 e789796c6dd99c9b233167d80194a1a5, sha256 d7999a8d5609b9e4346ea2174e3a3719aebb9f782bfdbab0439346c674cee22f, from https://archive.org/download/DTIC_ADA081756/DTIC_ADA081756.pdf . The three IDA queries returned zero records."
+      },
+      {
+        "scope": "Web search for IDA Paper P-1402",
+        "query": "\"IDA Paper P-1402\" OR \"Computer Internetting\" Bartee Institute for Defense Analyses 1979 C3I data communications networks",
+        "outcome": "No copy, catalogue record or abstract of P-1402 surfaced. The paper remains identified only through Lyons's reference 10."
+      }
+    ],
+    "access_failures_distinct_from_negative_results": [
+      {
+        "target": "apps.dtic.mil, DTIC's own search index and full-text service",
+        "attempts": [
+          "https://apps.dtic.mil/sti/citations/ADA081756 from the cloud container: HTTP 403",
+          "https://apps.dtic.mil/sti/ , /search/ , /stinet/ , /sti/api/search?q=autodin , /dtic/tr/fulltext/u2/a081756.pdf : HTTP 403 on every path",
+          "the same citation URL from the shell on the user's own machine, a different network path: HTTP 403 while a control request to example.com returned 200"
+        ],
+        "result": "Blocked on three independent network paths. This is the third consecutive pass, after the Chunk 4 verification of September 12 and the Chunk 2 first pass of September 13, in which apps.dtic.mil could not be reached at all.",
+        "consequence": "The DTIC-side search for the cost tradeoff analysis and the DCEC technical note series has still not been performed. A failed DTIC search remains an access failure, not evidence of absence. discover.dtic.mil, the corporate site, returns HTTP 200 but carries no search index. Everything DTIC-sourced in this pass came from the Internet Archive mirror.",
+        "recommendation": "Stop scheduling the DTIC leg as a next action. Three passes across three network paths have failed. Treat it as a standing opportunistic check: probe one citation URL at the start of a pass, and proceed on the Internet Archive mirror when it 403s."
+      },
+      {
+        "target": "R. Stillman and C. DeFiore, IEEE Trans. Comm. COM-28(9), September 1980",
+        "result": "Not retried in this pass; unchanged from September 13, paywalled."
+      }
+    ]
+  },
+  "corrections_and_discrepancies": [
+    {
+      "item": "Western Union proposal number in the specification reference lists",
+      "detail": "The September 13 record, reading the THP specification AD-A081757 printed p. 4, gives 'WU Proposal #U-321-1 of April 1976'. The TCP specification AD-A081756 printed p. 4, inspected as an image in this pass, reads 'Western Union (WU) Proposal WU-301-1 AUTODIN II Phase I, April 1976, latest issue'.",
+      "status": "Unresolved. The two reference lists are otherwise the same list and both pages are poor microfiche reproductions, so at least one of the two readings is an artefact. Preserved as a discrepancy; it bears on nothing in the deferral question and should not be silently harmonized.",
+      "how_to_settle": "Re-inspect AD-A081757 PDF p. 12 at higher magnification against the retained AD-A081756 render."
+    },
+    {
+      "item": "Reference-list footer dates",
+      "detail": "AD-A081757's printed p. 4 carries the footer 21-FEB-79; AD-A081756's printed p. 4 carries 28-FEB-79. Both are original-issue footers preserved through the February 1980 revisions. Recorded so the two are not mistaken for one another."
+    },
+    {
+      "item": "n1-371-87-001 is one of 31, not the RG 371 schedule",
+      "detail": "The consolidated inquiry targets describe accession 371-83-005 and Section LXXVI as though they were the record group's coverage of AUTODIN II. They are one schedule. The other thirty are now searched and manifested."
+    }
+  ],
+  "targets_still_not_held": [
+    "The DCA cost tradeoff analysis ordered 23 December 1978 and due April 1979. Unchanged: no copy, transmittal, acknowledgement or citation.",
+    "Minutes or papers of the OSD Protocol Standards Working Group, April 1979 to April 1980, and of the PSTP, PSSG and PCCB. Now known not to be covered by any scheduled DCA file series.",
+    "Any DCA or OSD record stating a reason for placing AUTODIN II implementation after IOC.",
+    "IDA Paper P-1402, Computer Internetting: C3I Data Communications Networks, April 1979. Three Internet Archive queries and one web search found nothing.",
+    "Any contract modification or engineering change proposal under DCA200-C-637 bearing on a protocol change."
+  ],
+  "exact_remaining_retrieval_handles": [
+    {
+      "handle": "DCA Publications Record Set Files (203-01) and Publications Background Files (203-02), scheduled Permanent under NC1-371-78-01, retired to the Federal Records Center and offered to NARS in five-year blocks.",
+      "status": "new in this pass; the strongest scheduled route now that no protocol-standardization subject series is known to exist",
+      "caution": "A permanent schedule is not a located accession. Identifying the accession would require an inquiry, and inquiries remain excluded."
+    },
+    {
+      "handle": "DCA ARPANET Sponsors Group Files (875-02) and ARPANET Operational Management Files (875-03), scheduled Permanent under NC1-371-81-01.",
+      "serves": "DCA-chaired minuted proceedings contemporaneous with the deferral",
+      "caution": "The Sponsors Group is an ARPANET operations body, not the PSTP. Relevance is untested."
+    },
+    {
+      "handle": "NARA, RG 371, accession 371-83-005, file series 876-03 and 876-02, permanent under N1-371-87-001.",
+      "serves": "the ordered analysis and AUTODIN II panel proceedings",
+      "caution": "Unchanged from September 13. Boxes 7-13 withdrawn by DCA, disposition not stated, current custody unverified."
+    },
+    {
+      "handle": "SRI CHM photographs IMG_6650 through IMG_9200, and IMG_6333 through IMG_6459, at content level.",
+      "serves": "further SRI/DCA contract material of the period",
+      "caution": "2,545 photographs remain. The every-twentieth sample shows the later ranges are NIC operations, mail traffic and handwritten notes rather than DCA decision records; select a neighbourhood from the sample before expanding OCR again."
+    },
+    {
+      "handle": "CHM SRI ARC/NIC finding aid subseries 3.3, pp. 26-27, DCA library and indexes, box 062309881.",
+      "serves": "the ordered analysis and review minutes",
+      "caution": "Unchanged. A collection lead, not a confirmed holding."
+    },
+    {
+      "handle": "IDA Paper P-1402, T. C. Bartee, O. P. Buneman, K. A. Gardner and M. J. Marcus, April 1979.",
+      "serves": "an OSD-adjacent analysis dated in the month the ordered analysis was due",
+      "caution": "Now searched without result in the Internet Archive DTIC mirror and in open web search. Next route would be IDA's own publications catalogue or NTIS, not DTIC."
+    }
+  ],
+  "decisive_sources_for_independent_verification": [
+    {
+      "source": "SRI CHM IMG_6527.jpg",
+      "sha256": "1da06196b4e7521a268a6cdc4f197993acb74bf753b377237387c0f55d9a2a32",
+      "bytes": 2048934,
+      "shows": "ADDENDUM TO PROPOSAL ECU 79-99, deleting Task 5 and Task 2",
+      "inspected": "as an image"
+    },
+    {
+      "source": "SRI CHM IMG_6531.jpg",
+      "sha256": "9337da875f263dbb5ed0aedf45cd13ee550e4066bd63d25be845aa87b5a7d4fe",
+      "bytes": 1509091,
+      "shows": "the addendum's revised cost estimate, headed 5 November 1979",
+      "inspected": "as an image"
+    },
+    {
+      "source": "SRI CHM IMG_6612.jpg",
+      "sha256": "ed95ae73016699cefe143172726fb50eee2a7008b04b8888d989a0b020d2f162",
+      "bytes": 1815480,
+      "shows": "Preliminary List of Protocols to be Maintained in the NIC Protocol Repository, Attach 1",
+      "inspected": "as an image"
+    },
+    {
+      "source": "SRI CHM IMG_6615.jpg",
+      "sha256": "a71533c9146b1077cf8f6e1403572e74fb1f36b6252cc8a20430cb20dbbde521",
+      "bytes": 1719479,
+      "shows": "a partial duplicate of the same list",
+      "inspected": "OCR only"
+    },
+    {
+      "source": "SRI CHM IMG_6605.jpg",
+      "sha256": "0ba555c6924d936f845cd2bbc97e0335c2bfd778d1c9031af7d43bb0e34b664f",
+      "bytes": 2066957,
+      "shows": "optional tasks: DoD Standard TCP/IP interface, and configuration management of DoD Standard Protocol Specifications (Type A)",
+      "inspected": "OCR only"
+    },
+    {
+      "source": "SRI CHM IMG_6621.jpg",
+      "sha256": "410961052e30291c740e602800da35a32d142c4066071b0ec2b00976338bc46d",
+      "bytes": 2036574,
+      "shows": "SRI offering to assist DCA in 'a more formal approach to protocol standardization and configuration management'",
+      "inspected": "OCR only"
+    },
+    {
+      "source": "SRI CHM IMG_6617.jpg",
+      "sha256": "c4ce8dfb319e042f442ffbd1e35a2b4e08d81416f7e33a8ee9234cee1d719085",
+      "bytes": 1649202,
+      "shows": "a modernization protocol architecture chart placing SIP Mode VI as a network-specific interface to AUTODIN II",
+      "inspected": "OCR only"
+    },
+    {
+      "source": "AD-A081756 PDF p. 5",
+      "shows": "DD Form 1473: DCA 200-C-637-P005, AD-E100 342, DCA Code 450, 8 Feb 80",
+      "inspected": "as an image, retained in pages/"
+    },
+    {
+      "source": "AD-A081756 PDF p. 13 / printed p. 4",
+      "shows": "the ten-item reference list with no DoD standard protocol document",
+      "inspected": "as an image, retained in pages/"
+    },
+    {
+      "source": "AD-A081756 PDF pp. 6-7",
+      "shows": "title page with all three revision dates, and the Revision 3 changed-page list not containing p. 4",
+      "inspected": "existing text layer"
+    },
+    {
+      "source": "NC1-371-81-01, Section LXXV",
+      "shows": "875-02 and 875-03 permanent at specified offices; the other ARPANET series carry disposal instructions, not evidence of completed destruction",
+      "inspected": "existing text layer, retained"
+    },
+    {
+      "source": "NC1-371-78-01",
+      "shows": "203-01 and 203-02 permanent",
+      "inspected": "existing text layer, retained"
+    }
+  ],
+  "handoff": {
+    "current_work_queue": "notes.md",
+    "evidence_and_open_questions": "research.md"
+  },
+  "validation": {
+    "date": "2026-09-19",
+    "status": "Interpretive corrections applied; original dated retrieval observations retained.",
+    "limits": "Proposal addendum, dated cost sheet, two-family list and dated proposal cover independently inspected. All 31 scheduled PDFs reacquired with matching hashes; ten malformed manifest URLs corrected; seven named phrase searches replayed over complete extracts. Decisive retention pages checked visually. This is not a full visual reading of 31 schedules or a holdings survey."
+  }
+}

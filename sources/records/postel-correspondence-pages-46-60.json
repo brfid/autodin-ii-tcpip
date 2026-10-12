@@ -1,0 +1,414 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "reading_date": "2026-10-07",
+  "questions": [
+    "Does the October 8, 1976 memo ROM JBP 28732 continue, and what is its extent?",
+    "Can the recent SOW and upcoming proposal be identified?",
+    "Is there a DCA response, identifiable solicitation, executed modification, funding disposition or accepted allocation of work?"
+  ],
+  "status": "Complete bounded visual reading: 15 written faces through PDF p. 60. Memo completed on pp. 45–47; duplicate on pp. 50–52. September 23 DCA acknowledgement found, but no accepted disposition, identified solicitation or executed modification.",
+  "detailed_reading": "reading.md",
+  "source": {
+    "institution": "Computer History Museum",
+    "accession": "102697717",
+    "catalog_title": "Arc Proposals: Jon Postel's notes and correspondence concerning Autodin II protocol proposal",
+    "issuer_inherited": "SRI Augmentation Research Center",
+    "historical_date": "Assigned dated items: September 22, 23, 24 and October 8, 1976; unnumbered continuation leaves may carry no date independently. Packet undated as a whole.",
+    "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+    "absolute_path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+    "bytes": 8114831,
+    "sha256": "9767520847035437a147c31920756533c03e2841ad3985b092a6b20cbc34c185",
+    "pdf_pages": 71,
+    "retrieval_url_inherited": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+    "retrieval_provenance": "Inherited from supporting/public-sweep-2026-09-17/source-record.json finding ps-xi and Batch E source record; retained 2026-09-19. No new download or live availability check.",
+    "revision_status": "Mixed correspondence and working notes; no packet revision statement. ROM JBP 28732 memo body duplicated, without a visible revision."
+  },
+  "coverage": {
+    "newly_visually_read_pdf_pages": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "leaf_faces": 15,
+    "written_leaf_faces": 15,
+    "one_leaf_face_per_pdf_page": true,
+    "context_page_reused": {
+      "pdf_page": 45,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-45.png",
+      "counted_in_new_faces": false,
+      "new_original_render": false
+    },
+    "printed_pagination": "No reliable printed page numbers. Mail markers 9, 4 and 3 on PDF pp. 53, 55 and 56 are message markers.",
+    "duplicate_content": [
+      {
+        "original_copy_pages": [
+          45,
+          46,
+          47
+        ],
+        "duplicate_copy_pages": [
+          50,
+          51,
+          52
+        ],
+        "kind": "Same October8 memo body/identifier/date; mail wrapper/signoff differ. No material body difference observed. Not independent evidence or a demonstrated revision."
+      }
+    ],
+    "partly_uncertain_handwriting": [
+      48,
+      49,
+      58,
+      59,
+      60
+    ],
+    "source_edge_limits": [
+      {
+        "pdf_page": 53,
+        "limit": "Bottom line partly clipped; sentence continues on p. 54."
+      },
+      {
+        "pdf_page": 56,
+        "limit": "Bottom Experiment Design row in Estimate 2 partly clipped; p. 57 completes the table. No reconstructed row used for a claim."
+      }
+    ],
+    "item_boundaries": [
+      {
+        "pages": [
+          45,
+          46,
+          47
+        ],
+        "identity": "October 8, 1976 ROM JBP 28732 memo to Ed Cain",
+        "extent": "Complete with typed Jon Postel closing, postscript and mail delimiter."
+      },
+      {
+        "pages": [
+          48
+        ],
+        "identity": "October 8 handwritten test/report-cycle leaf",
+        "extent": "Separate unnumbered leaf; no explicit join."
+      },
+      {
+        "pages": [
+          49
+        ],
+        "identity": "October 8 handwritten Phase I/II/III chart",
+        "extent": "Separate landscape leaf; related planning subject but no explicit single-item join to p. 48."
+      },
+      {
+        "pages": [
+          50,
+          51,
+          52
+        ],
+        "identity": "Duplicate October 8 memo",
+        "extent": "Complete second body copy; lacks mail wrapper and final mail delimiter."
+      },
+      {
+        "pages": [
+          53,
+          54
+        ],
+        "identity": "September 23 Postel questions for Ed Cain",
+        "extent": "Sentence continuity and closing establish a complete two-face message."
+      },
+      {
+        "pages": [
+          55
+        ],
+        "identity": "September 23 Lyons Acknowledgement",
+        "extent": "Complete short message; antecedent unspecified."
+      },
+      {
+        "pages": [
+          56,
+          57
+        ],
+        "identity": "September 22 Postel rough costs for Ed Cain",
+        "extent": "Table continuity and closing establish a complete two-face message."
+      },
+      {
+        "pages": [
+          58,
+          59
+        ],
+        "identity": "September 24 Cain phone note and undated apparent continuation",
+        "extent": "Tentative join based on subject and handwriting; not numbered."
+      },
+      {
+        "pages": [
+          60
+        ],
+        "identity": "September 23 phone note to Ron Stoughton (surname tentative)",
+        "extent": "One face seen; possible continuation beyond the stop remains unexamined."
+      }
+    ],
+    "cumulative_visual_coverage": "Batches C–E pp. 1–45 plus this assignment pp. 46–60: 60 distinct pages, not the entire 71-page packet.",
+    "not_opened_or_searched_this_assignment": "Original PDF pp. 1–45 other than the retained p. 45 image; PDF pp. 61–71; neighboring packets; new web.",
+    "stop_reason": "Reached PDF p. 60 after 15 newly read written faces, below the 30-face cap.",
+    "incomplete_at_stop": {
+      "pdf_page": 60,
+      "identity": "Phone-call note marked Postel, 23 Sep 76",
+      "status": "No explicit continuation marker, considerable blank space after last rule, no formal closing. Full item extent beyond boundary not checked; neither completeness nor continuation asserted."
+    }
+  },
+  "findings": [
+    {
+      "id": "memo-extent",
+      "claim": "October 8 memo completed at p. 47 and repeated on pp. 50–52.",
+      "locators": [
+        "PDF p. 45 retained image",
+        "PDF pp. 46–47",
+        "PDF pp. 50–52"
+      ],
+      "established": "Shared ROM JBP 28732, date, continuous content and typed Postel closing/postscript.",
+      "inference": "None needed for the pp. 45–47 join.",
+      "contrary_or_limit": "Duplicate body supplies no new government action or independent corroboration.",
+      "implication": "Replaces prior unknown memo extent with a complete identified item."
+    },
+    {
+      "id": "sow-identity",
+      "claim": "Memo identifies EDCN documents only as SOW references 3 and 4.",
+      "locators": [
+        "PDF p. 47 postscript",
+        "PDF p. 52 postscript"
+      ],
+      "established": "Postel reports that the documents have not yet been received.",
+      "inference": "Potential matching handle for a separately authorized SOW comparison.",
+      "contrary_or_limit": "No SOW title, number, revision, date, contract or proposal identifier.",
+      "implication": "Do not equate it to a held DCA instrument or proposal by folder order."
+    },
+    {
+      "id": "dca-ack",
+      "claim": "DCA acknowledgement found; disposition unresolved.",
+      "locators": [
+        "PDF p. 55"
+      ],
+      "established": "Lyons message closes Bob Lyons/DCA: message for Ed Cain received and under review; more later.",
+      "inference": "September 22 message on pp. 56–57 is a plausible, unproven antecedent.",
+      "contrary_or_limit": "Timestamp 1024 (received 1023) precedes the September 23 message on p. 53 at 1739. No accepted terms or funding.",
+      "implication": "Positive evidence of reported receipt/review. No answer to the October 8 memo, and no accepted allocation."
+    },
+    {
+      "id": "cost-alternatives",
+      "claim": "Two nonbinding SRI work/cost scenarios.",
+      "locators": [
+        "PDF p. 56 Rough Cost Estimates",
+        "PDF p. 57 table conclusion"
+      ],
+      "established": "SRI codes 370 and 11: 116 man-months/$870,000. SRI does no coding: 67 man-months/$500,000. Explicit noncommitment; unanswered questions affect estimates.",
+      "inference": "Separate FTP estimate lines show costing structure, not separate funding.",
+      "contrary_or_limit": "No appropriation, award, expenditure or accepted allocation; no numbered contract.",
+      "implication": "Clearer procurement discussion, without a proven link to June offer or November funding note."
+    },
+    {
+      "id": "plans-not-execution",
+      "claim": "Test plans, schedules and proposal target remain prospective.",
+      "locators": [
+        "PDF pp. 48–49",
+        "PDF pp. 53–54",
+        "PDF pp. 58–60"
+      ],
+      "established": "Test/report cycle, rough 18/21-month estimate, proposal aim of 1 Nov, machine/access discussion.",
+      "inference": "Pp. 58–59 are an apparent continuation; uncertain technical phrases retained as uncertain.",
+      "contrary_or_limit": "No test results, hire, submission, solicitation identifier or executed modification.",
+      "implication": "No accepted military requirement allocation, committee adoption, split cause or later transition explanation established."
+    }
+  ],
+  "retained_page_images": [
+    {
+      "pdf_page": 46,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-46.png",
+      "dpi": 180,
+      "bytes": 1081397,
+      "sha256": "a0a70f4ede771a178c050ed6d5e26062d85b0833639111152858744611d16661"
+    },
+    {
+      "pdf_page": 47,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-47.png",
+      "dpi": 180,
+      "bytes": 618943,
+      "sha256": "8bc4041b1d15a47e0feb021ec1679d1d42d2dd226d63145bb42d69250985d3d2"
+    },
+    {
+      "pdf_page": 48,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-48.png",
+      "dpi": 180,
+      "bytes": 1314391,
+      "sha256": "06af9824de3ed4dfd2bd6bf81196916a7d0643d0e8019ca39f2eca97a2387119"
+    },
+    {
+      "pdf_page": 49,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-49.png",
+      "dpi": 180,
+      "bytes": 1422101,
+      "sha256": "f1029f1586ead19d59acfae80b3278e31c0e910cecf75c494db2ba62a0e2b642"
+    },
+    {
+      "pdf_page": 50,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-50.png",
+      "dpi": 180,
+      "bytes": 883323,
+      "sha256": "821a1061531b43ed0059fc1000b0c0614934d235bbde584c3fc2b3d633fe525e"
+    },
+    {
+      "pdf_page": 51,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-51.png",
+      "dpi": 180,
+      "bytes": 976412,
+      "sha256": "c018a4809924512c72fd3d407a7c09b97a4968fc67ed053f68e74b03c82d9781"
+    },
+    {
+      "pdf_page": 52,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-52.png",
+      "dpi": 180,
+      "bytes": 561076,
+      "sha256": "f250555e0d2fdacf391aa54c32f88e724e5e8093f35d80e39e0fa85c858adab9"
+    },
+    {
+      "pdf_page": 53,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-53.png",
+      "dpi": 180,
+      "bytes": 884974,
+      "sha256": "a36cbbc0753f058e3684d9f526bb55c7a729e3327ba230579a747ec8d8f10b5c"
+    },
+    {
+      "pdf_page": 54,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-54.png",
+      "dpi": 180,
+      "bytes": 687374,
+      "sha256": "8fbc16cda0bc133942aec8db3a066e4cb55abbe451c8993236df5d51aac0874a"
+    },
+    {
+      "pdf_page": 55,
+      "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf#page=55",
+      "dpi": 180,
+      "bytes": 267101,
+      "sha256": "a5841abea0422817847860f96275b3cb225bc9677398b666afa585204eaba234"
+    },
+    {
+      "pdf_page": 56,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-56.png",
+      "dpi": 180,
+      "bytes": 1560287,
+      "sha256": "a3c71907c1b814a2bca1ac6380f8c9f9f01ed205bdc4dc5ebbf388d4c32e38f6"
+    },
+    {
+      "pdf_page": 57,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-57.png",
+      "dpi": 180,
+      "bytes": 290836,
+      "sha256": "5db376ea411d76b35700e58827300c9bcdff7c04a83253d64ed42156421f88d9"
+    },
+    {
+      "pdf_page": 58,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-58.png",
+      "dpi": 180,
+      "bytes": 502838,
+      "sha256": "36786340c89a342df47b2e0ca81a588f7d9ed3253a9615267c6100de884c8fd3"
+    },
+    {
+      "pdf_page": 59,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-59.png",
+      "dpi": 180,
+      "bytes": 542281,
+      "sha256": "0fdc66b7536470c0a3df104c9bcd63907527e89a87c694f48016a9eb18d12906"
+    },
+    {
+      "pdf_page": 60,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-60.png",
+      "dpi": 180,
+      "bytes": 423649,
+      "sha256": "617189189d40e3c0ff78c326075d5fbb53703527c50379f8d333fc623ad90d22"
+    }
+  ],
+  "page_by_page_visual_coverage": [
+    {
+      "pdf_page": 46,
+      "item_and_visible_date": "Memo header ROM JBP 8-OCT-76 28732.",
+      "visual_reading_and_limit": "Continuation of retained p. 45: PDP-only tools, IBM 370 focus, ARPANET/file-transfer needs, conditional willingness to code, travel and stable environment. Intended measurements, no acceptance."
+    },
+    {
+      "pdf_page": 47,
+      "item_and_visible_date": "Same memo header/date.",
+      "visual_reading_and_limit": "Conclusion: proposed DCEC workshop use, typed Jon Postel closing, PS concerning SOW refs. 3–4, mail delimiter. Closes pp. 45–47. No SOW title/number."
+    },
+    {
+      "pdf_page": 48,
+      "item_and_visible_date": "Handwritten “For each test,” marked Postel, 8 Oct 76.",
+      "visual_reading_and_limit": "Test Plan I/F, briefing, test, Test Report I/F, briefing/results and Protocol Study Report; intended actions, data and evaluation distinguished. “5 months per cycle!” estimate. Faint timing/brief annotations retained as uncertain details. Separate leaf, no explicit join to memo."
+    },
+    {
+      "pdf_page": 49,
+      "item_and_visible_date": "Handwritten schedule, marked Postel, 8 Oct 76.",
+      "visual_reading_and_limit": "Landscape Phase I/II/III working chart: FTP, EDCN study, PSIP/TCP/THP/FTP design, advice/coding, measurement design/performance/analysis, coordination/consultation; staff-like figures. Scale is relative, with no calendar start or approval. Some overwritten/faint labels and figures; no conclusion depends on exact arithmetic."
+    },
+    {
+      "pdf_page": 50,
+      "item_and_visible_date": "ROM JBP 8-OCT-76 28732; body 8 OCT 76.",
+      "visual_reading_and_limit": "Duplicate opening body of p. 45, without mail wrapper. Same address, SOW/proposal clarification, NLS and claimed prior tools/document work. No visible revised status."
+    },
+    {
+      "pdf_page": 51,
+      "item_and_visible_date": "Same memo header/date.",
+      "visual_reading_and_limit": "Duplicate substantive body of p. 46. New scan/face, not additional evidence of a separate event."
+    },
+    {
+      "pdf_page": 52,
+      "item_and_visible_date": "Same memo header/date.",
+      "visual_reading_and_limit": "Duplicate body of p. 47 through typed Jon Postel and PS; omits mail-signoff delimiter. Completes second copy, pp. 50–52."
+    },
+    {
+      "pdf_page": 53,
+      "item_and_visible_date": "Mail from POSTEL: 23 SEP 1976 1739-PDT, received 1749-PDT.",
+      "visual_reading_and_limit": "“For Ed Cain,” via Lyons. PDP-11/370 implementation questions, sizes/OS/peripherals/access and intended use. Bottom line partly cut at image edge; sentence resumes on p. 54. No question treated as fact."
+    },
+    {
+      "pdf_page": 54,
+      "item_and_visible_date": "Continuation of p. 53, no repeated date.",
+      "visual_reading_and_limit": "Real users versus test environment; considered cross compiler with estimated effort; 18/21-month schedule judgment and consultant question. Closes “--jon.” and delimiter."
+    },
+    {
+      "pdf_page": 55,
+      "item_and_visible_date": "Lyons “Acknowledgement”: 23 SEP 1976 1024-PDT; received 23-SEP-76 1023-PDT.",
+      "visual_reading_and_limit": "Complete short message to Postel, closing Bob Lyons/DCA. Receipt and review reported, “More later”; unspecified antecedent. Timestamp discrepancy preserved. No acceptance or substantive answer."
+    },
+    {
+      "pdf_page": 56,
+      "item_and_visible_date": "Mail from POSTEL: 22 SEP 1976 1851-PDT, received 1901-PDT.",
+      "visual_reading_and_limit": "“For Ed Cain,” via Lyons. Cost/environment questions and explicit noncommitment. Estimate 1: SRI coding, 116 man-months/$870,000. Estimate 2: no SRI coding, begins; experiment-design row partly clipped at bottom. Continues on p. 57."
+    },
+    {
+      "pdf_page": 57,
+      "item_and_visible_date": "Continuation of p. 56, no repeated date.",
+      "visual_reading_and_limit": "Completes Estimate 2: 67 man-months/$500,000; rough conversion basis; “--jon.” and delimiter. No funding disposition."
+    },
+    {
+      "pdf_page": 58,
+      "item_and_visible_date": "Handwritten Postel, 24 Sept 76, “Phone call with ED CAIN.”",
+      "visual_reading_and_limit": "Proposal aim 1 Nov; target-machine access, programming language, OS plans, BBN/ACC references, possible memory/system changes, testing-hours note. Some faint software-release and technical words not used as firm facts. Apparent continuation on p. 59, not explicitly numbered."
+    },
+    {
+      "pdf_page": 59,
+      "item_and_visible_date": "Undated handwritten technical notes.",
+      "visual_reading_and_limit": "THP/FTP interfaces, 11/35 memory/peripherals, possible access-permission problem and 370 schedule. Subject/handwriting support tentative join to p. 58. “Experimental Only” followed by uncertain wording; not normalized into a definitive policy. Final reported Cain comment about ACC/BBN is not independently verified."
+    },
+    {
+      "pdf_page": 60,
+      "item_and_visible_date": "Handwritten Postel, 23 Sep 76, “Phone call to Ron Stoughton” (surname tentative).",
+      "visual_reading_and_limit": "Possible participant interested subject to another person's check; 11/35 and 370/155 environment notes, partly uncertain acronyms/numerals. No visible contract, hire or acceptance. Item extent beyond this face remains unexamined at stop."
+    }
+  ]
+}

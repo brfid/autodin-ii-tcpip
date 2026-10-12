@@ -1,0 +1,1051 @@
+{
+  "purpose": "Distributed historical holdings and transformations; physical locator/digitizer unknown unless stated in a source record.",
+  "sources": {
+    "sources/unique/ien11-1977.pdf": {
+      "title": "Danny Cohen; appended Carl Sunshine and Vinton Cerf correspondence. ien11-1977",
+      "sha256": "2758496fd5d9f26f2977c216d4837884f9eaf6573a4a9e397aabcedccdf13b81",
+      "bytes": 14645530,
+      "source_sha256": "086087256c2b777ceaefc742d2a8a35fcdd3ff0d49389e3dfabcd93040db12e4",
+      "coverage": "Retained 16-page annotated packet with paper and correspondence, not a newly authenticated complete publication submission.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed document and page metadata; page count and decoded content streams unchanged."
+    },
+    "sources/unique/ien70-1978.pdf": {
+      "title": "Jon Postel. ien70-1978",
+      "sha256": "1d2e9fe0869676dd30379c10db9c8320844054444a11e5468505625cecab386b",
+      "bytes": 4151461,
+      "source_sha256": "d8282f81ef675c650098ffbf7b54eac6f85e4a1cf862068d62bcd6a766598754",
+      "coverage": "Complete retained meeting-notes scan, eight PDF pages.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed document and page metadata; page count and decoded content streams unchanged."
+    },
+    "sources/unique/bbn3900-1978.pdf": {
+      "title": "Michael A. Wingfield, Bolt Beranek and Newman. bbn3900-1978",
+      "sha256": "dfaa0c34fc61c050808e927fa13450621ac8153d1f14421398f87a4c3eda222b",
+      "bytes": 1136406,
+      "source_sha256": "fa667fba57d18aed164dd8e898214c8841b4a65422c8ebb6b454f72aaff3db52",
+      "coverage": "75-page retained scan: cover/documentation, 62 numbered body pages, nine appendix pages. Digitizer unrecorded.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed document and page metadata; page count and decoded content streams unchanged."
+    },
+    "sources/unique/terminal-to-host-1976/thp-addressing-082.png": {
+      "title": "SRI Terminal-to-Host Protocol, 1976: thp-addressing-082",
+      "sha256": "cb164273746d5d0ff56667a45da59b13fd1acf7e9c08ab852c957e5ce3c2fa47",
+      "bytes": 1962072,
+      "source_sha256": "cb164273746d5d0ff56667a45da59b13fd1acf7e9c08ab852c957e5ce3c2fa47",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/terminal-to-host-1976/thp-addressing-083.png": {
+      "title": "SRI Terminal-to-Host Protocol, 1976: thp-addressing-083",
+      "sha256": "081856e87e0cce74df8e93436ca4cb51abe44328ee353959bdac6d12c29e83b3",
+      "bytes": 1816299,
+      "source_sha256": "081856e87e0cce74df8e93436ca4cb51abe44328ee353959bdac6d12c29e83b3",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/terminal-to-host-1976/thp-addressing-084.png": {
+      "title": "SRI Terminal-to-Host Protocol, 1976: thp-addressing-084",
+      "sha256": "cbe9f190663739c292cf5b88cc7449ef273ba52cdc43f427a134afeca9b22303",
+      "bytes": 1501947,
+      "source_sha256": "cbe9f190663739c292cf5b88cc7449ef273ba52cdc43f427a134afeca9b22303",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/terminal-to-host-1976/thp-title.png": {
+      "title": "SRI Terminal-to-Host Protocol, 1976: thp-title",
+      "sha256": "c8e9cff19c70298dbb5c389b54e0a48162ef3884bd424578ad4737337130a12f",
+      "bytes": 1439583,
+      "source_sha256": "c8e9cff19c70298dbb5c389b54e0a48162ef3884bd424578ad4737337130a12f",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3119/bbn-3119-capture-01.jpg": {
+      "title": "bbn 3119 — selected capture 1",
+      "sha256": "ac30fea390ce834d691567c18fb2c9d4d3deee088ba58c32f9ea58b5b060ba28",
+      "bytes": 1426133,
+      "source_sha256": "f4e449fdd2db50450042341bc94c95328d331e5e35be2e944b6fb1daed1f5893",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3119/bbn-3119-capture-02.jpg": {
+      "title": "bbn 3119 — selected capture 2",
+      "sha256": "618bfe01bf0e3318338deeef35b1d3a4abf916b2f2b722eabcfee3d965f0ecd6",
+      "bytes": 1234834,
+      "source_sha256": "85befd5f69f1b290a901257b982c2292850c017ff39ae4e9164f41b2d882bdb6",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3119/bbn-3119-capture-03.jpg": {
+      "title": "bbn 3119 — selected capture 3",
+      "sha256": "85760a3a3c43e221ec1e5c20e18f0122b8f5cbc1f0709c2c29ade0ab7d872334",
+      "bytes": 1190608,
+      "source_sha256": "33c1e85eb71c7d97606226c7826ae21b4c97ab6a234c706ee341d3b15ca714ce",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3119/bbn-3119-p32-33.jpg": {
+      "title": "bbn 3119 — printed 32-33",
+      "sha256": "06c72cd6d1562a5fe9ecb99cfc7ad8a1fa3bcc918427f9e6bcf878d95cd681ae",
+      "bytes": 1398608,
+      "source_sha256": "bae0cc24b3b4963850fc693da5df826bc78ca9cda34bbb05bdc3ef6e54441d69",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3119/bbn-3119-p74-75.jpg": {
+      "title": "bbn 3119 — printed 74-75",
+      "sha256": "085d4320fe249b9771b8236ac7f54a167394f2a8f8437c33a9731cb3cac2c4a5",
+      "bytes": 1388695,
+      "source_sha256": "7697ddcfc29cce781072c70ed782dcd7dd57403676ead79699bd5de36804645c",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3119/bbn-3119-p158-159.jpg": {
+      "title": "bbn 3119 — printed 158-159",
+      "sha256": "0f6bc18f9572fc367a92639c5ce1a4269c2c8e3d2ce1bbcd279f86a77b8fe219",
+      "bytes": 1403597,
+      "source_sha256": "4d16181276bafd773e84f07afb9280fb34e4d0cadbdc505ef2f135596b617830",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3119/bbn-3119-p162-163.jpg": {
+      "title": "bbn 3119 — printed 162-163",
+      "sha256": "5c04859f5561a1cda68ded8009e067b7c466bc7b3d774e29a1c78e4e3693a4d9",
+      "bytes": 1377494,
+      "source_sha256": "335d981f9a88dd1f6876d054f48874bf1d44b299f3734792cb472587ac8e545a",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3119/bbn-3119-p164-165.jpg": {
+      "title": "bbn 3119 — printed 164-165",
+      "sha256": "02061d42dba6a2527a0fa0ece5bf0347e6eaaf0d06275edf000b8727e7b38ac2",
+      "bytes": 1255056,
+      "source_sha256": "118adfd899c38a2524bcfc3b87a7cd8718f9f0732821c821da28987a72aeb48f",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3119/bbn-3119-p172-173.jpg": {
+      "title": "bbn 3119 — printed 172-173",
+      "sha256": "f02e12bc7a31ca740dfe0199551f5fa132f72d17602f7c1cfefa9c6b064f44d4",
+      "bytes": 1231511,
+      "source_sha256": "96b29ad4870974ca770c3acae4ff617eadfdc6fe752225cf63c7cc88d6b3f678",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3119/bbn-3119-p178-179.jpg": {
+      "title": "bbn 3119 — printed 178-179",
+      "sha256": "e3669f84f468e24b389193f3b719560e56e395498094ee7d451b9fc5024ef9d1",
+      "bytes": 1172002,
+      "source_sha256": "9b7bc0032c5b72c2193ac933516d8f7bd6bcd2d9327086641a65bf730fbde873",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3119/bbn-3119-p182-183.jpg": {
+      "title": "bbn 3119 — printed 182-183",
+      "sha256": "e15f540310ef9de40a371b6dcac098abbb95f2307619f3af73d62e3224e610e1",
+      "bytes": 1324349,
+      "source_sha256": "f619378ed5329e5aac50c78f68fc03949292c3b69b5f51c85e99454819db6cad",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3119/bbn-3119-p184-185.jpg": {
+      "title": "bbn 3119 — printed 184-185",
+      "sha256": "49a4a103686fce8b2018fbe36ff2554060a21edc2c04c0c2536da7a295289598",
+      "bytes": 1296568,
+      "source_sha256": "f6710fb19a1c39084c9583802afea666cf8d6a4133f901bd4e517937b2ee2380",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3664/bbn-3664-capture-01.jpg": {
+      "title": "bbn 3664 — selected capture 1",
+      "sha256": "96ac2b8f4ecf2834bcc923a7b05e79fdd55ac2a00ebec50e3feeb6502c2383f9",
+      "bytes": 880152,
+      "source_sha256": "28ef0d6162cf944080140b2445efcaefc91e3c1103dc5cdc1ecd604bbbb7a2ca",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3664/bbn-3664-p1.jpg": {
+      "title": "bbn 3664 — printed 1",
+      "sha256": "46dd5b81541c1171c9a826c7acf672c9907735f0a66cb348d9a788aea0174e71",
+      "bytes": 1332160,
+      "source_sha256": "7d95fad441966fa0636c2bafce0e0633c84dc787e278d02aca4623d1888166c8",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3664/bbn-3664-p2.jpg": {
+      "title": "bbn 3664 — printed 2",
+      "sha256": "788daedde626c1c15ef20928cbe4507b98a677d57946188bcd7863154e35304e",
+      "bytes": 1140194,
+      "source_sha256": "ca7a48414482d13d17e548c7c795d8582f85cf6ba3634f72f9c5246ea142de98",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3664/bbn-3664-p3.jpg": {
+      "title": "bbn 3664 — printed 3",
+      "sha256": "8b13a82bfd2e3bbc9f6d27dda7afc3503fff9528e220c1a6d131e39494358f7b",
+      "bytes": 1044973,
+      "source_sha256": "e5b4edde33465d8153033a3b7de5e2f914ae759b49a46d33dbcdacbaaf429a66",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3664/bbn-3664-p6.jpg": {
+      "title": "bbn 3664 — printed 6",
+      "sha256": "2d94281f4a3dda898b292674b30de2df3a38606d659976f3f53d028eb8e31b86",
+      "bytes": 1083613,
+      "source_sha256": "792a50a4a042adb1c859aed3ec2adf77b1082a6d699399c8157a09e666eece0c",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3664/bbn-3664-p13.jpg": {
+      "title": "bbn 3664 — printed 13",
+      "sha256": "2c30654f3869b43ec702b0146cd8c562b8b6ae8438ef735f483658d1523ae106",
+      "bytes": 1018432,
+      "source_sha256": "883e74b6b36a996a0a973f97cc313f0645ac7b72313416c7307b8c796c52aa37",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3664/bbn-3664-p14.jpg": {
+      "title": "bbn 3664 — printed 14",
+      "sha256": "7e33205dde741322d7d2a3bf13458cc809ee4655222d0d704a477ab48c58880d",
+      "bytes": 1342180,
+      "source_sha256": "b2c24aeacea44ef5ccb70d8060408fa4b60517476349876bb58cd03aabdb30b9",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3664/bbn-3664-p15.jpg": {
+      "title": "bbn 3664 — printed 15",
+      "sha256": "130953b1c307752ed4a50e4e2f876e7eb6f15b5aba62d4fe8c8327aee6c55be4",
+      "bytes": 1020754,
+      "source_sha256": "1a5ebcbf3a207c1a0cb6f27087969f1f673352dfefbd9d069fffb3e69011e91a",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3664/bbn-3664-pC-1.jpg": {
+      "title": "bbn 3664 — printed C-1",
+      "sha256": "f12a3772316c0f3879f9ed9ca5719f953ba8bf0aebdf6b7c7a79f8a1d8a609b2",
+      "bytes": 1162258,
+      "source_sha256": "a73652da3934bb3730c164958e8435ee9b44e4211139b1243c96937921e62e7b",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3664/bbn-3664-pF-1.jpg": {
+      "title": "bbn 3664 — printed F-1",
+      "sha256": "3b2b91637d61bda45a7e5f9371a4cbe4c1d105c68077584125a1cd16cc9c8eb2",
+      "bytes": 763434,
+      "source_sha256": "07809370689c007d78f29192ab35ac415d73a65779d94c697d9a596fe0456b11",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-3664/bbn-3664-pG-1.jpg": {
+      "title": "bbn 3664 — printed G-1",
+      "sha256": "2f404a741bc98b8dbc591cec0b5024422cd21d6f6c565b179ce8286c73dd3093",
+      "bytes": 771499,
+      "source_sha256": "4a52ce618e0c0839d7de49fa7b0eb5afecd3bbfe31e8ade22b1772ae5481914d",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4129/bbn-4129-capture-01.jpg": {
+      "title": "bbn 4129 — selected capture 1",
+      "sha256": "ebc2e4a604828459f20a07400dc4e2d046e57d639aa3ec84f8723360e0770570",
+      "bytes": 1716218,
+      "source_sha256": "ba4b255b26979d5c2933475ec54bbfadc0d11396c4b577276c7fadfe281898d7",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4129/bbn-4129-p1.jpg": {
+      "title": "bbn 4129 — printed 1",
+      "sha256": "f6c756cbcd4ee18fbc25de2e9d2bc260a6620c5880f67ce2b1219570d5ea2718",
+      "bytes": 1146779,
+      "source_sha256": "9faa0b3e94cc8ca4c973aa445ca4f6ba51c8a61bc08e9982ff90333146ba8e08",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4129/bbn-4129-p2-3.jpg": {
+      "title": "bbn 4129 — printed 2-3",
+      "sha256": "a1763caa15d19b84c851dfc0688c942003c1fd8c4eb63f014732eda16f2f8204",
+      "bytes": 1193024,
+      "source_sha256": "ebf980e15a6eed74e55eb01bb587e337761efde307b925172db22b57bebb696d",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4129/bbn-4129-p4-5.jpg": {
+      "title": "bbn 4129 — printed 4-5",
+      "sha256": "e051b049dd3f57379bf6668d44c2f6bc56df3c73989faaaf78732f205ad733be",
+      "bytes": 1319467,
+      "source_sha256": "0c9ef31787adfae1bdc0be203be8b075fa74fa2cd45da56896c6d196d62a9f09",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4129/bbn-4129-p14-15.jpg": {
+      "title": "bbn 4129 — printed 14-15",
+      "sha256": "07b359fae462c4ed94abdeb378a7aab2cc4c278344a26d154bbf61285424a7c6",
+      "bytes": 1273054,
+      "source_sha256": "558787ceac17baf69da19fe1ccb2149304a41e485be0f1de39b744347c4c4871",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4129/bbn-4129-p20-21.jpg": {
+      "title": "bbn 4129 — printed 20-21",
+      "sha256": "2ab62300e29474056880f7768b1a4b42d4f3eb930caa399f793f3e1477c3bd4f",
+      "bytes": 1235196,
+      "source_sha256": "53f4bfe7b78eeb834e3f4a0e373de92a4bfce3009778cb7b7f2f6b0ceec47fca",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4129/bbn-4129-p26-27.jpg": {
+      "title": "bbn 4129 — printed 26-27",
+      "sha256": "79a053ec891b65225eda80905e5d2460c1c53328600138a2c5667d9393d8c541",
+      "bytes": 1069148,
+      "source_sha256": "7fc757fdc78728bdf54a78d5ae0402ea6148bf7135569623e4670c4520483016",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4129/bbn-4129-p28-29.jpg": {
+      "title": "bbn 4129 — printed 28-29",
+      "sha256": "ead8ac4b3e94ffd2c97f4d91645984d520e0bbb870217a8b467cbfcf1ad02909",
+      "bytes": 1159215,
+      "source_sha256": "00c208d5f0b107efdf5f987a64210cc7ecede8bbc94210d31b6b8fe351fb1048",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4471/bbn-4471-capture-01.jpg": {
+      "title": "bbn 4471 — selected capture 1",
+      "sha256": "779ad502e38b71eab3e5fbc00512c8c55a257caddfe4593effd02006bfd6fda5",
+      "bytes": 875050,
+      "source_sha256": "73bb3adfcbce9a70d3b05d2a646fb08a8c7d67393f1d415db5f5f9361c03b592",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4471/bbn-4471-pii-iii.jpg": {
+      "title": "bbn 4471 — printed ii-iii",
+      "sha256": "eb9eedded7fb06be8bc3eb7732cc79753a9ba1008b7ab2319caaeb668576c322",
+      "bytes": 1023783,
+      "source_sha256": "bf3a9a3879871361eedd0936fd8ee385d34b6e23971dfcefd4c3f5ed8ce66cf4",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4471/bbn-4471-p1.jpg": {
+      "title": "bbn 4471 — printed 1",
+      "sha256": "e3ac97d7e30cd779551dbe8fb5d7d5df04751dbcff0c05af84c87393ed0086a5",
+      "bytes": 1163270,
+      "source_sha256": "f90e5686b15d8e63e1458da22d0e29d1f76e87f86766c5563c8b9169a00407b5",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4471/bbn-4471-p2-3.jpg": {
+      "title": "bbn 4471 — printed 2-3",
+      "sha256": "c7455179b2d2abf1ab8449857c9c2bb4d8993d100e910a892c9b499a571463d1",
+      "bytes": 1623912,
+      "source_sha256": "901bbe493e73199bc9dad5dc919c0c16c55301130376bfffc51a107eb123262f",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4471/bbn-4471-p8-9.jpg": {
+      "title": "bbn 4471 — printed 8-9",
+      "sha256": "4603bbc5d6181b7ed974aed0588f9bf947ed6ab1e88dfdc0b23e5f6bd224bb60",
+      "bytes": 1269583,
+      "source_sha256": "fb62beabf14577d46e52cc74fb12def1ff0c157351a8a5ec9d5e9cfec151218a",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4471/bbn-4471-p12-13.jpg": {
+      "title": "bbn 4471 — printed 12-13",
+      "sha256": "2d1551bca39eef36cf2b774517e9ef8a6221954c7abc940f27b8678eebff7bf0",
+      "bytes": 1651783,
+      "source_sha256": "541baddbf73c5bf9ab48df354e3e699951f409ab9ea5922925a91cb6bd05e598",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4471/bbn-4471-p24-25.jpg": {
+      "title": "bbn 4471 — printed 24-25",
+      "sha256": "3b249d71c98edc006dd6708022365a9b6695fcbeaba17390c430a44a61632c4d",
+      "bytes": 1194068,
+      "source_sha256": "45098bc636ca5afcd8ebdadaab321579d4cceb3f073733ef1a0c32c375af0872",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4471/bbn-4471-p26-27.jpg": {
+      "title": "bbn 4471 — printed 26-27",
+      "sha256": "71728afc26a992fc13e385f327e9c1778581c1b67ec5fbc114751007575141eb",
+      "bytes": 1100493,
+      "source_sha256": "a9d39029103219ba1b82bf0137749d1c51be95bb995b8618304bfaeda5f46ab9",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-4471/bbn-4471-p28-29.jpg": {
+      "title": "bbn 4471 — printed 28-29",
+      "sha256": "1365097f55c4134c5518f899abb91eceeec1413f6cb0b039981d25c182f9d4d6",
+      "bytes": 1201891,
+      "source_sha256": "e370491f9fd6d7a580098289069b9b7ddc88ffae65fad929910939a8fa7a1502",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-6223/bbn-6223-capture-01.jpg": {
+      "title": "bbn 6223 — selected capture 1",
+      "sha256": "d59391dbfdcc300fa7d9ca6b8234ca6ede749d74a7684ee1cc78e799b56df974",
+      "bytes": 775352,
+      "source_sha256": "be639e5631fe906555d58894547f0a1eaa4c2a253ae58fa69607814896a61c41",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-6223/bbn-6223-capture-02.jpg": {
+      "title": "bbn 6223 — selected capture 2",
+      "sha256": "e23a99055dbd9fc71165c8d2ed245b020e4d176999d0ae7ed6a83502efbcf5c5",
+      "bytes": 1302481,
+      "source_sha256": "956dae115189412296817465225975ecfba6f708e22b6461604d84b7351a44cf",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-6223/bbn-6223-capture-03.jpg": {
+      "title": "bbn 6223 — selected capture 3",
+      "sha256": "bb451943e4e607908b10a5d925349f146d8ad6f75e5bf60845b689a42c38cdd5",
+      "bytes": 1494201,
+      "source_sha256": "e1d017df2ccca68446d2991027dd4e92f9a12e41b1c95894507e529703f478da",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-6223/bbn-6223-p18-19.jpg": {
+      "title": "bbn 6223 — printed ['18', '19']",
+      "sha256": "cf41bfacf1b9c946eaeea2886130370d4b4de60d213d53c350d4b1ab0b48a7bf",
+      "bytes": 1496316,
+      "source_sha256": "3b1c3627a582d219757569bdf61a526e0994167dd4e7bb0245b938cb466e3596",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-6223/bbn-6223-capture-05.jpg": {
+      "title": "bbn 6223 — selected capture 5",
+      "sha256": "64d7d93388798ee2db9c3c74dc11d937facb1f14a3b6660ab0840eff72342569",
+      "bytes": 1154611,
+      "source_sha256": "f78f224137cce92b16df8b487e3c4c2876a0466277b6ff43bcde865d116ff727",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-01.jpg": {
+      "title": "ddn program plan 1982 — selected capture 1",
+      "sha256": "efb3a1e23290b2d7dcc1980fba8bc8421d332e59a180caca241862d736004fb0",
+      "bytes": 1351353,
+      "source_sha256": "fddc5124960d843cf7239dcdc6c60f8ca3f8e6059bbec7bbb3d513e134393bdb",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-02.jpg": {
+      "title": "ddn program plan 1982 — selected capture 2",
+      "sha256": "bd51304553fdc2aaf883ff6b10f4b53500ccaa0c84451fc54eff7b133dac359a",
+      "bytes": 1555468,
+      "source_sha256": "750062ee636acb1e1c1e22ea6ba79dff4a0fb9910a62779c2b1fe0bc7d6ec200",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-03.jpg": {
+      "title": "ddn program plan 1982 — selected capture 3",
+      "sha256": "a750cb30a26f732ac478ed0d287c766d83662608878f830259a881a27dd0e851",
+      "bytes": 1571545,
+      "source_sha256": "bc93e027fa347e5bb5d1b82f8047610bed3b715a19192138b8b457096976062b",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-internet-proposal-1981/bbn-internet-proposal-1981-capture-01.jpg": {
+      "title": "bbn internet proposal 1981 — selected capture 1",
+      "sha256": "70c24cc19e5c7ea92921e0adc31d4cb618d38fbfab0c3847421b5426a57efaf6",
+      "bytes": 1185431,
+      "source_sha256": "2f7475e8db700fc889e9db3f48486322bba53cbea274d58fb3722cb6bf0b989d",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/bbn-internet-proposal-1981/bbn-internet-proposal-1981-capture-02.jpg": {
+      "title": "bbn internet proposal 1981 — selected capture 2",
+      "sha256": "e4a15155eefe6e6b4c29e9bcb63318fd685afcaeb2d419b83d5ae8f9fe370eb2",
+      "bytes": 1552080,
+      "source_sha256": "f7d4a1a0ad8514efe4dd759aa99bdf16a4bcb33c2953190ce095596cfd282219",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/inwg-96/inwg-96-p1.jpg": {
+      "title": "inwg 96 — printed 1",
+      "sha256": "825421ae63fbbcc1e70b8420e800bb9e8b7fff8106fe5ac5662e78f379e01ce1",
+      "bytes": 315955,
+      "source_sha256": "9e3681469943d3aaab1c31b5c4c5b3d56c92dd4e800aa27b884c853a7edefcac",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/inwg-96/inwg-96-p3.jpg": {
+      "title": "inwg 96 — printed 3",
+      "sha256": "9c6aa54af0d9391558e48534d7bc6c79f6e0eebb645cc0fbc33cd017b4b50aa3",
+      "bytes": 455399,
+      "source_sha256": "f9d77da0768d3a43bc2d6454cf955577391bc9f25ad78eaf84af9ffab1efe8b8",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/inwg-96/inwg-96-p5.jpg": {
+      "title": "inwg 96 — printed 5",
+      "sha256": "8237ba981cef82acb0ed1d8198489386cb44b1f5b3317cad993762ae4e4ca473",
+      "bytes": 515745,
+      "source_sha256": "a6d8f80c4162fd50bd8ff8a162084e71605e935fcaa88f6ce0eb3fb8b4137e41",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/inwg-96/inwg-96-p11.jpg": {
+      "title": "inwg 96 — printed 11",
+      "sha256": "b0cb77b409c55288fad459cae6a3903dd9dbd8d4833d95468422d0a3a05070ae",
+      "bytes": 371730,
+      "source_sha256": "dc14a08566bd328371b3e3b0e7a860e6687178af4e47bb6814ed743f412b4165",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/inwg-96/inwg-96-p24.jpg": {
+      "title": "inwg 96 — printed 24",
+      "sha256": "d40092bac3642f63fc476a88a4679b119a884b915ed4f2ebc52e75c84bb72a70",
+      "bytes": 339764,
+      "source_sha256": "242d8c42294fca5d7e52206b386e7e04986fe5927060f0443cd211afbab704ab",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/inwg-96/inwg-96-p27-Appendix-A.jpg": {
+      "title": "inwg 96 — printed 27, Appendix A",
+      "sha256": "d4cffa8c3299b8e937567ebad036fab162609e2c13e7939497b8fa2f793ab974",
+      "bytes": 489554,
+      "source_sha256": "f6ace3acfa26f1f41bc18253c9e15dbb97c44d0970e7d1b941b70b934903b819",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/inwg-96-1/inwg-96-1-pcover.jpg": {
+      "title": "inwg 96 1 — printed cover",
+      "sha256": "328a8f2c8c8abe416275b2d3a2e183b1f66a06c1d33cf1d11248838413e3e51b",
+      "bytes": 341846,
+      "source_sha256": "753c8ac6805ad1b103b42b32842b3ff722e4ff1ff8cc724e4a9f99ad21c26132",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/inwg-96-1/inwg-96-1-p3.jpg": {
+      "title": "inwg 96 1 — printed 3",
+      "sha256": "42b6f86d959e8f2dc55a8743d380e0b0f7c42df52ff68c6301419bebe791727a",
+      "bytes": 447002,
+      "source_sha256": "1c350fe48e296f0033032e81c4560902f9324094cf083406d490c5cecefb9a67",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/inwg-96-1/inwg-96-1-capture-03.jpg": {
+      "title": "inwg 96 1 — selected capture 3",
+      "sha256": "ec64e669b22ece602779ff4928d8eff2e6675002946d34326c74931b5f7b16b5",
+      "bytes": 400832,
+      "source_sha256": "8acd84edcba0de667e2a87aa5b1531337b314184891f5775ba604112238fc73d",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/inwg-96-1/inwg-96-1-capture-04.jpg": {
+      "title": "inwg 96 1 — selected capture 4",
+      "sha256": "075e38bca4579e2a3b346c1540d4ba9d91ea0021f3d30c2f6057057f300fa31d",
+      "bytes": 511081,
+      "source_sha256": "59c7483da3ad1c6c8c3bb0139005005fc5baaac05bd3cd5a3632fbb761ef5b3c",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/inwg-96-1/inwg-96-1-capture-05.jpg": {
+      "title": "inwg 96 1 — selected capture 5",
+      "sha256": "8dccc316639a674a9264b559e5546f55af9d88bdf08a18dbaf51b17aa4ce391a",
+      "bytes": 400464,
+      "source_sha256": "d9d185310c003d73e6695f7f22352df6c447f549857791188847317a415044a4",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-capture-01.jpg": {
+      "title": "committee review 1975 — selected capture 1",
+      "sha256": "e42610f4f3a176aabe75830abc98275775fa11b488b4c7582c316cf078b63f92",
+      "bytes": 1931287,
+      "source_sha256": "a26bbc6332b9e0ab7387e77f54681ea37918b55fcca6b52f7d4e19c39ebdbb11",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-capture-02.jpg": {
+      "title": "committee review 1975 — selected capture 2",
+      "sha256": "1473959f69a66bdae2e2aea7f0e9094e2742fb5827132c3a7a208fbc34bb3a08",
+      "bytes": 1729075,
+      "source_sha256": "8d027eef93c592dfb5d1341bc5e11521d621a3d14d1ddf463373d0342817ae17",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-pExecutive-Summary-first-numbered-page.jpg": {
+      "title": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee — printed Executive Summary (first numbered page)",
+      "sha256": "36d432a2456767b8cfa02aebe0d0f2590a78e67b4c3f02dd99540892cf1acc04",
+      "bytes": 2294273,
+      "source_sha256": "0913fe6e79d5f4937aef0ca63a9b3a429b48817e643e42f8f3729b8876ef5aa4",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-p2.jpg": {
+      "title": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee — printed 2",
+      "sha256": "c6cb6efcb2b64316c71db4460cf531ab76dedef08bfa11d337d166f149f8da4c",
+      "bytes": 1887495,
+      "source_sha256": "17cb5f52b927d80f061d6ca4bdfb5ed5ddb69a1cb6138b1eaeb00d8011eae699",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-p3.jpg": {
+      "title": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee — printed 3",
+      "sha256": "0751f48067e7c9a8696a182404dd2e17e17de84d571d71c1a2f5845d3078b756",
+      "bytes": 2345886,
+      "source_sha256": "d7a81de793858d84cf798f3e67b8a9e29e0e2fb508840eebd490f6bf29674b35",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-p4.jpg": {
+      "title": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee — printed 4",
+      "sha256": "b3a08bd997c4e7b764fd1bd840a11782791709c70167d7da885837fa7b1cb4de",
+      "bytes": 2581334,
+      "source_sha256": "702b184383c3734e94da7594784befcdb4a2c6501fce690502afcbb7a4af37ea",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-p5.jpg": {
+      "title": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee — printed 5",
+      "sha256": "744f705e8c16c797ecfb66ee933daacd3de8b17febc2fa8cc3736576f190693c",
+      "bytes": 2540399,
+      "source_sha256": "ec2007f169658548698152bd99c969bd70e46858cd13136a759636f2f9e69c3e",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-p6.jpg": {
+      "title": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee — printed 6",
+      "sha256": "bda568725497c68ebbc138eedf26e4e5050ab9213c587b64829688a9d4ff356b",
+      "bytes": 2591002,
+      "source_sha256": "d3e6b328b52417b4a45c0da2b965c264632cfd5f400ffb81fd588ca02da06505",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-p7.jpg": {
+      "title": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee — printed 7",
+      "sha256": "2ea0ce54a46bfda2cccc832fd263c081ce9ae9d9f5d58218a44478748f15c923",
+      "bytes": 2626813,
+      "source_sha256": "a902665a9f537bb1e5807bc713b8c15b52a939e0d952069c7d9a3e98da7130ca",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-p10.jpg": {
+      "title": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee — printed 10",
+      "sha256": "91027c55ae17cf3a9cf64aa11da32ef27bb8b4888f0031739ab964657dbd62d8",
+      "bytes": 2322634,
+      "source_sha256": "6d1e29957c0c68a0a75f5f2a7df674d7e3d44c794c3e0360af31a3cfff39998b",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-p11.jpg": {
+      "title": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee — printed 11",
+      "sha256": "5870bf05eb7e1dc084c3ebd4680f2594d14249ce648c7577de6dd68da8c4ee63",
+      "bytes": 2526881,
+      "source_sha256": "0b5c72fb991f009234f694e998028c16a471749c620662e48c65b8da2ce2dd54",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-p12.jpg": {
+      "title": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee — printed 12",
+      "sha256": "64d7e726e923577d7345ba19ff3d30cc073c6fd2f1959b323492dc06ab7774a6",
+      "bytes": 2490437,
+      "source_sha256": "20023bf5d881df321d8f355b2e34c2f74f9c42b4130058b0122129e68d5de06d",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-p13.jpg": {
+      "title": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee — printed 13",
+      "sha256": "1e9cac00d8dcf568ff3b95d339125c8099bebbc1af5eb6d2998eb56ca88fb65f",
+      "bytes": 1938120,
+      "source_sha256": "e5757b88022b9a1fb2f89fbfc9220fffe659905404f6cfe29f53ca2b4f99489e",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/committee-review-1975/committee-review-1975-pAppendix-A.jpg": {
+      "title": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee — printed Appendix A",
+      "sha256": "0d8312be4c1e9bce3ca0cd17d6e56e2d026576ab59509f6045541e1379617ebe",
+      "bytes": 1535055,
+      "source_sha256": "86b244e2cf22937b6938fc91ce3fb062763fc93f13526821fafa59e53c2ba494",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Removed identifying image metadata; compressed image data, decoded pixels, framing and orientation unchanged."
+    },
+    "sources/unique/sri-journal-36044/j36044-113.png": {
+      "title": "SRI Journal 36044, Network Operating System Study proposal, July 16, 1976; j36044-113",
+      "source_sha256": "f5437bf3793f12317f67b6900d67e7aab60af14675e99eebba03f38f7384c404",
+      "sha256": "f5437bf3793f12317f67b6900d67e7aab60af14675e99eebba03f38f7384c404",
+      "bytes": 1468177,
+      "coverage": "Two selected pages only: raw NLS pages 1 and 10, original volume PDF pages 113 and 122. The complete journal volume is not distributed.",
+      "availability": "Known CHM historical/current-host routes failed in the 2026-10-12 check; no equivalent complete online copy authenticated.",
+      "transformation": "Identifying image metadata removed; decoded source pixels unchanged."
+    },
+    "sources/unique/sri-journal-36044/j36044-122.png": {
+      "title": "SRI Journal 36044, Network Operating System Study proposal, July 16, 1976; j36044-122",
+      "source_sha256": "8050e393cc9a1c1013b5ec3bee562b0b0cf1fc6a3b55e8f3b6367811039a0912",
+      "sha256": "8050e393cc9a1c1013b5ec3bee562b0b0cf1fc6a3b55e8f3b6367811039a0912",
+      "bytes": 1454066,
+      "coverage": "Two selected pages only: raw NLS pages 1 and 10, original volume PDF pages 113 and 122. The complete journal volume is not distributed.",
+      "availability": "Known CHM historical/current-host routes failed in the 2026-10-12 check; no equivalent complete online copy authenticated.",
+      "transformation": "Identifying image metadata removed; decoded source pixels unchanged."
+    },
+    "sources/unique/sri-contract-leaves/img_6650.jpg": {
+      "title": "SRI adjacent contract/deliverable leaf IMG_6650",
+      "source_sha256": "1a714503c1595813833e6e7e9695090a2dc80d284ce54ae38431ecf0abb9f1a8",
+      "sha256": "a640079cf34d8bb149c28ecac584e3f968eed694309d4d2978731a5bb36bd07a",
+      "bytes": 2092282,
+      "coverage": "One of six inspected photographs IMG_6650–6655; 6654/6655 are alternate captures. Applicable contract, date and execution remain unestablished.",
+      "availability": "No authenticated equivalent complete online original recorded; fragmentary selected captures only.",
+      "transformation": "Identifying image metadata removed; compressed image data, decoded pixels and orientation unchanged."
+    },
+    "sources/unique/sri-contract-leaves/img_6651.jpg": {
+      "title": "SRI adjacent contract/deliverable leaf IMG_6651",
+      "source_sha256": "1051b572ea2b973c2e93d0b016288515d7985e79da39b049279d0313a841a0f8",
+      "sha256": "2ed91c81677b62367f573e8d5eb80eeaff1755d726f057125fff68fe23d56fa7",
+      "bytes": 1748327,
+      "coverage": "One of six inspected photographs IMG_6650–6655; 6654/6655 are alternate captures. Applicable contract, date and execution remain unestablished.",
+      "availability": "No authenticated equivalent complete online original recorded; fragmentary selected captures only.",
+      "transformation": "Identifying image metadata removed; compressed image data, decoded pixels and orientation unchanged."
+    },
+    "sources/unique/sri-contract-leaves/img_6652.jpg": {
+      "title": "SRI adjacent contract/deliverable leaf IMG_6652",
+      "source_sha256": "bc622e0af49f0ecc0651df3008a24aee237655b85de15e7d79ccd7622ac10e42",
+      "sha256": "0171c46bd8289b122e4f61616755fc80235a3852103aa3a36960636dae05dc2f",
+      "bytes": 1940949,
+      "coverage": "One of six inspected photographs IMG_6650–6655; 6654/6655 are alternate captures. Applicable contract, date and execution remain unestablished.",
+      "availability": "No authenticated equivalent complete online original recorded; fragmentary selected captures only.",
+      "transformation": "Identifying image metadata removed; compressed image data, decoded pixels and orientation unchanged."
+    },
+    "sources/unique/sri-contract-leaves/img_6653.jpg": {
+      "title": "SRI adjacent contract/deliverable leaf IMG_6653",
+      "source_sha256": "e284739e6992e88fc3eaa6a15d18a7eda87a16a598b5d41cafe9ce310935a19f",
+      "sha256": "6a0084623eff0a01aa7586438ef4ac4361b9ef3e3a76f74d0b45d3b0c6ad3c1c",
+      "bytes": 2019787,
+      "coverage": "One of six inspected photographs IMG_6650–6655; 6654/6655 are alternate captures. Applicable contract, date and execution remain unestablished.",
+      "availability": "No authenticated equivalent complete online original recorded; fragmentary selected captures only.",
+      "transformation": "Identifying image metadata removed; compressed image data, decoded pixels and orientation unchanged."
+    },
+    "sources/unique/sri-contract-leaves/img_6654.jpg": {
+      "title": "SRI adjacent contract/deliverable leaf IMG_6654",
+      "source_sha256": "49d55c171905cbca96cab4a31d4889cb07da43aef465a74006cb6f43297a522e",
+      "sha256": "81fc0bf5658636582187d65c0b45e4d36103026c5c31f0a8a4c582d59c3a29d5",
+      "bytes": 1818458,
+      "coverage": "One of six inspected photographs IMG_6650–6655; 6654/6655 are alternate captures. Applicable contract, date and execution remain unestablished.",
+      "availability": "No authenticated equivalent complete online original recorded; fragmentary selected captures only.",
+      "transformation": "Identifying image metadata removed; compressed image data, decoded pixels and orientation unchanged."
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-04.png": {
+      "title": "ddn program plan 1982 — selected capture 4",
+      "sha256": "6e8009c09569e13ee0cb82a515ef0293e6b5321483b1c54692bfef049a0845d9",
+      "bytes": 5836826,
+      "source_sha256": "2b53bafac49b75bf1b52d29b39d5f62e90d5a3d14471bb7de07286287f103ff8",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Identifying metadata removed. An opaque corner redaction removes the photographer’s hand in the outer lower margin; historical text and page numbers retained. Stored as lossless PNG; every pixel outside the recorded redaction matches the decoded original.",
+      "margin_redaction_pixels": [
+        0,
+        2154,
+        261,
+        2448
+      ],
+      "source_dimensions": [
+        3264,
+        2448
+      ]
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-05.png": {
+      "title": "ddn program plan 1982 — selected capture 5",
+      "sha256": "7e7e9472419f93fd32b3401d08f99cd28866a7388f7aecdd9c2036d7bb8f02ad",
+      "bytes": 6676494,
+      "source_sha256": "96fba92794e5603bfb17b1bf856728d516b724542032690962d58234f36acf22",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Identifying metadata removed. An opaque corner redaction removes the photographer’s hand in the outer lower margin; historical text and page numbers retained. Stored as lossless PNG; every pixel outside the recorded redaction matches the decoded original.",
+      "margin_redaction_pixels": [
+        0,
+        2154,
+        261,
+        2448
+      ],
+      "source_dimensions": [
+        3264,
+        2448
+      ]
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-06.png": {
+      "title": "ddn program plan 1982 — selected capture 6",
+      "sha256": "fec32d380e2fe7073150def7a4c6a539160209968d32f010b7057a1c02a46f5f",
+      "bytes": 6187600,
+      "source_sha256": "77a7dc00b27ece2738aec756f78cf6840dbc1f9f3427e18ee52ab3b4a8878cf7",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Identifying metadata removed. An opaque corner redaction removes the photographer’s hand in the outer lower margin; historical text and page numbers retained. Stored as lossless PNG; every pixel outside the recorded redaction matches the decoded original.",
+      "margin_redaction_pixels": [
+        0,
+        2154,
+        261,
+        2448
+      ],
+      "source_dimensions": [
+        3264,
+        2448
+      ]
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-07.png": {
+      "title": "ddn program plan 1982 — selected capture 7",
+      "sha256": "d65722f3b693d3372a64cae24eff9ea2f264fc705d4579993f31298bb61afa1d",
+      "bytes": 5532432,
+      "source_sha256": "5b562afab39ce75d08ff2b8cbd0f816e22eef2e1210bd79616c29c95b9b70901",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Identifying metadata removed. An opaque corner redaction removes the photographer’s hand in the outer lower margin; historical text and page numbers retained. Stored as lossless PNG; every pixel outside the recorded redaction matches the decoded original.",
+      "margin_redaction_pixels": [
+        0,
+        2154,
+        261,
+        2448
+      ],
+      "source_dimensions": [
+        3264,
+        2448
+      ]
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-08.png": {
+      "title": "ddn program plan 1982 — selected capture 8",
+      "sha256": "c4c0c15652449fd9dd58bd6567b4e1f07bdf11357c31df9907026057dec40546",
+      "bytes": 5312171,
+      "source_sha256": "f29e3a99b92cb92b19e3b3997d93073d84af09bbfd24c75ae9600b8521aa4c24",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Identifying metadata removed. An opaque corner redaction removes the photographer’s hand in the outer lower margin; historical text and page numbers retained. Stored as lossless PNG; every pixel outside the recorded redaction matches the decoded original.",
+      "margin_redaction_pixels": [
+        0,
+        2154,
+        261,
+        2448
+      ],
+      "source_dimensions": [
+        3264,
+        2448
+      ]
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-09.png": {
+      "title": "ddn program plan 1982 — selected capture 9",
+      "sha256": "a2193f94743cbff5d1c0aa9f3b9126f2b02d06390ce85882b34eac4f60d380cf",
+      "bytes": 4874237,
+      "source_sha256": "ea8953b0e11ce2c91aeca5d3fe5524b09991b2f4e4824014802cdf68a6191c89",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Identifying metadata removed. An opaque corner redaction removes the photographer’s hand in the outer lower margin; historical text and page numbers retained. Stored as lossless PNG; every pixel outside the recorded redaction matches the decoded original.",
+      "margin_redaction_pixels": [
+        0,
+        2154,
+        261,
+        2448
+      ],
+      "source_dimensions": [
+        3264,
+        2448
+      ]
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-10.png": {
+      "title": "ddn program plan 1982 — selected capture 10",
+      "sha256": "453942b3122ec37fe9708283383bc7552404c967aa6ef8afb18a63f75400044a",
+      "bytes": 6657902,
+      "source_sha256": "70077873a31213da6b9eec8ee8d1e25eaf3547cb4ad963af94d0b7b7adde91c5",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Identifying metadata removed. An opaque corner redaction removes the photographer’s hand in the outer lower margin; historical text and page numbers retained. Stored as lossless PNG; every pixel outside the recorded redaction matches the decoded original.",
+      "margin_redaction_pixels": [
+        0,
+        2154,
+        261,
+        2448
+      ],
+      "source_dimensions": [
+        3264,
+        2448
+      ]
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-11.png": {
+      "title": "ddn program plan 1982 — selected capture 11",
+      "sha256": "b38ef03d1ecb85754eab40fca77908629fc2482ee5b3b891bf6fe2d59a7b0547",
+      "bytes": 5573163,
+      "source_sha256": "00c5779fb0b5a01a76f760a8d7d4de06af123989c78968e5ec5093780bd6a58c",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Identifying metadata removed. An opaque corner redaction removes the photographer’s hand in the outer lower margin; historical text and page numbers retained. Stored as lossless PNG; every pixel outside the recorded redaction matches the decoded original.",
+      "margin_redaction_pixels": [
+        3002,
+        2154,
+        3264,
+        2448
+      ],
+      "source_dimensions": [
+        3264,
+        2448
+      ]
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-12.png": {
+      "title": "ddn program plan 1982 — selected capture 12",
+      "sha256": "975805db20b206df889c6b76429fd4f2db7190921d22a7ac28dac5f5136ff9db",
+      "bytes": 5236645,
+      "source_sha256": "287bd62e3b640ade321a6789f535437d57b64fe34627c372faa53a6c34738392",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Identifying metadata removed. An opaque corner redaction removes the photographer’s hand in the outer lower margin; historical text and page numbers retained. Stored as lossless PNG; every pixel outside the recorded redaction matches the decoded original.",
+      "margin_redaction_pixels": [
+        3002,
+        2154,
+        3264,
+        2448
+      ],
+      "source_dimensions": [
+        3264,
+        2448
+      ]
+    },
+    "sources/unique/ddn-program-plan-1982/ddn-program-plan-1982-capture-13.png": {
+      "title": "ddn program plan 1982 — selected capture 13",
+      "sha256": "ee4a3964239495273c534c7d713ffc863810960104567bed47c78019da2696ec",
+      "bytes": 6493563,
+      "source_sha256": "2fa46c5bf5b189ffae6d326ce9d6c93b657be9a00208f5638ae0dffd823d33be",
+      "coverage": "Selected preserved page; see cited notebook and reading record for printed locators and inspection limits.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Identifying metadata removed. An opaque corner redaction removes the photographer’s hand in the outer lower margin; historical text and page numbers retained. Stored as lossless PNG; every pixel outside the recorded redaction matches the decoded original.",
+      "margin_redaction_pixels": [
+        3002,
+        2154,
+        3264,
+        2448
+      ],
+      "source_dimensions": [
+        3264,
+        2448
+      ]
+    },
+    "sources/unique/sri-contract-leaves/img_6655.png": {
+      "title": "SRI adjacent contract/deliverable leaf IMG_6655",
+      "source_sha256": "b47372bd2576e425229cd20e0e6ccb1fcf3136ed26c7b6dcbef9cc5c928686da",
+      "sha256": "1715cba402bc986c1d77772cd003161ffae81d755585663daff0a1280de1085a",
+      "bytes": 10383568,
+      "coverage": "One of six inspected photographs IMG_6650–6655; 6654/6655 are alternate captures. Applicable contract, date and execution remain unestablished.",
+      "availability": "No authenticated equivalent complete online original recorded; fragmentary selected captures only.",
+      "transformation": "Identifying metadata removed. An opaque lower-left margin redaction removes the photographer’s hand; historical text is retained. Stored as lossless PNG; every pixel outside the recorded redaction matches the displayed decoded original.",
+      "margin_redaction_pixels": [
+        0,
+        3890,
+        468,
+        4032
+      ],
+      "source_dimensions": [
+        3024,
+        4032
+      ]
+    },
+    "sources/unique/netinfo/vendors-guide.txt": {
+      "title": "NIC native ASCII: vendors-guide.doc",
+      "sha256": "a56b4d9e79be49be884ced6747bddcf58c95409871e2f4e2f6dafd93c9d62216",
+      "bytes": 369367,
+      "source_sha256": "a56b4d9e79be49be884ced6747bddcf58c95409871e2f4e2f6dafd93c9d62216",
+      "coverage": "Complete native ASCII file retained; inspection scope is limited to the sections described in the BLACKER notebook and reading records.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Native ASCII copied unchanged; identifying local path and filesystem metadata not exported."
+    },
+    "sources/unique/netinfo/nic-pubs.txt": {
+      "title": "NIC native ASCII: nic-pubs.txt",
+      "sha256": "c343e852605bc7c83be018b423b753d59f8a56abca0cef2b986c732e65849d89",
+      "bytes": 8730,
+      "source_sha256": "c343e852605bc7c83be018b423b753d59f8a56abca0cef2b986c732e65849d89",
+      "coverage": "Complete native ASCII file retained; inspection scope is limited to the sections described in the BLACKER notebook and reading records.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Native ASCII copied unchanged; identifying local path and filesystem metadata not exported."
+    },
+    "sources/unique/netinfo/nug.txt": {
+      "title": "NIC native ASCII: nug.doc",
+      "sha256": "1ba272f4c6b4b237ae165a151002200a83ae010c961d7686c3ccfd5866a14b57",
+      "bytes": 224766,
+      "source_sha256": "1ba272f4c6b4b237ae165a151002200a83ae010c961d7686c3ccfd5866a14b57",
+      "coverage": "Complete native ASCII file retained; inspection scope is limited to the sections described in the BLACKER notebook and reading records.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Native ASCII copied unchanged; identifying local path and filesystem metadata not exported."
+    },
+    "sources/unique/netinfo/what-the-nic-does.txt": {
+      "title": "NIC native ASCII: what-the-nic-does.txt",
+      "sha256": "e338e707e70b4eba070f0190c59b5f57b3740bc2a7fde302e052c7a37f766854",
+      "bytes": 15608,
+      "source_sha256": "e338e707e70b4eba070f0190c59b5f57b3740bc2a7fde302e052c7a37f766854",
+      "coverage": "Complete native ASCII file retained; inspection scope is limited to the sections described in the BLACKER notebook and reading records.",
+      "availability": "No equivalent complete online copy authenticated in the recorded bounded checks.",
+      "transformation": "Native ASCII copied unchanged; identifying local path and filesystem metadata not exported."
+    }
+  }
+}

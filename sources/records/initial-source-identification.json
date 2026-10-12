@@ -1,0 +1,855 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "research_date": "2026-09-11",
+  "purpose": "Source identification for AUTODIN II requirement persistence and architectural influence; current interpretations belong in the topic notebooks.",
+  "evidence_policy": "Separate requirement, recommendation, implementation description/static code, reported measured behavior, and operational deployment. OCR is discovery, not final textual authority. Reported results are not independent reproduction.",
+  "source_identity": {
+    "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+    "title": "Transmission Control Protocol Specification",
+    "authors": [
+      "Jonathan B. Postel",
+      "Larry L. Garlick",
+      "Raphael Rom"
+    ],
+    "organization": "Stanford Research Institute",
+    "date": "1976-07-15",
+    "contract": "DCA100-76-C-0034",
+    "pages": 182,
+    "chm_accession": "102697649",
+    "body_identifier": "35938, internal headers July 11, 1976",
+    "appendices_identifier": "35939, internal headers July 12, 1976; separate July 15 title at PDF 114",
+    "ddn_catalog_match": "Previously located entry 76-0947 matches title/date/report identity; not a claim that the entry number is printed in this copy.",
+    "appendix_comparison": "TCP A1-A3 (PDF 115-117) and THP A1-A3 (PDF 82-84) share address roles and mappings. THP adds higher-layer concealment wording. Earlier possible TCP/THP citation mismatch is resolved."
+  },
+  "documents": [
+    {
+      "report": "BBN 3119",
+      "author": "G. Falk and J. McQuillan",
+      "date": "1975-09-15",
+      "coverage": "1974-11-07 through 1975-08-31",
+      "level": "Architectural recommendations and supporting technical memoranda; adoption not established",
+      "photo_count": 155
+    },
+    {
+      "report": "BBN 3900",
+      "author": "Michael A. Wingfield",
+      "date": "1978-08-01",
+      "level": "TCP-4/AUTODIN adaptation and replaceable PSIP design, largely future tense"
+    },
+    {
+      "report": "BBN 3664",
+      "author": "Joanne Levin",
+      "date": "1979-08",
+      "level": "Reported completed EDN TCP functional and performance tests; raw logs separately bound and absent",
+      "photo_count": 92,
+      "qualification": "TCC >255 truncated at user interface. Version 3 and January 1968 reference in p. 1 conflicts with related TCP-4 design labels; do not silently correct or assume exact revision identity."
+    },
+    {
+      "report": "BBN 4129",
+      "author": "Michael A. Wingfield",
+      "date": "1979-10",
+      "level": "Proposed host/SIP/ADCCP/TCP tests with an AUTODIN switch; no completion record found in inspected scope",
+      "photo_count": 31
+    },
+    {
+      "report": "BBN 4471",
+      "author": "John S. Quarterman",
+      "date": "1980-08-29",
+      "level": "Reported Unix AUTODIN II FTP implementation testing on EDN/ARPANET; incomplete local photographs",
+      "photo_count": 20,
+      "missing": "Body after p. 29, including Results pp. 48-58, references p. 59, and appendices; TOC is evidence of these sections, not their contents.",
+      "qualifications": [
+        "F9 not performed, despite summary wording not passed",
+        "Actual repeated memory exhaustion and connection resets documented separately",
+        "TCP user-ID missing; not evidence that local S/P/T authorization was absent",
+        "Maximum reported throughput bypassed network; source unit baud retained"
+      ]
+    },
+    {
+      "report": "BBN 4068",
+      "date": "1979-02",
+      "level": "Separate ARPA-sponsored TCP-4 progress, not automatically attributable to DCA AUTODIN implementation",
+      "printed_pages": "44-45",
+      "pdf_pages": [
+        6,
+        7
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "bytes": 40664598,
+      "sha256": "431f4e75543cbab086fd8c8fef042740db0f8c77ea098961e3275ff2194804f6"
+    },
+    {
+      "path": "../unique/bbn-3119/bbn-3119-p32-33.jpg",
+      "bytes": 1410896,
+      "sha256": "bae0cc24b3b4963850fc693da5df826bc78ca9cda34bbb05bdc3ef6e54441d69"
+    },
+    {
+      "path": "../unique/bbn-3119/bbn-3119-p74-75.jpg",
+      "bytes": 1400983,
+      "sha256": "7697ddcfc29cce781072c70ed782dcd7dd57403676ead79699bd5de36804645c"
+    },
+    {
+      "path": "../unique/bbn-3119/bbn-3119-p158-159.jpg",
+      "bytes": 1415885,
+      "sha256": "4d16181276bafd773e84f07afb9280fb34e4d0cadbdc505ef2f135596b617830"
+    },
+    {
+      "path": "../unique/bbn-3119/bbn-3119-p162-163.jpg",
+      "bytes": 1389782,
+      "sha256": "335d981f9a88dd1f6876d054f48874bf1d44b299f3734792cb472587ac8e545a"
+    },
+    {
+      "path": "../unique/bbn-3119/bbn-3119-p164-165.jpg",
+      "bytes": 1267344,
+      "sha256": "118adfd899c38a2524bcfc3b87a7cd8718f9f0732821c821da28987a72aeb48f"
+    },
+    {
+      "path": "../unique/bbn-3119/bbn-3119-p172-173.jpg",
+      "bytes": 1243799,
+      "sha256": "96b29ad4870974ca770c3acae4ff617eadfdc6fe752225cf63c7cc88d6b3f678"
+    },
+    {
+      "path": "../unique/bbn-3119/bbn-3119-p178-179.jpg",
+      "bytes": 1184290,
+      "sha256": "9b7bc0032c5b72c2193ac933516d8f7bd6bcd2d9327086641a65bf730fbde873"
+    },
+    {
+      "path": "../unique/bbn-3119/bbn-3119-p182-183.jpg",
+      "bytes": 1336637,
+      "sha256": "f619378ed5329e5aac50c78f68fc03949292c3b69b5f51c85e99454819db6cad"
+    },
+    {
+      "path": "../unique/bbn-3119/bbn-3119-p184-185.jpg",
+      "bytes": 1308856,
+      "sha256": "f6710fb19a1c39084c9583802afea666cf8d6a4133f901bd4e517937b2ee2380"
+    },
+    {
+      "path": "../unique/bbn-3664/bbn-3664-p1.jpg",
+      "bytes": 1344448,
+      "sha256": "7d95fad441966fa0636c2bafce0e0633c84dc787e278d02aca4623d1888166c8"
+    },
+    {
+      "path": "../unique/bbn-3664/bbn-3664-p2.jpg",
+      "bytes": 1152482,
+      "sha256": "ca7a48414482d13d17e548c7c795d8582f85cf6ba3634f72f9c5246ea142de98"
+    },
+    {
+      "path": "../unique/bbn-3664/bbn-3664-p3.jpg",
+      "bytes": 1057261,
+      "sha256": "e5b4edde33465d8153033a3b7de5e2f914ae759b49a46d33dbcdacbaaf429a66"
+    },
+    {
+      "path": "../unique/bbn-3664/bbn-3664-p6.jpg",
+      "bytes": 1095901,
+      "sha256": "792a50a4a042adb1c859aed3ec2adf77b1082a6d699399c8157a09e666eece0c"
+    },
+    {
+      "path": "../unique/bbn-3664/bbn-3664-p13.jpg",
+      "bytes": 1026624,
+      "sha256": "883e74b6b36a996a0a973f97cc313f0645ac7b72313416c7307b8c796c52aa37"
+    },
+    {
+      "path": "../unique/bbn-3664/bbn-3664-p14.jpg",
+      "bytes": 1354468,
+      "sha256": "b2c24aeacea44ef5ccb70d8060408fa4b60517476349876bb58cd03aabdb30b9"
+    },
+    {
+      "path": "../unique/bbn-3664/bbn-3664-p15.jpg",
+      "bytes": 1028946,
+      "sha256": "1a5ebcbf3a207c1a0cb6f27087969f1f673352dfefbd9d069fffb3e69011e91a"
+    },
+    {
+      "path": "../unique/bbn-3664/bbn-3664-pC-1.jpg",
+      "bytes": 1174546,
+      "sha256": "a73652da3934bb3730c164958e8435ee9b44e4211139b1243c96937921e62e7b"
+    },
+    {
+      "path": "../unique/bbn-3664/bbn-3664-pF-1.jpg",
+      "bytes": 771626,
+      "sha256": "07809370689c007d78f29192ab35ac415d73a65779d94c697d9a596fe0456b11"
+    },
+    {
+      "path": "../unique/bbn-3664/bbn-3664-pG-1.jpg",
+      "bytes": 779691,
+      "sha256": "4a52ce618e0c0839d7de49fa7b0eb5afecd3bbfe31e8ade22b1772ae5481914d"
+    },
+    {
+      "path": "Recorded capture, not distributed: 3722 BBN (1977) Combined Quarterly Technical Report 7, Private Line Interface Development, Packet Broadcast by Satellite, Packet Network Security, Unix System Development, Pluribus Satellite IMP Development (Report 3722) (excerpt).pdf",
+      "bytes": 2897931,
+      "sha256": "e1568a8895e679cd989a9290c2eabc69ef11f0428b0fc43264bf073db9a9109e"
+    },
+    {
+      "path": "Recorded capture, not distributed: 3824 BBN (1977) Combined Quarterly Technical Report 9, Vol. 1, Packet Broadcast by Satellite, Pluribus Satellite IMP Development, Unix System Development (Report 3824) (excerpt).pdf",
+      "bytes": 6205109,
+      "sha256": "8dd9ca1b8df447ef4d6d60783891d7170abe2b20bbce74308afb4a8ea61a01e8"
+    },
+    {
+      "path": "Recorded capture, not distributed: 3911 BBN (1978) Combined Quarterly Technical Report 10, Vol. 1, Packet Broadcast by Satellite, Pluribus Satellite IMP Development, Unix System Development (Report 3911) (excerpt).pdf",
+      "bytes": 4398846,
+      "sha256": "21b5fd128e4bddc8a44bbea3de1562899c368d3a217ef6c0411f11074a630d0f"
+    },
+    {
+      "path": "Recorded capture, not distributed: 3984 BBN (1978) Combined Quarterly Technical Report 11, Vol. 1, Packet Broadcast by Satellite, Pluribus Satellite IMP Development, Unix System Development, Remote Site Maintenance (Report 3984) (excerpt).pdf",
+      "bytes": 5352324,
+      "sha256": "941a7390a1516128060179bb8d60df54bf95ce1155c0282459757a54b37549a0"
+    },
+    {
+      "path": "../README.md#bbn-4068-excerpt",
+      "bytes": 3401949,
+      "sha256": "612f36c7dd3f014422c1b6c9e6385bc0eaf3ab1bc5d3a3e2908bb877881a6249"
+    },
+    {
+      "path": "../unique/bbn-4129/bbn-4129-p1.jpg",
+      "bytes": 1159067,
+      "sha256": "9faa0b3e94cc8ca4c973aa445ca4f6ba51c8a61bc08e9982ff90333146ba8e08"
+    },
+    {
+      "path": "../unique/bbn-4129/bbn-4129-p2-3.jpg",
+      "bytes": 1205312,
+      "sha256": "ebf980e15a6eed74e55eb01bb587e337761efde307b925172db22b57bebb696d"
+    },
+    {
+      "path": "../unique/bbn-4129/bbn-4129-p4-5.jpg",
+      "bytes": 1331755,
+      "sha256": "0c9ef31787adfae1bdc0be203be8b075fa74fa2cd45da56896c6d196d62a9f09"
+    },
+    {
+      "path": "../unique/bbn-4129/bbn-4129-p14-15.jpg",
+      "bytes": 1285342,
+      "sha256": "558787ceac17baf69da19fe1ccb2149304a41e485be0f1de39b744347c4c4871"
+    },
+    {
+      "path": "../unique/bbn-4129/bbn-4129-p20-21.jpg",
+      "bytes": 1247484,
+      "sha256": "53f4bfe7b78eeb834e3f4a0e373de92a4bfce3009778cb7b7f2f6b0ceec47fca"
+    },
+    {
+      "path": "../unique/bbn-4129/bbn-4129-p26-27.jpg",
+      "bytes": 1081436,
+      "sha256": "7fc757fdc78728bdf54a78d5ae0402ea6148bf7135569623e4670c4520483016"
+    },
+    {
+      "path": "../unique/bbn-4129/bbn-4129-p28-29.jpg",
+      "bytes": 1171503,
+      "sha256": "00c208d5f0b107efdf5f987a64210cc7ecede8bbc94210d31b6b8fe351fb1048"
+    },
+    {
+      "path": "Recorded capture, not distributed: 4133 BBN (1979) Combined Quarterly Technical Report 13, Packet Broadcast by Satellite, Pluribus Satellite IMP Development, Unix System Development, Internet Development, HP3000 Front End (Report 4133) (excerpt).pdf",
+      "bytes": 5191468,
+      "sha256": "8d0f7c1e02da7e23e986650e0921f4db3c7b5e2f7cac51f17c31e04a2d113bb4"
+    },
+    {
+      "path": "../unique/bbn-4471/bbn-4471-pii-iii.jpg",
+      "bytes": 1031975,
+      "sha256": "bf3a9a3879871361eedd0936fd8ee385d34b6e23971dfcefd4c3f5ed8ce66cf4"
+    },
+    {
+      "path": "Recorded capture, not distributed: 2015-07-29 10.51.07.jpg",
+      "bytes": 946905,
+      "sha256": "f3cd275e2ede1fe42e4187b936090d2be3f03964de3ce521052883590f2a1fcc"
+    },
+    {
+      "path": "../unique/bbn-4471/bbn-4471-p1.jpg",
+      "bytes": 1175558,
+      "sha256": "f90e5686b15d8e63e1458da22d0e29d1f76e87f86766c5563c8b9169a00407b5"
+    },
+    {
+      "path": "../unique/bbn-4471/bbn-4471-p2-3.jpg",
+      "bytes": 1636200,
+      "sha256": "901bbe493e73199bc9dad5dc919c0c16c55301130376bfffc51a107eb123262f"
+    },
+    {
+      "path": "../unique/bbn-4471/bbn-4471-p8-9.jpg",
+      "bytes": 1281871,
+      "sha256": "fb62beabf14577d46e52cc74fb12def1ff0c157351a8a5ec9d5e9cfec151218a"
+    },
+    {
+      "path": "../unique/bbn-4471/bbn-4471-p12-13.jpg",
+      "bytes": 1664071,
+      "sha256": "541baddbf73c5bf9ab48df354e3e699951f409ab9ea5922925a91cb6bd05e598"
+    },
+    {
+      "path": "../unique/bbn-4471/bbn-4471-p24-25.jpg",
+      "bytes": 1206356,
+      "sha256": "45098bc636ca5afcd8ebdadaab321579d4cceb3f073733ef1a0c32c375af0872"
+    },
+    {
+      "path": "../unique/bbn-4471/bbn-4471-p26-27.jpg",
+      "bytes": 1112781,
+      "sha256": "a9d39029103219ba1b82bf0137749d1c51be95bb995b8618304bfaeda5f46ab9"
+    },
+    {
+      "path": "../unique/bbn-4471/bbn-4471-p28-29.jpg",
+      "bytes": 1214179,
+      "sha256": "e370491f9fd6d7a580098289069b9b7ddc88ffae65fad929910939a8fa7a1502"
+    },
+    {
+      "path": "Recorded capture, not distributed: 5345 BBN (1983) Combined Quarterly Technical Report 29, Satnet Development and Operation, Pluribus Satellite IMP Development, Internet Operations and Maintenance, Mobile Access Terminal Network (Report 5345) (excerpt).pdf",
+      "bytes": 2081345,
+      "sha256": "3a52c6f929f2662b468ac248399b2b6efed7d1ef9bdf601d9b5f1c858a43d4b7"
+    },
+    {
+      "path": "../unique/bbn3900-1978.pdf",
+      "bytes": 1132082,
+      "sha256": "fa667fba57d18aed164dd8e898214c8841b4a65422c8ebb6b454f72aaff3db52"
+    },
+    {
+      "path": "../README.md#terminal-to-host-protocol-1976",
+      "bytes": 83143543,
+      "sha256": "550d63d6b8b6af8d70edd114045a42fcfbe37f4cbce49779050227f8305ffaea"
+    }
+  ],
+  "original_image_inspections": [
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 1,
+      "subject": "CHM accession cover 102697649",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 2,
+      "subject": "July 15, 1976 title, authors and DCA100-76-C-0034",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 3,
+      "printed_page": "i",
+      "subject": "Preface identifies final Type A AUTODIN II TCP",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 21,
+      "printed_page": "12",
+      "subject": "TCP and switch reliability responsibilities",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 26,
+      "printed_page": "17",
+      "subject": "Service requirements and unique DoD security, precedence, closed user groups",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 27,
+      "printed_page": "18",
+      "subject": "Subscriber and process controls; simplex and duplex scope",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 28,
+      "printed_page": "19",
+      "subject": "Security levels, precedence, overlapping TCC communities",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 29,
+      "printed_page": "20",
+      "subject": "OS authorization table and privileged controls",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 39,
+      "printed_page": "30",
+      "subject": "OPEN authority, parameters, local connection name, deferred synchronization",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 40,
+      "printed_page": "31",
+      "subject": "SEND letter/security interface",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 45,
+      "printed_page": "36",
+      "subject": "Implementation-independent SIP event interface",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 89,
+      "printed_page": "80",
+      "subject": "DSN resynchronization, SYN and forbidden sequence-number region",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 91,
+      "printed_page": "82",
+      "subject": "Security ceilings and direction-specific labels",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 92,
+      "printed_page": "83",
+      "subject": "Authorized precedence equalization and permitted directional asymmetry",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 101,
+      "printed_page": "92",
+      "subject": "Category I buffer preemption and resegmentation; excludes process scheduling",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 114,
+      "subject": "Separate July 15 appendices title; internal identifier 35939",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 115,
+      "printed_page": "A1",
+      "subject": "Address layers and user/TCP mappings, compared with THP",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 116,
+      "printed_page": "A2",
+      "subject": "Address mapping diagram, compared with THP",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 117,
+      "printed_page": "A3",
+      "subject": "Remaining mappings, compared with THP",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 135,
+      "printed_page": "C1",
+      "subject": "BSL field widths, redundant security/TCC and Category I indicator",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 138,
+      "printed_page": "D3, figure D1",
+      "subject": "TCP header retains internetting and fragmentation fields",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 139,
+      "printed_page": "D4",
+      "subject": "Reserved internetting fields despite omitted body treatment",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697649-05-0001.pdf",
+      "pdf_page": 141,
+      "printed_page": "D6",
+      "subject": "Fields removable under single-network assumptions; BSL supplies address",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../README.md#terminal-to-host-protocol-1976",
+      "pdf_page": 82,
+      "printed_page": "A1",
+      "subject": "Companion addressing text and higher-layer invisibility phrase",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../README.md#terminal-to-host-protocol-1976",
+      "pdf_page": 83,
+      "printed_page": "A2",
+      "subject": "Companion address mapping diagram",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../README.md#terminal-to-host-protocol-1976",
+      "pdf_page": 84,
+      "printed_page": "A3",
+      "subject": "Companion remaining address mappings",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../unique/bbn3900-1978.pdf",
+      "pdf_page": 2,
+      "subject": "Documentation title, Wingfield, August 1, 1978 and contract",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../unique/bbn3900-1978.pdf",
+      "pdf_page": 12,
+      "printed_page": "8",
+      "subject": "Explicit TCP-4/AUTODIN adaptation; old limitations; IEN 44",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../unique/bbn3900-1978.pdf",
+      "pdf_page": 13,
+      "printed_page": "9",
+      "subject": "Authorization and retained/discarded application controls",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../unique/bbn3900-1978.pdf",
+      "pdf_page": 14,
+      "printed_page": "10",
+      "subject": "MOVE, STOP/RESUME, S/P/T and planned connection preemption",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../unique/bbn3900-1978.pdf",
+      "pdf_page": 57,
+      "printed_page": "53",
+      "subject": "PSIP replacement for SIP on EDN IMPs",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../unique/bbn3900-1978.pdf",
+      "pdf_page": 58,
+      "printed_page": "54",
+      "subject": "Internet Leader filtering and reconstruction modes",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../unique/bbn3900-1978.pdf",
+      "pdf_page": 59,
+      "printed_page": "55",
+      "subject": "Gateway/research TCP compatibility design; RFNM/RFNS",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../README.md#bbn-4068-excerpt",
+      "pdf_page": 6,
+      "printed_page": "44",
+      "subject": "ARPA-sponsored TCP-4, ISI testing and incomplete fragment reassembly",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../README.md#bbn-4068-excerpt",
+      "pdf_page": 7,
+      "printed_page": "45",
+      "subject": "Secure/nonsecure parameterization and multiple logical subhosts",
+      "evidence_method": "original page image inspected after text discovery"
+    },
+    {
+      "source": "../unique/bbn-3664/bbn-3664-p1.jpg",
+      "printed_page": "1",
+      "subject": "Introduction, reported legal/illegal S/P/T tests and contradictory TCP revision/date reference",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3664/bbn-3664-p2.jpg",
+      "printed_page": "2",
+      "subject": "Correct-operation summary based on analyzed test logs",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3664/bbn-3664-p3.jpg",
+      "printed_page": "3",
+      "subject": "Maximum measured host bandwidth 22 kilobits/s; connection scaling",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3664/bbn-3664-p6.jpg",
+      "printed_page": "6",
+      "subject": "Three H316 IMPs, ARPANET protocol, 64-kbit/s links, Unix V6/RAND ports",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3664/bbn-3664-p13.jpg",
+      "printed_page": "13",
+      "subject": "Per-user authorization table fields",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3664/bbn-3664-p14.jpg",
+      "printed_page": "14",
+      "subject": "Functional commands and abnormal/concurrent conditions",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3664/bbn-3664-p15.jpg",
+      "printed_page": "15",
+      "subject": "F1.4e TCC >255 truncated modulo 256 at one-byte interface",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3664/bbn-3664-pC-1.jpg",
+      "printed_page": "C-1",
+      "subject": "S/P/T checking startup flag defaults to zero",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3664/bbn-3664-pF-1.jpg",
+      "printed_page": "F-1",
+      "subject": "Functional logs bound separately",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3664/bbn-3664-pG-1.jpg",
+      "printed_page": "G-1",
+      "subject": "Performance logs bound separately",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4129/bbn-4129-p1.jpg",
+      "printed_page": "1",
+      "subject": "Proposed PDP-11/70, TCP4/IP4, SIP, Mode VI ADCCP link",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4129/bbn-4129-p2-3.jpg",
+      "printed_page": "2-3",
+      "subject": "Host/SIP/link layered functions and diagram",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4129/bbn-4129-p4-5.jpg",
+      "printed_page": "4-5",
+      "subject": "One host and switch; four series; adjustable authorization fixtures",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4129/bbn-4129-p14-15.jpg",
+      "printed_page": "14-15",
+      "subject": "Planned ADCCP RR/RNR and reset behavior",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4129/bbn-4129-p20-21.jpg",
+      "printed_page": "20-21",
+      "subject": "Planned SIP inoperable/busy/operable transitions",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4129/bbn-4129-p26-27.jpg",
+      "printed_page": "26-27",
+      "subject": "Planned precedence/security rejection, host authority above switch limit",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4129/bbn-4129-p28-29.jpg",
+      "printed_page": "28-29",
+      "subject": "Planned TCC rejection and component-isolating performance loops",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4471/bbn-4471-pii-iii.jpg",
+      "printed_page": "ii-iii",
+      "subject": "Contents locate concluding Results at 48, performance results at 49, references at 59",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "Recorded capture, not distributed: 2015-07-29 10.51.07.jpg",
+      "printed_page": "iv-v",
+      "subject": "Tables and appendices listing; later contents not present locally",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4471/bbn-4471-p1.jpg",
+      "printed_page": "1",
+      "subject": "First AUTODIN II FTP implementation, fcp, Unix, EDN/ARPANET",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4471/bbn-4471-p2-3.jpg",
+      "printed_page": "2-3",
+      "subject": "Reported functional successes, unpassed recovery test and throughput limits",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4471/bbn-4471-p8-9.jpg",
+      "printed_page": "8-9",
+      "subject": "PDP-11/40 gateway and TCP4/PSIP stack used for some tests",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4471/bbn-4471-p12-13.jpg",
+      "printed_page": "12-13",
+      "subject": "Unimplemented TCP user-ID; separate logins and memory limits",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4471/bbn-4471-p24-25.jpg",
+      "printed_page": "24-25",
+      "subject": "Actual repeated memory exhaustion, process death and TCP reset",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4471/bbn-4471-p26-27.jpg",
+      "printed_page": "26-27",
+      "subject": "F9 network-induced failure test explicitly not performed",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-4471/bbn-4471-p28-29.jpg",
+      "printed_page": "28-29",
+      "subject": "Available measured binary rates and end of local copy during P2",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3119/bbn-3119-p32-33.jpg",
+      "printed_page": "32-33",
+      "subject": "Host loss/duplicate recovery but reliance on link checks instead of host checksum",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3119/bbn-3119-p74-75.jpg",
+      "printed_page": "74-75",
+      "subject": "Minimum switch functions; server hosts and distributed services; NCC limits",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3119/bbn-3119-p158-159.jpg",
+      "printed_page": "158-159",
+      "subject": "TM-24 physical/logical alternatives; critique of February 1975 hybrid",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3119/bbn-3119-p162-163.jpg",
+      "printed_page": "162-163",
+      "subject": "Adaptive switch mapping versus server mapping and host routing",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3119/bbn-3119-p164-165.jpg",
+      "printed_page": "164-165",
+      "subject": "Fixed logical addresses invariant under changed attachment; partitioned mapping recommendation",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3119/bbn-3119-p172-173.jpg",
+      "printed_page": "172-173",
+      "subject": "TM-29 host protocol independence from switch behavior",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3119/bbn-3119-p178-179.jpg",
+      "printed_page": "178-179",
+      "subject": "TM-31 host loss/duplicate recovery; switch-state transfer absent from current design",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3119/bbn-3119-p182-183.jpg",
+      "printed_page": "182-183",
+      "subject": "Per-segment versus per-transaction circuit allocation",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    },
+    {
+      "source": "../unique/bbn-3119/bbn-3119-p184-185.jpg",
+      "printed_page": "184-185",
+      "subject": "Preferred dynamic transaction allocation and retained network state",
+      "evidence_method": "original photograph inspected after OCR discovery"
+    }
+  ],
+  "standards_crosschecks": [
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc791.html",
+      "locators": "pp. 12, 17-18",
+      "use": "1981 precedence and security option, dedicated 24-bit TCC"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc793.html",
+      "locators": "sections 2.9, 3.6, 3.8",
+      "use": "1981 authorization and security/precedence connection rules; differ from SRI 1976"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc1108.html",
+      "locators": "sections 2.1-2.4, 2.7.3 (p. 11)",
+      "use": "Replacement option classification/protection authorities; dedicated old TCC no longer retained in this layout; explicit limited use statement"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc2873.html",
+      "use": "2000 conflict with packet remarking and removal of TCP precedence checks; not an AUTODIN attribution by the RFC"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "locators": "Appendix A.1",
+      "use": "Current TCP incorporates changed precedence handling and specialized MLS security treatment"
+    }
+  ],
+  "bounded_followup_discovery": {
+    "related_reports": [
+      "3722",
+      "3824",
+      "3911",
+      "3984",
+      "4068",
+      "4133",
+      "5345"
+    ],
+    "scope": "Selected local PDF excerpts searched via text, not exhaustive inspection of the full BBN archive. Only the 4068 passages identified above were newly used as visually checked progress-report evidence.",
+    "4471_recovery_search": "Local filename and public report-number/title/author searches did not locate a complete copy. This is a bounded search outcome, not proof that no full copy exists.",
+    "3900_followup": "Followed the implementation-report reference in BBN 3664. Original PDF text layer contains little useful text; new OCR used for discovery.",
+    "negative_evidence_limit": "Absent terms in short progress excerpts do not establish absence of features, work, or reports."
+  },
+  "corrections_and_conclusions": [
+    "Missing July 1976 SRI TCP source is recovered and identified before substantive use.",
+    "TCP and THP both contain Appendix A; previous possible citation mismatch withdrawn.",
+    "Requirement continuity through the 1980s is stronger than wire-format or immutable connection-policy continuity.",
+    "Reported EDN S/P/T tests strengthen implementation evidence while retaining TCC exception and missing-log limits.",
+    "AUTODIN II FTP names the protocol/application project, not the physical network carrying every test.",
+    "BBN 3119 supplies explicit architectural alternatives, including logical addresses invariant under changes of attachment; it also retains network state and trusts link checks, qualifying a simple end-to-end origin narrative.",
+    "Documented architectural reasoning and adaptation do not prove causation of the TCP/IP split or final Internet address choices."
+  ],
+  "batch2_2026_09_11_followup": {
+    "resolved_or_advanced": [
+      "Western Union revision-3 full scan and original-page comparison completed",
+      "Journal 32190/36044 original identities and status clarified; 32800 references narrowed",
+      "Focused INWG 96/96.1 original-page comparison completed",
+      "March 21, 1989 native BLACKER ICD recovered, with distinct gateway/final-destination provision"
+    ],
+    "outstanding_in_resumption_order": [
+      {
+        "priority": 1,
+        "target": "Journal 32800 referenced memoranda and NAC study; DCA100-76-C-0034 contract/SOW/reviews and causal correspondence",
+        "status": "Not recovered in bounded local/public discovery",
+        "next_evidence": "Exact January 9, 1975 ARPA memo, June 1975 DTACCS memo and NAC study; unsampled SRI photographs; contract and review files. Preserve clipped date rather than guessing."
+      },
+      {
+        "priority": 2,
+        "target": "DCA cost/schedule analysis due April 1979, PSTP minutes, contractor implementation and deferral rationale",
+        "status": "Orders and management plan recovered; requested analysis, minutes and rationale not recovered",
+        "next_evidence": "CHM SRI ARC/NIC DCA library, subseries 3.3 and box 062309881 indexes; document presence not confirmed."
+      },
+      {
+        "priority": 3,
+        "target": "DDN Subscriber Guide to Security Services, 1985-1992, p. 57; 1985 KI-111/BLACKER ICDs",
+        "status": "Guide not recovered; 85-1188/1190/2726 are catalog leads only. Local March 1989 ICD recovered.",
+        "next_evidence": "Compare 85-1190 and 85-2726 (SDC A016-65) with March 1989 section 2.4.3; determine earlier revision, decision provenance and deployment. 85-1188 is separate evolution draft."
+      },
+      {
+        "priority": 4,
+        "target": "1981-82 design-team/program evaluations, alternative-system cost comparison, announced GAO audit and program-plan versions",
+        "status": "GAO procedural decision and prior abridged DDN plan available; missing evaluations/audit not retrieved",
+        "next_evidence": "B-206979 leads to Western Union DCA200-C-637, competing plans and evaluation board; no inference that allegations were engineering findings."
+      },
+      {
+        "priority": 5,
+        "target": "Earlier Western Union editions and implementation/acceptance records; Cerf January 1976 resynchronization note and adoption/rejection correspondence",
+        "next_evidence": "1979 editions; resolve 512 versus 0-512 TCC discrepancy; SU-DSL Technical Note 79 is a reference lead, not newly read."
+      },
+      {
+        "priority": 6,
+        "target": "BBN 3664 logs, 4471 later results, 4129 execution records and exact source-code revision identity",
+        "status": "Previously known gaps retained as secondary; no useful new direct lead emerged",
+        "next_evidence": "Use first September 11 source record and code-evidence index; do not reopen the resolved SRI Appendix A question."
+      }
+    ],
+    "previous_inspection_policy": "Earlier image-inspection claims are retained as recorded. New inspections and corrected current statuses are in the second batch record."
+  }
+}

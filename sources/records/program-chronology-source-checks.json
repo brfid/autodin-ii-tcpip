@@ -1,0 +1,176 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-19",
+  "scope": "Source checks for the bracketed editorial instructions in the author checkpoint 7725265. No optional archival batch, historical code execution, site export, publication, or remote push.",
+  "online_sources": [
+    {
+      "title": "RFC 675, December 1974",
+      "url": "https://www.rfc-editor.org/rfc/rfc675.html",
+      "locator": "Opening description",
+      "finding_and_limit": "Existing internetwork TCP specification before the AUTODIN II deliverable; checked online text.",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "title": "RFC 694, June 18, 1975",
+      "url": "https://www.rfc-editor.org/rfc/rfc694.html",
+      "locator": "TCP entry, printed pp. 8–10, particularly May 30 entry on p. 10",
+      "finding_and_limit": "BBN-TENEXA running implementation; Stanford debugging and UCL coding. Printed schedule statements and reported current status remain distinct.",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "title": "IEN 151, April 1, 1980",
+      "url": "https://history.rfc-editor.org/ien/ien151.txt",
+      "locator": "Abstract and introduction, printed pp. 1–2",
+      "finding_and_limit": "Stanford contract July 1973–September 1976, BBN design and implementation participation, and intermediate AUTODIN II specification. Used for those facts, not to override dates of original protocol editions.",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "title": "Vint Cerf, A Brief History of the Internet & Related Networks",
+      "url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet-related-networks/",
+      "locator": "Opening section, public-domain and commercial implementations paragraph",
+      "finding_and_limit": "Participant retrospective; identifies both kinds of implementation in the 1980s, not universal free availability.",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "title": "Barry Leiner et al., A Brief History of the Internet, 1997",
+      "url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/",
+      "locator": "Origins of the Internet; Proving the Ideas",
+      "finding_and_limit": "Participant retrospective; BBN IMP contract and DARPA-supported BBN/Berkeley software distribution. No claim of first implementation among all competing protocols.",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "title": "RFC 801, November 1981",
+      "url": "https://www.rfc-editor.org/rfc/rfc801.html",
+      "locator": "The General Plan, printed pp. 2–3",
+      "finding_and_limit": "Planned transition by January 1, 1983; does not independently verify every host completed the transition.",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "title": "Cerf and Kahn, A Protocol for Packet Network Intercommunication, May 1974",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf",
+      "locator": "13-page reprint; PDF pp. 12–13, conclusion, acknowledgment and references",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "title": "DARPA, ARPANET retrospective",
+      "url": "https://www.darpa.mil/news/features/arpanet",
+      "locator": "Passage on Kahn hiring Cerf in 1976",
+      "finding_and_limit": "Used for Cerf appointment date only; does not date establishment of the Internetting program.",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "title": "RFC 827, October 1982",
+      "url": "https://www.rfc-editor.org/rfc/rfc827.html",
+      "locator": "Section 1, printed pp. 1–3",
+      "finding_and_limit": "Core gateway system on ARPANET and SATNET, distinct from the underlying packet-switching networks.",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "title": "RFC 820, January 1983",
+      "url": "https://www.rfc-editor.org/rfc/rfc820.html",
+      "locator": "Assigned Autonomous System Numbers, printed p. 11",
+      "finding_and_limit": "AS 1 listed as The BBN Gateways; other usable values unassigned. Header names J. Postel and J. Vernon. No inference about a numbered autonomous system intrinsic to the ARPANET switching backbone.",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "title": "DISA, Our History",
+      "url": "https://www.disa.mil/About/Our-History",
+      "locator": "Connecting through the Cold War; A New Era: The Defense Information Systems Agency",
+      "finding_and_limit": "Agency retrospective used for common-user responsibilities and June 25, 1991 renaming.",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "title": "RFC 9293, August 2022",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html#appendix-A.1",
+      "locator": "Appendix A.1–A.1.2",
+      "finding_and_limit": "Obsolete TCP precedence processing; Class Selector compatibility and specialized MLS treatment.",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "title": "RFC 2474, December 1998",
+      "url": "https://www.rfc-editor.org/rfc/rfc2474.html",
+      "locator": "Sections 4.2.1–4.2.2",
+      "finding_and_limit": "IP precedence history and Class Selector compatibility; no claim of unchanged AUTODIN II semantics.",
+      "checked_on": "2026-09-19"
+    }
+  ],
+  "local_sources": [
+    {
+      "locator": "IEN 65, printed p. 14 / PDF p. 19",
+      "inspection": "Visual",
+      "finding": "July 1977 meeting account of Cerf proposing replacement of cross-country links and regional networks joined through gateways.",
+      "bytes": 628557,
+      "sha256": "9d7e45cb114a9f57437857ac3e98c9734d40b0c9f83c309e053ed0ff5a14efa1"
+    },
+    {
+      "path": "Recorded capture, not distributed: arpanet-newsletter-1.txt",
+      "locator": "ANEWS-1, July 1, 1980, opening and Access Policy",
+      "inspection": "Native text",
+      "finding": "Transfers of some subscribers projected from 1983; residual ARPANET and commercial networks included; access restrictions do not establish expulsion of all civilian users.",
+      "bytes": 17032,
+      "sha256": "44bfa8ae08185b31f97755a5a13687ca47b4fd6f94a63c212dc5d6b6131c8f36"
+    },
+    {
+      "locator": "Executive Summary of draft committee review, August 26–27, 1975 meeting",
+      "inspection": "Visual",
+      "finding": "Collective committee recommendations, advisory capacity and draft status.",
+      "bytes": 2304632,
+      "sha256": "0913fe6e79d5f4937aef0ca63a9b3a429b48817e643e42f8f3729b8876ef5aa4"
+    },
+    {
+      "locator": "DDN Program Plan, printed p. iii",
+      "inspection": "Visual",
+      "finding": "DCA tasking September 1981; joint CCTC and industry effort; April 2, 1982 termination; abridged edition.",
+      "bytes": 1563660,
+      "sha256": "750062ee636acb1e1c1e22ea6ba79dff4a0fb9910a62779c2b1fe0bc7d6ec200"
+    },
+    {
+      "locator": "DDN Program Plan, printed p. 1",
+      "inspection": "Visual",
+      "finding": "Joint DCA/CCTC and industry design team. Does not identify BBN as sole author or label the plan a procurement proposal.",
+      "bytes": 1672084,
+      "sha256": "2b53bafac49b75bf1b52d29b39d5f62e90d5a3d14471bb7de07286287f103ff8"
+    },
+    {
+      "path": "Recorded capture, not distributed: ada127476-pdf11.png",
+      "locator": "DSB Task Force report, December 1982, printed p. 3 / PDF p. 11",
+      "inspection": "Visual",
+      "bytes": 215355,
+      "sha256": "de0b54ca6ca19f3ef83c79688e42b99afa210109d3c23d48fe3d8e3b8e1ac61d"
+    },
+    {
+      "path": "Recorded capture, not distributed: 3119-combined.txt",
+      "locator": "Introduction and opening recommendations; photographed source paths embedded in extract",
+      "inspection": "Previously retained OCR discovery only",
+      "finding": "Earlier common-user planning and distinction from AUTODIN I message switching. No fresh visual coverage of original BBN photographs claimed.",
+      "bytes": 302927,
+      "sha256": "7366c3600d2e0dad3bd09750ed846d45bb1286f24e1b926ae061b8ac11ab6341"
+    }
+  ],
+  "retained_files": [
+    {
+      "path": "Recorded capture, not distributed: cerf-kahn-1974-princeton.pdf",
+      "bytes": 179037,
+      "sha256": "f7c614a116516e0efec906885fa3ffd9261c5101900d117b72d26d92de96d2f1",
+      "operation": "Unchanged download"
+    },
+    {
+      "path": "Recorded capture, not distributed: cerf-kahn-1974-pdf12.png",
+      "bytes": 630050,
+      "sha256": "636bbd867e07ec71e20d3324ad1688d65077365ca7cd5954b9989fef10bca140",
+      "operation": "Poppler rendering of selected PDF page, scaled to 1800 pixels"
+    },
+    {
+      "path": "Recorded capture, not distributed: cerf-kahn-1974-pdf13.png",
+      "bytes": 581467,
+      "sha256": "e267b167f110b11075eab08465b345fb27444c78b129578562bf7c5e436d5931",
+      "operation": "Poppler rendering of selected PDF page, scaled to 1800 pixels"
+    }
+  ],
+  "retrieval_limits": [
+    "The initial text transcription at https://chsasank.com/classic_papers/protocol-for-packet-network-inter-communication.html was used for discovery; the article citation uses the visually checked Princeton reprint instead.",
+    "The www.rfc-editor.org/ien/ien151.txt route returned a tool error; history.rfc-editor.org/ien/ien151.txt succeeded.",
+    "The DOI resolver and nobbyville PDF route returned tool errors. These attempts do not establish permanent unavailability.",
+    "Selected passages were checked. This is not a fresh full reading of all cited reports, a census of early protocol implementations, or a reconstruction of NPL version history."
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-26",
+  "status": "Complete as documented retrieval failure; no authenticated original or matching catalogue record recovered.",
+  "reading": "reading.md",
+  "research_record": "../../research.md",
+  "current_state": "../../questions.md",
+  "discovery_citation": {
+    "authors": [
+      "T. C. Bartee",
+      "O. P. Buneman",
+      "K. A. Gardner",
+      "M. J. Marcus"
+    ],
+    "title": "Computer Internetting: C3I Data Communications Networks",
+    "report_number": "IDA Paper P-1402",
+    "date_reported_by_lyons": "April 1979",
+    "witness": "Lyons, A Total AUTODIN System Architecture, printed p. 1471, reference 10",
+    "retained_extract": "../https://zenodo.org/records/1281114/files/article.pdf?download=1",
+    "extract_lines": [
+      286,
+      288
+    ],
+    "extract_sha256": "ecd551dd99c09fc33657b1b7641b8272c8fb03e310fec6e07080920e99039dfd",
+    "new_visual_reading_of_lyons": false,
+    "status": "Discovery handle reused; no independent authentication against the report."
+  },
+  "original_report": {
+    "recovered": false,
+    "authenticated": false,
+    "screening_page_cap": 12,
+    "connection_to_dinneen_order": "Unknown; matching cited month does not establish identity with the ordered analysis."
+  },
+  "ida": {
+    "start_url": "https://www.ida.org/",
+    "homepage_result": "Web tool fetch failed: 404 Not Found; not a finding about holdings or site-wide availability.",
+    "queries_used": 4,
+    "query_cap": 4,
+    "terms": [
+      "P-1402",
+      "P 1402",
+      "Computer Internetting",
+      "Bartee Buneman"
+    ],
+    "route": "site:ida.org with domains restriction ida.org",
+    "returned_entries": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "inspected_entries": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "truncation": "None exposed; search index completeness unknown.",
+    "raw_responses": "retrieval/ida-web-responses.json"
+  },
+  "ntis": {
+    "url": "https://ntrl.ntis.gov/NTRL/",
+    "control": {
+      "accession": "ADA035337",
+      "attempts": 1,
+      "retry_used": false,
+      "passed": true,
+      "count": 1,
+      "returned_identity": "Transmission Control Protocol Specification.; Postel, J. B.; Garlick, L. L.; Rom, R.; 1976; 185 pages",
+      "scope_note": "General-box exact-accession lookup returned the known record. Field scoping not required to establish this service-control match.",
+      "evidence": [
+        "retrieval/ntis-control-1-request.json",
+        "retrieval/ntis-control-1-response.xml",
+        "retrieval/ntis-control-1-results.txt"
+      ]
+    },
+    "actual_field_scoped_searches": [
+      {
+        "id": "ntis-query-1-scoped",
+        "field": "Report_Number",
+        "query": "P-1402",
+        "timestamp_utc": "2026-09-26T19:40:36.981333+00:00",
+        "field_filter_text": "P-1402",
+        "reported_counts": [
+          "(1 - 2 of 2)"
+        ],
+        "results_inspected": 2,
+        "truncated": false,
+        "matching_p1402_records": 0,
+        "requests": "retrieval/ntis-query-1-scoped-request.json",
+        "response": "retrieval/ntis-query-1-scoped-response.xml",
+        "result_rows": "retrieval/ntis-query-1-scoped-results.json"
+      },
+      {
+        "id": "ntis-query-2-scoped",
+        "field": "Report_Number",
+        "query": "P1402",
+        "timestamp_utc": "2026-09-26T19:40:56.151558+00:00",
+        "field_filter_text": "P1402",
+        "reported_counts": [
+          "(1 - 2 of 2)"
+        ],
+        "results_inspected": 2,
+        "truncated": false,
+        "matching_p1402_records": 0,
+        "requests": "retrieval/ntis-query-2-scoped-request.json",
+        "response": "retrieval/ntis-query-2-scoped-response.xml",
+        "result_rows": "retrieval/ntis-query-2-scoped-results.json"
+      },
+      {
+        "id": "ntis-query-3-scoped",
+        "field": "Title",
+        "query": "\"Computer Internetting\"",
+        "timestamp_utc": "2026-09-26T19:41:12.410989+00:00",
+        "field_filter_text": "\"Computer Internetting\"",
+        "reported_counts": [
+          "(0 - 0 of 0)"
+        ],
+        "results_inspected": 0,
+        "truncated": false,
+        "matching_p1402_records": 0,
+        "requests": "retrieval/ntis-query-3-scoped-request.json",
+        "response": "retrieval/ntis-query-3-scoped-response.xml",
+        "result_rows": "retrieval/ntis-query-3-scoped-results.json"
+      },
+      {
+        "id": "ntis-query-4",
+        "field": "Title",
+        "query": "\"C3I Data Communications Networks\"",
+        "timestamp_utc": "2026-09-26T19:39:47.287034+00:00",
+        "field_filter_text": "\"C3I Data Communications Networks\"",
+        "reported_counts": [
+          "(0 - 0 of 0)"
+        ],
+        "results_inspected": 0,
+        "truncated": false,
+        "matching_p1402_records": 0,
+        "requests": "retrieval/ntis-query-4-request.json",
+        "response": "retrieval/ntis-query-4-response.xml",
+        "result_rows": "retrieval/ntis-query-4-results.json"
+      }
+    ],
+    "actual_field_scoped_search_count": 4,
+    "field_scoped_search_cap": 4,
+    "result_inspection_cap_per_term": 20,
+    "total_row_occurrences_inspected_including_mistakes_per_term": [
+      12,
+      12,
+      10,
+      0
+    ],
+    "additional_misconfigured_search_submissions": 3,
+    "field_form_preparation_requests": 1,
+    "successful_target_search_submission_order": [
+      "ntis-query-4",
+      "ntis-query-1-scoped",
+      "ntis-query-2-scoped",
+      "ntis-query-3-scoped"
+    ],
+    "years": "* through 2026",
+    "full_text_only": false
+  },
+  "links": {
+    "maximum": 2,
+    "relevant_copy_or_citation_links_followed": 0,
+    "new_accession_handles_followed": 0,
+    "reason": "No relevant candidate; the two unrelated report-number results were not expanded."
+  },
+  "validation": {
+    "status": "passed",
+    "date": "2026-09-26",
+    "checks": [
+      "All 46 retained retrieval artifact sizes and SHA-256 hashes verified.",
+      "All retained JSON responses and both batch source records parse.",
+      "Reading and current notes local links resolve.",
+      "Four actual field-scoped request payload records contain empty general search and the exact planned field-filter terms.",
+      "Result counts 2, 2, 0, 0 agree with saved result rows.",
+      "Mistaken submissions and their truncation are explicitly disclosed; not used as absence evidence.",
+      "Per-term row inspection, direct-link and PDF-screening caps verified.",
+      "Current research and notes retire the completed retrieval as a next step.",
+      "Article SHA-256 unchanged from b1b13fb."
+    ],
+    "independent_second_reader": false,
+    "limits": "Integrity and record checks only; no report recovered, no PDF screening or historical causation finding."
+  }
+}

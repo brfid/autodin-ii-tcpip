@@ -1,0 +1,128 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-16",
+  "state": "pass complete, question open. The guide was not found in any of the three named routes. No route yielded an MTR number or any other new retrieval handle for it. Two incidental readings bear on 9d: a December 1985 SPARTA gateway report states that BLACKER binds a red host to a black network address, and Shirey's own 1990 paper gives the service taxonomy that CSC attributed to the guide, with a network-layer address used for discretionary access control.",
+  "current_state": "../../questions.md",
+  "gate": {
+    "rule_applied": "Verify readability file by file before any local search or local negative.",
+    "applicability": "No local collection was searched. Every source is public and was retrieved over the network, so no local negative is recorded."
+  },
+  "principal_findings": [
+    {
+      "id": "F1",
+      "claim": "The guide is not held as a document by the Internet Archive DTIC mirror, NTIS, or any full-text-indexed Internet Archive item under its title.",
+      "coverage": "Internet Archive metadata, 12 queries; Internet Archive full-text, 12 queries, with OCR follow-up of 77 hits dated 1983-1995; NTIS NTRL, 7 clean queries plus a working control; all listed in text/guide-search-log.txt.",
+      "result": "Title queries return only citing documents: the four reports recorded in 5d, SPARTA's December 1985 AD-A169086 (which cites the Evolution document, F2), and in NTIS a 1989 CALS communications guideline, PB92119445, not opened. NTIS's control query returns the 1983 guide, AD-A152524, so the absence of a record for its successor is meaningful for NTIS's holdings.",
+      "limits": "DTIC mirror metadata records no personal author, so author search cannot reach it; the full-text leg covers any copy whose OCR contains the title. Author full-text queries were examined to the first 100 hits only. A document released For Official Use Only, as the companion Evolution draft was, would not be expected in NTIS or the public DTIC mirror; the guide's distribution marking is not known."
+    },
+    {
+      "id": "F2",
+      "claim": "SPARTA's Department of Defense Gateway Architecture and Functional Requirements, 11 December 1985 (AD-A169086), is a new witness to the companion Evolution draft, not to the guide.",
+      "reading": "Reference DCA85a at printed 56 / PDF 63, read as an image: 'Defense Data Network: Evolution of Security Services: 1986-1992' Draft of 6 August 1985. For Official Use Only. Distribution Limited to DoD and DoD Contractors Only. The reference list cites no Subscriber Guide and no Shirey.",
+      "consequence": "It adds the Evolution draft's distribution marking, which 5d did not have, and a December 1985 citation of it. Since this report predates SPARTA's April 1986 citation of the guide's 18 January 1986 draft and cites only the Evolution document, it is consistent with the guide not yet circulating in December 1985. That is an inference from one reference list, not evidence of the guide's start date."
+    },
+    {
+      "id": "F3",
+      "claim": "The same December 1985 report states, independently of the ICD, that BLACKER binds a red host to a black network address, and treats gateways as BLACKER-attached hosts.",
+      "reading": "Printed 54 / PDF 61, read as an image, section 7.3 item 2: 'The use of BLACKER requires a red host to be bound with a black network host address.' The same section calls BLACKER 'transparent to subscriber hosts (e.g., gateways)' while listing impacts on gateways on its plaintext side. Section 7.2, printed 53 / PDF 60, TEXT: the program 'plans to place BLACKER devices between all network hosts, including gateways, and network packet switches.'",
+      "bearing": "This is a contemporaneous third-party reading, three months before BBN's draft, of a host-to-address binding in BLACKER. It is closer to BBN's reported address rule than anything in the 1985 ICD text recovered so far. It does not state source-and-destination matching, connection keying, or a restriction on common-user gateways, and it does not cite a source for the statement. It should be carried as corroboration that an address binding was understood to be part of BLACKER's design in 1985, not as the p. 57 requirement."
+    },
+    {
+      "id": "F4",
+      "claim": "Shirey's April 1990 CCR paper does not cite the guide and gives no MITRE report number for it; its bibliography is not a route to the guide.",
+      "reading": "References [1]-[24] at printed 71 / PDF 6, read as an image. A web search engine listed the ACM PDF under the guide's exact title; that match is false.",
+      "what_the_paper_does_supply": "It describes the architecture the guide concerned from the same author. Figure 1 at printed 67 / PDF 2, read as an image, gives the service taxonomy CSC attributed to the guide in 1988 (5d, F4), and for subcommunities of hosts and individual hosts reads: 'DDN Enforces Trusted and Closed Subcommunities, Classified and Unclassified, and Subscribers Use DDN Network Layer Address to Enforce Finer Granularity.' Section 3.2 at printed 69 / PDF 4, read as an image, places a BFE 'on each host-to-switch access path of all hosts used by subscribers' and says a BFE 'encrypts the application data in each X.25 packet, but leaves header data unencrypted for backbone use.' At printed 68 / PDF 3, TEXT, 'many hosts are gateways to other networks' and their share 'is expected to increase.' The paper states that it 'does not offer a rationale for the features.'",
+      "limit": "A 1990 account of the approved architecture, not the 1986 guide and not p. 57. It names no KI-111 and states no address-matching rule for gateways. The figure's network-layer-address row concerns discretionary access control by subscribers, not BLACKER keying."
+    },
+    {
+      "id": "F5",
+      "claim": "Shirey's paper had an earlier 1987 version, whose publication status is contradicted between sources.",
+      "reading": "Printed 67 / PDF 2, read as an image: 'An earlier version of this paper was publicly released for the October 1987 IEEE Military Communications Conference, but the release came too late for the conference proceedings.' Against that, NIST SP 800-1 (entry MUN-87), AD-A392774 (ref. 22) and AD-A219099 (ref. 7), all TEXT, cite Mundy and Shirey, 'Defense Data Network Security Architecture,' MILCOM '87 Proceedings, 21 October 1987.",
+      "consequence": "Unreconciled. The 1987 version, with G.R. Mundy as co-author, is the nearest public-release text in time to the 1986-87 guide. It is a lead for a later pass, not the guide."
+    },
+    {
+      "id": "F6",
+      "claim": "The December 1985 gateway report describes a DoD gateway carrying AUTODIN II's interface protocols.",
+      "reading": "Printed 18 / PDF 25, read as an image: the Ford Aerospace multinet gateway's 'network interfaces include ARPANET (DDN), X.25, SACDIN (using the ADCCP Mode VI [DIN IIa] and Segment Interface Protocol developed for AUTODIN II [DIN IIb])'; references DIN IIa and DIN IIb at printed 56 / PDF 63 give DIN II F-667-13B06-1189 and F-624-13B06-1124.",
+      "bearing": "Evidence that AUTODIN II's link and segment interface specifications were in use for SACDIN attachment in a multilevel IP gateway design in 1985. It is protocol-level continuity outside the KI-111 question and does not bear on the address rule's ancestry. Not a test or deployment record."
+    }
+  ],
+  "four_open_questions_after_this_pass": {
+    "when_first_written": "Unchanged. 6 March 1985 remains the earliest recovered ICD edition. F3 shows a host-to-address binding described by a third party in December 1985.",
+    "why_written": "Unchanged. Shirey 1990 expressly offers no rationale.",
+    "what_the_guide_required_at_p57": "Still unread. The named searches did not recover the guide; no MTR number is held.",
+    "autodin_ii_ancestry": "Unchanged for the address rule. F6 adds protocol-level continuity in a 1985 gateway design."
+  },
+  "searched_without_success": {
+    "public": [
+      "Internet Archive metadata, 12 queries (text/guide-search-log.txt, section 1).",
+      "Internet Archive full-text, 12 queries and OCR follow-up of 77 items (section 2).",
+      "Shirey, CCR April 1990, reference list (section 4).",
+      "NIST SP 800-1 bibliography, 1980-89 (section 5).",
+      "NTIS NTRL, 7 clean queries (section 6).",
+      "OCR of AD-A206176, AD-A196974 and AD-A225703 (section 7)."
+    ],
+    "local": "None."
+  },
+  "retrieval_limits_kept_separate_from_negatives": [
+    "DTIC mirror metadata has no personal-author field.",
+    "Author full-text queries examined to 100 hits each.",
+    "The NTIS KI-111 query is uninterpretable, not negative.",
+    "A first NTIS batch was contaminated by a concurrent run and discarded; the clean batch is the one recorded.",
+    "apps.dtic.mil was not attempted, per notes.md.",
+    "The companion Evolution document carried a contemporary FOUO/distribution restriction. The guide's marking, release history and cause of non-recovery remain unknown."
+  ],
+  "exact_remaining_retrieval_handles": [
+    {
+      "handle": "Mundy, G.R. and R.W. Shirey, Defense Data Network Security Architecture, MILCOM '87, October 1987",
+      "why": "The earliest public-release text by the guide's author on the same architecture, within a year of the 30 September 1986 version.",
+      "status": "IEEE conference paper; publication in the proceedings contradicted by Shirey (F5). Not searched."
+    },
+    {
+      "handle": "PB92119445, CALS DoD/Industry Steering Group, Program Acquisition Manager's Guidelines for Implementing CALS Communications, 1989",
+      "why": "NTIS full text matches 'Security Services 1986-1992' and 'Evolution of Security Services'; may be a fifth citing witness and may give an MTR number.",
+      "status": "Not opened."
+    },
+    {
+      "handle": "Shirey, R.W., Defense Data Network Subscriber Guide to Security Services, 1986-1992",
+      "status": "Not recovered through the named searches. The MITRE catalogue and archival handles remain possible; inquiries are excluded."
+    }
+  ],
+  "corrections_and_strengthenings_of_existing_records": [
+    "5d's handoff called Shirey's April 1990 CCR paper 'a better lead than before for a citation carrying an MTR number'. Its reference list does not cite the guide.",
+    "notes.md says 'Shirey's paper is identified but still paywalled'. The ACM page is marked free access and the paper has now been read; scripted retrieval is refused with HTTP 403, so it needs a browser.",
+    "The Evolution of Security Services draft of 6 August 1985 was marked 'For Official Use Only. Distribution Limited to DoD and DoD Contractors Only' (F2)."
+  ],
+  "source_fingerprints": [
+    {
+      "id": "AD-A169086",
+      "what": "SPARTA, Inc., Department of Defense Gateway Architecture and Functional Requirements, 11 December 1985, 67 PDF pages",
+      "url": "https://archive.org/download/DTIC_ADA169086/DTIC_ADA169086.pdf",
+      "sha256": "10fe040eba927d908cedf5286dbb0ebd17c0f0ed2521d9bad3e13ed9ec2e7e00",
+      "bytes": 3653100
+    },
+    {
+      "id": "doi:10.1145/378570.378710",
+      "what": "Shirey, Defense Data Network Security Architecture, CCR 20(2), April 1990, pp. 66-72, 6 PDF pages",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/378570.378710",
+      "sha256": "cd763aca187d0846050276159b64e91c25eb777170ffdf64a5f8875c7cd2879f",
+      "bytes": 512411
+    },
+    {
+      "id": "NIST SP 800-1",
+      "what": "Turn and Bassham, Bibliography of Selected Computer Security Publications, January 1980-October 1989, 217 PDF pages",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-1.pdf",
+      "sha256": "fc4ce674a1e4bab7cb002ae1f12af20720ef8b3aa93e89a4142febd20799d1fe",
+      "bytes": 12559938
+    }
+  ],
+  "handoff": {
+    "current_work_queue": "notes.md",
+    "evidence_and_open_questions": "research.md"
+  },
+  "validation": {
+    "date": "2026-09-19",
+    "status": "Interpretive corrections applied; original dated retrieval observations retained.",
+    "limits": "Gateway report pp. 54 and 56 independently checked visually: address binding is described, while the distribution restriction belongs to the separate Evolution document. Neither supplies the guide's p. 57 rule."
+  }
+}

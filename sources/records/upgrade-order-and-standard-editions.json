@@ -1,0 +1,669 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-13",
+  "state": "pass complete, question open",
+  "question": "What explains the decision to postpone AUTODIN II's transition to standard TCP/IP until after initial operational capability? Test cost, schedule, compatibility, technical readiness, and contractual commitments against the records.",
+  "principal_finding": "The December 23, 1978 order asks DCA for a cost tradeoff analysis to determine transition timing; the analysis and reason for the April 3, 1980 after-IOC order remain unheld. Published TCP editions establish an evolving standard: February IEN 81 and August IEN 112 lack the later security/precedence sections, December IEN 124 announces their addition, and January 1980 IEN 129 / RFC 761 was ratified in April. This does not exclude interim working drafts, earlier TCP branches carrying related features, or existing IP support. Western Union revised both AUTODIN II host-protocol specifications on February 8, 1980; the THP reference page, dated February 21, 1979, cites the SRI and DCA family rather than a DoD standard protocol document. Neither sequence establishes the cause of deferral.",
+  "chronology": [
+    {
+      "date": "1976",
+      "event": "AUTODIN II program formally approved; contract signed with Western Union for a CONUS service as a tariff offering.",
+      "source": "Lyons 1980, section V, p. 1468.",
+      "kind": "retrospective account by DCEC official"
+    },
+    {
+      "date": "1976-07-15",
+      "event": "SRI Transmission Control Protocol and Terminal-to-Host Protocol specifications, the normative ancestors of the AUTODIN II branch.",
+      "source": "cited as references 3 and 4 at AD-A081757 printed p. 4 / PDF p. 12; the specifications themselves are held and recorded in the brief.",
+      "kind": "specification"
+    },
+    {
+      "date": "1978-12-23",
+      "source": "IEN 152, PDF pp. 2-3, inspected as images.",
+      "kind": "order"
+    },
+    {
+      "date": "1979-01",
+      "event": "BBN's DCEC-sponsored C version of TCP-4 for Unix runs on BBN-UNIX, EDN-UNIX and NPS-UNIX and is reported 'compatible with AUTODIN-II requirements for security precedence and user groups (S/P/T)'; the AUTODIN II preemption requirement is 'yet to be added.'",
+      "source": "IEN 76, internet meeting notes, January 1979, extract at supporting/text.",
+      "kind": "reported implementation status"
+    },
+    {
+      "date": "1979-02",
+      "event": "Transmission Control Protocol Version 4, IEN 81, Postel, DARPA. Its preface records five previous editions and does not mention security, compartmentation or precedence. The draft the December order expected in January 1979 appears in February, without the DoD-specific content.",
+      "source": "AD-A067072 (DTIC catalog date 1979-02-01); text extract retained.",
+      "kind": "specification"
+    },
+    {
+      "date": "1979-02-20",
+      "event": "Western Union Computer Program Development Specification, Terminal-to-Host Protocol (THP), original issue, contract DCA200-C-637, CDRL B006, document DIN II-F-623-13B06-1124. Its section 1.2 reference list cites the two July 15, 1976 SRI specifications, the DCA System Performance Specification (Type A) for AUTODIN II Phase I, WU Proposal #U-321-1 of April 1976, the WU AUTODIN II Design Plan and its Executive Summary, and the AUTODIN II TCP and SIP Transportable Specifications. No DoD standard protocol document is cited.",
+      "source": "AD-A081757 printed p. 4 / PDF p. 12, inspected as an image; page footer 21-FEB-79.",
+      "kind": "contract specification"
+    },
+    {
+      "date": "1979-03-05",
+      "event": "Western Union Transmission Control Program (TCP) specification original issue, DIN II-F-622-13B06-1124, same contract and CDRL.",
+      "source": "recorded in the brief's Western Union section; DTIC identity newly established as AD-A081756.",
+      "kind": "contract specification"
+    },
+    {
+      "date": "1979-04",
+      "event": "ANALYSIS DUE. The results of the ordered cost tradeoff analysis were to be provided to OSD by April 1979. Final protocol specifications were also to be distributed by April 1979. NOT RECOVERED: no analysis, transmittal, or acknowledgement of either deliverable was found in this pass.",
+      "source": "IEN 152, PDF p. 3.",
+      "kind": "gap"
+    },
+    {
+      "date": "1979-07-04",
+      "event": "Coordinated Revision 1 of both Western Union host-protocol specifications (THP Revision 1; TCP Revision 1).",
+      "source": "AD-A081757 title page; Western Union TCP changed-page lists already recorded in the brief.",
+      "kind": "contract specification"
+    },
+    {
+      "date": "1979-08-03",
+      "event": "Western Union TCP Revision 2.",
+      "source": "recorded in the brief's Western Union section.",
+      "kind": "contract specification"
+    },
+    {
+      "date": "1979-09",
+      "source": "IEN 121, internet meeting notes, September 1979, extract at supporting/text.",
+      "kind": "contemporaneous status report"
+    },
+    {
+      "date": "1979-11-27/29",
+      "event": "Lyons presents an abbreviated form of 'A Total AUTODIN System Architecture' at the Sixth Bi-Annual IEEE/ACM Data Communications Symposium, Pacific Grove, CA.",
+      "kind": "conference presentation"
+    },
+    {
+      "date": "1979-12",
+      "event": "IEN 123 and IEN 124, 'DOD STANDARD' Internet Protocol and Transmission Control Protocol, ISI for DARPA/IPTO. IEN 124's preface: 'This edition incorporates the addition of security, compartmentation, and precedence concepts into the TCP specification.' IEN 123's preface: 'This edition revises the details security, compartmentation, and precedence features of the internet protocol.' Postel later describes these as 'the first try at the DOD Standard versions.'",
+      "source": "IEN 123 and IEN 124 extracts at supporting/text; characterization from IEN 134, February 1980.",
+      "kind": "specification"
+    },
+    {
+      "date": "1980-01-15",
+      "source": "Lyons 1980, section IX, p. 1469; references p. 1471.",
+      "kind": "contemporaneous account by the responsible DCEC official"
+    },
+    {
+      "date": "1980-01",
+      "event": "IEN 128 / RFC 760 and IEN 129 / RFC 761, DoD Standard Internet Protocol and DoD Standard Transmission Control Protocol. IEN 129's preface repeats the security/compartmentation/precedence sentence with 'eight earlier editions.' Postel describes 123/124 and 128/129 as the first and second tries at the DoD Standard versions, and 128/129 as 'also the current specifications for our own (ARPA internet) use.'",
+      "source": "AD-A082609 text extract; IEN 134, February 1980.",
+      "kind": "specification"
+    },
+    {
+      "date": "1980-02-08",
+      "event": "Coordinated Revision 2 of the THP specification and Revision 3 of the TCP specification, both delivered under DCA200-C-637 to DCA Code 450. THP Revision 2's list of changed pages is Title, 12, 27, 32, 33, 35, 39, 50, 73, A-1, B-1, B-1a, B-15, B-27, D-2, D-5, D-6, D-7, D-8, D-9, E-1, F-1. Printed p. 4, the reference list, is not among them, so the reference list stood unchanged on the February 21, 1979 reference page (the title dates the original issue February 20).",
+      "source": "AD-A081757 PDF pp. 6, 7 and 12, all inspected as images.",
+      "kind": "contract specification"
+    },
+    {
+      "date": "1980-02",
+      "event": "Cerf reports 'the protocol standardization effort in DOD is moving forward, and that IP and TCP as documented in IENs 128 and 129 form the basis for the standards.'",
+      "source": "IEN 134, internet meeting notes, February 1980.",
+      "kind": "contemporaneous status report"
+    },
+    {
+      "date": "1980-04-03",
+      "event": "RATIFICATION AND DEFERRAL. Gerald P. Dinneen, now signing on Assistant Secretary of Defense (Communications, Command, Control and Intelligence) letterhead, approves the revised Management Plan, ratifies the DoD Standard TCP and IP specifications, makes their use mandatory for all packet-oriented DoD data networks with potential cross-boundary host-to-host connectivity, directs DCA to prepare workshop/seminars and implementation support documents, and states: 'The AUTODIN II implementation of these protocol standards will take place as soon after AUTODIN II IOC as possible.' The OSD Protocol Standards Working Group is disestablished and its responsibilities transferred to DCA panels. NO REASON IS STATED for the placement relative to IOC.",
+      "source": "IEN 152, PDF p. 4, inspected as an image.",
+      "kind": "order"
+    },
+    {
+      "date": "1980-05",
+      "source": "IEN 145, internet meeting notes, May 1980.",
+      "kind": "contemporaneous status report"
+    },
+    {
+      "date": "1980-07",
+      "event": "An OSD review group is established to review AUTODIN II. With DCA's assistance it considers cost, security, performance and survivability, and, because for a considerable time it appeared the system might not achieve IOC, explores alternatives, principally expansion of WIN and ARPANET.",
+      "source": "AD-A127476, Defense Science Board Task Force report, printed p. 3 / PDF p. 11, previously inspected as an image in the Chunk 4 verification.",
+      "kind": "retrospective account, postdates the April decision"
+    },
+    {
+      "date": "1981-07",
+      "event": "AUTODIN II achieves a partial IOC, 'though testing on some major components was forced to continue.' The December 1978 order had expected operation during FY 1980.",
+      "source": "AD-A127476 printed p. 3.",
+      "kind": "retrospective account"
+    },
+    {
+      "date": "1982-03",
+      "event": "IEN 207, Richard D. DeLauer, reaffirms the policy. Its references are the 23 Dec 78 memorandum and the January 1980 IEN 129 / RFC 761 and IEN 128 / RFC 760. The April 3, 1980 memorandum is not among them.",
+      "source": "IEN 207 extract at supporting/text.",
+      "kind": "policy memorandum"
+    }
+  ],
+  "claim_table": [
+    {
+      "claim": "The December 1978 order itself names cost and schedule impacts on the AUTODIN II program as the consideration governing the transition's timing.",
+      "status": "documented",
+      "basis": "IEN 152 PDF p. 3, inspected: 'Recognizing that there may be cost and schedule impacts on the AUTODIN II program, the Defense Communications Agency should perform a cost tradeoff analysis to determine the optimum time for this transition.'",
+      "limit": "This states the anticipated grounds and frames timing as a variable to be optimized. It is not a finding about what the analysis concluded, and it precedes the analysis by four months."
+    },
+    {
+      "claim": "The April 1980 memorandum defers AUTODIN II implementation to a point after IOC and gives no reason.",
+      "status": "documented",
+      "basis": "IEN 152 PDF p. 4, inspected: 'The AUTODIN II implementation of these protocol standards will take place as soon after AUTODIN II IOC as possible.'",
+      "limit": "The clause is a schedule placement with an urgency qualifier. The absence of a stated reason on the face of the order is not evidence that no reason was recorded elsewhere."
+    },
+    {
+      "claim": "The DoD standard's own schedule slipped by roughly nine to twelve months against the December 1978 order, and the DoD security, compartmentation and precedence content entered the standard TCP specification only in December 1979.",
+      "status": "documented",
+      "basis": "IEN 152 PDF p. 3 (drafts January 1979, finals April 1979); IEN 81 of February 1979 whose preface has no such content; IEN 124 of December 1979 whose preface announces it; IEN 129 / RFC 761 of January 1980 repeating it; IEN 134 characterizing 123/124 and 128/129 as the first and second tries at the DoD Standard versions; IEN 145 recording the stamping. August 1979 IEN 112 was checked during validation and likewise lacks the later sections.",
+      "limit": "This dates published editions and ratification, not all working drafts or AUTODIN II system readiness. No recovered document connects the standardization sequence to DCA's timing decision; security/precedence features existed in earlier TCP branches and IP."
+    },
+    {
+      "claim": "The contracted AUTODIN II specification baseline was current, actively revised, and unreconciled with the DoD standard at the decision point.",
+      "status": "documented",
+      "basis": "AD-A081757: coordinated Revision 2 of THP and Revision 3 of TCP both dated February 8, 1980 under DCA200-C-637; THP reference list at printed p. 4, unrevised since February 21, 1979, cites the July 1976 SRI specifications and the DCA System Performance Specification and no DoD standard document.",
+      "limit": "A reference list is not a statement of intent, and its non-revision may reflect nothing more than which pages the revision touched. This establishes the state of the baseline, not that the contract caused the deferral."
+    },
+    {
+      "claim": "Cost was the operative reason for the deferral.",
+      "status": "hypothesis",
+      "basis": "The order asks for a cost tradeoff analysis; the Task Force's retrospective account records growing projected costs.",
+      "limit": "No cost figure, analysis, or recommendation connecting cost to the April decision was recovered. The Task Force's cost account concerns the program in 1981-82, not the 1980 protocol decision."
+    },
+    {
+      "claim": "Protection of the IOC milestone was the operative reason.",
+      "status": "supported inference, not documented",
+      "basis": "The December order expected operation during FY 1980; the April order ties implementation to IOC and says 'as soon after' as possible, which reads as sequencing behind a milestone rather than abandoning the requirement; the DSB later records a two-year program stretched to four and a half years and continuing delay.",
+      "limit": "No contemporaneous document states this. The reading of 'as soon after ... as possible' is an interpretation of a schedule clause. The DSB account is retrospective and program-wide."
+    },
+    {
+      "claim": "Technical infeasibility of the upgrade explains the deferral.",
+      "status": "Not established; existing host implementations weigh against a blanket infeasibility claim.",
+      "limit": "These concern host implementations and the standard, not the Western Union switch, SIP, CCU/TAC firmware, or the security kernel. The SIP and backbone side was not examined in this pass."
+    },
+    {
+      "claim": "Contractual commitment under DCA200-C-637 explains the deferral.",
+      "status": "hypothesis",
+      "basis": "The CDRL B006 specification baseline was maintained on the divergent branch to February 8, 1980, monitored by DCA Code 450, two months before ratification.",
+      "limit": "No contract modification, engineering change proposal, cost proposal, or correspondence bearing on a protocol change was recovered. Contract activity establishes a commitment in force, not that it was the reason."
+    },
+    {
+      "claim": "Compatibility divergence explains the deferral.",
+      "status": "not established as a cause",
+      "basis": "Divergence is established by the Western Union specifications and by the December 1978 finding of unsuitability.",
+      "limit": "Divergence is what the upgrade was ordered to fix. It is the problem, not an explanation of the timing chosen to fix it."
+    },
+    {
+      "claim": "The July 1980 OSD review group explains the April 1980 decision.",
+      "status": "excluded on chronology",
+      "basis": "AD-A127476 printed p. 3 dates the review group's establishment to July 1980.",
+      "limit": "It postdates the ratification by three months. No document connects it to earlier work. It remains a lead for whether the deferral was revisited later."
+    },
+    {
+      "claim": "ADA100788 bears on the deferral.",
+      "status": "screened out",
+      "basis": "AD-A100788 is AFIT/GCS/EE/80D-9, James W. Healy and Denzel Henderson, Air Force Institute of Technology School of Engineering, December 1980, a backbone-network simulation thesis on switch control module routing and queueing.",
+      "limit": "A full-text search of the 417 KB OCR layer returns no occurrence of TCP, host-to-host, IOC, or protocol upgrade. Precedence appears only as a traffic category in the simulation."
+    }
+  ],
+  "sources_examined": [
+    {
+      "id": "IEN 152",
+      "local_path": "https://history.rfc-editor.org/ien/ien152.txt",
+      "sha256": "16ddfaa892b4186fd29267480a87017ffe39c2357bf8a7e17f6e93de47de88f5",
+      "bytes": 6183150,
+      "pdf_pages": 10,
+      "pages_inspected_as_images_this_pass": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "readings": [
+        {
+          "pdf_page": 2,
+          "printed": "December 1978 memorandum p. 1",
+          "passage": "AUTODIN II is expected to become operational during FY 1980, to provide common-user data communications service for DoD computer systems and permit a reduction in the number of specialized data networks.",
+          "interpretation": "Fixes the schedule expectation held at the moment of the upgrade order. AUTODIN II reached only a partial IOC in July 1981."
+        },
+        {
+          "pdf_page": 3,
+          "printed": "December 1978 memorandum p. 2",
+          "passage": "Because the host-to-host protocol being developed for AUTODIN II evolved from an early version of TCP and is unsuitable for internetwork operation, the AUTODIN II TCP will have to be upgraded to the standard protocol set. Recognizing that there may be cost and schedule impacts on the AUTODIN II program, the Defense Communications Agency should perform a cost tradeoff analysis to determine the optimum time for this transition. DCA should provide the results of this analysis by April 1979.",
+          "interpretation": "The order is for a cost tradeoff analysis to determine the optimum time, not for a cost/schedule analysis at large. The timing of the transition is treated as the open variable from the outset, and cost and schedule impacts on the AUTODIN II program are the named grounds.",
+          "correction": "Earlier records described this as 'a cost/schedule analysis'. The instrument the memorandum orders is a cost tradeoff analysis; cost and schedule impacts are the recognised concern that motivates it."
+        },
+        {
+          "pdf_page": 3,
+          "printed": "December 1978 memorandum p. 2",
+          "passage": "I am forming an OSD Protocol Standards Working Group chaired by the Director, Information Systems. I ask each addressee to nominate a representative. Names should be provided by 8 January 1979 to LTC Wilcox (695-3287). ... Draft specifications for these protocols will be available in January 1979. Final specifications should be distributed by April 1979 following review by the working group and testing by DCA and DARPA. At that time, I expect to promulgate these standards and set dates for their adoption.",
+          "interpretation": "Establishes the intended standardization schedule against which the actual January 1980 specifications and April 1980 promulgation can be measured. Also names the working group and its point of contact as retrieval handles."
+        },
+        {
+          "pdf_page": 4,
+          "printed": "April 3, 1980 memorandum",
+          "interpretation": "Records the April 1980 ratification and assignment of continuing responsibilities. The working group was ordered formed in December 1978; the phrase about work during the past year does not reset its formation date.",
+          "observation": "The memorandum is on Assistant Secretary of Defense (Communications, Command, Control and Intelligence) letterhead, dated 3 APR 1980, and carries a handwritten signature that appears identical to the December 1978 signature of Gerald P. Dinneen. No typed name block is present on this page; the typed 'Gerald P. Dinneen, Principal Deputy' visible in the image is reversed show-through from PDF p. 3. Treat the identification as apparent from the signature, not as printed attribution."
+        },
+        {
+          "pdf_page": 5,
+          "printed": "Management Plan p. 1",
+          "passage": "1. Reference. USDRE Memo, Host-to-Host Protocols for Data Communications Networks, 23 Dec 78. ... 3. Authority. ... A more permanent authority will be provided by a DoD Directive which will be drafted by DCA for the signature of the Principal Deputy Under Secretary of Defense, Research and Engineering, upon approval of this Plan."
+        }
+      ]
+    },
+    {
+      "id": "AD-A081757",
+      "document": "Western Union Telegraph Company, Government Systems Division, FINAL Computer Program Development Specification, Terminal-to-Host Protocol (THP), CDRL Item No. B006, document control DIN II-F-623-13B06-1124, February 20, 1979; Revision 1 July 4, 1979; Revision 2 February 8, 1980",
+      "status": "NEW to this brief",
+      "report_number": "DCA 200-C-637-P006",
+      "contract": "DCA200-C-637",
+      "controlling_office": "Defense Communications Agency, ATTN: Code 450, Washington, D.C. 20305",
+      "secondary_id": "AD-E100 340; DD Form 1473 stamped 7 MAR 80; 296 pages stated; distribution approved for public release",
+      "retrieval_url": "https://archive.org/download/DTIC_ADA081757/DTIC_ADA081757.pdf",
+      "metadata_url": "https://archive.org/metadata/DTIC_ADA081757",
+      "pdf_sha256": "87f1e147ed905e779ef0254334943ba9b459d25b2434ae1710f53f13e8327b15",
+      "pdf_md5": "bb107555e931c53dd9176420bd900214",
+      "pdf_bytes": 8815580,
+      "pdf_pages": 307,
+      "pages_inspected_as_images": [
+        6,
+        7,
+        8,
+        12
+      ],
+      "readings": [
+        {
+          "pdf_page": 6,
+          "printed": "DD Form 1473",
+          "passage": "Report number DCA 200-C-637-P006; Western Union Telegraph Company, Government Systems Division, 7916 Westpark Drive, McLean, Virginia 22102; contract DCA 200-C-637; controlling office Defense Communications Agency, ATTN: Code 450; report date 8 February 1980."
+        },
+        {
+          "pdf_page": 7,
+          "printed": "list of changed pages",
+          "passage": "THP SPECIFICATION, REVISION 2, FEBRUARY 8, 1980, LIST OF CHANGED PAGES: Title, 12, 27, 32, 33, 35, 39, 50, 73, A-1, B-1, B-1a, B-15, B-27, D-2, D-5, D-6, D-7, D-8, D-9, E-1, F-1.",
+          "interpretation": "Printed p. 4 is absent from the list, so the reference list was not replaced in Revision 2. Combined with its 21-FEB-79 page footer, the reference list stands as issued in February 1979."
+        },
+        {
+          "pdf_page": 12,
+          "printed": "p. 4, section 1.2 References",
+          "passage": "1. TELNET Protocol Specification, NIC 18639, latest issue. 2. ARPANET Protocol Handbook, NIC 7104, latest issue. 3. Stanford Research Institute (SRI) Terminal-to-Host Protocol Specification, 15 July 1976. 4. SRI Transmission Control Protocol Specification, 15 July 1976. 5. Defense Communications Agency System Performance Specification (Type A) for AUTODIN II Phase I, latest issue. 6. Western Union (WU) Proposal #U-321-1 AUTODIN II Phase I, April 1976, latest issue. 7. WU AUTODIN II Design Plan, latest issue. 8. AUTODIN II Design Plan Executive Summary, latest issue. 9. AUTODIN II TCP Transportable Specification, latest issue. 10. AUTODIN II SIP Transportable Specification, latest issue.",
+          "interpretation": "The contracted baseline's normative ancestry is the July 1976 SRI specifications and the DCA System Performance Specification. No DoD standard TCP or IP document, no IEN, no RFC, and no reference to the December 1978 memorandum appears. The list uses 'latest issue' throughout, so it tracks the AUTODIN II document family rather than the DoD standards family.",
+          "limit": "An absent reference is not a statement of a reason, and the list was not among the pages Revision 2 replaced."
+        }
+      ],
+      "new_retrieval_handles_named_here": [
+        "Western Union Proposal #U-321-1, AUTODIN II Phase I, April 1976",
+        "AUTODIN II TCP Transportable Specification",
+        "AUTODIN II SIP Transportable Specification",
+        "DCA System Performance Specification (Type A) for AUTODIN II Phase I (the Chunk 1 November 1975 target, confirmed as the governing requirement document by contract reference)"
+      ]
+    },
+    {
+      "id": "AD-A081756",
+      "document": "Western Union Telegraph Company, Computer Program Development Specification, Transmission Control Program (TCP), Revision 3, 8 February 1980",
+      "status": "identity newly established",
+      "note": "This is the DTIC identity of the specification the brief cites from the National Security Archive scan. The two are adjacent accessions with the two host protocols of the same contract, revised on the same day.",
+      "metadata_url": "https://archive.org/metadata/DTIC_ADA081756",
+      "pdf_md5": "e789796c6dd99c9b233167d80194a1a5",
+      "pdf_bytes": 5164710,
+      "action_taken": "Catalog metadata read only. The full PDF was not retrieved or compared page by page against the National Security Archive scan in this pass.",
+      "subsequent_check": "DTIC front matter and reference page examined in supporting/chunk2b-2026-09-14/source-record.json."
+    },
+    {
+      "id": "Lyons 1980",
+      "document": "Robert E. Lyons, 'A Total AUTODIN System Architecture,' IEEE Transactions on Communications, vol. COM-28, no. 9, September 1980, pp. 1467-1471",
+      "status": "NEW to this brief",
+      "author_affiliation": "Defense Communications Engineering Center, Defense Communications Agency, Reston, VA 22090",
+      "prior_presentation": "abbreviated form, Sixth Bi-Annual IEEE/ACM Data Communications Symposium, Pacific Grove, CA, November 27-29, 1979",
+      "doi": "10.1109/TCOM.1980.1094842",
+      "open_copy": "https://zenodo.org/record/1281114 (green OA; file article.pdf)",
+      "pdf_sha256": "c2e78d9754ec6624277cdf2205f3e7b74b3e0a756e52e5de856439af4caecaf4",
+      "pdf_bytes": 580116,
+      "readings": [
+        {
+          "printed_page": 1468,
+          "section": "VIII",
+          "passage": "Hosts are connected to the SCMs via a Segment Interface Protocol (SIP), and must have the standard Transmission Control Protocol (TCP) to pass useful traffic to other hosts.",
+          "interpretation": "Read in context this is the AUTODIN II standard TCP; section VIII.5 speaks of 'the standard specification required of AUTODIN II subscribers'. The paper uses 'standard TCP' for both families, which is exactly the ambiguity the brief warns about."
+        },
+        {
+          "printed_page": 1469,
+          "section": "VIII.4",
+          "passage": "the WIN (WWMCCS Intercomputer Network) and the SACDIN (Strategic Air Command Digital Network) are examples of AUTODIN II subnetworks, and their computers will join the network as hosts sharing in their own special communities of interest. They will use the AUTODIN II standard SIP and will also be required to use the DoD standard TCP unless they can obtain a waiver from this requirement based on the lack of need to communicate with others beyond their own subnet community of interest."
+        },
+        {
+          "printed_page": 1469,
+          "section": "IX",
+          "passage": "To achieve this desired interoperability, it is required that the subscribers of internetted systems use a common standard TCP and Internet Protocol (IP). DoD policy has recently been stated which requires DoD data network subscribers having requirements for interoperability to adhere to these standards. What remains is for the gateways themselves to be developed and implemented. A research and development program to develop the gateways is now underway under the aegis of Rome Air Development Center.",
+          "limit": "This is an open-literature architecture paper, not a decision record, and it is silent on AUTODIN II's own protocol transition."
+        },
+        {
+          "printed_page": 1470,
+          "section": "XIII",
+          "passage": "subject to the provision that these subscribers use appropriate standard TCP and IP protocols and that the gateways between the relevant networks are implemented.",
+          "interpretation": "Repeats the same pairing of standards adherence with gateway availability."
+        }
+      ],
+      "unretrieved_companion": "R. Stillman and C. DeFiore, 'Computer Security and Networking Protocols: Technical Issues in Military Data Communications Networks,' same issue, pp. 1472-1477, DOI 10.1109/tcom.1980.1094838. Not open access; no repository copy located. Recorded as an access failure, not a negative result."
+    },
+    {
+      "id": "AD-A082609 and AD-A067072",
+      "document": "DoD Standard Transmission Control Protocol, ISI/USC for DARPA, January 1980 (RFC 761 / IEN 129); and Transmission Control Protocol Version 4, Postel, February 1979 (IEN 81)",
+      "status": "used as dated controls on the standard's readiness",
+      "metadata_urls": [
+        "https://archive.org/metadata/DTIC_ADA082609",
+        "https://archive.org/metadata/DTIC_ADA067072"
+      ],
+      "text_md5": {
+        "ADA082609_djvu.txt": "7f4b9aeb644010ac443c855570e8dd6c",
+        "ADA067072_djvu.txt": "63e005bcc3dc3ba1857f9cafd29f91c9"
+      },
+      "readings": [
+        {
+          "document": "AD-A082609, January 1980",
+          "printed_page": "iii",
+          "passage": "This document describes the DoD Standard Transmission Control Protocol (TCP). There have been eight earlier editions of the ARPA TCP specification on which this standard is based ... This edition incorporates the addition of security, compartmentation, and precedence concepts into the TCP specification.",
+          "interpretation": "The January 1980 standard carries the same preface sentence as the December 1979 IEN 124, with the edition count advanced from seven to eight. The DoD-specific content therefore entered at IEN 124 in December 1979 and was carried and revised into the ratified January 1980 text."
+        },
+        {
+          "document": "AD-A082609, January 1980",
+          "printed_page": "5, section 2.5",
+          "passage": "It should be easy to interface higher level protocols like the ARPANET Telnet or AUTODIN II THP to the TCP.",
+          "interpretation": "The ratified standard still names the AUTODIN II THP as an intended higher-level protocol, consistent with the accommodation pattern already recorded in the brief for RFC 791."
+        },
+        {
+          "document": "AD-A067072, February 1979",
+          "printed_page": "i",
+          "passage": "This document describes the Transmission Control Protocol (TCP). There have been five previous editions of the TCP specification ...",
+          "interpretation": "No mention of security, compartmentation or precedence, and no occurrence of AUTODIN in the text. The version-4 draft the December order expected in January 1979 appeared in February 1979 without the DoD-specific content."
+        }
+      ]
+    },
+    {
+      "id": "IEN 123, 124, 134, 145, 121, 76, 207",
+      "document": "Internet Experiment Notes held locally as OCR extracts under supporting/text",
+      "readings": [
+        {
+          "ien": 124,
+          "date": "December 1979",
+          "passage": "DOD STANDARD TRANSMISSION CONTROL PROTOCOL ... prepared for Defense Advanced Research Projects Agency, Information Processing Techniques Office ... by Information Sciences Institute ... This edition incorporates the addition of security, compartmentation, and precedence concepts into the TCP specification.",
+          "interpretation": "Dates the entry of the DoD requirements into the standard TCP text."
+        },
+        {
+          "ien": 123,
+          "date": "December 1979",
+          "passage": "This edition revises the details security, compartmentation, and precedence features of the internet protocol.",
+          "interpretation": "The companion IP edition revises rather than introduces, consistent with IEN 121's September 1979 note that an IP option to carry the information already existed."
+        },
+        {
+          "ien": 134,
+          "date": "February 1980",
+          "passage": "IEN 123 and 124 were the December versions of the IP and TCP specifications. These were the first try at the DOD Standard versions. ... IEN 128 and 129 by Postel on IP and TCP. These are the second try at the DOD Standard versions of the IP and TCP specifications. These are also the current specifications for our own (ARPA internet) use.",
+          "interpretation": "Postel's own characterization of the two December 1979 and January 1980 editions."
+        },
+        {
+          "ien": 145,
+          "date": "May 1980",
+          "passage": "Vint Cerf reported that the IP and TCP specifications (IENs 128 and 129) are now stamped as DOD standards. DCEC will serve as the focus for coordinating this within DOD.",
+          "interpretation": "Contemporaneous confirmation of the April 3 ratification as seen from the research side, with no mention of the AUTODIN II clause."
+        },
+        {
+          "ien": 121,
+          "date": "September 1979",
+          "interpretation": "Characterizes the remaining standardization work eight months before ratification as specific and small."
+        },
+        {
+          "ien": 76,
+          "date": "January 1979",
+          "passage": "Mike said that the DCEC sponsored 'C' version of TCP-4 for Unix is running on BBN-UNIX, EDN-UNIX, and NPS-UNIX. This version is compatible with AUTODIN-II requirements for security precedence and user groups (S/P/T). ... The AUTODIN II requirement for preemption is yet to be added.",
+          "interpretation": "Host implementations carrying the AUTODIN II requirements over TCP-4 existed a month after the upgrade order and eleven months before the specification incorporated those requirements. Implementation preceded the specification's incorporation.",
+          "limit": "Reported status in meeting notes; not a measured result, and not the Western Union switch or CCU/TAC software."
+        },
+        {
+          "ien": 207,
+          "date": "March 1982",
+          "passage": "Reference: (a) USDR&E Memo, 'Host-to-Host Protocols for Data Communications Networks,' 23 Dec 78 (IEN-152). (b) DoD Standard Transmission Control Protocol Specification, Jan 80 (IEN-129, RFC-761). (c) DoD Standard Internet Protocol Specification, Jan 80 (IEN-128, RFC-760).",
+          "interpretation": "DeLauer's reaffirmation cites the December 1978 memorandum and the January 1980 specifications. The April 3, 1980 memorandum is not cited, and no AUTODIN II clause appears."
+        }
+      ]
+    },
+    {
+      "id": "NARA N1-371-87-001",
+      "document": "Defense Communications Agency, Request for Records Disposition Authority, Job N1-371-87-1, Section LXXVI AUTODIN II Files; signed by the DCA agency representative 18 Dec 86, received by NARA 22 Dec 86",
+      "status": "NEW; a records-survival finding and a retrieval handle",
+      "url": "https://www.archives.gov/files/records-mgmt/rcs/schedules/departments/department-of-defense/defense-agencies/rg-0371/n1-371-87-001_sf115.pdf",
+      "sha256": "16693300bcde51a7a6a7c9330a4828295fadfefb8d0abafa51fc8a160755c31c",
+      "bytes": 437098,
+      "pdf_pages": 7,
+      "readings": [
+        {
+          "item": "Section header",
+          "passage": "Files in this section are no longer being created. They pertain to the development of AUTODIN II, a packet-switching network of the DoD, designed and built by Western Union to DCA specifications and leased by the Government. The contract was canceled due to a change in DoD requirements.",
+          "interpretation": "An agency administrative characterization of the cancellation written in 1986. Recorded as a Chunk 4 lead only; it is not a decision record and was not developed in this pass."
+        },
+        {
+          "item": "2 / file series 876-02",
+          "passage": "AUTODIN II Group and Panel Files. Documents accumulated in the process of organizing, establishing, and administering AUTODIN II phasing groups and panels which are given responsibility for ensuring fully coordinated program implementation. Included are proceedings, recommended solutions to problems and comments thereon, coordination documents between the panel and the military departments or other Defense agencies. Disposition: Permanent. 2 cu. ft. located in DCA office space. Transfer to NARA when 30 years old.",
+          "interpretation": "The series most likely to hold AUTODIN II panel proceedings. Permanent, and small."
+        },
+        {
+          "item": "3 / file series 876-03",
+          "passage": "AUTODIN II Program Management Files. Documents relating to overall management direction of the AUTODIN II program. Included are papers reflecting policy guidance and direction for system implementation, recommendations to JCS concerning AUTODIN II implementation, direction for modification and expansion ... Bxs 1-13, Accession 371-83-005. Disposition: Permanent. Transfer to NARA when 30 years old.",
+          "interpretation": "The series most likely to hold OSD direction and DCA responses on the protocol transition. Permanent."
+        },
+        {
+          "item": "closing note",
+          "passage": "Accession No. 371-83-005 consists of 98 cu ft of Autodin II records transferred to WNRC in July 83, as unscheduled records authorized by NC. Boxes 1-13 consist of Category 876-03 records of which boxes 7-13 were withdrawn by DCA. Boxes 1-6, therefore, should not be destroyed. The remaining boxes in this accession should be destroyed immediately after approval of this schedule.",
+          "interpretation": "Of 98 cubic feet transferred to the Washington National Records Center in July 1983, only boxes 1-6 of 876-03 were preserved from that accession; boxes 7-13 had been withdrawn by DCA; the remainder was authorized for immediate destruction."
+        },
+        {
+          "item": "items 1, 4-21",
+          "passage": "Destroy immediately, applied to Administrative (876-01), Site Survey (876-04), Configuration (876-05), Interface Requirements and Criteria (876-06), Encryption and Communications Security (876-07), Implementation Plans including program, milestone and procurement schedules (876-08), Technical Literature Development (876-10), Logistics (876-11), Training (876-12), Tools and Test Equipment (876-13), Test Plans and Reports (876-14), Network Design (876-15), Subscriber List (876-16), Cutover Plans (876-17), Funding Information (876-19), Subnetworks (876-40).",
+          "interpretation": "The schedule authorized destruction of the AUTODIN II implementation, test, network design and funding record series. NARA's 2023 cover note states: 'We presume the agency destroyed item 1 and all approved items 4 through 21.' Active items are 2, 3 and 22."
+        }
+      ]
+    }
+  ],
+  "screened_and_set_aside": [
+    {
+      "id": "AD-A100788",
+      "identity": "AFIT/GCS/EE/80D-9, James W. Healy and Denzel Henderson, Air Force Institute of Technology School of Engineering, Wright-Patterson AFB, 'Simulation and Analysis of AUTODIN 2 Network Design,' December 1980; DTIC subject terms include THESES",
+      "why_set_aside": "A GPSS/Q-GERT backbone simulation of switch control module routing and queueing. A full-text search of the 417 KB OCR layer finds no occurrence of TCP, host-to-host, IOC, or protocol upgrade; 'precedence' appears only as a simulation traffic category. Not evidence about the protocol transition decision.",
+      "metadata_url": "https://archive.org/metadata/DTIC_ADA100788",
+      "text_md5": "9fea8bf58290256f0f4f8a3d0c6a5d18"
+    },
+    {
+      "id": "July 1980 OSD review group",
+      "why_set_aside": "Established three months after the April 3, 1980 ratification. It cannot explain that decision without evidence connecting it to earlier work, and none was found. Retained as a lead for whether the deferral was revisited.",
+      "source": "AD-A127476 printed p. 3 / PDF p. 11, verified visually in the Chunk 4 pass."
+    },
+    {
+      "id": "AD-A103888, AD-A080765",
+      "identity": "Integrated AUTODIN System Architecture Report Part 1, DCA, December 1977; System Control for the Transitional DCS, Honeywell, December 1978",
+      "why_set_aside": "Surfaced by search; catalog descriptions place them outside the protocol transition question."
+    },
+    {
+      "id": "AD-A126558, AD-A126560, AD-A126562",
+      "identity": "System Development Corporation protocol specification methodology and DCEC Protocol Laboratory requirements and implementation plan, December 1981 to January 1982"
+    },
+    {
+      "id": "RFC 942",
+      "identity": "National Research Council, Transport Protocols for Department of Defense Data Networks, February 1985",
+      "why_set_aside": "Its AUTODIN II material is a retrospective footnote on the 1982 cancellation. Nothing on the 1978-80 transition timing.",
+      "note": "Its cancellation footnote belongs to Chunk 4 and was not developed."
+    },
+    {
+      "id": "TUHS wiki AUTODIN II page",
+      "why_set_aside": "A secondary compilation. Fetched and read; it does not mention the December 1978 memorandum, the ordered analysis, or the deferral, and its only primary citations are the DSB Task Force report and IENs 54 and 55."
+    }
+  ],
+  "search_coverage": {
+    "local": [
+      {
+        "scope": "Recorded capture, not distributed: ddn-bbn-text (398 extracts)",
+        "terms": [
+          "PSTP",
+          "Protocol Standards Technical",
+          "PSSG",
+          "Protocol Standards Steering",
+          "PCCB",
+          "Protocol Configuration Control",
+          "IOC",
+          "initial operational capability",
+          "tradeoff analysis",
+          "cost trade",
+          "AUTODIN II TCP",
+          "23 Dec 78",
+          "Dinneen"
+        ]
+      },
+      {
+        "scope": "Recorded capture, not distributed: text",
+        "terms": [
+          "July 1980",
+          "OSD review",
+          "protocol",
+          "host-to-host",
+          "standardi"
+        ],
+        "outcome": "The DSB Task Force report's only 'protocol' occurrence is in the charter language for the Task Force itself. DCEC's modeling note uses 'host-to-host' only as a traffic class. Neither narrates the protocol transition decision."
+      },
+      {
+        "scope": "Recorded capture, not distributed: archive-leads-discovery.json",
+        "outcome": "Confirmed that the batch2 pass of September 11 already ran a public search on the query family 'AUTODIN II TCP cost analysis 1979; cost tradeoff; protocol deferral; Protocol Standards Technical Panel minutes' without success. This pass used different handles rather than repeating it."
+      },
+      {
+        "scope": "Recorded capture, not distributed: spec-63a13b54-autodin 2 sip ADA071670.txt, the OCR extract of the March 1979 AUTODIN II Segment Interface Protocol specification, AD-A071670. 263608 bytes; md5 a85417b9736f667e24c12323d3a80a46; sha256 d2936e5ef1efc5e6b2d34ee9ea1b1708da042969c12c66d51b450ae19cf34a15.",
+        "performed": "2026-09-13, as a bounded recordkeeping correction after the first pass. The first pass did not search this extract for transition terms and the omission was not recorded.",
+        "terms": [
+          "DoD Standard",
+          "DOD STD",
+          "DoD-STD",
+          "MIL-STD",
+          "standard protocol",
+          "DoD standard",
+          "DOD",
+          "Department of Defense",
+          "standardis/standardiz",
+          "interoperab",
+          "upgrad",
+          "transition"
+        ],
+        "outcome": "No relevant hit. The DoD-standard term family, including the bare strings DOD and 'Department of Defense', and the standardization and interoperability families, and 'upgrad' in any form, do not occur anywhere in the extract. 'Transition' occurs at eleven lines, and every occurrence is a protocol state-machine transition: the prescribed state transition stimuli and responses of section 3, coupled SIP and Mode VI transitions between Interface Down and deeper states, and the state transition charts listing next states and resulting outputs. None refers to a transition to a DoD standard protocol or to a program schedule.",
+        "collateral_reading": "The extract's thirteen TCP occurrences are all the SIP header's TCP Version No. field and its explanatory text: the field identifies the originating SIP user, 'TCP is one' and 'the code for no TCP is zero', and is used to identify the proper user of SIP. This is a version-identification field within the AUTODIN II SIP, not a provision for adopting a different protocol. It is recorded as a reading of the extract, not as evidence about the deferral.",
+        "consequence": "The SIP specification as extracted contributes nothing to the deferral question. This is a bounded negative about one OCR extract of one specification. It is not a reading of the original scan, and OCR loss could in principle hide a term; the decisive passages of this document were not re-inspected as images in this correction."
+      }
+    ],
+    "public": [
+      {
+        "scope": "Internet Archive DTIC mirror, advancedsearch",
+        "queries": [
+          "title:(AUTODIN) AND identifier:(DTIC*)",
+          "title:(\"host-to-host\")",
+          "title:(\"protocol standard*\")",
+          "title:(\"Transmission Control Protocol\")",
+          "title:(\"Defense Data Network\")",
+          "title:(protocol) AND date:[1978 TO 1982]",
+          "title:(\"internetting\")"
+        ],
+        "outcome": "Complete title-level sweep of the AUTODIN-titled holdings: 56 records, mostly duplicate identifiers, with no cost analysis, transition study, or panel minutes among them. The sweep produced AD-A081757 and AD-A081756 as new identities, and AD-A082609 and AD-A067072 as dated controls on the standard. IDA Paper P-1402, 'Computer Internetting: C3I Data Communications Networks,' April 1979, is cited by Lyons but is not in this mirror under that title."
+      },
+      {
+        "scope": "Web search",
+        "query_families": [
+          "GAO report AUTODIN II 1980-81 cost schedule",
+          "AUTODIN II cost tradeoff analysis TCP transition 1979 DCA",
+          "OSD Protocol Standards Working Group 1979 Wilcox",
+          "AUTODIN II TCP upgrade deferred initial operational capability",
+          "Computer Internetting IDA Paper P-1402 Bartee"
+        ],
+        "outcome": "No GAO product on the AUTODIN II protocol transition surfaced. The searches produced the NARA records schedule, the TUHS wiki page, the Lyons paper via its DOI, and confirmation that the National Security Archive Western Union scan is AD-A081756."
+      },
+      {
+        "scope": "OpenAlex and Zenodo",
+        "outcome": "Lyons 1980 recovered in full as green open access. Stillman and DeFiore 1980 identified but not open access."
+      }
+    ],
+    "access_failures_distinct_from_negative_results": [
+      {
+        "target": "apps.dtic.mil direct PDF retrieval",
+        "attempt": "https://apps.dtic.mil/sti/tr/pdf/ADA103888.pdf",
+        "result": "HTTP 403 with an HTML body. DTIC direct access remained unavailable to this pass, as in the Chunk 4 verification. All DTIC material was taken from the Internet Archive mirror.",
+        "consequence": "DTIC's own search index was not reachable, so a DTIC-side search for the cost analysis and for DCEC technical notes has still not been performed."
+      },
+      {
+        "target": "R. Stillman and C. DeFiore, 'Computer Security and Networking Protocols: Technical Issues in Military Data Communications Networks,' IEEE Trans. Comm. COM-28(9), 1472-1477",
+        "result": "Not open access; four Zenodo record probes around the sibling articles did not locate a deposited copy.",
+        "consequence": "A companion paper in the same DCA-heavy special issue remains unread."
+      },
+      {
+        "consequence": "Recorded so a later session does not read the failure as file corruption."
+      }
+    ],
+    "defined_first_pass_scope_not_performed": [
+      {
+        "item": "The unprocessed SRI CHM photograph sweep named in the Chunk 2 first-pass retrieval definition, which directs the pass to 'search local catalog material and unprocessed relevant photographs before public repositories.'",
+        "target": "Recorded capture, not distributed: SRI CHM archives. Earlier work OCR-sampled every twentieth photograph in filename order, 144 of 2,879; the remaining 2,735 photographs remain unsearched at the content level.",
+        "performed": false,
+        "reason": "etext/SRI was not connected to the September 13, 2026 Chunk 2 session, so those photographs were not reachable from it. This is an access limitation of that session's folder grants, not a search that returned no relevant result and not evidence that the collection lacks the ordered analysis or the panel minutes.",
+        "recorded": "2026-09-13, as a bounded recordkeeping correction. The first pass did not record this omission, so its public leg ran while a defined local leg remained undone."
+      }
+    ]
+  },
+  "targets_still_not_held": [
+    "The DCA cost tradeoff analysis ordered 23 December 1978 and due April 1979. No copy, transmittal, acknowledgement, or citation was found.",
+    "Minutes or papers of the OSD Protocol Standards Working Group, April 1979 to April 1980, and of the PSTP, PSSG and PCCB.",
+    "Any DCA or OSD record stating a reason for placing AUTODIN II implementation after IOC.",
+    "Any contract modification or engineering change proposal under DCA200-C-637 bearing on a protocol change."
+  ],
+  "exact_remaining_retrieval_handles": [
+    {
+      "handle": "NARA, Record Group 371, DCA. Accession 371-83-005, boxes 1-6, file series 876-03 AUTODIN II Program Management Files; and file series 876-02 AUTODIN II Group and Panel Files, 2 cu. ft. Both scheduled Permanent under N1-371-87-001, transfer to NARA when 30 years old.",
+      "serves": "the ordered analysis, OSD direction, and panel proceedings",
+      "caution": "Boxes 7-13 of 876-03 were withdrawn by DCA and their disposition is not stated. Current custody and accession status are unverified. An inquiry would be needed and inquiries remain excluded."
+    },
+    {
+      "caution": "Not yet searched. The AUTODIN II section's destruction authority says nothing about these."
+    },
+    {
+      "handle": "LTC Wilcox, telephone 695-3287, named in the December 1978 memorandum as the nomination point of contact for the OSD Protocol Standards Working Group; and the Director, Information Systems, OSD, named as its chairman.",
+      "serves": "identifying the OSD office whose files would hold working group records",
+      "caution": "A name and an office, not a located file."
+    },
+    {
+      "handle": "DTIC's own index, once apps.dtic.mil is reachable: search AUTODIN II, protocol transition, cost tradeoff, and the DCEC technical note series for 1979-1980.",
+      "serves": "the ordered analysis",
+      "caution": "Two consecutive passes have failed to reach DTIC directly. A failed DTIC search is not evidence of absence."
+    },
+    {
+      "handle": "IDA Paper P-1402, T. C. Bartee, O. P. Buneman, K. A. Gardner and M. J. Marcus, 'Computer Internetting: C3I Data Communications Networks,' April 1979.",
+      "serves": "an OSD-adjacent analysis dated in the month the ordered analysis was due",
+      "caution": "Cited by Lyons as reference 10. Not located in the Internet Archive DTIC mirror by title. Identity and relevance unverified."
+    },
+    {
+      "handle": "R. Stillman and C. DeFiore, IEEE Trans. Comm. COM-28(9), September 1980, pp. 1472-1477.",
+      "serves": "a companion account in the same DCA-heavy special issue",
+      "caution": "Paywalled."
+    },
+    {
+      "handle": "AD-A081756, the DTIC copy of the Western Union TCP Revision 3, for its DD Form 1473 and comparison against the National Security Archive scan.",
+      "serves": "contract and controlling-office identity for the TCP deliverable, and edition verification",
+      "caution": "Catalog metadata read only in this pass."
+    },
+    {
+      "handle": "CHM SRI ARC/NIC finding aid subseries 3.3, pp. 26-27, DCA library and indexes, box 062309881.",
+      "serves": "the ordered analysis and review minutes",
+      "caution": "Unchanged from the prior record: a collection lead, not a confirmed holding. Inquiries remain excluded."
+    }
+  ],
+  "corrections_to_existing_records": [
+    "The December 1978 memorandum orders a 'cost tradeoff analysis to determine the optimum time for this transition', not a 'cost/schedule analysis'. Cost and schedule impacts on the AUTODIN II program are the recognised concern that motivates it. Earlier brief wording conflated the two.",
+    "The April 3, 1980 memorandum carries a signature apparently identical to Gerald P. Dinneen's on the December 1978 memorandum, on ASD(C3I) letterhead. The covering note to IEN 152 describes the two memoranda as coming from different offices. Record the office change, and note that PDF p. 4 carries no typed name block.",
+    "The National Security Archive Western Union TCP scan has a DTIC identity, AD-A081756, and a same-day companion, AD-A081757, the THP Revision 2. The Western Union comparison section should carry both.",
+    "The DoD requirements named in the December 1978 order entered the standard TCP text in the December 1979 edition (IEN 124), not in the January 1980 edition. January 1980 is the second try and the ratified text."
+  ],
+  "handoff": {
+    "current_work_queue": "notes.md",
+    "evidence_and_open_questions": "research.md"
+  },
+  "validation": {
+    "date": "2026-09-19",
+    "status": "Interpretive corrections applied; original dated retrieval observations retained.",
+    "limits": "Memoranda and THP reference page checked visually; official IEN texts re-read. Lyons checked against the retained extracted text; its original PDF was not reacquired. Full prior searches were not replayed."
+  }
+}

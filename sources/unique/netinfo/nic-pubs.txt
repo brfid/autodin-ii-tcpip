@@ -1,0 +1,231 @@
+
+[ netinfo/nic-pubs.txt ]                                    [ 8/92 ]
+
+
+                        PUBLICATIONS OF INTEREST TO
+				NIC USERS 
+
+Documents available on-line via FTP from the NIC host:
+(Also, see online filenames referenced in other categories.)
+
+1.  DDN NEW USER GUIDE
+
+     A "how-to" guide to the DDN for network users, including use of
+     network tools such as electronic mail and file transfer.   Published
+     by the former NIC, December 1985, and revised (DRAFT) September 1991.  
+     Online filename -- netinfo/nug.doc.
+
+     Should be available in hardcopy from Defense Technical Information Center
+     (DTIC) when the final version is approved by Defense Information
+     Systems Agency (DISA) in 1992.
+	
+
+2. DDN PROTOCOL IMPLEMENTATIONS AND VENDORS GUIDE
+
+     A list of vendor-supplied software and hardware DDN protocol
+     implementations, including TCP/IP, X.25, and OSI implementations.
+     Published by the former NIC, August 1988.  Online filename --
+     netinfo/vendors-guide.doc.
+
+
+3. GOVERNMENT OPEN SYSTEMS INTERCONNECTION PROFILE (GOSIP)
+
+     The Federal Information Processing Standard (FIPS) describing the
+     Federal government's policy, including the DoD transition from TCP/IP
+     to ISO international protocols.
+
+     The package contains the Federal Register announcement of the FIPS,
+     the GOSIP profile itself, the OSD directive to proceed with the policy
+     within DoD, and the GOSIP FIPS draft.
+     Online filenames --
+
+     protocols/gosip-fips-draft.txt     FIPS PUB GOSIP draft
+     protocols/gosip-fedreg.txt         Federal Register Announcement
+     protocols/gosip-v1.docs            The most recent version of the
+                                        GOSIP document
+     protocols/osdir-7-87.txt           OSD Directive to adopt OSI protocols
+
+
+4. RFC INDEX, RFCs
+
+     Technical notes describing protocol development and related topics of
+     interest to the Internet and DDN research communities.  Online filenames
+     are of the form rfc/rfcNNN.txt (where NNN represents the RFC number).
+     The online index is contained in rfc/rfc-index.txt (also available
+     in the netinfo directory as netinfo/rfc-index.txt).
+
+
+Publications available from DTIC/DISA:
+
+1.  DDN SUBSCRIBER INTERFACE GUIDE
+
+     Describes alternative hardware connections to the DDN, including
+     guidelines for connecting equipment to the DDN.   Published by the
+     Defense Communications Agency (now DISA), July 1983.
+
+     DTIC Order No.:  AD-A132 877
+
+
+2.  DDN SUBSCRIBER SECURITY GUIDE
+
+     A description of the security architecture designed for the DDN.
+     Published by the Defense Communications Agency (now DISA), November 1983.
+
+     DTIC Order No.:  AD-A152 524
+
+
+3.  DDN X.25 HOST INTERFACE SPECIFICATION
+
+     Contains the specific options and features of CCITT Recommendation
+     X.25 (1980) and the Federal Information Processing Standard (FIPS)
+     100/Federal Standard 1041, (July 1983).   Published by the Defense
+     Communications Agency (now DISA), December 1983.  Online filename --
+     netinfo/x25.doc.
+
+     DTIC Order No.:  AD-A137 427
+
+
+
+                                                                  Rev 12/91
+                             ORDER INFORMATION
+
+
+DTIC DOCUMENT ORDERS
+
+Military personnel or DoD contractors with proper authorization may obtain
+protocol-related documents such as circulars, directives, or memoranda from
+the Defense Technical Information Center (DTIC).
+
+DTIC's address and telephone number are:
+
+                       Defense Technical Information Center
+                       Cameron Station
+                       Alexandria, VA  22304-6145
+                       202-274-7633
+
+Contractors and researchers without access to DTIC can obtain some of these
+documents from the former NIC, SRI International.  (See instructions below.)
+
+
+Documents available from SRI INTERNATIONAL, Network Information 
+Systems Center:
+
+The following information has been provided by SRI International for online
+distribution. SRI contact information is listed at the end of this file.  
+Please call SRI if you have any questions concerning any of these documents
+or their availability.
+
+
+1. RFCs, RFC INDEX, RFC SUBSCRIPTION
+
+     RFCs are technical notes describing protocol development and providing
+     general Internet information.  Several hosts are repositories for the 
+     RFCs, including NIC.DDN.MIL and FTP.NISC.SRI.COM.
+
+     RFCs are available online via anonymous ftp or electronic mail free of 
+     charge.  SRI provides hardcopies on a cost recovery basis.
+
+
+2. GOVERNMENT OPEN SYSTEMS INTERCONNECTION PROFILE (GOSIP)
+
+     The Federal Information Processing Standard (FIPS) describing the
+     Federal government's policy, including the DoD transition from
+     TCP/IP to ISO international protocols.
+
+     Online filenames on FTP.NISC.SRI.COM are netinfo/gosip-v2.ps
+     or netinfo/gosip-v2.txt.  Hardcopies are also available
+     from SRI and NTIS.  See the file netinfo/gosip-order-info.txt
+     for references to other supporting documents.
+
+
+3. INTERNET TECHNOLOGY HANDBOOK
+
+     The Internet Technology Handbook updates and expands the DDN Protocol 
+     Handbook.  It gathers a core set of RFCs, organizes them by networking 
+     topic, and provides an introductory explanation of each topic and each 
+     RFC's place within the scope of that topic.  A six volume set of more 
+     than 5,000 pages, the Handbook also includes a one year Internet
+     Technology Subscription.  The Internet Technology Subscription ensures 
+     that the Handbook will remain up to date because new RFCs that pertain 
+     to the Handbook are sent quarterly, along with information that makes 
+     it easy to know where new information fits.
+
+
+4. TCP/IP CD
+
+     The TCP/IP CD offers comprehensive documentation on the fundamentals 
+     of TCP/IP networking.  The CD includes all the online Requests For 
+     Comments (RFCs), all online Internet Engineering Notes (IENs), For 
+     Your Information documents (FYIs, a subset of the RFCs), the GOSIP 
+     specification, and other protocol, security, and informational files.  
+     We also provide archives of technical mailing lists that discuss protocol 
+     implementation issues.
+
+     IFIND, an easy to use search program, is included on each disk.  The 
+     search program works on both Unix and DOS systems.  It works by searching 
+     indexes made from all RFC, IEN, and FYI files, and all TCP-IP and 
+     Namedroppers mail messages.  As a free bonus, the CD includes public 
+     domain source code related to TCP/IP networking for those who do not 
+     have direct access to Internet file transfer capabilities.  
+
+
+5.  INTERNET TECHNOLOGY SERIES
+
+     Both the Internet Technology Handbook and the TCP/IP CD in one
+     special combination.  Price includes the Internet Technology
+     Subscription and one update to the CD.
+      
+
+6. NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY (NIST) OSI
+   IMPLEMENTATION DOCUMENTS
+
+     SRI makes the output of four NIST Working Groups researching the
+     implementation of OSI standards in the U.S. available in a series
+     of subscriptions.  Four major working group areas are included:
+     Directory Services (X.500); Message Handling Systems (X.400);
+     Security; and Network Management.
+
+     SRI price for each NIST subscription is different.  Contact SRI for 
+     details.
+
+
+                          ORDER INFORMATION
+
+
+Documents can be ordered from SRI by sending a check, money order or purchase 
+order for the total amount of the order in US dollars, made payable to SRI 
+International.  
+
+Purchase orders can be sent via facsimile to 415-859-6028; however, a
+confirming copy should be sent to the address provided below.  
+
+Cash payments or charge cards are not accepted.
+
+California residents should add 8.25% sales tax to their order.
+
+Include with all orders your full name, US mailing address with zip code,
+telephone number, and network mailbox (if available) and send to:
+
+SRI International, Room EJ291
+333 Ravenswood Avenue
+Menlo Park, CA  94025
+
+415-859-3695 
+415-859-6387
+FAX 415-859-6028
+nisc@nisc.sri.com
+
+Please call SRI if you have any questions.
+
+
+                           SHIPPING INFORMATION
+
+DOMESTIC (USA and Canada):  Prices include postage.  SRI ships via UPS
+Ground Service.  Please allow 5-10 working days for delivery.
+
+OVERSEAS:  Overseas orders are shipped via "air printed matter."
+
+SPECIAL:  Orders will be shipped via Courier Service by special arrangement
+only.  If you want your order to be shipped via a designated Courier
+Service, your order must include your Courier Service charge number and
+your signature.  SRI order forms are available by request.

@@ -1,0 +1,153 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-16",
+  "state": "Pass complete, question open. The recorded searches did not recover the DDNCOG minutes. Contractor references identify the guide, an author and dated draft/version citations; its text and p. 57 remain unread.",
+  "current_state": "../../questions.md",
+  "gate": {
+    "rule_applied": "Verify readability file by file before any local search or local negative.",
+    "applicability": "This pass used no local collection. Every source is public and was retrieved over the network, so no local negative is recorded and the gate did not bear on the result."
+  },
+  "principal_findings": [
+    {
+      "id": "F1",
+      "claim": "The Internet Archive full-text search for DDNCOG was performed and found nothing responsive. The minutes of the 27-28 August 1985 meeting were not found.",
+      "queries": "45 queries, 19:11 to 19:14 UTC. Target forms: DDNCOG; DDNCOG*; *DDNCOG*; DDNCOGs; DDNC0G; \"DDN COG\"; \"DDN-COG\"; \"DDNCOG-MIN-1.TXT\"; \"DDNCOG-MIN\"; \"DDNCOG MIN\"; DDNCOG.TXT; \"Communications Operations Group\"; \"Communications Operations Groups\"; \"DDN Communications Operations Group\"; \"DDN Communications Operations\"; \"Defense Data Network Communications Operations Group\"; \"first meeting of the Defense Data Network\"; \"DDN Security Guide\"; \"DDN Subscribers Guide\"; \"Kathy Shipman\"; DDN \"Operations Management Division\" B645; \"Code B645\"; \"Code B650\".",
+      "result": "DDNCOG: 2 hits, both OCR noise (a 1996 Jerusalem Post issue and an 1895 Lykophron edition). DDN COG and DDN-COG: 10 hits each, all OCR noise. \"Communications Operations Group\": 21 hits, ITT's group and unrelated bodies, none DDN. Office-code and name queries return DDN directories, handbooks and user guides, none mentioning the group. Every other target form: 0.",
+      "artifact": "Recorded capture, not distributed: ia-fts-ddncog-search-log.txt"
+    },
+    {
+      "id": "F2",
+      "claim": "Failed known-positive queries limit the negative search; they do not establish absence or exhaustion of public routes.",
+      "limit_1_pathnames": "The tested query forms did not retrieve known NIC pathname strings in identified OCR derivatives. Therefore the absence of hits for the target pathname is weak evidence. This does not establish which other forms or future index states could retrieve it.",
+      "limit_2_coverage": "Two tested phrases from DDN News 43 returned nothing. This limits those queries; it does not demonstrate that every NIC newsletter, online file or Wayback capture is categorically excluded from all Internet Archive search.",
+      "indexing_control": "\"Blacker Front End Interface Control Document\" returns 13 items, including all six DTIC NIC 50002 editions and AD-A166324, so the DTIC mirror's OCR texts are indexed.",
+      "consequence": "The recorded public search is complete without recovery. CHM DDN Library 85-1150 and viewgraphs 85-2099 remain named handles; inquiries remain excluded. Other public routes have not been proved exhausted."
+    },
+    {
+      "id": "F3",
+      "claim": "The Subscriber Guide to Security Services is independently attested as a DCA document with a named author and dated editions, and a draft existed two months before BBN's March 20, 1986 draft cited it.",
+      "decisive_reading": "SPARTA, Inc., Requirements for the Next Generation Packet Switch, 22 April 1986, AD-A167803, printed 59 / PDF 67, read as an image: 'SHI 86 Shirey, R.W., Defense Data Network Subscriber Guide to Security Services, 1986-1992, Draft, DCA, Code B600, 18 January 1986.' The same list gives SHI 83a as Shirey's Defense Data Network Subscriber Security Guide, MITRE MTR83-W00137, August 1983.",
+      "second_witness": "Computer Sciences Corporation, Employment Concept for IDS Reconstitution, 31 May 1988, AD-A195904, printed 1-5 / PDF 19, read as an image: '15. Defense Data Network Subscriber Guide to Security Services 1986-1992, 30 September 1986, Mitre Report.'",
+      "third_and_fourth_witnesses": "SPARTA's DDN Trusted Guard Gateway reports of 10 May 1988 (AD-A196891, printed 4 / PDF 8) and 2 February 1989 (AD-A210248, printed 5 / PDF 10) both footnote DCA, 'DDN Subscriber Guide to Security Services, 1986-1992'. Read as text.",
+      "consequence": "The references name Shirey and attribute the guide to DCA/MITRE, with a January 18, 1986 draft and a September 30, 1986 citation. This supports a draft-stage successor as a possible source for BBN. No successor appears in the sampled NIC lists; that is not proof of non-distribution. BBN's exact edition, the contents of p. 57 and final status remain unknown.",
+      "artifact": "Recorded capture, not distributed: citations-of-subscriber-guide-to-security-services.txt"
+    },
+    {
+      "id": "F4",
+      "claim": "CSC's 1988 summary of the guide describes security services, not the interface rule.",
+      "reading": "AD-A195904 printed 2-11 / PDF 33, read as an image, lists the guide's services (data confidentiality, mandatory, discretionary and traffic-flow; data integrity; availability; identification, authentication and access control, with data origin authentication and non-repudiation) and states that KG-84A link encryption provides traffic-flow confidentiality while end-to-end encryption (E3) enforces mandatory and discretionary confidentiality and provides identification, authentication and access control.",
+      "limit": "A contractor's summary, not the guide's text. It names no KI-111, no BLACKER and no address or keying rule, so it neither confirms nor contradicts BBN's p. 57 reading. It is consistent with the handbook's E3 architecture already in 9d."
+    },
+    {
+      "id": "F5",
+      "claim": "CHM 85-1188 is the guide's companion document, not a candidate for the guide itself.",
+      "reading": "AD-A167803 printed 57 / PDF 65, read as an image: 'DDN 85 Defense Data Network Evolution of Security Services: 1986-1992, DDN PMO, DCA Code B610, Draft of 6 August 85 (with corrections, 30 Aug 85).' AD-A195904 printed 1-4 / PDF 18, read as an image, gives it as '24 November 1985, Mitre Report.' CHM 85-1188 reads 'Defense Data Network evolution of security services: 1986-1992, Aug. 6, 1985 draft.'",
+      "consequence": "Title, year range and draft date match 85-1188 exactly. All four reports cite the Evolution document and the Subscriber Guide as two separate references, so 85-1188 should no longer be carried as the nearest catalogued candidate for BBN's guide. The Evolution draft of 6 August 1985 is three weeks before the DDNCOG meeting at which a draft 'DDN Security Guide' was displayed; which of the two drafts was displayed is not established."
+    }
+  ],
+  "four_open_questions_after_this_pass": {
+    "when_first_written": "Unchanged. 6 March 1985 remains the earliest recovered ICD edition.",
+    "why_written": "Unchanged. Nothing located bears on the clause's rationale.",
+    "what_the_guide_required_at_p57": "Still unread. The guide is now identified by author, office and two dates, which improves the retrieval handle; its text has not been found in the open literature.",
+    "autodin_ii_ancestry": "Unchanged."
+  },
+  "searched_without_success": {
+    "public": [
+      "Internet Archive full-text search, 45 queries, listed in text/ia-fts-ddncog-search-log.txt, for DDNCOG and the group's name in every form listed in F1."
+    ],
+    "local": "None. No local search was run in this pass."
+  },
+  "retrieval_limits_kept_separate_from_negatives": [
+    "The full-text index cannot retrieve NIC pathname tokens (F2, limit 1). An occurrence of NETINFO:DDNCOG-MIN-1.TXT or NETINFO:DDNCOG.TXT inside an indexed text would not be found.",
+    "The index does not contain NIC online newsletters, NIC online files or Wayback captures (F2, limit 2).",
+    "The guide's own text was not searched for as a document in DTIC, NTIS or MITRE's catalogue in this pass; the finding came from the one bounded search the pass was given, and the pass stopped there."
+  ],
+  "exact_remaining_retrieval_handles": [
+    {
+      "handle": "Shirey, R.W., Defense Data Network Subscriber Guide to Security Services, 1986-1992",
+      "what": "Draft, DCA Code B600, 18 January 1986; and a 30 September 1986 version described as a MITRE report.",
+      "why": "The decisive comparison for Chunk 5: BBN's p. 57 keying and address-matching rule.",
+      "routes_not_yet_tried": "Internet Archive metadata and DTIC-mirror title search under the 1986-1992 title and under Shirey as author; a MITRE MTR number, which none of the four citations gives; NTIS. Shirey's April 1990 Computer Communication Review paper, by the same author, is a better lead than before for a citation carrying an MTR number."
+    },
+    {
+      "handle": "CHM DDN Library, entry 85-1150",
+      "what": "Minutes of the first DDNCOG meeting, 27-28 August 1985, with viewgraphs at 85-2099.",
+      "status": "The only remaining handle for the minutes. Archival; inquiries remain excluded."
+    },
+    {
+      "handle": "CHM DDN Library, entry 85-1188",
+      "what": "Defense Data Network Evolution of Security Services: 1986-1992, draft of 6 August 1985.",
+      "status": "Reidentified by this pass as the guide's companion. Archival. The TGG report of May 1988 gives page-level references into it (pp. 13, 17, 21, 25, 27, 39, 53), which shows it circulated in paginated form."
+    }
+  ],
+  "corrections_and_strengthenings_of_existing_records": [
+    "The September 14 record called the Internet Archive full-text route blocked by a proxy. ia-fts.archive.org no longer resolves; the route runs through archive.org's page_production search endpoint with service_backend=fts.",
+    "The Chunk 5 first-pass record's 'nearest_catalogued_candidate' for BBN's guide, CHM 85-1188, is now identified as a different, companion document (F5).",
+    "9c and 9d say the guide is unrecovered and absent from the DDN's own catalogues. Both remain true. What changes is that it is no longer unlocated in the open literature: four DCA contractor reports cite it (F3).",
+    "Title variant, unreconciled: BBN's draft of March 20, 1986 reads '1985-1992'; all four witnesses here read '1986-1992'.",
+    "Date variant, unreconciled: SPARTA dates the 1983 guide's MITRE report to August 1983 (MTR83-W00137); the NIC catalogues and AD-A152524 give November 1983 for the DCA publication. These may be the MITRE report and its DCA issue; not tested."
+  ],
+  "scope_observed": {
+    "not_redone": "The ICD comparison, the deployment evidence, the NIC 50002 series, the CHM index reading and the local netinfo recheck were treated as settled."
+  },
+  "source_fingerprints": [
+    {
+      "id": "AD-A167803",
+      "what": "SPARTA, Inc., Requirements for the Next Generation Packet Switch, 22 April 1986, 97 PDF pages",
+      "url": "https://archive.org/download/DTIC_ADA167803/DTIC_ADA167803.pdf",
+      "sha256": "262267818c43575fd53e49dfb21e8ff35b297afcecd721b095824e42eac13ef4",
+      "bytes": 4221019
+    },
+    {
+      "id": "AD-A195904",
+      "what": "Computer Sciences Corporation, Employment Concept for IDS Reconstitution, 31 May 1988, 97 PDF pages",
+      "url": "https://archive.org/download/DTIC_ADA195904/DTIC_ADA195904.pdf",
+      "sha256": "b7ae1ea25f296fb8d8665f6af329b5fc26af60f59d7d9e206692e92491724a1c",
+      "bytes": 5786459
+    },
+    {
+      "id": "AD-A196891",
+      "what": "SPARTA, Inc., DDN Trusted Guard Gateway (TGG) Requirements Analysis and Detailed Description, 10 May 1988, 72 PDF pages",
+      "url": "https://archive.org/download/DTIC_ADA196891/DTIC_ADA196891.pdf",
+      "sha256": "5c59ca7ca44c1e6350e15d967a866fbea1b5b01196f7c91ae38ff254e32ad90b",
+      "bytes": 4990011
+    },
+    {
+      "id": "AD-A210248",
+      "what": "SPARTA, Inc., DDN Trusted Guard Gateway, TGG Phase Two Report, 2 February 1989, 106 PDF pages",
+      "url": "https://archive.org/download/DTIC_ADA210248/DTIC_ADA210248.pdf",
+      "sha256": "ff8c021a53d584688614e8407db2800d4e169b16317cc144c647127f481a9da9",
+      "bytes": 6491904
+    },
+    {
+      "id": "DTIC_ADA173060_djvu.txt",
+      "what": "Internet Archive OCR text of NIC 50002, August 1986; pathname control",
+      "url": "https://archive.org/download/DTIC_ADA173060/DTIC_ADA173060_djvu.txt",
+      "sha256": "ed1dc7855cb06c45d52bbc4c1a55d5513c74fdde12120455dd2622a9f8ca5dbc",
+      "bytes": 280698
+    },
+    {
+      "id": "DTIC_ADA195849_djvu.txt",
+      "what": "Internet Archive OCR text of the DDN New User Guide, 1987; pathname control",
+      "url": "https://archive.org/download/DTIC_ADA195849/DTIC_ADA195849_djvu.txt",
+      "sha256": "748f068a5e82b03c001fe9efe2201d8445cd8f7ba1a78dbc0e1aea40ac5ea5c8",
+      "bytes": 136462
+    },
+    {
+      "id": "DTIC_ADA164353_djvu.txt",
+      "what": "Internet Archive OCR text of the ARPANET Information Brochure, 1985; pathname control",
+      "url": "https://archive.org/download/DTIC_ADA164353/DTIC_ADA164353_djvu.txt",
+      "sha256": "78cf3d14d11e63594a4f5066e7304f722515e6801322e0a65f777a70fb856f6f",
+      "bytes": 92986
+    }
+  ],
+  "handoff": {
+    "current_work_queue": "notes.md",
+    "evidence_and_open_questions": "research.md"
+  },
+  "validation": {
+    "date": "2026-09-19",
+    "status": "Interpretive corrections applied; original dated retrieval observations retained.",
+    "limits": "The January-draft and September-version reference pages independently checked visually. Search logs and catalogue samples are bounded observations, not proof of index-wide exclusions or non-distribution."
+  }
+}

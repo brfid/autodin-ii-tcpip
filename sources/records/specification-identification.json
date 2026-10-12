@@ -1,0 +1,138 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-16",
+  "state": "Pass complete, question open. The specification was not recovered from the searched routes. Its bibliographic identity and relayed delay requirements are firmer; its full contents and adoption decision remain unresolved.",
+  "current_state": "../../questions.md",
+  "findings": [
+    {
+      "id": "1b-i",
+      "claim": "The Segment Interface Protocol was first defined in the November 1975 System Performance Specification, and the March 1979 text is the product of extensive redesign since.",
+      "source": "Initial AUTODIN II Segment Interface Protocol (SIP) Specification, TN 78-07.3, DCA 200-C-637-P003, V. R. Kulkarni, Western Union Telegraph Company, 5 March 1979",
+      "locator": "Executive Summary, printed p. i / PDF p. 5",
+      "quotation": "This is the initial Segment Interface Protocol (SIP) Specification. It is the formal protocol specification developed as a result of extensive redesign and associated changes since it was first defined in the original System Performance Specification.",
+      "local_path": "https://archive.org/download/DTIC_ADA071670/DTIC_ADA071670.pdf",
+      "sha256": "2b4da4c61006dc0aaf77faed78b6e676cfde0d5cb53cd80f5dba5821b9ecba07",
+      "page_image": "https://archive.org/download/DTIC_ADA071670/DTIC_ADA071670.pdf#page=5",
+      "status": "first-hand, read visually",
+      "limit": "It establishes that the interface existed as a defined protocol in the 1975 document. It forbids reading the 1979 sequencing allocation back onto the 1975 text, since the same sentence says the protocol was extensively redesigned in between."
+    },
+    {
+      "id": "1b-ii",
+      "claim": "The specification is a type A specification, not 'type WAN'. The records' 'type WAN' was an OCR artifact.",
+      "sources": [
+        "SIP ADA071670, printed p. 1-2 / PDF p. 9, background list: 'AUTODIN II System Performance Specification (type \"A\") Nov 1975 as amended through September 1976, plus all approved Specification Change Notices.'",
+        "Cerf, DSL Technical Note 92, reference 1: 'System Performance Specification for AUTODIN II Phase I, Defense Communications Agency, type \"A\" specification, November 1975.'",
+        "Whittenton, AFIT/GCS/EE/79-15, bibliography reference 19: 'Defense Communications Agency. System Performance Specification (Type \"A\") for AUTODIN II Phase I, November, 1975.'"
+      ],
+      "page_images": [
+        "https://archive.org/download/DTIC_ADA071670/DTIC_ADA071670.pdf#page=9",
+        "https://archive.org/download/DTIC_ADA080484/DTIC_ADA080484.pdf#page=184"
+      ],
+      "status": "three independent witnesses, two read visually, the third read in the retrieved text and consistent with the other two",
+      "note": "A type A specification is the top-level system specification in the MIL-STD-490 series. The held July 15, 1976 SRI TCP preface already used the same term for itself, which the records carry."
+    },
+    {
+      "id": "1b-iii",
+      "claim": "A precise amendment-level identification of the specification, and of the missing October 1978 SIP edition.",
+      "source": "Western Union Telegraph Company, Computer Program Development Specification - Terminal Access Controller, Appendix B, Access Line Modes, DCA 200-C-637-P007, April 1979, 105 pp., contract DCA 200-C-637, controlling office DCA Code 450",
+      "locator": "CG-510262, Part 1 of 2, 6 April 1979, Page B2, Section 22 Applicable Documents, items f, g, h, i; PDF p. 12",
+      "recovered": {
+        "h": "System Performance Specification for AUTODIN II Phase I, November 1975, as amended through Amendment 0006, dated 13 October 1976.",
+        "g": "AUTODIN II Segment Interface Protocol (SIP), Specification, WU System Engineering Technical Note 78-07.2, dated 03 October 1978.",
+        "f": "AUTODIN II Mode VI (ADCCP) Line Control Procedures Functional Specification dated 02 May 1978.",
+        "i": "Final Computer Program Development Specification, MCCU THP, CDRL Item Number B006, 29 September 1978."
+      },
+      "public_url": "https://archive.org/download/DTIC_ADA083132/DTIC_ADA083132.pdf",
+      "sha256": "13d7bf009d2d3a16ba84d9b9739473796ead338b802bfc9d1bbac5f84b861bf5",
+      "bytes": 4143726,
+      "page_image": "https://archive.org/download/DTIC_ADA083132/DTIC_ADA083132.pdf#page=12",
+      "text": "Recorded capture, not distributed: ada083132-applicable-documents.txt",
+      "status": "first-hand, read visually",
+      "note": "Amendment 0006 of 13 October 1976 is more precise than the SIP's 'as amended through September 1976' and slightly later; the two are not reconciled. The item is the same contract and the same P-series as the SIP, which is P003."
+    },
+    {
+      "id": "1b-iv",
+      "claim": "One page of the unrecovered specification's content, at second hand: its packet delay requirements by precedence category, with a page locator into the original.",
+      "source": "John A. Whittenton, Captain USA, An Analysis of a Routing Algorithm for AUTODIN II, AFIT/GCS/EE/79-15, Air Force Institute of Technology, Wright-Patterson AFB, December 1979, 391 PDF pages",
+      "locator": "Figure 25, printed p. 107 / PDF p. 122; bibliography printed p. 169 / PDF p. 184",
+      "recovered_content": {
+        "attribution": "extracted from DCA's System Performance Specification, cited as Ref 19:43, that is p. 43 of the November 1975 document",
+        "conditions": "Two-hop case, source, tandem and destination node, SCM processors at eighty per cent utilization. The paragraph calls the maximum the 99th percentile but immediately describes an exceedance rate of one tenth of one per cent (99.9th percentile). Preserve this internal inconsistency; the original specification is needed to resolve it.",
+        "short_packets_1120_bits": {
+          "category_I_priority": {
+            "mean_ms": 180,
+            "max_ms": 580
+          },
+          "categories_II_III_IV_non_priority": {
+            "mean_ms": 380,
+            "max_ms": 1350
+          }
+        },
+        "long_packets_5224_bits": {
+          "category_I_priority": {
+            "mean_ms": 330,
+            "max_ms": 730
+          },
+          "categories_II_III_IV_non_priority": {
+            "mean_ms": 530,
+            "max_ms": 1500
+          }
+        }
+      },
+      "public_url": "https://archive.org/download/DTIC_ADA080484/DTIC_ADA080484.pdf",
+      "sha256": "3be80a4b4e267edc5d4ce62bbab9f1f801e3f956506d1a3db5999e6fcdcf5462",
+      "bytes": 10936482,
+      "page_images": [
+        "https://archive.org/download/DTIC_ADA080484/DTIC_ADA080484.pdf#page=122",
+        "https://archive.org/download/DTIC_ADA080484/DTIC_ADA080484.pdf#page=184"
+      ],
+      "text": [
+        "Recorded capture, not distributed: ada080484-fig25-delay-spec.txt",
+        "Recorded capture, not distributed: ada080484-bibliography.txt"
+      ],
+      "status": "relayed. The figure was read visually in the thesis; the specification itself was not read.",
+      "limits": [
+        "A student thesis paraphrasing a specification is not the specification. Record the numbers as relayed.",
+        "The column header is typeset awkwardly; the reading taken is Category I priority against Categories II, III and IV non-priority.",
+        "This is a backbone performance requirement. It gives the priority requirement a measurable shape; it says nothing directly about where sequencing belongs."
+      ],
+      "also_recovered": "Two further retrieval handles from the same bibliography: reference 17, Western Union, AUTODIN II/Phase I, contract 200-C-637, Part V Design (Technical) Specification, Subpart I Network Design, April 1976; reference 18, Systems Control Inc., AUTODIN II Network Routing - Update of Network Performance Analysis, contract WDL-SC-606280-EP, Annex 2, Palo Alto, May 1978."
+    },
+    {
+      "id": "1b-v",
+      "claim": "Cerf's already-held SCCU/MCCU note has a public DTIC copy and a reference list the records had not read. Its reference 3 names an SRI TCP specification two months earlier than the held one.",
+      "source": "Vinton G. Cerf, SCCU/MCCU Characteristics for AUTODIN II, DSL Technical Note 92, Stanford Electronics Laboratories, Stanford University, July 1976, 22 pp., sponsored by DARPA IPTO, monitored by ONR; body revised July 10, 1976",
+      "locator": "Section 5, References, items 1 to 4",
+      "reference_3": "J. Postel, L. Garlick, R. Rom, 'Transmission Control Program Specification (Initial),' Augmentation Research Center, Stanford Research Institute, May 1976, under contract DCA100-76-C-0034",
+      "public_url": "https://archive.org/download/DTIC_ADA037214/DTIC_ADA037214.pdf",
+      "sha256": "8047664629cffc80350bae212abf34b5e1997cacd494c766f94b36907664f584",
+      "bytes": 12232616,
+      "dtic_accession": "AD-A037214",
+      "text": "Recorded capture, not distributed: ada037214-references.txt",
+      "status": "retrieved and read in text; the document itself is held locally and was inspected visually in the September 11 pass",
+      "note": "The held SRI specification is the July 15, 1976 final deliverable. A May 1976 edition marked '(Initial)' under the same contract is a new, dated, unheld item and a new retrieval target."
+    }
+  ],
+  "negatives": [
+    {
+      "statement": "The November 1975 System Performance Specification is not in the local collections.",
+      "scope": "Filename search across the whole of etext; content search across the 686 extracts in the account's own extraction corpus.",
+      "bounded_by": "The gate was run first and the collections this chunk needs read fully. etext/BBN is still dataless and was not searched at the content level; nothing in this pass depended on it."
+    },
+    {
+      "statement": "No copy of the specification was found through the routes searched in this pass.",
+      "scope": "Internet Archive metadata, including an enumeration of all 56 DTIC-mirror items with AUTODIN in the title; Internet Archive full text, which returns eight citing documents and no copy.",
+      "bounded_by": "This is a bounded search result, not archival absence. The full-text index covers only digitized holdings."
+    },
+    {
+      "statement": "The repository holding the Jon Postel Collection was not identified.",
+      "scope": "Three public routes, listed in the search log.",
+      "bounded_by": "Archival inquiries remain excluded, so this does not block the chunk. It keeps the standing caution in place: the repository must be confirmed before any request."
+    }
+  ],
+  "validation": {
+    "date": "2026-09-19",
+    "status": "Interpretive corrections applied; original dated retrieval observations retained.",
+    "limits": "The relayed delay table was checked visually. Earlier retrieval failures were reviewed as dated logs, not replayed as an exhaustive search."
+  }
+}

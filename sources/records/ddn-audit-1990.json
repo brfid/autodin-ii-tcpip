@@ -1,0 +1,134 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "focus": "The 1981-82 AUTODIN II-to-DDN selection",
+  "date": "2026-09-16",
+  "state": "pass complete, question open. The report does not mention AUTODIN II, the evaluation, or the reasons for the choice. It supplies four dated facts about the 1982 planning documents, one of which bears on where the head-to-head cost comparison was carried.",
+  "supplements": [
+    "ddn-selection-initial-reading.json",
+    "ddn-reports-page-verification.json",
+    "ddn-evaluation-and-public-rationale.json",
+    "blacker-deployment-and-library-trail.json"
+  ],
+  "current_state": "../../questions.md",
+  "principal_findings": [
+    {
+      "id": "F1",
+      "finding": "AUTODIN II is not named anywhere in the report. The only AUTODIN occurrences, in the ASD(C3I) position on Finding 16 at printed p. 44 / PDF 53 and the repeated position at printed p. 51 / PDF 60 (both Appendix B), refer to the Automated Digital Network, AUTODIN I, as an existing DCS network in a 1990 list of candidates for commercial replacement. The report's history of the network moves from ARPANET's transfer to DCA in 1975 directly to the April 1982 directive and the January 1982 Replica plan.",
+      "locator": "whole report; Background, printed p. 1 / PDF 10",
+      "reading": "Text-layer negative over all pages with text, plus the blank-page check above; PDF 10 read as an image.",
+      "limits": "A negative about this report, not about the audit's working papers. The auditors state they reviewed documents dated from October 1970 through July 1989 (printed p. 3 / PDF 12), so older program records were available to them; the report simply did not treat the selection as within its objectives, which were cost growth since the original estimates, responsiveness to users and internal controls, measured against the 1983 USD(R&E) guidance."
+    },
+    {
+      "id": "F2",
+      "finding": "The IG's account of the 1982 decision documents: 'In April 1982, the Deputy Secretary of Defense directed the Director, Defense Communications Agency, to proceed with the development of the Network as outlined in the January 1982 ARPANET ... Replica Plan. The Deputy Secretary directed that all DoD data communications users were to be integrated into the Network ... The ARPANET Replica Plan was superseded by the Defense Data Network Program Plan (the Program Plan) in May 1982. The Program Plan presented a design for the Network that would satisfy worldwide survivability requirements and meet the security requirements established by the Joint Staff.'",
+      "locator": "printed p. 1 / PDF 10",
+      "reading": "Visually read. The OCR layer inserts a stray '... c·' before 'January 1982'; the image reads 'the January 1982 ARPANET (see Appendix A) Replica Plan'.",
+      "significance": "Independent of the local Program Plan photographs, this names the January Replica Plan and the May Program Plan as two documents, the second superseding the first. That agrees with research.md 9a, where the local copy is a January 1982 Replica team plan revised in May, and with the April 2 directive's wording. It states survivability and Joint Staff security requirements as what the May plan was designed to satisfy.",
+      "limits": "A 1990 auditor's summary. It says nothing of AUTODIN II, the evaluation, or why the Replica plan was chosen."
+    },
+    {
+      "id": "F3",
+      "finding": "'In March 1982, the Network program management office completed a comprehensive cost comparison of alternative program plans for the Network. However, that comparison was not a life-cycle cost estimate of the complete Network, because costs such as site preparation and development of separate subnetworks were excluded.' Elsewhere: 'Although the Program Plan included a comprehensive cost comparison of alternative program plans, design approaches to the survivability and security of the Network, and schedules for implementing system hardware and software, the Program Plan was intended to be an initial planning document only.'",
+      "locator": "printed p. 15 / PDF 24 (March 1982 comparison); printed p. 14 / PDF 23 (Program Plan contents)",
+      "reading": "PDF 24 visually read; PDF 23 read in the text layer.",
+      "significance": "Two things are new. First, a cost comparison of alternative plans is dated to March 1982 and attributed to the network program management office, after the panel's February 25 conclusion and before Carlucci's April 2 order. Second, the IG says the May 1982 Program Plan included such a comparison. research.md 9a records that the local, abridged copy of the plan never costs the rival design and compares itself only with the A-Specification and existing dedicated systems. If 'alternative program plans' means the AUTODIN II and Replica alternatives, the unabridged May 1982 plan carried the head-to-head comparison that the local copy lacks, which makes the unabridged plan a more precise retrieval target. If it is the same comparison, the stated exclusion of site preparation and separate subnetworks would be a second, independent reason to doubt the absolute totals, alongside the Task Force doubt recorded at 9e.",
+      "limits": "'Alternative program plans' is not defined. At printed p. 12 / PDF 21, read visually, the IG says 'In a comprehensive cost comparison, the Program Plan showed that the acquisition and operation of the Network would be more cost-effective over a 10-year period than using dedicated, leased data circuits', which is the comparison the local copy does contain (research.md 9a, printed pp. 254-255). The March 1982 comparison may therefore be the dedicated-circuit comparison, the AUTODIN II comparison, or both. The report gives no figures from it, and its relationship to the February 23, 1982 Factor Comparison sheet at 9g is unknown."
+    },
+    {
+      "id": "F4",
+      "finding": "'The total development and operating costs for the Network were originally estimated to be $421 million for FY 1982 through FY 1992.' The DCA/ASD(C3I) response adds: 'it was soon recognized that the $421 million figure in the 1982 plan was wrong. A 1982 memo from USD(R&E) recognized this in projecting a cost for DDN (FY82 through FY 88) of $522.9 million (inflated).'",
+      "locator": "printed p. 8 / PDF 17 (IG); printed p. 41 / PDF 50, Appendix B page 7 of 23 (DCA and ASD(C3I) position on Finding 10)",
+      "reading": "Both visually read.",
+      "significance": "Gives the 1982 plan's own total and a same-year upward revision by USD(R&E). The department's side, not the auditors, says the 1982 figure was wrong almost at once. That is relevant to the Task Force's doubt about the absolute validity of the costs at 9e.",
+      "limits": "Do not equate these with the evaluation figures at 9g. $421 million is development and operating cost for FY 1982-92 in the plan; the relayed $429 million for the Replica is 'total system cost' in constant FY82 dollars; the Air Force's $535 million (S. Hrg. 98-361) and USD(R&E)'s $522.9 million are both FY 1982-88, escalated or inflated. The bases, periods and dollar years differ and no held document reconciles them. The 1982 USD(R&E) memo is unheld and undated beyond the year."
+    },
+    {
+      "id": "F5",
+      "finding": "DoD told the GAO that 'specific threats were defined and prioritized in a 1981 Joint Chiefs of Staff memorandum and were documented in the 1982 Defense Data Network Program Plan.'",
+      "locator": "printed p. 5 / PDF 14, Prior Audit Coverage, reporting GAO C-IMTEC-89-1, January 1989",
+      "reading": "Text layer only.",
+      "significance": "A third-hand pointer to a 1981 JCS threat memorandum that fed the Program Plan's survivability case, consistent in date with the July 1981 DUSD(C3I) survivability challenge relayed from Walker at 9g. It is a new, unheld handle.",
+      "limits": "The DoD response is relayed by the IG from a GAO report whose report number carries a C- prefix and concerns the classified segment; it is not expected to be public. The memorandum's date within 1981, number and content are not given, and its relation to the DUSD(C3I) challenge is not established."
+    }
+  ],
+  "claims_not_supported": [
+    "That the IG report explains why the Replica design was chosen, or weights any criterion. It does not discuss the choice.",
+    "That the March 1982 cost comparison is the evaluation's AUTODIN II-versus-Replica comparison. The phrase is undefined and the same report uses 'comprehensive cost comparison' for the Program Plan's comparison with dedicated circuits.",
+    "That $421 million and the relayed $429 million are the same estimate."
+  ],
+  "search_coverage": {
+    "read_in_full_for_this_question": "DoD IG 90-097, all 99 PDF pages by text layer, with blank and low-text pages checked by rendering.",
+    "not_pursued": [
+      "GAO C-IMTEC-89-1, January 1989. Its C- prefix marks a classified product on the classified segment; the IG cites it for survivability analysis, not for the 1982 decision. Not searched.",
+      "DoD IG 86-105, July 8, 1986, a survey of in-process reviews at DCA with no recommendations. Low relevance to the selection; not searched."
+    ]
+  },
+  "targets_still_not_held": [
+    "The DCA evaluation team's report and its weighting.",
+    "The Factor Comparison Narrative Summary Sheet, 23 February 1982 (FOUO).",
+    "The March 1982 program management office cost comparison of alternative program plans.",
+    "The unabridged DDN Program Plan of May 1982, which the IG says included that kind of comparison.",
+    "The 1982 USD(R&E) memorandum projecting $522.9 million for FY 1982-88.",
+    "The 1981 Joint Chiefs of Staff threat memorandum.",
+    "Walker, 'Department of Defense Data Network', Signal, October 1982."
+  ],
+  "exact_remaining_retrieval_handles": [
+    "Defense Communications Agency, Defense Data Network Program Plan, May 1982, unabridged; the IG attests to its cost comparison of alternative program plans (90-097 printed p. 14).",
+    "Defense Data Network program management office, cost comparison of alternative program plans, March 1982 (90-097 printed p. 15).",
+    "USD(R&E) memorandum, 1982, DDN cost projection FY82-88 of $522.9 million inflated (90-097 printed p. 41).",
+    "Joint Chiefs of Staff memorandum, 1981, defining and prioritizing threats for the network (90-097 printed p. 5)."
+  ],
+  "corrections_and_strengthenings_of_existing_records": [
+    {
+      "was": "90-097 described as not opened",
+      "now": "Already corrected in notes.md on September 16; this pass completes the reading for Chunk 4. The 4b record is left unedited as a dated record."
+    },
+    {
+      "was": "The local plan 'nowhere costs or models the competing expanded-AUTODIN II design.'",
+      "now": "Unchanged for the local copy. Qualified: the IG says the May 1982 Program Plan included a cost comparison of alternative program plans, so the abridged local copy may lack a comparison the full plan contained. The phrase is ambiguous; see F3."
+    }
+  ],
+  "scope_observed": "No article, public-site or archival action. No historical build or execution.",
+  "source_fingerprints": [
+    {
+      "id": "IG 90-097",
+      "url_used": "https://web.archive.org/web/2020id_/https://media.defense.gov/1990/Jul/05/2001714385/-1/-1/1/90-097.pdf",
+      "bytes": 5443962,
+      "sha256": "721b5bd76781e8e92df604078616e3f7dcdd86158f772c165b1878f382f27b5c",
+      "matches": "blacker-deployment-and-library-trail.json"
+    },
+    {
+      "file": "Recorded capture, not distributed: ig90-097-printed1-pdf10.png",
+      "sha256": "609d7c8f47bb2682b608b587f0dd139167be29f16f1221fd245372ce4ab6c4db"
+    },
+    {
+      "file": "Recorded capture, not distributed: ig90-097-printed8-pdf17.png",
+      "sha256": "4a29234e7e871d2479b1428693ce59c7a0a8c364991655289cf1e7cdf4e29f7b"
+    },
+    {
+      "file": "Recorded capture, not distributed: ig90-097-printed12-pdf21.png",
+      "sha256": "10892d7f805e48487c9a8b9d9ca071d10b9d4aec7824c16c1bfd016c4e9a1695"
+    },
+    {
+      "file": "Recorded capture, not distributed: ig90-097-printed15-pdf24.png",
+      "sha256": "5bd0dbb1054d77f3ac5f5cd1fad577521a0c776001240f02687037beed952486"
+    },
+    {
+      "file": "Recorded capture, not distributed: ig90-097-printed41-pdf50.png",
+      "sha256": "ffb380508fd7be13277df6f4c9890bba409a6bd0237d85b051baebdbcc0ad459"
+    },
+    {
+      "file": "Recorded capture, not distributed: ig-90-097-selection-pages.txt",
+      "sha256": "84a0fdbe6f65ae2821216b8b4bd67b2862feb29e99b14d6fd363c03ab7fb236a"
+    }
+  ],
+  "handoff": {
+    "current_work_queue": "notes.md",
+    "evidence_and_open_questions": "research.md"
+  },
+  "validation": {
+    "date": "2026-09-19",
+    "status": "Interpretive corrections applied; original dated retrieval observations retained.",
+    "limits": "Audit pp. 1, 15 and 41 independently checked visually. This confirms chronology and cost qualifications, not selection weights. Prior whole-report negative readings remain bounded to that report."
+  }
+}

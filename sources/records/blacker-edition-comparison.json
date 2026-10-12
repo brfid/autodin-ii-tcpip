@@ -1,0 +1,260 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "focus": "BLACKER/KI-111 addressing and keying across the 1985 and 1989 interface editions",
+  "date": "2026-09-12",
+  "state": "pass complete, question open: the next-hop destination provision is specified in the 6 March 1985 edition; the separately reported keying restriction, introduction decision, rationale and deployment remain unresolved",
+  "current_state": "../../questions.md",
+  "principal_finding": {
+    "claim": "The BLACKER Front End red-side interface permitted the supplied X.25 address to be that of a gateway which is the next hop to the actual IP destination as of the 6 March 1985 edition of the BFE ICD.",
+    "earliest_recovered_specification": "BLACKER BFE ICD, 6 March 1985, section 2.4.3",
+    "quotation": "The host connected to a BLACKER Front End will have a Red IP destination address for the datagram. This address will be used by the host to determine the local subnetwork address of the next hop on the Red Virtual Network (RVN), the network comprising all hosts connected to BFEs. The local subnetwork address will be the X.25 address corresponding to either the actual Red IP destination or the IP address of the gateway that is the next hop to the destination.",
+    "consequences": [
+      "The provision predates BBN Report 6223's draft of March 20, 1986 by slightly over a year. BBN's criticism therefore cannot have caused it, and the March 21, 1989 ICD did not introduce it.",
+      "The 1989 text restates the same permission in different words and adds an example of when it applies ('IP devices not directly connected to a BFE'). It is a rewording, not a new allowance.",
+      "BBN reports both key establishment from the X.25 address pair and a requirement that the addresses match their IP-header counterparts. Section 2.4.3 specifies destination forwarding through a gateway; it does not settle source-address checks, key authorization, or the requirements in the separate guide BBN cites. No equivalent matching rule was found in the recovered ICD text readings. The 1989 logical-channel definition at 2.3.18 is not itself a cryptographic keying rule.",
+      "The dated clause rules out introducing this destination permission as a remedy to the March 1986 draft. It leaves an apparent tension between different documents, not proof that BBN misdescribed the guide or that a fully usable gateway interface existed."
+    ],
+    "what_is_still_not_established": [
+      "When the gateway provision was first written. 6 March 1985 is the earliest edition recovered, not a recorded introduction date.",
+      "Whether any earlier BFE ICD edition existed, and what it said. The BLACKER development contract was awarded in July 1983, so earlier editions are plausible but unrecovered.",
+      "What the DDN Subscriber Guide to Security Services required for key authorization and source/destination address checks, and how those requirements related to the ICD destination allowance.",
+      "Any AUTODIN II ancestry for the restriction. Nothing recovered in this pass connects the address-matching rule to AUTODIN II."
+    ]
+  },
+  "edition_comparison": [
+    {
+      "edition": "DDN X.25 Host Interface Specification",
+      "identity": "Defense Communications Agency, December 1983. Prepared by BBN Communications Corporation under contract to the DDN Program Management Office; reviewed by DCEC; draft circulated to industry by NBS; approved for DDN use by the DoD Protocol Standards Steering Group.",
+      "status": "held, two witnesses",
+      "witnesses": [
+        "DTIC AD-A137427, 53 PDF pages, archive.org item DTIC_ADA137427, DTIC_ADA137427.pdf, 2010724 bytes, md5 2dd14c7224b93fbeb4d9401c64f8f67e. Scanned typescript with a poor OCR layer."
+      ],
+      "identity_check": "The ASCII x25.doc and AD-A137427 carry the same Appendix A-5 derivation and host-table example 10.2.0.124 on printed A-9 / PDF 35, checked visually. The calculated physical address 000001240200 is on the following printed A-10 / PDF 36, read from both text witnesses; that continuation was not visually inspected in this validation.",
+      "final_ip_destination": "Not addressed as such. The specification is a host-to-network interface, not a security-device interface.",
+      "x25_destination_or_next_hop": "Appendix A-5 derives DDN X.25 physical or logical addresses from NIC host-table IP addresses. The conversion rule alone does not determine whether a selected address identifies the final IP destination or a next-hop gateway. Section 2.1.1.2 supplies missing local address information; A-3.3 describes logical names mapped to physical addresses.",
+      "gateway_support": "Appendix A-3.2 describes Standard service as a local X.25 entity extracting IP datagrams for transmission through the DDN Internet. A-4 permits cross-gateway communication through IP and Standard service, and excludes hosts using only Basic service. This supports IP interconnection but does not establish a universal X.25/IP destination-matching rule. Native text was read; the A-3.2 and A-4 scan pages were not visually inspected.",
+      "keying_constraints": "None. The specification contains no cryptographic keying provisions.",
+      "relation_to_the_question": "Both BFE ICD editions explicitly adapt this specification. It supplies the address-conversion convention but does not establish that a later keying restriction derived from that convention. No cryptographic keying rule was found in the checked text."
+    },
+    {
+      "edition": "Defense Data Network Subscriber Security Guide",
+      "identity": "The MITRE Corporation, McLean, Virginia, November 1983, contract F19628-82-C-0001, for DCA DDN-PMO Code B626, project monitor John Walker. 30 printed pages.",
+      "status": "held",
+      "witness": "DTIC AD-A152524, 41 PDF pages, archive.org item DTIC_ADA152524, DTIC_ADA152524.pdf, 1788349 bytes, md5 8b1f9aacf770673ed42e966fb5321f5b.",
+      "final_ip_destination": "Not specified; this is an architecture description, not an interface specification.",
+      "x25_destination_or_next_hop": "Not specified.",
+      "gateway_support": "Section 6.1, printed 23 / PDF 33, describes alternatives for the final evolution stage: BLACKER on all hosts with manual gates, or BLACKER only on classified hosts with true multilevel secure gateways. This is an architectural placement proposal; it does not specify the single-host interface restriction BBN later reported. Checked visually.",
+      "keying_constraints": "Described for IPLIs and gates, not for BLACKER. BLACKER's 'automatic key distribution features' are cited as a reason its administrative burden would be lower.",
+      "why_it_matters": "This is a related earlier DCA guide, with a different title and only 30 numbered text pages. Its identity as an earlier edition of the guide BBN cited is unproved. Its references provide decision-record leads. Printed 2 / PDF 12 cites DCA83c as a study to complete BLACKER requirements for DDN; printed 29-30 / PDF 37-38 identifies the referenced documents. These pages and printed 23 / PDF 33 were checked visually."
+    },
+    {
+      "edition": "BLACKER BFE ICD, 6 March 1985",
+      "identity": "Reproduced in full as section 4.2.2, 'Blacker Front End Interface Control Document', of the DDN Protocol Handbook, Volume One, DoD Military Standard Protocols, December 1985, NIC 50004/50005/50006, prepared by SRI International DDN Network Information Center for the DDN Program Management Office. The handbook prints it under the running head CONFIGURATION MANAGEMENT.",
+      "status": "held, newly recovered in this pass",
+      "witness": "DTIC AD-A166324, 610 PDF pages, archive.org item DTIC_ADA166324, DTIC_ADA166324.pdf, 42230778 bytes, md5 89a2484d9ea98bc49d66bcd9242c0eb3.",
+      "page_mapping": "The ICD occupies printed handbook pages 1-25 through 1-40, which are PDF pages 34 through 49; printed 1-nn = PDF page minus 9 across that range. The ICD also carries its own internal pagination, so handbook 1-34 is ICD page 10 and handbook 1-35 is ICD page 11. Section 4.2.3 begins at printed 1-41.",
+      "final_ip_destination": "Section 2.4.3: 'The host connected to a BLACKER Front End will have a Red IP destination address for the datagram.'",
+      "x25_destination_or_next_hop": "Section 2.4.3, continued: 'The local subnetwork address will be the X.25 address corresponding to either the actual Red IP destination or the IP address of the gateway that is the next hop to the destination.' Section 2.3.10 maps the DDN-RVN IP host field onto the seven-digit X.25 host identifier as port, domain and BFE number. Section 2.3.3 supports physical addressing only; logical addressing is refused with diagnostic 146.",
+      "gateway_support": "Explicit from the first page. Section 1.1 defines 'the services offered on the host (host or gateway) or plaintext side', and the figure on that page labels the red-side box 'HOST OR GATEWAY'.",
+      "keying_constraints": "Section 2.4.5: cryptographic distinctions on 'the four hierarchical U.S. classification levels and four non-hierarchical National Access Programs', extensible to four more levels and twelve more Special Access Programs 'if and when they are specified'. Section 2.4.6: the BFE guarantees buffering of at least five datagrams awaiting ACC authorization; further ones may be discarded. Section 2.3.18 says only 'The BFE will support up to 128 simultaneous open logical channels', with no definition of what constitutes a logical channel.",
+      "pages_inspected_visually": [
+        "PDF 34 (printed 1-25, ICD p. 1)",
+        "PDF 43 (printed 1-34, ICD p. 10)",
+        "PDF 44 (printed 1-35, ICD p. 11)"
+      ],
+      "retained_here": "Recorded capture, not distributed: ada166324-pdf{34,43,44}.png hold the inspected images."
+    },
+    {
+      "edition": "DDN Subscriber Guide to Security Services, 1985-1992",
+      "identity": "Known only from BBN Report 6223's citation. BBN calls the document it describes 'the current draft DDN security architecture'. The year range is inside BBN's quotation marks, so it is part of the title as BBN gives it.",
+      "status": "not recovered",
+      "final_ip_destination": "unknown",
+      "x25_destination_or_next_hop": "unknown",
+      "gateway_support": "Per BBN, the guide places a KI-111 on the access line between a classified LAN gateway and the classified DDN segment, but 'the KI-111 interface is oriented towards a single host and does not support connection to a common user system.'",
+      "keying_constraints": "Per BBN footnote 2: 'In particular it establishes connection keys based on the X.25 source and destination addresses and requires that these match their counterparts in the IP header. See p. 57.'",
+      "nearest_catalogued_candidate": "CHM chronological index entry 85-1188, 'Defense Data Network evolution of security services: 1986-1992, Aug. 6, 1985 draft'. Both title and year range differ from BBN's citation, and the identification is unproved. No catalog entry matching BBN's exact title was found in the CHM index, the NTIS register, or open search."
+    },
+    {
+      "edition": "BLACKER Interface Control Document, March 21, 1989",
+      "identity": "Local netinfo ASCII copy, archive wrapper '[ netinfo/blacker.doc ] [ 8/89 AM ]'.",
+      "status": "held",
+      "witness": "Recorded capture, not distributed: blacker.doc, 50873 bytes, md5 3b08a44c56c09cb3d9c054435cdaf484. Public mirrors at textfiles.com and TUCoPS reproduce the same body.",
+      "final_ip_destination": "Section 2.4.3, printed p. 2-10: 'The host connected to the BFE will provide the Red IP destination address for the actual destination of each datagram.'",
+      "x25_destination_or_next_hop": "Section 2.4.3, continuing onto p. 2-11: 'The host will also supply the appropriate DDN-RVN X.25 address to the BFE. In most cases, the X.25 address supplied by the host will correspond to the actual destination red IP address, but in some cases (e.g., IP devices not directly connected to a BFE) may be an X.25 address corresponding to a red gateway which is the next hop to the actual red IP destination.' Same permission as 1985, reworded, with an example added.",
+      "gateway_support": "Section 1.0.1, p. 1-1: 'the services offered on the host/gateway or red side.' Same as 1985.",
+      "keying_constraints": "Section 2.4.5 describes capacity for eight hierarchical levels and sixteen categories, matching the extensible ceiling already described in 1985, and points to Appendix A for the initial DSNET I configuration. Section 2.3.18 adds a definition of a logical channel as source X.25 address, destination X.25 address and precedence; it does not require an IP-header match or define a cryptographic key. Section 2.4.6 specifies buffering up to five datagrams awaiting authorization and key-preplacement advice. Section 1.0.6 describes the BLACKER Initialization Carrier.",
+      "what_changed_from_1985": [
+        "2.3.18 adds an explicit source-address/destination-address/precedence definition of a logical channel. It is connection-state terminology, not the keying and IP-header-matching rule reported by BBN.",
+        "2.4.5 restates the eight-level/sixteen-category design capacity already allowed by the 1985 extensions and adds the DSNET I initial configuration. The comparison does not demonstrate an increase in design capacity or establish operational label support.",
+        "1.0.6 adds the BIC parameter load; 2.4.6 changes the buffering wording and adds key-preplacement advice; 2.4.7 restates multihoming as a host responsibility.",
+        "Appendix B reference 6 says APRIL 1989 (FINAL), but sections 2.2 and 3.2 call that date EXPECTED FINAL PUBLICATION and EXPECTED FINAL DATE. These internal readings do not establish editing after the March 21, 1989 title date. The August 1989 archive wrapper is a separate date."
+      ]
+    }
+  ],
+  "separations_required": {
+    "earliest_recovered_specification": "6 March 1985, BLACKER BFE ICD section 2.4.3, as printed in the December 1985 DDN Protocol Handbook Volume One.",
+    "decision_introducing_the_provision": "Not recovered. No change notice, revision record, review correspondence or meeting minute naming this clause was found.",
+    "stated_rationale": "Not recovered. The 1989 edition supplies an example of when the case arises ('IP devices not directly connected to a BFE'), which is an illustration, not a rationale, and is absent from the 1985 edition.",
+    "implementation": "Cisco IOS documents an `x25 remote-red <host-ip-address> remote-black <blacker-ip-address>` table and says it 'provides the address translation information that the router sends to the BFE when it is in emergency mode'. That is the red-IP-to-black-IP emergency-mode translation of ICD section 2.3.17.3 in both editions, section 3.5.3 in 1985 and 3.4.3 in 1989, not the section 2.4.3 next-hop provision. This command is vendor documentation of a related feature, not a test of the section 2.4.3 provision. The command is recorded as introduced in IOS 10.0 and unsupported from 12.2.",
+    "deployment": "Not established in the checked sources. ADA162888 discusses intended procurement and delivery dates and their risks; the 1989 ICD names an initial DSNET I configuration. Neither establishes operational use of section 2.4.3."
+  },
+  "decision_records_named_but_not_held": [
+    "DCA, Technical Assessment of the Application of BLACKER to the Integrated AUTODIN System, 12 April 1983 (ADA152524 reference DCA83c, printed 29 / PDF 37). Printed 2 / PDF 12 cites it as the study to complete BLACKER requirements for DDN. Both pages were checked visually. The title and this citation do not establish AUTODIN II interface ancestry.",
+    "DCA, DDN Security Architecture, report of ad hoc working group, 4 November 1982, FOR OFFICIAL USE ONLY (DCA82b).",
+    "DCA Director's memorandum to DUSD for C3I, 'Defense Data Network -- Security Architecture Options,' 19 November 1982 (DCA82c).",
+    "Donald C. Latham, 'Defense Data Network -- Security Architecture Options,' memorandum to Director DCA and Director NSA, 10 May 1982 (Lath82).",
+    "NSA, Security Review of the Architecture Options for the Defense Data Network (U), October 1982, SECRET (NSA82a); NSA Director's memorandum to DUSD (C3I), 1 November 1982, SECRET (NSA82b).",
+    "DDN security architecture reviews reported in ADA162888 printed 12-13 / PDF 26-27 on 17 January and 10 July 1984, with an unavailable briefing scheduled for 5 October. The appended agendas (printed 23-25 / PDF 34-36) place the January architecture and BLACKER sessions on 17 January, IASA on 18 January, BLACKER on 10 July, the architecture review on 11 July, and an October review on 12 October. The July and October date differences remain unresolved. Agendas establish plans, not delivered briefings. All five pages were checked visually.",
+    "A revised system-level security architecture intended for October 1984, with working groups addressing use of the unclassified segment by the classified segment, whether SECRET users must use IPLIs, IPLI-to-BLACKER transition and NATO interoperability. ADA162888 printed 13 / PDF 27, checked visually; this is a reported work programme, not the resulting architecture.",
+    "A DDN Security Architecture approved 2 February 1987, named in DoD Inspector General audit report 90-097, Defense Data Network, 5 July 1990. Read only through the fetch tool's summary of that PDF; media.defense.gov refused direct download, so the exact wording and page are unconfirmed and this entry needs first-hand verification."
+  ],
+  "context_recovered": {
+    "ADA162888": {
+      "identity": "Final Report, Defense Science Board Task Force on Defense Data Network, Office of the Under Secretary of Defense for Research and Engineering, 30 August 1985. 37 PDF pages. archive.org item DTIC_ADA162888, DTIC_ADA162888.pdf, 1799367 bytes, md5 46da9ea1084f9c32156a4cfc842400b0.",
+      "page_mapping": "printed p = PDF p - 14 through the body; printed p. 11 is PDF p. 25.",
+      "readings": [
+        "BLACKER 'got off to an ambitious start with the designation of DIRNSA as the Program Manager, the selection of a single development contractor, with a contract award in July 1983, and a DCA-proposed plan for the simultaneous development of nearly a dozen separate BLACKER devices'. Printed p. 11, inspected visually.",
+        "'By the end of 1983, confidence in meeting the original schedule which called for limited procurement to begin in late 1988 had become shaky. In part, this situation was the result of growing concerns about the difficulties of accreditation which began to resemble those associated with AUTODIN II.' Printed p. 11, inspected visually. This is an accreditation analogy drawn by the Task Force, not evidence of interface ancestry.",
+        "'If DDN is to fulfill the goals which motivated the AUTODIN II development and urged the move to DDN, it must ultimately attain the status of a fully consolidated, common-user network serving multi-level secure hosts.' Printed p. 12, inspected visually at PDF 26; supports continuity of a consolidation/security objective, not inheritance of an interface rule.",
+        "'As of this writing, the security architecture is unsettled.' Printed p. 13, inspected visually at PDF 27."
+      ],
+      "relation_to_chunk_4": "The appended May 1983 terms of reference and meeting agendas identify a DDN follow-up Task Force. Its precise relationship to Appendix D of the December 1982 AUTODIN II report has not been established here. Preserve the narrative/agenda date differences recorded above instead of giving a single reconciled meeting chronology.",
+      "date_limits": "Printed 11-12 / PDF 25-26 discuss a summer 1984 redirection, then give 1 October 1983 for a revised purchase description. That internal sequence is unresolved; the year has not been silently corrected. These are reported plans and schedule concerns, not delivery evidence."
+    },
+    "ADA132877": {
+      "identity": "Defense Data Network Subscriber Interface Guide, MITRE Corp., July 1983. 86 PDF pages. archive.org item DTIC_ADA132877, DTIC_ADA132877.pdf, 3417803 bytes, md5 f386864cfad696baa56cfb21f25469c0.",
+      "reading": "Appendix A section 3.1.2.3.1, printed A-14 / PDF 60, specifies Host to IPLI Protocol (HIP), BBN Report 5278, with the HDH option. Printed A-13 / PDF 59 separates the pending X.25 specification from host connection to an IPLI. Both pages were checked visually. This establishes the specified interface in this guide; it does not rule out inheritance of a broader security constraint through a different interface, later revisions or other decision records.",
+      "note": "Section 3.1.1.3.3 says X.25 implementations 'shall conform to the requirements of the DDN X.25 Specification, to be issued in a revision to this specification', which dates this guide before the December 1983 X.25 specification."
+    },
+    "DDN_NEWS_41": {
+      "identity": "DDN News 41, special issue, DCA DDN Program Management Office, distributed by the NIC, dated 18 October 1985 in the message header. Local copy: etext/DDN/DDN news/ddn-news.n41.1, ASCII.",
+      "reading": "'The IASA includes the Defense Data Network - the transmission media; BLACKER - a host-to-host security device to encrypt messages which leaves the address intact for message routing; the I-S/A AMPE; and the DoD AUTODIN Subscriber Terminals'.",
+      "caution": "In this newsletter, IASA is the Integrated AUTODIN System Architecture and its message-service replacement programme. Do not equate that name with AUTODIN II. Separately, ADA162888 makes both an accreditation analogy and an explicit link between DDN consolidation goals and AUTODIN II; neither establishes ancestry of the KI-111 interface rule.",
+      "fingerprint": "43610 bytes; md5 062009f7ad9eb8463d001c35bb282c5d; local native text re-read in validation."
+    }
+  },
+  "searched_without_success": {
+    "the_cited_guide": [
+      "DDN Subscriber Guide to Security Services, 1985-1992, and its p. 57. Not located in the CHM chronological index, NTIS/NTRL, archive.org full-text search, or open web search under that title.",
+      "The nearest catalogued item, CHM 85-1188, is a different title with a different year range and was not located in any digital repository."
+    ],
+    "earlier_and_other_interface_editions": [
+      "CHM chronological index entries 85-1190 'Blacker BFE ICD' and 85-2726 'Contractor developed specification BFE interface control document; Blacker, Phase I., SDC Doc. No. A016-65' remain catalog entries only. The CHM online collection search could not be read without JavaScript and returned nothing usable. Whether 85-1190 is the 6 March 1985 edition now recovered is untested; the dates are compatible but the catalog entry carries no date.",
+      "No BFE ICD edition between March 1985 and March 1989, and none after March 1989, was located.",
+      "No change notice, revision record or errata sheet for any BFE ICD edition was located."
+    ],
+    "dated_change_records": [
+      "The local DDN Management Bulletin series (82 bulletins) and DDN News series were searched for BLACKER, BFE and KI-111. Only two hits, both descriptive: DDN News 39 (26 April 1985) on DODIIS integration into DISNET 'when blacker devices become available', and DDN News 41 as above. The bulletins are operational and computer-security advisories, not interface change notices.",
+      "DCA Circular 310-P115-1, DDN Security Management Procedures for Host Administrators, Volume I, contains nothing on BLACKER, the BFE or X.25 addressing. Volume II 'will receive limited distribution' and was not sought."
+    ],
+    "other": [
+      "Robert W. Shirey, 'Defense data network security architecture', ACM SIGCOMM Computer Communication Review. The ACM Digital Library returned HTTP 403 and no open-access copy was found. Worth one more attempt through a MITRE technical-report number.",
+      "DoD IG report 90-097 could not be downloaded directly; only a tool-mediated summary was obtained."
+    ]
+  },
+  "targets_still_not_held": [
+    "DDN Subscriber Guide to Security Services, 1985-1992, p. 57.",
+    "Any BFE ICD edition earlier than 6 March 1985, including whatever CHM 85-2726 (SDC A016-65, BLACKER Phase I) contains.",
+    "CHM 85-1190 and 85-1188 as texts.",
+    "DCA, Technical Assessment of the Application of BLACKER to the Integrated AUTODIN System, 12 April 1983.",
+    "The 1982 DDN security-architecture decision papers (DCA82b, DCA82c, Lath82, NSA82a, NSA82b).",
+    "The revised DDN security architecture promised for October 1984, and the architecture approved 2 February 1987."
+  ],
+  "validation": {
+    "date": "2026-09-12",
+    "source_identity": "All five independently downloaded DTIC PDFs match the recorded byte counts and MD5 hashes. The local 1989 BLACKER and 1983 X.25 files also match their recorded byte counts and MD5 hashes.",
+    "pdf_fingerprints": [
+      {
+        "id": "ADA166324",
+        "url": "https://archive.org/download/DTIC_ADA166324/DTIC_ADA166324.pdf",
+        "bytes": 42230778,
+        "md5": "89a2484d9ea98bc49d66bcd9242c0eb3",
+        "sha256": "dbef3d3390385c93a477300f4c53c46fd4fd18107fdea534df0bb10e05aceb3c"
+      },
+      {
+        "id": "ADA137427",
+        "url": "https://archive.org/download/DTIC_ADA137427/DTIC_ADA137427.pdf",
+        "bytes": 2010724,
+        "md5": "2dd14c7224b93fbeb4d9401c64f8f67e",
+        "sha256": "01c1c53ad806c99f555092a28aa1d6f835678b56d749ae4716c0fb16f2041620"
+      },
+      {
+        "id": "ADA152524",
+        "url": "https://archive.org/download/DTIC_ADA152524/DTIC_ADA152524.pdf",
+        "bytes": 1788349,
+        "md5": "8b1f9aacf770673ed42e966fb5321f5b",
+        "sha256": "3c0ba32a85c19145a8a332a698240bdcbae25b48f43db0c1333c8f15b3382cf7"
+      },
+      {
+        "id": "ADA162888",
+        "url": "https://archive.org/download/DTIC_ADA162888/DTIC_ADA162888.pdf",
+        "bytes": 1799367,
+        "md5": "46da9ea1084f9c32156a4cfc842400b0",
+        "sha256": "c544dd1d815061a6012a541ee1a85a3790d3b3eefae57c9f839c32742d8c4be1"
+      },
+      {
+        "id": "ADA132877",
+        "url": "https://archive.org/download/DTIC_ADA132877/DTIC_ADA132877.pdf",
+        "bytes": 3417803,
+        "md5": "f386864cfad696baa56cfb21f25469c0",
+        "sha256": "45dc13dfca1f3c9d98c6309390684369431b8bd14397cf4a70288897be233379"
+      },
+      {
+        "id": "chm-ddn-index",
+        "url": "https://archive.computerhistory.org/resources/access/text/2012/11/500001011-05-01-acc.pdf",
+        "bytes": 285333,
+        "md5": "439d0da706ca4414163b910d69a584e2",
+        "sha256": "3d354a008cd03bc71d5c994e928412a66272ae1357d81aeaa7952c7d7113c02a"
+      }
+    ],
+    "previous_images_rechecked": [
+      "ada166324-pdf34.png",
+      "ada166324-pdf43.png",
+      "ada166324-pdf44.png",
+      "ada137427-pdf35.png",
+      "ada152524-pdf37.png",
+      "ada162888-pdf25.png"
+    ],
+    "additional_images_retained": {
+      "chm-ddn-index": [
+        "Recorded capture, not distributed: chm-ddn-index-pdf22.png",
+        "Recorded capture, not distributed: chm-ddn-index-pdf42.png"
+      ],
+      "ADA152524": [
+        "Recorded capture, not distributed: ada152524-pdf12.png",
+        "Recorded capture, not distributed: ada152524-pdf33.png",
+        "Recorded capture, not distributed: ada152524-pdf38.png"
+      ],
+      "ADA132877": [
+        "Recorded capture, not distributed: ada132877-pdf59.png",
+        "Recorded capture, not distributed: ada132877-pdf60.png"
+      ],
+      "ADA162888": [
+        "Recorded capture, not distributed: ada162888-pdf26.png",
+        "Recorded capture, not distributed: ada162888-pdf27.png",
+        "Recorded capture, not distributed: ada162888-pdf34.png",
+        "Recorded capture, not distributed: ada162888-pdf35.png",
+        "Recorded capture, not distributed: ada162888-pdf36.png"
+      ],
+      "ADA166324": [
+        "Recorded capture, not distributed: ada166324-pdf33.png"
+      ]
+    },
+    "additional_page_mapping": {
+      "ADA166324": "PDF 33 = printed 1-24",
+      "ADA152524": "PDF 12 = printed 2; PDF 33 = printed 23; PDF 38 = printed 30",
+      "ADA132877": "PDF 59-60 = Appendix A printed A-13 to A-14",
+      "ADA162888": "PDF 26-27 = printed 12-13; PDF 34-36 = printed 23-25",
+      "chm-ddn-index": "PDF 22 and 42, no separate printed page numbers"
+    },
+    "local_image": "BBN 6223: 2015-07-27 14.15.17.jpg (title, March 20, 1986 draft) and 2015-07-27 14.16.26.jpg (printed 18-19); identity, quotation and footnote rechecked visually. Originals remain at the paths in research.md 9c.",
+    "native_text_coverage": "1989 blacker.doc introduction, red-side packet and IP sections, address/authorization/key references, black-side IP translation and Western Digital references; 1983 x25.doc sections 2.1.1-2.1.2, A-3.2, A-3.3, A-4 and A-5; DDN News 41 IASA passage.",
+    "web_cross_checks": [
+      "RFC 980 Appendix A lists the 1985 handbook BFE ICD at section 4.2.2.",
+      "RFC 4949 identifies BFE as TSEC/KI-111, retrospectively.",
+      "Cisco x25 remote-red command reference states emergency-mode translation, introduced in 10.0 and unsupported in 12.2."
+    ],
+    "limits": "No new archive inquiries or historical execution. Prior negative searches were not all repeated. The missing guide, unexamined Shirey paper and tool-summary-only IG reading remain leads. A bounded search failure does not make all remaining sources dependent on an inquiry.",
+    "retained_extract": "All 16 retained page blocks for ADA166324 PDF 34-49 match a fresh pdftotext -layout extraction after whitespace normalization. This verifies extract fidelity, not every OCR character against the scan."
+  }
+}

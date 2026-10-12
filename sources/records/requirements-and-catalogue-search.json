@@ -1,0 +1,307 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-17",
+  "state": "pass complete. Two public routes the record had never used were opened, NTIS NTRL field-scoped search and the Government Reports Announcements & Index on the Internet Archive, together with the Computer History Museum's online catalogue. One named-but-unlocated document was identified and dated first-hand, one was recovered in full, seven previously unknown SRI/DCA contract-document PDFs were recovered, one citation was upgraded from relayed to confirmed, and five targets were closed as bounded negatives. No open causal question is answered. See source_qualifications for later checks of the CHM files' reading coverage and locators.",
+  "current_state": "../../questions.md",
+  "findings": [
+    {
+      "id": "ps-i",
+      "claim": "SIP TN-78-07.2 of 3 October 1978, one of the three documents the record names as the place where adoption of the sequencing recommendation would be visible, is a publicly announced NTIS report. It is now identified, dated and abstracted first-hand, though no copy was retrieved.",
+      "identification": "AD-A064936. Western Union Telegraph Co., McLean, VA, System Engineering Dept. 'Initial AUTODIN II Segment Interface Protocol (SIP) Specification.' Technical note. V. R. Kulkarni and P. J. Sevcik. 3 Oct 78, 70p. TN-78-07.2, AD-E100 107. Contract DCA200-C-637.",
+      "source": "Government Reports Announcements & Index, Vol. 79, No. 14, 6 July 1979, printed p. 148, Field 17B",
+      "locator": "Internet Archive item sim_government-reports-announcements-index_1979-07-06_79_14, leaf n155",
+      "page_image": "https://archive.org/download/DTIC_ADA064936/DTIC_ADA064936.pdf",
+      "page_image_sha256": "7a4020648716ec3c6901d4d9075c29b8a5ab61be326d293f4d6fafe432a9c233",
+      "transcript": "../https://archive.org/details/sim_government-reports-announcements-index_1979-07-06_79_14/page/n155/mode/1up",
+      "new_facts": [
+        "The co-author P. J. Sevcik was not previously known to the record; the 1979 revision is by Kulkarni alone.",
+        "The secondary report number AD-E100 107.",
+        "The contract is given as DCA200-C-637, matching the P-series family.",
+        "The abstract is recovered: functional specification of the SIP 'in the abstract sense', the externally visible and mandatory portions, protocol commands and formats, and prescribed state transition stimuli and responses."
+      ],
+      "retrieval_status": "Not retrieved. NTIS holds the catalogue record without digitised text: its title detail page carries no abstract and no download control, and the Download PDF action returns an empty body. The Internet Archive has no item. apps.dtic.mil is in a site-wide maintenance outage.",
+      "limits": "The GRA&I abstract does not contain the 'extensive redesign since it was first defined in the original System Performance Specification' sentence that the March 1979 edition's executive summary carries, but GRA&I abstracts are edited and this must not be read as evidence that the October 1978 text lacked it. Nothing here bears on the sequencing decision."
+    },
+    {
+      "id": "ps-ii",
+      "claim": "The Mode VI line control functional specification of 2 May 1978, named on the Western Union applicable-documents list and carried by the record as unrecovered, is recovered in full and identified. It does not bear on the sequencing question.",
+      "identification": "AD-A067647. DCA 200-C-637-P001. 'AUTODIN II Mode VI (ADCCP) Line Control Procedures Functional Specification.' Western Union Telegraph Company, Government Systems Division, 7916 Westpark Drive, McLean, VA 22101. Controlling office DCA Code 450. Final. 2 May 1978. DD Form 1473 block 15 gives 43 pages; the Internet Archive scan runs to 170 images. Approved for public release, distribution unlimited.",
+      "source": "Internet Archive DTIC mirror, DTIC_ADA067647, text layer; DD Form 1473 read from that text layer",
+      "locator": "DD Form 1473, blocks 1, 4, 9, 11, 12, 15",
+      "text_sha256": "32e2ced9e92350d7de83336bfec24c1a2f4317d4e97892a206760bbfb0e1dd77",
+      "consequence": "The P-series is now partly mapped: P001 Mode VI, P003 SIP, P007 Terminal Access Controller. The document is a link-layer ADCCP specification with no applicable-documents list and no citation of the System Performance Specification, so it does not touch where sequencing belongs.",
+      "limits": "Read from the OCR text layer, not from page images. The page-count discrepancy between the DD Form 1473 and the scan is unexplained and neither figure should be quoted alone."
+    },
+    {
+      "id": "ps-iii",
+      "claim": "A third protocol specification exists on the contracted Western Union branch at the moment of the deferral, completing the family the record knows from TCP Revision 3 and THP Revision 2.",
+      "identification": "AD-A081755. Western Union Telegraph Co., McLean, VA, Government Systems Div. 'Computer Program Development Specification Segment Interface Protocol (SIP).' Final rept. Jan 80, 70p. AD-E100 341. Contract DCA200-C-637.",
+      "source": "Government Reports Announcements & Index, Vol. 80, No. 13, 20 June 1980, printed p. 2252, Field 9",
+      "locator": "Internet Archive item sim_government-reports-announcements-index_1980-06-20_80_13, OCR text layer",
+      "read_from": "text layer, not a page image",
+      "consequence": "ADA081755 supplies a January 1980 SIP catalogue identity in the contractor family. Without its text it does not establish technical content, divergence or a decision; those claims need separate evidence.",
+      "retrieval_status": "Not retrieved. NTIS catalogue record with abstract but no download control; no Internet Archive item; DTIC in maintenance outage."
+    },
+    {
+      "id": "ps-iv",
+      "claim": "ADA058143, previously a bare title in the discovery record, is dated and attributed to DCA itself.",
+      "identification": "AD-A058143. Defense Communications Agency, Arlington, Va. 'AUTODIN II Phase I System Implementation/Installation Plan.' 1 Feb 78, 97p.",
+      "source": "Government Reports Announcements & Index, Vol. 78, No. 24, 24 November 1978",
+      "read_from": "text layer, not a page image",
+      "consequence": "A DCA planning document of February 1978, ten months before the December 1978 upgrade order. It is a lead for Chunk 2 and was not examined in this pass.",
+      "retrieval_status": "Not retrieved; NTIS catalogue record only, no Internet Archive item."
+    },
+    {
+      "id": "ps-v",
+      "claim": "DCA's own statement of work supplies a fourth independent witness to the specification's type designation, and the first from the issuing agency rather than a contractor or a student.",
+      "source": "Defense Communications Agency, 'Statement of Work for AUTODIN II File Transfer Protocol Type A Specification and Protocol Experiments', Computer History Museum catalogue number 102697716",
+      "locator": "section 3.6 References, reference (1), printed p. 6a / PDF p. 8",
+      "quotation": "Defense Communications Agency, Specifications (Type A) for AUTODIN II Phase I, November 1975 (referred to as the AUTODIN II Specification).",
+      "page_image": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697716-05-0001.pdf#page=8",
+      "page_image_sha256": "12b7661035dc2999c5620394350064c0c53cccb3cf3d0f08f33e8acf388805ce",
+      "corroboration": "Reference (2) of the same list is MIL-STD-490, Military Standard, Specification Practices, which the record had inferred as the framework for a type A specification rather than seen cited beside it.",
+      "also": "References (12) and (13) cite the SRI TCP and THP specifications dated 15 July 1976, visually verified in a separate one-page follow-up at printed p. 6b / PDF p. 9. See ../dca-page9-2026-09-26/reading.md. Batch A established that PDF p. 8 ends at reference (10)."
+    },
+    {
+      "id": "ps-vi",
+      "claim": "The November 1975 System Performance Specification carried its communications security requirements in an Appendix A that was classified Confidential and bound as a separate document.",
+      "source": "DCA statement of work, CHM 102697716",
+      "locator": "section 4.2.1.3.1 Security, printed p. 9 / PDF p. 12",
+      "quotation": "All information relating to communications security are specified in Appendix A of the AUTODIN II Specification. Appendix A is classified as Confidential and is, therefore, bound as a separate document.",
+      "page_image": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697716-05-0001.pdf#page=12",
+      "page_image_sha256": "14831f9e6e09e855f219630d1ed580cade173e196c8227fda64879392af7150b",
+      "corroboration": "SRI's proposal of 1 June 1976, CHM 102697718, restates the same sentence, read from its text layer. The arrangement is therefore attested by June 1976 and is not peculiar to this document.",
+      "consequence": "The passages establish the appendix's contemporary separate binding and Confidential classification. Present classification/release status and the reason for non-recovery are unknown.",
+      "limits": "It describes the specification's structure. It says nothing about what Appendix A required, and it must not be used to infer the content of any security rule."
+    },
+    {
+      "id": "ps-vii",
+      "claim": "DCA's FTP statement of work explicitly requires one security state and one precedence state per process-to-process connection, changed only by closing and reopening it.",
+      "source": "DCA statement of work, CHM 102697716",
+      "locator": "section 4.2.1.3 Security and Precedence, printed p. 9 / PDF p. 12",
+      "quotations": [
+        "Since these requirements have not been present in earlier packet switching systems, such as the ARPA Network, it is appropriate to discuss them at length.",
+        "The host level protocol shall provide the capability to handle multiple connections of varying security requirements, varying precedence levels, or a combination of both, in the same host entity.",
+        "A process-to-process connection shall have only one security state and one precedence state at any one time and these can be changed only by disestablishing the connection and reestablishing a new connection."
+      ],
+      "page_image": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697716-05-0001.pdf#page=12",
+      "consequence": "This is direct requirement-side evidence for the FTP work statement. The existing comparison of the July 1976 SRI TCP specification records security ceilings and directional precedence, so identical TCP semantics must not be inferred from this clause.",
+      "limits": "This is a statement of work for the AUTODIN II File Transfer Protocol, not the System Performance Specification. Its clauses cannot be quoted as that missing specification or substituted for the detailed SRI TCP rules. See the 2026-09-26 Batch A comparison."
+    },
+    {
+      "id": "ps-viii",
+      "claim": "The criticality structure behind the priority requirement is given concrete content, and Category I is defined as non-blocking with the network sized for it.",
+      "source": "DCA statement of work, CHM 102697716",
+      "locator": "section 4.2.1.3.2.1 Criticality, printed p. 10 / PDF p. 13",
+      "mapping": {
+        "Flash Override (Y & W)": "Category I",
+        "Flash (Z)": "Category I",
+        "Immediate (O)": "Category II",
+        "Priority (P)": "Category III",
+        "Routine (R)": "Category IV"
+      },
+      "quotation": "Category I shall be non-blocking and includes both Flash Override and Flash (W, Y, Z) traffic. Since Category I is non-blocking, the minimum capacity of the network, both in terms of channel capacity and switch buffer capacity, is sized as if all (W, Y) and (Z) subscribers were inputting data at their maximum connected access circuit rates.",
+      "page_image": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697716-05-0001.pdf#page=13",
+      "page_image_sha256": "8a3c13a81353b0e85874d82d32a9ef6f1356abf7862f73749261d87a8b992c76",
+      "consequence": "Whittenton's relayed packet delay table sets Category I against Categories II to IV. That contrast now has named military precedences behind it, and the non-blocking property explains why Category I carries a separate delay requirement.",
+      "limits": "The table is prefaced 'AUTODIN II criticality nomenclature has not as yet been officially defined, but for the purpose of this specification it will be essentially equivalent to the following', so it is a working equivalence in an FTP statement of work and not a settled nomenclature."
+    },
+    {
+      "id": "ps-ix",
+      "claim": "Walker's Signal article, which the record cites at second hand through a 1983 NPS thesis, is confirmed as a citation from AFCEA's own volume index.",
+      "citation": "Stephen T. Walker, 'Department of Defense Data Network', Signal, October 1982, p. 42.",
+      "source": "Index to Signal, Volume 37, September 1982 through August 1983, printed in the October 1983 issue",
+      "locators": [
+        "Title index item 41, 'Department of Defense Data Network', Oct., 42, printed p. 85",
+        "Author Index, printed p. 90, 'Walker, Stephen T. 41', under a heading stating that the numbers refer to the title index item numbers"
+      ],
+      "page_images": [
+        "Recorded capture, not distributed: signal-v37-index-titles-p85.jpg",
+        "Recorded capture, not distributed: signal-v37-index-authors-p90.jpg"
+      ],
+      "page_image_sha256": {
+        "titles": "d30dc84944b9db5848cbbfc42d30156200f857c09a3f5d5ef7f508170798eaec",
+        "authors": "dc43df517382232bd366ea48c3596e8aa743d10290a35350b1996040b1c074ef"
+      },
+      "limits": "This confirms that the article exists with that title, author, issue and starting page. It says nothing about its contents, which remain known only through the NPS thesis. The Internet Archive holds the 1982-83 volume indexes but no issues, so the text was not retrieved."
+    },
+    {
+      "id": "ps-x",
+      "claim": "A fourth bibliography cites Mundy and Shirey in the MILCOM '87 proceedings, and a specialist bibliography of the exact period does not cite the Subscriber Guide.",
+      "source": "R. Turn and L. E. Bassham, Bibliography of Selected Computer Security Publications, January 1980-October 1989, NTIS PB91148486, Internet Archive item computersecurity8001bass",
+      "entry": "MUN-87. Mundy, G.R., and R.W. Shirey. 'Defense Data Network Security Architecture,' Proceedings, MILCOM '87, October 1987.",
+      "read_from": "text layer, not a page image",
+      "consequence": "The conflict between Shirey's 1990 statement that the paper missed the proceedings and the bibliographies that place it there is unchanged, now with four citing bibliographies rather than three. None gives page numbers. The same bibliography, covering January 1980 to October 1989, does not cite the Defense Data Network Subscriber Guide to Security Services at all, which is a bounded catalogue negative and does not establish the guide's distribution marking.",
+      "limits": "The initials 'G.R.' differ from the 'Lt. Col. Russ Mundy' of the SPARTA acknowledgement and the NPS thesis. Not reconciled and not decisive."
+    },
+    {
+      "id": "ps-xi",
+      "chunks": [
+        "1",
+        "2"
+      ],
+      "claim": "Seven previously unrecorded SRI and DCA contract-related PDFs of 1976 to 1978 were recovered from the Computer History Museum's online catalogue.",
+      "documents": [
+        {
+          "chm": "102697716",
+          "title": "Statement of Work for AUTODIN II File Transfer Protocol Type A Specification and Protocol Experiments",
+          "issuer": "Defense Communications Agency",
+          "date": "Undated on its face; references (12)-(13), visually checked on printed p. 6b / PDF p. 9 in the separate September 26 follow-up, cite specifications dated 15 July 1976. Citation dates do not independently authenticate the issue date. The earlier record relates it to CHM 102697715 of 8 November 1976; that relationship was not retested.",
+          "pages": 24,
+          "sha256": "327780f89cc52cefab60f77b4186d624d095714e88560ce64afe76ba983aaf49",
+          "local_path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697716-05-0001.pdf",
+          "retained_on": "2026-09-19",
+          "retrieval_url": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697716-05-0001.pdf"
+        },
+        {
+          "chm": "102697718",
+          "title": "Study of File Transfer Protocols for use in AUTODIN II, Part One: Technical Proposal",
+          "issuer": "Stanford Research Institute, SRI No. ISU 76-145, prepared by Jonathan B. Postel, with SRI internal approvals by Douglas C. Engelbart and Earl Jones, for DCA/DCEC attn. Warren Hawrylko",
+          "date": "1 June 1976",
+          "pages": 26,
+          "sha256": "b376ebb17463225858852e0af341b38ce40aae07cbc998034c6a9b57c7d45824",
+          "local_path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697718-05-0001.pdf",
+          "retained_on": "2026-09-19",
+          "retrieval_url": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697718-05-0001.pdf"
+        },
+        {
+          "chm": "102697719",
+          "title": "Study of File Transfer Protocols for use in AUTODIN II, Part Two: Contractual Provisions",
+          "issuer": "Stanford Research Institute, SRI-ARC 35424",
+          "date": "1 June 1976; proposes three months' work commencing 1 July 1976",
+          "pages": 8,
+          "sha256": "5cecb6ac4429379696dcb1d3fd6a4425085937ea70c7b356f3baebccf7fc76d6",
+          "local_path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697719-05-0001.pdf",
+          "retained_on": "2026-09-19",
+          "retrieval_url": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697719-05-0001.pdf"
+        },
+        {
+          "chm": "102697715",
+          "title": "Specification of File Transfer Protocols for use in AUTODIN II and Design for Implementation of Experimental Transmission Control Protocol, Terminal-to-Host Protocol, File Transfer Protocol in the EDCN, Part Two: Contractual Provisions",
+          "issuer": "Stanford Research Institute, SRI No. ISO 76-267, SRI-ARC 28795, for DCA/DCEC attn. Ed Cain",
+          "date": "8 November 1976",
+          "pages": 16,
+          "sha256": "c1dbbd0268dd0ba3da0bcd0a4c4c23b7d63e54fc5acb3718e76b51a84b2f4985",
+          "local_path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697715-05-0001.pdf",
+          "retained_on": "2026-09-19",
+          "retrieval_url": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697715-05-0001.pdf"
+        },
+        {
+          "chm": "102697752",
+          "title": "Functional Specification of User Protocols for AUTODIN II, Part One: Technical Proposal",
+          "issuer": "SRI International, SRI No. ISU 78-59, prepared by E. J. Craighill, for DCEC attn. E. A. Cain, Code R850",
+          "date": "27 February 1978",
+          "pages": 41,
+          "sha256": "6c5373d9ced8a28637fe13538210eec3031822ce23fcb0d72b246446aa0ae3d3",
+          "local_path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697752-05-0001.pdf",
+          "retained_on": "2026-09-19",
+          "retrieval_url": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697752-05-0001.pdf"
+        },
+        {
+          "chm": "102697751",
+          "title": "Qualifications of SRI International to plan, design, implement, and evaluate new telecommunication services for the Integrated AUTODIN System (IAS)",
+          "issuer": "SRI International, for RADC Contracting Division (PKRD), Griffiss AFB",
+          "date": "17 November 1978",
+          "pages": 29,
+          "sha256": "823c3aeeafe2c913e048c2aa3a89fa21543de51d3ba39af4a962e4e5997f8b45",
+          "local_path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697751-05-0001.pdf",
+          "retained_on": "2026-09-19",
+          "retrieval_url": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697751-05-0001.pdf"
+        },
+        {
+          "chm": "102697717",
+          "title": "Arc Proposals: Jon Postel's notes and correspondence concerning Autodin II protocol proposal",
+          "issuer": "SRI Augmentation Research Center",
+          "date": "undated as a whole; contains Lawrence L. Garlick's biography for DCA dated 21 January 1977",
+          "pages": 71,
+          "sha256": "9767520847035437a147c31920756533c03e2841ad3985b092a6b20cbc34c185",
+          "note": "Largely handwritten. The OCR layer is poor and this item was characterised, not read.",
+          "local_path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+          "retained_on": "2026-09-19",
+          "retrieval_url": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf"
+        }
+      ],
+      "retrieval": "CHM serves these as public PDFs at https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/<accession>-05-0001.pdf. Wasabi returns AccessDenied without a computerhistory.org Referer header. This is the same naming as 102697649, the July 1976 TCP specification the record already holds.",
+      "coverage": "Identification and a targeted reading of the statement of work's references and its security and precedence sections. The six other documents were identified and scanned for the open questions' terms; none was read in full. They remain leads.",
+      "limits": "The present dated pass substantively read selected DCA passages and only identified/selectively scanned the six SRI documents; this original coverage does not support negatives about unread contents. The current reading inventory and later June-pair findings are in ../../research.md and ../batch-a-2026-09-26/reading.md. All seven PDF originals were retained and their recorded fingerprints reverified on September 19.",
+      "retained_copy_caveat": "Batch A (2026-09-26) read every page of the June pair, 102697718 and 102697719. Part Two mentions an enclosed signed cost-related form that is not in either retained PDF; complete files are not proof of a complete original submission. Other SRI documents retain the selective coverage recorded in this pass."
+    }
+  ],
+  "bounded_negatives": [
+    {
+      "target": "November 1975 System Performance Specification",
+      "route": "NTIS",
+      "basis": "Complete enumeration of all 93 NTIS titles containing the phrase 'AUTODIN II'. The specification's title carries that phrase, so this bounds the route.",
+      "result": "absent"
+    },
+    {
+      "target": "Western Union, Part V Design (Technical) Specification, Subpart I Network Design, April 1976, contract 200-C-637",
+      "route": "NTIS",
+      "basis": "Complete enumerations of 221 Western Union Telegraph corporate-author records and of the 7 records under contract number 200-C-637.",
+      "result": "absent"
+    },
+    {
+      "target": "Systems Control, Inc., AUTODIN II Network Routing, Update of Network Performance Analysis, Annex 2, May 1978",
+      "route": "NTIS",
+      "basis": "Complete enumeration of 529 Systems Control, Inc. corporate-author records; contract number WDL-SC-606280-EP returns nothing.",
+      "result": "absent"
+    },
+    {
+      "target": "SRI, Transmission Control Program Specification (Initial), May 1976, contract DCA100-76-C-0034",
+      "route": "NTIS and Internet Archive",
+      "basis": "Contract number DCA100-76-C-0034 returns exactly one NTIS record, ADA035337, whose Internet Archive copy is dated 1976-07-15 and is the July deliverable already held. The undated DCA statement of work cites specifications dated 15 July 1976 at printed p. 6b / PDF p. 9, references (12)-(13), visually verified in the separate September 26 follow-up.",
+      "result": "absent; no separate May 1976 edition found on any public route"
+    },
+    {
+      "target": "AUTODIN II Final Design Plan, June 1978, and Design Executive Summary, 18 May 1978",
+      "chunks": [
+        "1",
+        "2"
+      ],
+      "route": "NTIS",
+      "basis": "Absent from the 93-title 'AUTODIN II' enumeration and from title phrase searches.",
+      "result": "absent"
+    },
+    {
+      "target": "DDNCOG minutes, CHM DDN Library entry 85-1150",
+      "route": "CHM online catalogue",
+      "basis": "Keyword 'DDNCOG' returns no results, against a working control of 9 title and 33 OCR matches for 'AUTODIN'.",
+      "result": "absent; the handle remains inquiry-only, as the record already had it"
+    },
+    {
+      "target": "Shirey, DDN Subscriber Guide to Security Services",
+      "route": "NTIS and a period bibliography",
+      "basis": "NTIS title phrase search returns only ADA196891 and ADA210248, both already in the record. Turn and Bassham's Bibliography of Selected Computer Security Publications, January 1980-October 1989, does not cite it.",
+      "result": "absent; consistent with the For Official Use Only reading"
+    },
+    {
+      "target": "Mundy, Defense Data Network Security Architecture: An Overview, Navy DDN Program Management Review, November 1987",
+      "route": "NTIS and Internet Archive full text",
+      "basis": "No NTIS record under author Mundy; full-text search returns only the NPS thesis already in the record and secondary works.",
+      "result": "absent"
+    }
+  ],
+  "corrections": [
+    {
+      "subject": "apps.dtic.mil",
+      "was": "Retired after four consecutive HTTP 403 responses, three of them from independently confirmed networks, and read as a block.",
+      "now": "On September 17 the tested paths returned HTTP 307 to the DTIC maintenance page; discover.dtic.mil returned a WordPress site without the required index. This is a later observation, not a diagnosis of the September 13-16 403 responses.",
+      "consequence": "Record each access failure with its date and route; retry when needed. A later maintenance response does not establish the cause of earlier failures or permanent closure."
+    },
+    {
+      "subject": "NTIS corporate-author attribution for the AUTODIN II family",
+      "note": "ADA100788 is returned under both 'Western Union Telegraph' and 'Systems Control, Inc'. It is nevertheless the December 1980 AFIT thesis by Healy and Henderson: the Internet Archive copy is dated 1980-12-01 and carries the thesis abstract. The record's screening of ADA100788 stands. NTIS names 'Shared Bibliographic Input Experiment' as a corporate author on several records in this family, which is the likely cause. Do not use the NTIS corporate-author field as evidence of authorship here."
+    },
+    {
+      "subject": "A false positive to avoid",
+      "note": "An Internet Archive full-text search for the unspaced 'AD-A064936' returns one item, micro_IA41152835_0080, a GPO microfiche of NASA STAR. The hit is an OCR misreading of AD-A084936, a Pisa University fatigue-crack report cross-indexed as N80-28754. It is not the SIP."
+    }
+  ],
+  "what_this_pass_did_not_settle": "Every open causal question. The intervening decision between the August 1975 priority recommendation and host responsibility for sequencing is still missing; none of the recovered documents discusses backbone sequencing. The reason for the April 1980 placement after IOC is still missing. The weighting behind the 1981-82 selection is still missing. The rationale for the security-interface change, and the requirements at p. 57 of the Subscriber Guide, are still missing.",
+  "validation": {
+    "date": "2026-09-19",
+    "status": "Interpretive corrections applied; original dated retrieval observations retained.",
+    "limits": "Seven CHM original PDFs reacquired, retained and matched to the existing SHA-256 fingerprints. Selected DCA requirement pages and the SIP catalogue entry checked visually. Historical sweep query results were not replayed as a complete current catalogue search."
+  },
+  "source_qualifications": "The later Batch A record at ../batch-a-2026-09-26/reading.md corrects the DCA reference-page and narrative-message locators, distinguishes FTP from TCP semantics, and qualifies completeness of the June offer's enclosures. Its visual coverage is 34 proposal pages plus three DCA controls; these corrections do not enlarge the original pass's coverage. The separate ../dca-page9-2026-09-26/reading.md verifies references (12)-(13) on printed p. 6b / PDF p. 9 and corrects the TCP title transcription; its sole original-page coverage is PDF p. 9."
+}

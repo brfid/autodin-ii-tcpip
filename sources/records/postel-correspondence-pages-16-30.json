@@ -1,0 +1,101 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "reading_date": "2026-09-26 America/New_York",
+  "question": "Does this second slice give a clearer response to the November 22, 1976 funding discussion or an explicit review or disposition connecting a military requirement to a protocol responsibility?",
+  "status": "Bounded visual reading complete. Undated planning sheets include proposed DCA-requested review, tests and conditional estimates, but no verified disposition or causal protocol link in the assigned slice.",
+  "detailed_reading": "reading.md",
+  "source": {
+    "institution": "Computer History Museum",
+    "accession": "102697717",
+    "catalog_title": "Arc Proposals: Jon Postel's notes and correspondence concerning Autodin II protocol proposal",
+    "issuer_inherited": "SRI Augmentation Research Center",
+    "historical_date": "Undated as a whole; no calendar date written on the assigned pages",
+    "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+    "absolute_path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+    "bytes": 8114831,
+    "sha256": "9767520847035437a147c31920756533c03e2841ad3985b092a6b20cbc34c185",
+    "pdf_pages": 71,
+    "retrieval_url_inherited": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+    "retrieval_provenance": "Recorded capture, not distributed: source-record.json, finding ps-xi; retained 2026-09-19. No new download or live URL check in Batch D."
+  },
+  "coverage": {
+    "visually_read_pdf_pages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "leaf_faces": 15,
+    "one_leaf_face_per_pdf_page": true,
+    "partly_uncertain_handwriting_or_overwrites": [
+      16,
+      19,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "printed_pagination": "No reliable document page numbers in this mixed slice; chart month scales are relative time, not printed pages or calendar dates.",
+    "not_read_pdf_pages": "1-15 were read in Batch C; 31-71 remain unread in these two batches.",
+    "stop_reason": "Reached PDF p. 30, the assigned limit, before the 30-written-leaf cap."
+  },
+  "retained_page_images": [
+    {
+      "pdf_page": 17,
+      "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf#page=17",
+      "sha256": "6b24c429efbd44b4813b8c5aef5f8dfa85832b1333ea61f5737c0fa8bfa6b907"
+    },
+    {
+      "pdf_page": 22,
+      "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf#page=22",
+      "sha256": "c634fd2c0bd38e456dc0e627d9f793460bbdf9489bb4a7eb4b1af86b4138b346"
+    },
+    {
+      "pdf_page": 23,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-23.png",
+      "sha256": "c2997fb0602e183304eb7b4abeffdc40a1be159d025d663807783372ee3a0685"
+    },
+    {
+      "pdf_page": 25,
+      "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf#page=25",
+      "sha256": "53d478e7d55a402a1b7519a714dac4af8d8322f8f07abed2fcc344916c324219"
+    },
+    {
+      "pdf_page": 26,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-26.png",
+      "sha256": "d3e94eeefc9e615589c0058ebcaa616cfef6f8a8b3fc5be20c8fd310ada6f4a1"
+    },
+    {
+      "pdf_page": 28,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-28.png",
+      "sha256": "f2af69395ea6447a2ea884f2f4df13141d47e7c3dd14d302ed56336e777ce289"
+    },
+    {
+      "pdf_page": 29,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-29.png",
+      "sha256": "64e732e866f8015b3360670cdf952a8bd105665b87d1ff0825e8b042f84773d9"
+    },
+    {
+      "pdf_page": 30,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-30.png",
+      "sha256": "f08751e49a955049a1d94b835d7164e590f5ec6091f0d85b9b46d883ff65a3d5"
+    }
+  ],
+  "retrieval": {
+    "new_requests": 0
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-13",
+  "state": "Pass complete, causal questions open. Sources distinguish interface specification, published architecture and availability for named programs and dates. They do not establish a continuous or universal non-deployment history; operation of section 2.4.3 remains unverified.",
+  "question_as_carried_into_this_pass": {
+    "settled_before_this_pass": "The March 6, 1985 next-hop destination allowance is established and predates BBN's March 1986 criticism. Not re-derived here.",
+    "carried_forward": [
+      "When the provision was written.",
+      "Why it was written.",
+      "What the DDN Subscriber Guide to Security Services required at its p. 57.",
+      "Whether BLACKER was deployed with the provision in use."
+    ],
+    "instruction_observed": "The apparent tension between BBN's account and the ICD is treated as unresolved. No complaint-and-later-fix sequence is constructed and no finding is made that BBN misdescribed its source."
+  },
+  "current_state": "../../questions.md",
+  "principal_findings": [
+    {
+      "id": "F1",
+      "claim": "Contemporary sources describe BLACKER as expected or unavailable for the named uses. None of the passages establishes operation of the next-hop provision.",
+      "evidence": [
+        {
+          "source": "DDN News 39, special issue, DCA DDN Program Management Office, published by the Network Information Center, 26 April 1985",
+          "path": "https://ftp.ripe.net/rfc/museum/ddn-news/ddn-news.n39.2",
+          "fingerprint": "23491 bytes; md5 f5e58fe32c5de0bd2b14479010a5d910; native ASCII",
+          "locator": "DODIIS NETWORK item, file lines 96-108",
+          "passage": "The subnetwork, provided by the DDN PMO, will be integrated into the DDN Integrated Secure Network (DISNET) when blacker devices become available.",
+          "interpretation": "Seven weeks after the 6 March 1985 ICD edition date, the DDN PMO's own newsletter describes BLACKER devices as not yet available and makes DODIIS integration into DISNET conditional on their becoming available. Contemporaneous; a newsletter statement by the programme office, not a procurement record."
+        },
+        {
+          "source": "DDN Protocol Handbook, Volume One, DoD Military Standard Protocols, December 1985, AD-A166324, printed 1-48 / PDF 57",
+          "passage": "All subscribers on the classified segment are connected to the DDN via the Internet Private Line Interface (IPLI), or equivalent end-to-end encryption (E3) devices. ... Every effort must be made to expedite the development of end-to-end data encryption technology via the Internet Private Line Interface (IPLI) and BLACKER Programs. The focus of these efforts should be to provide host-to-host encryption protection. The BLACKER effort should provide remote key distribution and a trusted (multilevel secure) E3 device suitable for use on the DDN by programs such as the Inter-Service/Agency AMPE, World-Wide Military Command Control Systems (WWMCCS) Information Systems, and SACDIN.",
+          "inspected": "visually at PDF 57",
+          "interpretation": "In the approved architecture as printed in December 1985, classified-segment subscribers connect through IPLIs. BLACKER is named as a development programme whose product 'should' be provided, in the future tense, alongside IPLI. The BFE ICD of 6 March 1985 is therefore a specification written for a device that was not part of the then-approved operational architecture."
+        },
+        {
+          "source": "Department of the Army, USAISC Sustaining Base Network Activity, Fort Belvoir, memorandum ASQNL-ND-NB, subject 'ASIMS Defense Data Network (DDN) Connectivity', reproduced in DoD IG report 90-097 Appendix C",
+          "locator": "printed 61 / PDF 70, Appendix C page 3 of 23; paragraph 4",
+          "passage": "Because the BLACKER encryption device is not yet available and DDN Milnet cannot process classified data at this time, a dedicated circuit must remain to support remote initial loads (RIL) and classified telecommunications.",
+          "inspected": "visually at PDF 70",
+          "dating": "The memorandum reports a test conducted 15 November to 14 December 1989 and gives 'the end of March 1990' as a current plan, so it was written between mid-December 1989 and its transmittal. It was transmitted as an enclosure to the HQDA (SAIS-PS) endorsement of 5 February 1990, signed by Lieutenant General Jerome B. Hilmes, responding to the draft audit report of 14 December 1989 (printed 59 / PDF 68, Appendix C page 1 of 23).",
+          "interpretation": "Between mid-December 1989 and 5 February 1990, nine to eleven months after the 21 March 1989 ICD edition, an Army network activity states as its operating reason for retaining dedicated circuits that the BLACKER encryption device is not yet available. This is a subscriber's contemporaneous operational statement, not a programme-office schedule."
+        }
+      ],
+      "what_this_does_not_establish": "It does not establish a date on which BLACKER became available, nor that no BFE was ever fielded anywhere. It establishes non-availability at two dates for the named integration and subscriber purposes, and the absence of BLACKER from the approved 1985 architecture. Section 2.4.3 is therefore not shown to have been exercised in service; no checked source shows operational use of the next-hop allowance."
+    },
+    {
+      "id": "F2",
+      "claim": "The February 2, 1987 approval is confirmed first-hand. The instrument is a memorandum of the ASD(C3I); it approved the DDN Security Architecture as a revision of the security plan in the original Program Plan; and it does not concern BLACKER, the BFE or KI-111.",
+      "source": "Office of the Inspector General, Department of Defense, 'Defense Data Network', Audit Report No. 90-097, July 5, 1990. 99 PDF pages. Printed page = PDF page - 9.",
+      "fingerprint": "5443962 bytes; md5 34a3850a9800b909fe873130d10e4bfe; sha256 721b5bd76781e8e92df604078616e3f7dcdd86158f772c165b1878f382f27b5c. Producer 'Adobe Acrobat Pro 11.0.10 Paper Capture Plug-in', so the text layer is OCR of a scan.",
+      "readings": [
+        {
+          "locator": "printed 2 / PDF 11, inspected visually",
+          "passage": "On February 2, 1987, the ASD(C3I) approved the Defense Data Network Security Architecture (the Architecture), the framework for the security of the Network, which revised the security plan to protect communications that was specified in the original Program Plan. Currently, the classified Network must be isolated from unclassified circuits for security purposes.",
+          "interpretation": "Establishes the date, the approving authority and the character of the act: an approval of an architecture that revised the Program Plan's security plan. The report does not reproduce the memorandum or describe its contents beyond this."
+        },
+        {
+          "locator": "printed 55 / PDF 64, Appendix B page 21 of 23, Recommendation 3.g and the DCA and ASD(C3I) positions; inspected visually",
+          "passage": "RECOMMENDATION 3.g: Require detailed plans addressing the development, acquisition, deployment, cost, and schedule for implementing the approved DDN security architecture in compliance with the ASD(C3I) memorandum, dated February 2, 1987. // DCA POSITION: Partially concur. ASD(C3I) has requested a revised Network security architecture. An initial draft was presented to ASD(C3I) but was put on hold by that office pending the completion of actions external to the Network management office. We were advised to expedite ongoing implementation of the current architecture with focus on the most critical features (for example: the installation of KG-84's on the ISTs) and are proceeding as advised. We are continuing with our study on host encryption alternatives. // ASD(C3I) POSITION: Concur with DCA position. The network security issues are complex in a changing environment and in consideration of an evolving security device technology.",
+          "interpretation": "Names the instrument a memorandum. Shows that in 1990 the approved architecture was still being implemented, that a revision was drafted and put on hold, and that host encryption was still at the study stage. 'Host encryption alternatives' is the category BLACKER belonged to; the report does not say so and the connection is not asserted here."
+        },
+        {
+          "locator": "printed 84 / PDF 93, Appendix D page 2 of 2",
+          "passage": "3.g. Economy and Efficiency. Compliance with the Assistant Secretary of Defense (Command, Control, Communications and Intelligence) February 2, 1987, memorandum for the Network Security Architecture. [Benefit:] Cost avoidance of $4.2 million during FY 1990 through FY 1994",
+          "interpretation": "A third occurrence, again naming the instrument a memorandum. The $4.2 million is tied to expediting KG-84A installation, per printed 29 / PDF 38."
+        },
+        {
+          "locator": "printed 4 / PDF 13",
+          "passage": "In addition, detailed plans for implementing security for the Network were not developed. We recommended that the Director, Defense Communications Agency, report the noncompliance with the 1983 guidance of the Under Secretary of Defense for Research and Engineering and the lack of policies, procedures and plans for monitoring data circuits and for implementing the Network Security Architecture as material internal control weaknesses.",
+          "interpretation": "The audit was made from August 1988 to July 1989. Over that period detailed implementation plans for the approved architecture did not exist."
+        },
+        {
+          "locator": "printed 28 / PDF 37, inspected visually",
+          "passage": "The classified Network currently must be isolated from unclassified circuits for security purposes. This condition conflicts with one of the original goals of the Network, which was to have a fully integrated data communications system in DoD. The Network will operate as two separate, but connected systems coordinated under one program management office.",
+          "interpretation": "Bears on the consolidation objective, not on the interface rule. Record it as the fate of the integration goal, not as ancestry of any address rule."
+        },
+        {
+          "locator": "printed 29 / PDF 38",
+          "passage": "The KG-84A's were not being distributed to Network sites, and sites did not have the funds budgeted to accommodate the installations and upgrades. We determined that the Network program management office did not monitor the distribution and installation of KG-84A's for each site.",
+          "interpretation": "The audit's encryption-deployment finding is about KG-84A link encryptors on inter-switch trunks and host access lines. It is not about the BFE."
+        }
+      ],
+      "negative_verified_first_hand": "KI-111, BFE, 'Blacker Front End' and TSEC do not occur anywhere in the 99 pages. 'BLACKER' occurs exactly once, at PDF 70, in the appended Army memorandum quoted under F1. Every occurrence of the string '111' in the report was checked individually and is OCR noise or an unrelated figure; the single 'front end' occurrence, at PDF 69, is 'NCR COMTEN front end processors'."
+    },
+    {
+      "id": "F3",
+      "claim": "No NIC document catalogue, at any date from December 1984 to August 1992, lists a document under BBN's title. The catalogues do list the November 1983 DDN Subscriber Security Guide throughout, and in February 1989 mark an update to it as pending.",
+      "why_this_matters": "BBN's cited title carries the year range 1985-1992. The NIC was SRI International's DDN Network Information Center, the DDN Program Management Office's own distribution channel for DDN documents. Its catalogues are the natural place for a subscriber guide in that window to appear.",
+      "witnesses_in_date_order": [
+        {
+          "date": "1 December 1984",
+          "document": "DDN News 37, special issue",
+          "path": "etext/DDN/DDN news/ddn-news.n37.1",
+          "fingerprint": "33175 bytes; md5 82f0c26e68015f600ad5c04346ac7a1b",
+          "reading": "Under 'The following documents are being entered into the DTIC. The AD ordering number will be provided in the next newsletter', item 2 is 'Defense Data Network Subscriber Security Guide, Defense Communications Agency, Attn: Code B615, DDN PMO, Washington, D.C. 20305-2000, Nov. 1983.' This dates the DTIC entry of the November 1983 guide to the turn of 1984-85, consistent with its AD-A152524 accession."
+        },
+        {
+          "date": "27-28 August 1985, reported 15 January 1986",
+          "document": "DDN News 43",
+          "path": "etext/DDN/DDN news/ddn-news.n43.1",
+          "fingerprint": "11922 bytes; md5 6e9e299dd9b6ae48105cc19787ad0bbd",
+          "reading": "Reporting the first meeting of the DDN Communications Operations Group (DDNCOG), held 27-28 August 1985 at Arlington and chaired by DCA Code B645 (now Code B650): 'Several draft documents were on display at the meeting and these will be available in final form in the near future. Among these were the DDN Subscribers Guide, the DDN Security Guide, the DDN New User Guide, the DoD Protocol Handbook, the TAC Users Guide, a set of network overview documents, and documents explaining the duties and procedures of Node Site Coordinators and Host Administrators.'",
+          "interpretation": "A DDN Security Guide existed in draft by August 1985 and was not yet final. This is the earliest contemporaneous trace located of a draft successor to the November 1983 guide, and it falls at the start of BBN's stated year range. It does not establish the draft's title, its contents, or that it is the document BBN cited.",
+          "second_reading": "The same item reports that at that meeting 'Configuration management of the network was discussed, and an overview of the accepted security architecture was presented,' and that 'Representatives from the classified network segments discussed progress they have made using the secure architecture and DoD protocols.' An architecture was therefore already described as accepted in August 1985, which is consistent with the December 1985 handbook printing an 'approved DDN network security architecture' and means the February 1987 ASD(C3I) approval was of a revision, as report 90-097 itself says."
+        },
+        {
+          "date": "February 1989",
+          "document": "NIC 50002, DDN Protocol Implementations and Vendors Guide",
+          "url": "https://vtda.org/docs/computing/DDN/NIC50002_February1989.pdf",
+          "fingerprint": "12623537 bytes; md5 1f3e8d8cb85c4af1431a0b8a25f9dd16; sha256 ca66b0f75edce8b10954514105eb9ba1a3a900e9b10637473c6689f9727a7ba4. Native digital text, not a scan.",
+          "locator": "sections 1.3.5 to 1.3.8, printed p. 7",
+          "reading": "'1.3.8. DDN Subscriber Security Guide. This guide describes the security architecture of the DDN. Published by DCA, November 1983. An update to this document is pending.' Section 1.3.5 lists the Blacker Front End Interface Control Document and gives its distribution as NETINFO:BLACKER.DOC on SRI-NIC.ARPA and its reproduction in the DDN Protocol Handbook.",
+          "interpretation": "As late as February 1989 the guide of record is still the November 1983 one and its successor is still only pending."
+        },
+        {
+          "date": "August 1990, 'Last edit: April, 1990'",
+          "document": "NIC 50002, DDN Protocol Implementations and Vendors Guide, local copy",
+          "path": "etext/hosts asn etc/netinfo archive/vendors-guide.doc",
+          "fingerprint": "369367 bytes; md5 bbfe3ec24d399cc68f27c02263f4c88e",
+          "locator": "sections 1.3.5 to 1.3.8, printed p. 9",
+          "reading": "'1.3.8. DDN Subscriber Security Guide. This guide describes the security architecture of the DDN. Published by DCA, November 1983.' The 'An update to this document is pending' sentence present in February 1989 is absent here. Section 1.3.5 again lists the BFE ICD at NETINFO:BLACKER.DOC.",
+          "interpretation": "The pending-update note is gone and no successor is listed. The sources do not say whether the update was abandoned, absorbed elsewhere, or issued outside NIC distribution."
+        },
+        {
+          "date": "revision marked 12/91, wrapper 8/92",
+          "document": "netinfo/nic-pubs.txt, Publications of Interest to NIC Users",
+          "path": "etext/hosts asn etc/netinfo archive/nic-pubs.txt",
+          "fingerprint": "8730 bytes; md5 26990e258d5b1c0e2cad815f6e564a3f",
+          "reading": "Under 'Publications available from DTIC/DISA' the list is exactly three items: DDN Subscriber Interface Guide (July 1983, AD-A132 877); DDN Subscriber Security Guide, 'A description of the security architecture designed for the DDN', November 1983, AD-A152 524; DDN X.25 Host Interface Specification (December 1983, AD-A137 427).",
+          "interpretation": "At the very end of BBN's stated year range the DDN's own publication list still names the November 1983 guide and nothing resembling BBN's title."
+        },
+        {
+          "date": "28 February 1992",
+          "document": "netinfo/00netinfo-index.txt, the NIC netinfo directory index",
+          "path": "etext/hosts asn etc/netinfo archive/00netinfo-index.txt",
+          "fingerprint": "4544 bytes; md5 ab51cde521d3a9a456be72944fb864b5. The sibling file 'index' in the same directory is a byte-identical copy, same md5.",
+          "reading": "'blacker.doc -- Specification of Blacker Interfaces. (50873)'",
+          "interpretation": "The byte count matches the held March 21, 1989 BLACKER ICD exactly (50873 bytes, md5 3b08a44c56c09cb3d9c054435cdaf484). As of 28 February 1992 the NIC was still distributing that edition. This converts the earlier failed search for a post-1989 edition into positive evidence that none superseded it in NIC distribution through that date."
+        }
+      ],
+      "bearing_on_the_unresolved_tension": "These witnesses are consistent with BBN having cited a draft-stage successor guide not listed in the NIC catalogues checked. That would explain the non-recovery without any finding that BBN misdescribed its source. It is a supported hypothesis, not a conclusion: no recovered document bears BBN's title, and the guide's p. 57 remains unread."
+    },
+    {
+      "id": "F4",
+      "claim": "The 1982 DDN security-architecture decision papers are independently confirmed as to identity, date and function by a primary document, and the approved architecture they produced is printed in full.",
+      "source": "DDN Protocol Handbook, Volume One, December 1985, AD-A166324, 'GUIDANCE AND PROGRAM DIRECTION APPLICABLE TO THE DEFENSE DATA NETWORK AND OTHER DoD DATA NETWORKS', reproduced in the handbook's Configuration Management section at printed 1-47 to 1-48 / PDF 56-57. Both pages inspected visually.",
+      "pdf_fingerprint": "42230778 bytes; md5 89a2484d9ea98bc49d66bcd9242c0eb3; sha256 dbef3d3390385c93a477300f4c53c46fd4fd18107fdea534df0bb10e05aceb3c. Independently re-downloaded in this pass and matching the Chunk 5 record exactly.",
+      "reference_list_printed_1_47": [
+        "(a) Dep Sec Def Memorandum, Subject: Termination of AUTODIN II, 2 April 1982",
+        "(b) DTACCS, Memorandum, Subject: AUTODIN II Phase I Decision Paper and OSD Guidance for Data Network Developments, 16 July 1975",
+        "(c) DUSD (C3I) Memorandum, Subject: Defense Data Network -- Security Architecture Options, 10 May 1982",
+        "(d) Director of DCA Memorandum, Subject: Defense Data Network -- Security Architecture Options, 19 Nov 1982",
+        "(e) Director of NSA Memorandum, Subject: Defense Data Network, 1 Nov 1982",
+        "(f) USDRE Memorandum, Subject: DoD Policy on Standardization of Host-to-Host Protocols for Data Communications Networks, 23 March 1982"
+      ],
+      "correspondence_with_the_chunk5_record": {
+        "Lath82": "Reference (c) corresponds to the Latham memorandum of 10 May 1982 named in AD-A152524's references. The handbook gives the issuing office as DUSD (C3I) and the same subject and date. AD-A152524 names Donald C. Latham personally and gives the addressees as Director DCA and Director NSA; the handbook says the memorandum 'directed DCA and NSA to conduct a review of the DDN Security Architecture alternatives for the integration of the various subscriber communities that comprise the DDN.'",
+        "DCA82c": "Reference (d) corresponds, with the same subject and date, 19 November 1982.",
+        "NSA82b": "Reference (e) corresponds to the NSA Director's memorandum of 1 November 1982; the handbook gives the subject simply as 'Defense Data Network'.",
+        "function": "References (d) and (e) are jointly described at printed 1-47 as 'the DDN Security Architecture Reports', which together with the DDN Program Plan revised 19 May 1982 'provides a comprehensive description of the initial planning for the network'. At printed 1-48 they are the documents that 'describe the network security architectures that were evaluated'.",
+        "not_recovered": "The texts of (c), (d) and (e) remain unrecovered. What is new is independent confirmation of their identity, date and role from a primary source, and the printed result of the process they drove."
+      },
+      "the_approved_architecture_printed_1_48": {
+        "passage": "The approved DDN network security architecture contains two segments, a classified segment and an unclassified segment. The two segments are connected via gates which allow use of the unclassified segment backbone by the classified subscribers. DDN switches in the classified segment (C2I network) are protected to the SECRET level and military encryption devices are employed on all classified segment trunk and access lines. All subscribers on the classified segment are connected to the DDN via the Internet Private Line Interface (IPLI), or equivalent end-to-end encryption (E3) devices. The unclassified segment (MILNET) has switches in restricted locations and uses DES trunk encryption in CONUS, and has switches in SECRET-cleared facilities and uses military encryption devices on OCONUS trunk lines and on OCONUS-CONUS connections. The software in the packet switches and monitoring centers will not be reimplemented, but will be examined for security flaws and brought under strict configuration control. This architecture is referred to in the review as Option 2.2 -- WITH (with IPLIs on all classified hosts and without reimplementation of network software.)",
+        "interpretation": "Names the selected alternative from the 1982 DCA/NSA review as 'Option 2.2 -- WITH'. Fixes IPLIs, not BLACKER, as the classified-segment host attachment in the architecture approved as of the December 1985 handbook. This is the third leg of F1.",
+        "relation_to_the_november_1983_guide": "AD-A152524 section 6.1, printed 23 / PDF 33, gave two placement alternatives for a final evolution stage: BLACKER on all hosts with manual gates, or BLACKER only on classified hosts with true multilevel secure gateways. The handbook shows what was actually approved in the interim, and it is neither of those: IPLIs on all classified hosts, with gates between the segments. Keep the proposed final stage and the approved interim architecture distinct."
+      }
+    },
+    {
+      "id": "F5",
+      "claim": "The Configuration Control Group is the wrong records route for a BFE ICD clause decision. A different body, the Configuration Control Office for protocol standards, is the better-matched one, and it is the same machinery Chunk 2 is already pursuing.",
+      "ccg_reading": {
+        "locator": "DDN Protocol Handbook Volume One, printed 1-24 / PDF 33",
+        "passage": "DDN network configuration management is under the control of the Configuration Management Branch, DCA Code B602B. 4.2.1 The Configuration Control Group (CCG). Matters pertaining to configuration management of the DDN are decided by the Configuration Control Group (CCG). The CCG is chaired by the DDN PMO Technical Manager and is made up of the DDN PMO Division Chiefs. Trouble reports, incident reports, software patch requests, and requests for network configuration changes are reviewed and approved or disapproved by this group.",
+        "assessment": "The CCG's stated remit is running-network configuration: trouble reports, incident reports, software patches and network configuration changes. It is not document or specification control. The BLACKER programme's manager was DIRNSA, per AD-A162888, so a BFE interface specification would not naturally be a DCA Code B602B item. The CCG lead is downgraded for a stated documentary reason rather than left open."
+      },
+      "better_matched_body": {
+        "locator": "DDN Protocol Handbook Volume One, Overview section, printed 1-14 to 1-15 / PDF 23-24, a reprinted article on DoD protocol standardization; OCR is poor and the passage is quoted only as a discovery reading",
+        "passage": "To handle this full scope of responsibilities the DCA formed three groups, the Protocol Standards Steering Group (PSSG), the Protocols Standards Technical Panel (PSTP), and the Configuration Control Office. The responsibility for implementing protocol configuration control lies in the Defense Communication System Directorate of the DCA. ... This function is now discharged by a newly created Configuration Control Office in the Defense Communications Systems Directorate. This office will conduct those activities necessary for establishing configuration control of DoD protocol standards and serves as a focal point for identifying and evaluating requirements for new protocol standards or capabilities. ... maintain a document data base of approved standards",
+        "listed_functions": "Document Standards and their specifications; Provide configuration control of Standards and their specifications; Evaluate, approve, or disapprove proposed Standards and specifications; Evaluate, approve, or disapprove requests for waivers.",
+        "assessment": "A body whose stated functions are documenting specifications, holding configuration control of specifications, and approving or disapproving proposed specifications is the plausible documentary home for the approval of an interface control document reproduced in the DDN Protocol Handbook. This is a match of remit, not evidence that the BFE ICD passed through it."
+      }
+    },
+    {
+      "id": "F6",
+      "claim": "Shirey's paper is identified and dated, and it postdates the events in question by years.",
+      "evidence": "MITRE Corporation, 'Summary of Professional Activities, Center for Intelligence and Special Programs, 1990', DTIC AD-A243508, archive.org item DTIC_ADA243508, 1698560 bytes, md5 7661f9b78c4458e9562a0cb1bf57fde1, sha256 96d9302c58b9d0bd0e6383260fea325bb86e62864a0a84e1f78c0490a0e88f38. Its publications listing gives: 'Shirey, Robert W., G140. \"Defense Data Network Security Architecture,\" Computer Communication Review, April 1990.'",
+      "assessment": "The paper is ACM SIGCOMM Computer Communication Review, April 1990, by a MITRE author in department G140. It is a retrospective description published three years after the February 1987 approval and four years after BBN's draft. MITRE's own listing gives no accompanying MITRE technical report number for it, unlike other entries on the same page which do carry MTR numbers. Its text was not obtained: the ACM Digital Library returned HTTP 403, as on the previous pass, and no open-access copy was found. Its bibliography therefore remains unread and is still a live handle for the guide's title."
+    }
+  ],
+  "claim_table": {
+    "documented_reasons_and_facts": [
+      "The next-hop destination allowance is specified in the 6 March 1985 BFE ICD, section 2.4.3. (Established by the Chunk 5 first pass; not re-derived here.)",
+      "On February 2, 1987 the ASD(C3I) approved the DDN Security Architecture, by memorandum, as a revision of the security plan specified in the original DDN Program Plan. (90-097, printed 2, 55, 84.)",
+      "As of the December 1985 DDN Protocol Handbook the approved architecture attached classified-segment subscribers through IPLIs or equivalent end-to-end encryption devices, and named BLACKER as a development programme that 'should provide' a trusted device. (AD-A166324, printed 1-48.)",
+      "On 26 April 1985 the DDN PMO's newsletter made DODIIS integration into DISNET conditional on BLACKER devices 'becoming available'. (DDN News 39.)",
+      "Between mid-December 1989 and 5 February 1990 an Army network activity stated that 'the BLACKER encryption device is not yet available'. (90-097, printed 61.)",
+      "A draft DDN Security Guide was on display at the first DDNCOG meeting of 27-28 August 1985 and was not yet final. (DDN News 43.)",
+      "In February 1989 the NIC catalogue recorded an update to the November 1983 DDN Subscriber Security Guide as pending; by August 1990 that note was gone and no successor was listed. (NIC 50002, both editions.)",
+      "The 1982 decision papers are (c) DUSD(C3I) 10 May 1982, (d) Director of DCA 19 Nov 1982, (e) Director of NSA 1 Nov 1982, and (d) and (e) are 'the DDN Security Architecture Reports'. (AD-A166324, printed 1-47.)",
+      "The selected 1982 alternative is named 'Option 2.2 -- WITH'. (AD-A166324, printed 1-48.)",
+      "As of 28 February 1992 the NIC was still distributing the March 21, 1989 BLACKER ICD, byte count matching the held copy. (00netinfo-index.txt.)"
+    ],
+    "supported_inferences": [
+      "The checked availability statements do not demonstrate that section 2.4.3 was exercised. Their scope is the named programs and dates; they cannot establish continuous system-wide non-deployment or prove that the provision was never used.",
+      "The architecture printed in the December 1985 handbook specifies IPLIs at classified hosts and describes BLACKER prospectively. This dates a published architecture description, not every fielded device or implementation of the March 1985 clause.",
+      "The February 1987 approval was of a revision, not of a first architecture. The report says it 'revised the security plan' in the Program Plan; an architecture was already 'approved' in the December 1985 handbook and described as 'accepted' in August 1985.",
+      "BBN's cited guide is plausibly a draft-stage successor to the November 1983 DDN Subscriber Security Guide, possibly circulating as a draft, but not listed in the NIC catalogues checked. This would explain both the 1985-1992 year range and the non-recovery."
+    ],
+    "hypotheses": [
+      "That the draft 'DDN Security Guide' shown at the August 1985 DDNCOG meeting is the document BBN cited. Title, contents and year range are all unverified for that draft; only its draft status and its date fall in the right place.",
+      "That the pending update recorded in February 1989 and absent in August 1990 is the same document. Nothing recovered connects the two notices.",
+      "That approval of the BFE ICD passed through the Configuration Control Office for protocol standards. A match of remit only."
+    ],
+    "gaps": [
+      "When the next-hop provision was first written. 6 March 1985 remains the earliest recovered edition date, not a recorded introduction.",
+      "Why it was written. No change notice, revision record, errata sheet or review correspondence naming the clause has been found, and the DDN PMO's own announcement channels contain none.",
+      "What the DDN Subscriber Guide to Security Services required at p. 57. Unrecovered under BBN's title or any close variant.",
+      "Whether any BFE ICD edition earlier than 6 March 1985 exists, and what it said.",
+      "The relationship between BBN's reported source-and-destination address-matching keying rule and ICD section 2.4.3. The tension between the two documents stands.",
+      "Any AUTODIN II ancestry for the address rule. Nothing in this pass touches it."
+    ],
+    "explicitly_not_concluded": [
+      "That BBN misdescribed its source. No recovered document contradicts BBN's footnote; the guide it cites has simply not been read.",
+      "That the clause was written in response to any criticism. The dating already rules out BBN's March 1986 draft as a cause, and no other complaint-and-fix sequence is constructed.",
+      "That the documented continuity of consolidation and multilevel-security objectives from AUTODIN II to DDN is ancestry of the KI-111 address rule. The 90-097 passage at printed 28 on the unachieved integration goal is objective-level context and is recorded as such."
+    ]
+  },
+  "search_coverage": {
+    "local": [
+      {
+        "terms": [
+          "BLACKER",
+          "BFE",
+          "KI-111",
+          "KI 111",
+          "KI111",
+          "Subscriber Guide",
+          "Security Services",
+          "Subscriber Security",
+          "Guide to Security",
+          "Security Guide",
+          "security architecture",
+          "architecture approv",
+          "approv architecture",
+          "multilevel secure",
+          "multi-level secure",
+          "MLS",
+          "DISNET",
+          "DSNET",
+          "IPLI",
+          "end-to-end encrypt",
+          "encryption device",
+          "Configuration Control",
+          "CCG",
+          "DDNCOG",
+          "configuration management"
+        ],
+        "outcome": "BLACKER/BFE/KI-111: exactly two hits, DDN News 39 and DDN News 41, both already known, and the News 39 hit is newly read in full and is finding F1. Guide-title family: two hits, DDN News 37 and DDN News 43, both new and both in F3. Security architecture: one hit, DDN News 43, new. DDNCOG: DDN News 43 only. No BFE ICD change notice, no errata, no revision record, and no notice of a February 2, 1987 architecture approval anywhere in the series. DDN Management Bulletin 66, 16 Aug 89, is titled 'CONFIGURATION MANAGEMENT GUIDELINES' but is a CERT advisory on UNIX host compromise and is unrelated."
+      },
+      {
+        "identity": "The DDN Security Bulletin series, published by the DDN Security Coordination Center, running from DDN-SECURITY-8901 (22 September 1989) to 9319 (22 October 1993), plus DCA Circular 310-P115-1 and five NIST FIPS 500-series documents.",
+        "terms": "Same term list as above.",
+        "outcome": "No occurrence of BLACKER, BFE or KI-111 anywhere in the series. No occurrence of the guide-title family except a generic phrase in DCA Circular 310-P115-1 ('provide Host Administrators a set of security guidelines'). The series is a host and network vulnerability advisory series in the CERT manner, beginning after the March 1989 ICD edition; wrong period and wrong subject matter. A well-bounded negative with a stated reason."
+      },
+      {
+        "outcome": "nic-pubs.txt, vendors-guide.doc and 00netinfo-index.txt are findings F3. protocols-dod.bib is 'BIBLIOGRAPHY ABOUT NETWORK PROTOCOLS: A LIST FOR BACKGROUND READING', a NIC-compiled open-literature reading list for vendors which states it 'has not been sanctioned by any government agency'; its only 'guide' is Stallings, 'Internetworking: A guide for the perplexed', and it names no DCA security document. A bounded negative on what looked like the most promising local bibliography.",
+        "fingerprints_of_staged_files": "protocols-dod.bib 14625 bytes md5 4f5a49e82a532420cd6caa0c0148d1b5; ien-index.txt 21775 bytes md5 c78633c70b376e89d876e14673046f92; index 4544 bytes md5 ab51cde521d3a9a456be72944fb864b5; 00_index.txt 874 bytes md5 f150cff94195045ba7d931f8ca7994d2. 'index' is byte-identical to 00netinfo-index.txt."
+      },
+      {
+        "scope": "AD-A166324, the whole 610-page December 1985 DDN Protocol Handbook Volume One, text layer searched in full.",
+        "terms": [
+          "Subscriber Guide",
+          "Security Services",
+          "Subscriber Security",
+          "Security Guide",
+          "Configuration Control",
+          "Configuration Management",
+          "BLACKER",
+          "BFE",
+          "KI-111"
+        ],
+        "outcome": "Zero occurrences of 'Subscriber Guide', 'Security Services', 'Subscriber Security' and 'Security Guide' in the entire volume. Zero occurrences of 'KI-111'. BLACKER occurs on PDF 8, 34-49 and 57; the occurrence outside the ICD range, PDF 57, is finding F4. The handbook, published inside BBN's stated year range and prepared by the NIC for the DDN PMO, does not name the guide BBN cited. Searched on an OCR layer, so a mangled occurrence is possible."
+      }
+    ],
+    "public": [
+      {
+        "scope": "DoD IG report 90-097",
+        "outcome": "Retrieved and read first-hand; see F2. Nine page blocks retained as text, five pages retained as images, five of those inspected visually."
+      },
+      {
+        "scope": "Shirey's DDN security-architecture paper",
+        "queries": [
+          "Shirey 'Defense Data Network security architecture' SIGCOMM Computer Communication Review",
+          "Shirey MITRE 'Defense Data Network' security architecture technical report 1990 MTR"
+        ],
+        "outcome": "Identified and dated through MITRE AD-A243508; see F6. Text not obtained."
+      },
+      {
+        "scope": "The guide's title",
+        "queries": [
+          "Internet Archive full-text search for the exact phrases 'DDN Subscriber Guide to Security Services', 'Subscriber Guide to Security Services' and 'evolution of security services 1986-1992'",
+          "Web search for '\"Subscriber Guide to Security Services\" DDN'"
+        ],
+        "outcome": "No hit under the title or any close variant. The web search did surface the February 1989 NIC 50002 at vtda.org, which became a witness in F3. The title remains unlocated in any repository or catalogue, local or public."
+      }
+    ],
+    "access_failures_distinct_from_negative_results": [
+      {
+        "target": "media.defense.gov direct PDF retrieval of 90-097",
+        "note": "This is an edge block on the origin, distinct from the apps.dtic.mil 403 recorded on the previous two passes. apps.dtic.mil was not exercised in this pass; its state is unchanged and untested here."
+      },
+      {
+        "target": "ACM Digital Library, https://dl.acm.org/doi/10.1145/378570.378710",
+        "result": "HTTP 403, as on the previous pass.",
+        "consequence": "Shirey's text and, more importantly, its bibliography remain unread. This is an access failure, not evidence that the paper fails to name the guide."
+      },
+      {
+        "target": "ccr.sigcomm.org archive table of contents",
+        "consequence": "The issue's volume and number were not confirmed from the publisher's own listing; the April 1990 date rests on MITRE's listing in AD-A243508."
+      },
+      {
+        "target": "Internet Archive Wayback availability API",
+        "result": "HTTP 429, rate limited. The direct web.archive.org id_ URL worked instead.",
+        "consequence": "None; the document was obtained."
+      }
+    ]
+  },
+  "targets_still_not_held": [
+    "DDN Subscriber Guide to Security Services, 1985-1992, and its p. 57. Not in any NIC catalogue from December 1984 to August 1992, not in the 610-page December 1985 DDN Protocol Handbook, not in Internet Archive full-text, not in open web search.",
+    "The draft 'DDN Security Guide' displayed at the first DDNCOG meeting, 27-28 August 1985.",
+    "Any BFE ICD edition earlier than 6 March 1985, including whatever CHM 85-2726 (SDC A016-65, BLACKER Phase I) contains; CHM 85-1190 and 85-1188 as texts.",
+    "The 1982 decision papers themselves: DUSD(C3I) 10 May 1982, Director of DCA 19 November 1982, Director of NSA 1 November 1982, and the classified NSA review of October 1982.",
+    "The ASD(C3I) memorandum of 2 February 1987 itself. 90-097 names and dates it three times but does not reproduce or summarise its contents.",
+    "DCA, Technical Assessment of the Application of BLACKER to the Integrated AUTODIN System, 12 April 1983.",
+    "Shirey, 'Defense Data Network Security Architecture', Computer Communication Review, April 1990, and its bibliography."
+  ],
+  "exact_remaining_retrieval_handles": [
+    {
+      "handle": "NETINFO:DDNCOG-MIN-1.TXT",
+      "what": "Minutes of the first DDN Communications Operations Group meeting, 27-28 August 1985, announced as available from the NIC in DDN News 43, with viewgraphs available in hardcopy. The same meeting at which the draft DDN Security Guide was on display and an overview of the accepted security architecture was presented.",
+      "why": "The best-matched dated record located in this pass for both the draft guide's identity and the state of the architecture in August 1985.",
+      "status": "Not present in the local netinfo archive, which holds 57 files and no ddncog file. Not yet sought in public NIC mirrors.",
+      "also": "NETINFO:DDNCOG.TXT, the list of DDNCOG representatives, and the second DDNCOG meeting of 25-26 February 1986."
+    },
+    {
+      "handle": "Shirey, Computer Communication Review, April 1990",
+      "what": "The paper's reference list.",
+      "why": "Still the most likely open-literature bibliography to name the DDN security documents of 1985-1990 by title.",
+      "status": "ACM DL returns 403. Try a CCR archive mirror, an institutional copy, or MITRE's own publication series; MITRE AD-A243508 gives no MTR number for it, so a separate MITRE report may not exist."
+    },
+    {
+      "what": "Records of the Protocol Standards Steering Group, the Protocol Standards Technical Panel, and the Configuration Control Office in the DCS Directorate.",
+      "why": "F5: the Configuration Control Office's stated functions include documenting specifications, configuration control of specifications, and approving or disapproving proposed specifications. This is the body whose remit matches a BFE ICD clause approval, and it is the same series Chunk 2 needs. One search serves both chunks.",
+      "status": "Not run. Requires no inquiry."
+    },
+    {
+      "handle": "Other NIC 50002 editions",
+      "what": "The August 1988 edition named in nic-pubs.txt, and any edition between February 1989 and August 1990.",
+      "why": "The 'An update to this document is pending' sentence appears in February 1989 and is gone by August 1990. Intermediate editions would date that change and may name the successor.",
+      "status": "vtda.org holds the February 1989 edition; other editions not yet sought."
+    },
+    {
+      "handle": "CHM 85-1188, 85-1190, 85-2726",
+      "what": "Unchanged from the Chunk 5 record: undated catalogue entries.",
+      "status": "Inquiries remain excluded. 85-1188, 'Defense Data Network evolution of security services: 1986-1992, Aug. 6, 1985 draft', gains weight from F3: its August 1985 draft date now sits beside a contemporaneous record of a draft DDN Security Guide on display in August 1985. Title and year range still differ from BBN's citation and the identification is still unproved."
+    }
+  ],
+  "corrections_and_strengthenings_of_existing_records": [
+    {
+      "was": "'The reported February 2, 1987 architecture approval in DoD IG report 90-097 remains a tool-summary lead requiring first-hand confirmation.'",
+      "now": "Confirmed first-hand and inspected visually. Date, approving authority and instrument type are established: an ASD(C3I) memorandum of February 2, 1987 approving the DDN Security Architecture as a revision of the Program Plan's security plan. The audit does not bear on BLACKER, the BFE or KI-111 except through one appended Army memorandum; its encryption-deployment findings concern KG-84A link encryptors."
+    },
+    {
+      "was": "A negative on the DDN Management Bulletin and DDN News series for BLACKER, BFE and KI-111."
+    },
+    {
+      "now": "Independently corroborated as to issuing office, subject and date by AD-A166324 printed 1-47, and their function established: (d) and (e) are 'the DDN Security Architecture Reports' that augment the 19 May 1982 DDN Program Plan and describe the architectures evaluated."
+    },
+    {
+      "now": "Converted from a failed search into positive evidence: the NIC's netinfo index of 28 February 1992 lists blacker.doc at 50873 bytes, matching the held March 21, 1989 edition exactly, and NIC 50002 of February 1989 and August 1990 both point to the same NETINFO:BLACKER.DOC. No edition superseded it in NIC distribution through February 1992."
+    },
+    {
+      "was": "'The handbook's Configuration Control Group description (printed 1-24 / PDF 33) supplies a possible records route, not proof that a particular BLACKER clause decision was filed there.'",
+      "now": "Downgraded with a documentary reason: the CCG's remit is running-network configuration, not specification control, and the BLACKER programme manager was DIRNSA. The Configuration Control Office for protocol standards in the DCS Directorate replaces it as the better-matched route. See F5."
+    }
+  ],
+  "source_fingerprints": [
+    {
+      "id": "IG 90-097",
+      "title": "Office of the Inspector General, Department of Defense, 'Defense Data Network', Audit Report No. 90-097, July 5, 1990",
+      "url_of_record": "https://media.defense.gov/1990/Jul/05/2001714385/-1/-1/1/90-097.pdf",
+      "url_used": "https://web.archive.org/web/2020id_/https://media.defense.gov/1990/Jul/05/2001714385/-1/-1/1/90-097.pdf",
+      "bytes": 5443962,
+      "md5": "34a3850a9800b909fe873130d10e4bfe",
+      "sha256": "721b5bd76781e8e92df604078616e3f7dcdd86158f772c165b1878f382f27b5c",
+      "pdf_pages": 99,
+      "page_mapping": "printed = PDF - 9"
+    },
+    {
+      "id": "ADA166324",
+      "title": "DDN Protocol Handbook, Volume One, December 1985",
+      "url": "https://archive.org/download/DTIC_ADA166324/DTIC_ADA166324.pdf",
+      "bytes": 42230778,
+      "md5": "89a2484d9ea98bc49d66bcd9242c0eb3",
+      "sha256": "dbef3d3390385c93a477300f4c53c46fd4fd18107fdea534df0bb10e05aceb3c",
+      "pdf_pages": 610,
+      "page_mapping": "printed 1-nn = PDF - 9",
+      "note": "Re-downloaded independently in this pass; matches the Chunk 5 record exactly."
+    },
+    {
+      "id": "ADA243508",
+      "title": "MITRE Corporation, Summary of Professional Activities, Center for Intelligence and Special Programs, 1990",
+      "url": "https://archive.org/download/DTIC_ADA243508/DTIC_ADA243508.pdf",
+      "bytes": 1698560,
+      "md5": "7661f9b78c4458e9562a0cb1bf57fde1",
+      "sha256": "96d9302c58b9d0bd0e6383260fea325bb86e62864a0a84e1f78c0490a0e88f38"
+    },
+    {
+      "id": "NIC 50002, February 1989",
+      "title": "DDN Protocol Implementations and Vendors Guide",
+      "url": "https://vtda.org/docs/computing/DDN/NIC50002_February1989.pdf",
+      "bytes": 12623537,
+      "md5": "1f3e8d8cb85c4af1431a0b8a25f9dd16",
+      "sha256": "ca66b0f75edce8b10954514105eb9ba1a3a900e9b10637473c6689f9727a7ba4"
+    },
+    {
+      "id": "local witnesses",
+      "files": [
+        {
+          "path": "etext/DDN/DDN news/ddn-news.n37.1",
+          "bytes": 33175,
+          "md5": "82f0c26e68015f600ad5c04346ac7a1b"
+        },
+        {
+          "path": "etext/DDN/DDN news/ddn-news.n39.2",
+          "bytes": 23491,
+          "md5": "f5e58fe32c5de0bd2b14479010a5d910"
+        },
+        {
+          "path": "etext/DDN/DDN news/ddn-news.n43.1",
+          "bytes": 11922,
+          "md5": "6e9e299dd9b6ae48105cc19787ad0bbd"
+        },
+        {
+          "path": "etext/hosts asn etc/netinfo archive/nic-pubs.txt",
+          "bytes": 8730,
+          "md5": "26990e258d5b1c0e2cad815f6e564a3f"
+        },
+        {
+          "path": "etext/hosts asn etc/netinfo archive/vendors-guide.doc",
+          "bytes": 369367,
+          "md5": "bbfe3ec24d399cc68f27c02263f4c88e"
+        },
+        {
+          "path": "etext/hosts asn etc/netinfo archive/00netinfo-index.txt",
+          "bytes": 4544,
+          "md5": "ab51cde521d3a9a456be72944fb864b5"
+        },
+        {
+          "path": "etext/hosts asn etc/netinfo archive/blacker.doc",
+          "bytes": 50873,
+          "md5": "3b08a44c56c09cb3d9c054435cdaf484",
+          "note": "unchanged from the Chunk 5 record"
+        },
+        {
+          "path": "etext/hosts asn etc/netinfo archive/x25.doc",
+          "bytes": 103241,
+          "md5": "e066be9b99078eba3cf762de619ef845",
+          "note": "unchanged from the Chunk 5 record"
+        },
+        {
+          "path": "etext/DDN/DDN news/ddn-mgt-bulletin-66.txt",
+          "bytes": 6588,
+          "md5": "c344819baffa2bcd67148acf968b991c",
+          "note": "screened out: CERT UNIX advisory despite its configuration-management title"
+        }
+      ]
+    }
+  ],
+  "handoff": {
+    "current_work_queue": "notes.md",
+    "evidence_and_open_questions": "research.md"
+  },
+  "validation": {
+    "date": "2026-09-19",
+    "status": "Interpretive corrections applied; original dated retrieval observations retained.",
+    "limits": "Handbook p. 1-48 and the Army availability statement in audit p. 61 independently checked visually. Availability is limited to each stated context. Guide catalogues are sampled publication lists, not a complete distribution history."
+  }
+}

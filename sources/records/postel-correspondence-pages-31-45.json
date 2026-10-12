@@ -1,0 +1,294 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "reading_date": "2026-10-07",
+  "questions": [
+    "Does the slice clarify the November 1976 FTP funding discussion?",
+    "Does it identify the January 1977 RFP?",
+    "Does it explicitly connect a military requirement to an accepted protocol responsibility?"
+  ],
+  "status": "Bounded visual reading complete. October 14 separate-cost note adds earlier context; no funding disposition, identified January RFP, or accepted military requirement-to-protocol responsibility in the assigned slice.",
+  "detailed_reading": "reading.md",
+  "source": {
+    "institution": "Computer History Museum",
+    "accession": "102697717",
+    "catalog_title": "Arc Proposals: Jon Postel's notes and correspondence concerning Autodin II protocol proposal",
+    "issuer_inherited": "SRI Augmentation Research Center",
+    "historical_date": "Undated as a whole; assigned dated items span September 30-November 11, 1976, plus prospective visit and connection dates. Continuation faces may carry no date of their own.",
+    "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+    "absolute_path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+    "bytes": 8114831,
+    "sha256": "9767520847035437a147c31920756533c03e2841ad3985b092a6b20cbc34c185",
+    "pdf_pages": 71,
+    "retrieval_url_inherited": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+    "retrieval_provenance": "Recorded capture, not distributed: URL checked against that record; no new download or live URL check in Batch E."
+  },
+  "coverage": {
+    "visually_read_pdf_pages": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "leaf_faces": 15,
+    "written_leaf_faces": 15,
+    "one_leaf_face_per_pdf_page": true,
+    "duplicate_content": [
+      {
+        "pages": [
+          43,
+          44
+        ],
+        "description": "Same October 12 message body in mail and NLS Author Copy forms; separate faces with different metadata, not independent corroboration."
+      }
+    ],
+    "partly_uncertain_handwriting_or_overwrites": [
+      31,
+      32,
+      33,
+      35,
+      39,
+      40,
+      41,
+      42
+    ],
+    "source_edge_limits": [
+      {
+        "pdf_page": 37,
+        "description": "Last line partly clipped at lower edge; cross-compilation sentence continues at p.38."
+      },
+      {
+        "pdf_page": 42,
+        "description": "Right edge tight at test Mechanism; final decisive sentence legible."
+      }
+    ],
+    "printed_pagination": "Only p.44 has explicit NLS header page 2; message numbers 16, 4, 10 on pp.36,43,45 are not page numbers. Other leaves lack reliable document pagination.",
+    "not_read_this_batch": "PDF pp.1-30 and 46-71. Prior C/D readings, not their original pages, used for comparison.",
+    "cumulative_page_by_page_visual_coverage": "Batches C-E: pp.1-45; pp.46-71 outside these completed visual slices.",
+    "stop_reason": "Reached assigned PDF p.45 after 15 written faces, before 30-face cap.",
+    "incomplete_at_stop": {
+      "start_pdf_page": 45,
+      "item": "October 8, 1976 ARC memo for Ed Cain; ROM JBP 8-OCT-76 28732",
+      "status": "Opening face only; no closing. Remainder and extent beyond boundary unexamined."
+    }
+  },
+  "retained_page_images": [
+    {
+      "pdf_page": 31,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-31.png",
+      "sha256": "c28c263c4c667d4be5b82d4493d2f483f9efffd958c07ce1e1f17b40255791b0"
+    },
+    {
+      "pdf_page": 34,
+      "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf#page=34",
+      "sha256": "f6208f6700036b56c45963ed043030060d8c0e2ed9311140fe671541282c0966"
+    },
+    {
+      "pdf_page": 36,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-36.png",
+      "sha256": "8d409504a68474844b26079af86fbce87a1b682bdb1817ace491ffbf6805dc8d"
+    },
+    {
+      "pdf_page": 37,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-37.png",
+      "sha256": "07c98e98b28e201320dce504644a3f41a15bc4bf465b2c25a01b1e95cb6e8a61"
+    },
+    {
+      "pdf_page": 38,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-38.png",
+      "sha256": "94ba133c5019c1d7e0efba7bbcaa57c831d64f4e23a05122102c24ab48e8dd6e"
+    },
+    {
+      "pdf_page": 40,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-40.png",
+      "sha256": "d04d6d03ea1483c1395bd25799e5c130c0b0bd31dca5523efef26bba6fd1c645"
+    },
+    {
+      "pdf_page": 41,
+      "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf#page=41",
+      "sha256": "b3d705cb69433d2fff40b338d24b37a407c7253814a203d57c7fafed6291ac0e"
+    },
+    {
+      "pdf_page": 42,
+      "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf#page=42",
+      "sha256": "3783ffa6be373a00aa53ac18309973baef2207df0315641bb61d991652b5b00e"
+    },
+    {
+      "pdf_page": 43,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-43.png",
+      "sha256": "4d47c9c3b28d27ed84a72de4432d94fa08d7a1d658c120c6ff7f4d18022812e0"
+    },
+    {
+      "pdf_page": 44,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-44.png",
+      "sha256": "b47a25819e7267d72cb5c27b203343fb29ee4fc513b79d3b17f81661aa42d359"
+    },
+    {
+      "pdf_page": 45,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-45.png",
+      "sha256": "d9c70178a5ded92877d388f2a682e5fe997aadacbe0b10a2b038803e91c9760d"
+    }
+  ],
+  "retrieval": {
+    "new_requests": 0
+  },
+  "page_by_page": [
+    {
+      "pdf_page": 31,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "Unnumbered HSI effort sheet",
+      "boundary_or_limit": "No date; no explicit join with prior p.30; conditional estimates."
+    },
+    {
+      "pdf_page": 32,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "IDEAL CASE effort sheet",
+      "boundary_or_limit": "No date; possible working cluster with p.31, not proven common item; some arithmetic uncertain."
+    },
+    {
+      "pdf_page": 33,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "Prioritized equipment needs",
+      "boundary_or_limit": "Separate ruled list; acronym at B2 uncertain, not expanded."
+    },
+    {
+      "pdf_page": 34,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "Ed Cain / TRIP TO DCA note",
+      "dates_written": [
+        "5 Nov 76",
+        "NOV 15"
+      ],
+      "boundary_or_limit": "Own date November 5; November 15 a planned visit, no year on that body line; mailing prospective."
+    },
+    {
+      "pdf_page": 35,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "Postel / phone call to Ed Cain",
+      "dates_written": [
+        "11 Nov 76"
+      ],
+      "boundary_or_limit": "Alternative UNIX/PDP-11 approach and interface questions."
+    },
+    {
+      "pdf_page": 36,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "ROM memo for Ed Cain, opening",
+      "dates_written": [
+        "27 OCT 1976 1417-PDT",
+        "27-OCT-76",
+        "21-OCT-76"
+      ]
+    },
+    {
+      "pdf_page": 37,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "Memo continuation",
+      "boundary_or_limit": "Date inherited only through textual continuation from p.36; source bottom edge partly clipped."
+    },
+    {
+      "pdf_page": 38,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "Memo conclusion",
+      "boundary_or_limit": "Typed Raphael Rom / Jon Postel closing; completes pp.36-38."
+    },
+    {
+      "pdf_page": 39,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "Postel / conference call with DCEC",
+      "dates_written": [
+        "21 Oct 76"
+      ]
+    },
+    {
+      "pdf_page": 40,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "Postel / DCA Project questions",
+      "dates_written": [
+        "30 Sep 76"
+      ],
+      "boundary_or_limit": "Separate questions, including contract-start dependencies; no answers or contract."
+    },
+    {
+      "pdf_page": 41,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "Postel / phone call with Ed Cain",
+      "dates_written": [
+        "14 Oct 76",
+        "1st QTR 77"
+      ],
+      "boundary_or_limit": "Items1-5; separate FTP cost item; quoted quarter is an uncertain future connection target."
+    },
+    {
+      "pdf_page": 42,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "Item6 / project motivation",
+      "boundary_or_limit": "Numbering/content support continuation of p.41; no separate date or accepted disposition."
+    },
+    {
+      "pdf_page": 43,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "Postel mail for Ed Cain",
+      "dates_written": [
+        "12 OCT 1976 2153-PDT",
+        "12-OCT-76 2201-PDT"
+      ],
+      "boundary_or_limit": "Message and received times respectively; complete short proposal suggestion."
+    },
+    {
+      "pdf_page": 44,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "DCA Proposal: idea of phases / NLS Author Copy",
+      "dates_written": [
+        "14-OCT-76 08:22",
+        "12-OCT-76 21:51"
+      ],
+      "boundary_or_limit": "Running header and journal entry respectively; journal28749, header page2; same body as p.43."
+    },
+    {
+      "pdf_page": 45,
+      "visually_inspected": true,
+      "written_leaf_faces": 1,
+      "item": "ARC memo for Ed Cain / ROM JBP28732",
+      "dates_written": [
+        "8 OCT 1976 1517-PDT",
+        "8-OCT-76 1521-PDT",
+        "8-OCT-76",
+        "8 OCT 76"
+      ],
+      "boundary_or_limit": "Message/receipt/internal dates; item incomplete beyond batch boundary."
+    }
+  ],
+  "verification": {
+    "source_and_retained_image_sha256_match": true,
+    "retained_image_count": 11,
+    "page_rows_and_written_face_count": 15,
+    "local_link_and_anchor_checks": 48,
+    "local_links_scope": "Full Batch E reading and added/changed lines of notes.md and research.md",
+    "git_diff_check": "passed"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-11",
+  "pass_state": "pass complete, question open",
+  "sources_inspected_in_original_images": [
+    {
+      "source_id": "kahn_review",
+      "document": "Comments on the AUTODIN II Phase I Technical Specification and a Set of Recommendations (draft), prepared by R. E. Kahn for an ad hoc DCA technical advisory committee",
+      "date_of_meeting": "1975-08-26/27",
+      "final_report_date": "not established",
+      "pages": [
+        {
+          "printed_page": "Executive Summary (first numbered page)",
+          "image": "../unique/committee-review-1975/committee-review-1975-pExecutive-Summary-first-numbered-page.jpg",
+          "new_in_this_pass": true,
+          "content": "Committee convened at DCA request, members served individually; did not consider whether to proceed; met 26-27 August 1975 at the Reston facility of the DCEC; briefed by Dr. Lebow, Colonel Stathopoules, Dr. Helm; findings presented afternoon 27 August and to General Paschall the following morning; findings unanimously agreed; membership in Appendix A; five determinations listed."
+        },
+        {
+          "printed_page": "2",
+          "image": "../unique/committee-review-1975/committee-review-1975-p2.jpg",
+          "new_in_this_pass": true,
+          "content": "Unanimous recommendation that the RFP with the current technical specification not be publicly released without major revisions."
+        },
+        {
+          "printed_page": "3",
+          "image": "../unique/committee-review-1975/committee-review-1975-p3.jpg",
+          "new_in_this_pass": true,
+          "content": "Five areas of comment; recommendation 1 on specifying the deliverable by performance criteria; quoted example requiring a standard communications protocol that allows but does not require host and switch co-location."
+        },
+        {
+          "printed_page": "4",
+          "image": "../unique/committee-review-1975/committee-review-1975-p4.jpg",
+          "new_in_this_pass": false,
+          "content": "Recommendations 3 and 4: management split after IOC and a technical split between backbone and subscriber access equipment; access equipment includes TAC and host access devices that may provide sequencing for hosts that cannot conform."
+        },
+        {
+          "printed_page": "5",
+          "image": "../unique/committee-review-1975/committee-review-1975-p5.jpg",
+          "new_in_this_pass": true,
+          "content": "Recommendations 5 and 6: contractor operational control of the backbone, DCA operational control of subscriber access equipment; contractor transit-time and throughput responsibility limited to the backbone because performance evaluation should not depend on host protocol implementations and customer provided equipment. The contrast clause on specifiability crosses a skewed line break and is paraphrased, not quoted."
+        },
+        {
+          "printed_page": "6",
+          "image": "../unique/committee-review-1975/committee-review-1975-p6.jpg",
+          "new_in_this_pass": true,
+          "content": "1 second transit time called excessive and unnecessary, 0.1 second sought for an average 500-bit packet; restricting contractor responsibility to the backbone makes transit-time and throughput requirements independent of host systems; recommendations 8 and 9 on loose coupling, uniform interfaces, and avoiding a monolithic non-decomposable switch."
+        },
+        {
+          "printed_page": "7",
+          "image": "../unique/committee-review-1975/committee-review-1975-p7.jpg",
+          "new_in_this_pass": false,
+          "content": "Recommendations 10 to 13: backbone insensitive to host protocol change, DCA certification of host access equipment, a reference implementation, and a separately contracted front end."
+        },
+        {
+          "printed_page": "9",
+          "image": "Recorded capture, not distributed: 2017-02-01 10.41.29.jpg",
+          "new_in_this_pass": true,
+          "content": "Separation of TAC and packet switch including for encryption reasons; link encryption as an interim measure with end-to-end encryption and a PLI test; isolation of security-relevant software into small modules."
+        },
+        {
+          "printed_page": "10",
+          "image": "../unique/committee-review-1975/committee-review-1975-p10.jpg",
+          "new_in_this_pass": false,
+          "rechecked": true,
+          "content": "Recommendation 22, verbatim: the committee strongly recommends that the requirement for sequencing be eliminated from the backbone packet switching network; in lieu of this, sequencing shall be provided by a front-end computer, the users' mainframe computer or by a Host access mechanism. Rewrite goals: robustness and reliability, ability to interconnect with other packet networks, capability for possible introduction of end/end encryption."
+        },
+        {
+          "printed_page": "11",
+          "image": "../unique/committee-review-1975/committee-review-1975-p11.jpg",
+          "new_in_this_pass": false,
+          "rechecked": true,
+          "content": "Specific change recommended is to move the sequencing function out of the backbone and into the front-end mainframe or TAC; deadlock-free source-to-destination flow control giving precedence to priority traffic without depending on sequencing or logical connections; logical-link function is properly a host function; closing sentence that required subnet priority mechanisms demand out-of-sequence delivery. A contemporary reader's handwritten marginal note reading WHAT? I DON'T UNDERSTAND THIS circles the sentence about logical links duplicating the Host to Host protocol; the hand is not identified."
+        },
+        {
+          "printed_page": "12",
+          "image": "../unique/committee-review-1975/committee-review-1975-p12.jpg",
+          "new_in_this_pass": false,
+          "rechecked": true,
+          "content": "Paragraph b ties host-level sequencing to interconnection, fragmentation for different maximum packet sizes, and end-to-end encryption, and asks for source-to-destination flow control independent of sequencing and a plan compatible with computers on different packet switching networks communicating via standard host protocols. Paragraph c: host/packet-switch interface to be specified in detail by DCA, compatible with end-to-end security and gateway interconnections, another network treated as a particular type of Host connection; maximum packet lifetime, transmission thresholds, non-blocking normal mode."
+        },
+        {
+          "printed_page": "13",
+          "image": "../unique/committee-review-1975/committee-review-1975-p13.jpg",
+          "new_in_this_pass": false,
+          "content": "Gateways recommended instead of overlapping Satin IV header and AUTODIN II leader."
+        },
+        {
+          "printed_page": "Appendix A",
+          "image": "../unique/committee-review-1975/committee-review-1975-pAppendix-A.jpg",
+          "new_in_this_pass": true,
+          "content": "Committee membership: R. E. Kahn (ARPA, Chairman), V. G. Cerf (Stanford University), M. Pirtle (NASA/Ames), J. Postel (Stanford Research Institute), J. Markowitz (Central Intelligence Agency), D. Wood (Mitre Corporation), A. Vezza (Massachusetts Institute of Technology). Earlier OCR read the heading as APPENDIX 4; the original reads APPENDIX A."
+        }
+      ]
+    },
+    {
+      "source_id": "autodin_sip_tn78_07_3",
+      "document": "Initial AUTODIN II Segment Interface Protocol (SIP) Specification, TN 78-07.3",
+      "author": "V. R. Kulkarni",
+      "performing_organization": "Western Union Telegraph Company, Government Systems Division, 7916 Westpark Drive, McLean, VA 22102",
+      "controlling_office": "Defense Communications Agency, Code 450",
+      "report_number": "DCA 200-C-637-P003",
+      "contract": "DCA 200-C-637",
+      "report_date": "1979-03-05",
+      "pages_stated": 68,
+      "dtic": "ADA071670",
+      "supersedes": "TN-78-07.2, 3 October 1978 (not recovered)",
+      "name_correction": "Segment Interface Protocol, not Subscriber Interface Protocol",
+      "device_path": "https://archive.org/download/DTIC_ADA071670/DTIC_ADA071670.pdf",
+      "sha256": "2b4da4c61006dc0aaf77faed78b6e676cfde0d5cb53cd80f5dba5821b9ecba07",
+      "pdf_pages": 71,
+      "pages_inspected_in_original": [
+        {
+          "pdf_page": 4,
+          "printed_page": "report documentation page",
+          "content": "Identity, dates, contract, page count, and the abstract's revises-and-replaces statement."
+        },
+        {
+          "pdf_page": 11,
+          "printed_page": "1-4",
+          "content": "Adaptive routing and retransmissions may cause out-of-order arrivals; segments of differing precedence from multiple sources make the SCM-to-SIP stream multiplexed and unordered; no guarantees against duplication, loss, or nonsequenced delivery; recovering lost segments, resequencing, demultiplexing, and end-to-end accountability are the responsibilities of the end users or any higher level protocol acting on their behalf; Non-Delivery Notices; window flow control."
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": "1-7",
+          "content": "General BSL field descriptions. TCP Version Number identifies the originating SIP's user, is ignored by the network, and is used by the destination SIP to pass the segment to the proper higher level protocol. Source and destination subscriber addresses are the SIP's single logical address, associated with the SIP and its access line."
+        },
+        {
+          "pdf_page": 28,
+          "printed_page": "2-8",
+          "content": "Data segment to SCM processing; precedence ceiling on the access line with validation reject; start of the TCP Version No. field description."
+        }
+      ],
+      "pages_read_from_extracted_text_only": [
+        {
+          "printed_page": "i (executive summary)",
+          "content": "Formal specification after extensive redesign since the original System Performance Specification; SIP is how TAC, SCCU and MCCU access components communicate with the backbone and a host may use it directly; pure packet transport service; the protocol is not burdened with connection and sequencing functions."
+        },
+        {
+          "printed_page": "1-2",
+          "content": "Background specification list: AUTODIN II System Performance Specification (type WAN) Nov 1975 as amended through September 1976 plus approved Specification Change Notices; System Design (Technical) Specification from the Western Union proposal part 5, April 76, refinements June and August 76, best and final offer October 76; AUTODIN II Final Design Plan June 1978; AUTODIN II Design Executive Summary 18 May 1978."
+        },
+        {
+          "printed_page": "1-10 to 1-11",
+          "content": "Layered architecture of link and segment protocols; only the host SIP interpreter's stimuli and responses are specified, and those are what will be tested and certified before a subscriber host may operate on the network; internal SIP interfaces are host unique and unspecified."
+        },
+        {
+          "printed_page": "2-10",
+          "content": "Figure 2-5, Levels of Precedence: four user categories with subcategories over four bits; CAT I-1 and I-2 network only; I-3 CRITIC/ECP; I-4 FLASH and others."
+        },
+        {
+          "printed_page": "2-11",
+          "content": "TCP Version Number continuation: the code for the AUTODIN II TCP is one, the code for no TCP is zero, all other codes are reserved and will be assigned by DCA Code 530."
+        }
+      ]
+    },
+    {
+      "source_id": "ien005_bibliography",
+      "document": "IEN 5",
+      "use": "Bibliography entry DCA75 names System Performance Specification for Autodin II, Phase 1, Defense Communications Agency, Defense Communication Engineering Center, November 1975",
+      "device_path": "https://www.rfc-editor.org/ien/ien5.pdf",
+      "read_from": "extracted text"
+    },
+    {
+      "source_id": "ien002_control",
+      "document": "IEN 2, Jon Postel, Comments on Internet Protocol and TCP, 15 August 1977",
+      "use": "Control search. Full-text search for AUTODIN, precedence, priority, security returned no matches. Argument is from layering and an ARPANET host/IMP and 1822 analogy. Its hop-by-hop header carries a Version field whose stated purpose is simultaneously supporting two or more versions of the protocol.",
+      "device_path": "https://history.rfc-editor.org/ien/ien2.txt",
+      "read_from": "extracted text",
+      "result": "negative, recorded as contrary evidence"
+    },
+    {
+      "source_id": "ien066_control",
+      "document": "IEN 66, TCP meeting notes, 13-14 October 1977",
+      "use": "Type-of-service discussion placed on the outside of the envelope; no AUTODIN II attribution.",
+      "read_from": "extracted text",
+      "result": "consistent with the existing entry"
+    },
+    {
+      "source_id": "postel_collection_finding_aid",
+      "document": "Annotated Jon Postel Collection finding aid, local extract",
+      "use": "ARPANET Notes box 34: folder 2 Terminal-to-Host Protocol Specifications 1976; folder 3 Transmission Control Protocol Specifications 1976; folder 4 System Performance Specification for Autodin II Phase 1, report, 1975; folder 5 System Approach Report (Final) 1976",
+      "caveat": "catalog entry only; repository not stated on the extracted copy and should be confirmed before any request"
+    }
+  ],
+  "retrieval_attempts_unsuccessful": [
+    {
+      "target": "System Performance Specification for AUTODIN II Phase 1, DCA/DCEC, November 1975",
+      "methods": [
+        "local filename search across the etext archive",
+        "full-text search of the research text corpus",
+        "public web search"
+      ],
+      "result": "not obtained; existence and issuer established only through IEN 5 and the finding aid"
+    },
+    {
+      "target": "Final or non-draft version of the August 1975 committee report, and any DCA response or disposition",
+      "methods": [
+        "local archive search",
+        "public web search"
+      ],
+      "result": "not obtained"
+    },
+    {
+      "target": "SIP TN-78-07.2, 3 October 1978",
+      "methods": [
+        "local archive search"
+      ],
+      "result": "not obtained; known only from the March 1979 abstract"
+    },
+    {
+      "target": "AUTODIN II Final Design Plan, June 1978, and Design Executive Summary, 18 May 1978",
+      "methods": [
+        "local archive search",
+        "public web search"
+      ],
+      "result": "not obtained"
+    }
+  ],
+  "searches_deliberately_not_repeated": [
+    "Journal 32800's cited January 9, 1975 ARPA memorandum, the June 1975 DTACCS memorandum, and the June 1975 Network Analysis Corporation study",
+    "DCA100-76-C-0034 contract, statement of work, and review files"
+  ],
+  "leads_located_not_examined": [
+    {
+      "id": "ADA081757",
+      "title": "Computer Program Development Specification Terminal-to-Host Protocol (THP), Revision 2",
+      "organization": "Western Union Telegraph Company",
+      "belongs_to_chunk": 2
+    },
+    {
+      "id": "ADA080484",
+      "title": "An Analysis of a Routing Algorithm for AUTODIN II",
+      "author": "John A. Whittenton",
+      "organization": "Air Force Institute of Technology",
+      "date": "1979-12",
+      "note": "secondary source; bears on backbone adaptive routing"
+    },
+    {
+      "id": "ADA058143",
+      "title": "AUTODIN II Phase I System Implementation/Installation Plan",
+      "note": "unverified relevance"
+    },
+    {
+      "id": "ADA127476",
+      "title": "Report of Defense Science Board Task Force on AUTODIN II",
+      "belongs_to_chunk": 4
+    }
+  ],
+  "conclusions": {
+    "within_autodin_ii": "Established at both ends, undetermined in between. An August 1975 committee unanimously recommended removing the backbone sequencing requirement and named front-end, mainframe, or host access mechanism as the alternatives, arguing partly from priority. The specification in force in March 1979 assigns resequencing to end users or a higher level protocol and names precedence among its causes. No decision record is held, and independent arrival from ARPANET experience remains open.",
+    "influence_on_research_tcp_ip": "Strengthened as setting, contradicted as stated motive. Cerf and Postel served on the committee, and its page 12 links host-level sequencing to interconnection, fragmentation across different packet sizes, and end-to-end encryption. IEN 2 nonetheless argues the split from layering with no mention of AUTODIN, precedence, priority, or security."
+  },
+  "notes": "A completed bounded search is not evidence of archival absence. Rendered page images in chunk1-2026-09-11/pages are derived working copies; the original PDFs and photographs were not modified."
+}

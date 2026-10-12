@@ -1,0 +1,7 @@
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+sources/unique/** filter=lfs diff=lfs merge=lfs -text
+sources/unique/**/*.txt -filter diff merge -text -whitespace
+sources/extracts/** -text -whitespace

@@ -1,0 +1,93 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "reading_date": "2026-09-26 America/New_York",
+  "question": "Do the first 15 PDF pages explicitly connect a military requirement to protocol responsibilities, committee disposition, sequencing, DCA FTP requirements, or the later TCP/IP split?",
+  "status": "Bounded visual reading complete. One reported November 1976 FTP-funding discussion and a January 1977 open-RFP note are useful procurement leads; no verified disposition or causal protocol link was found in the assigned slice.",
+  "detailed_reading": "reading.md",
+  "source": {
+    "institution": "Computer History Museum",
+    "accession": "102697717",
+    "catalog_title": "Arc Proposals: Jon Postel's notes and correspondence concerning Autodin II protocol proposal",
+    "issuer_inherited": "SRI Augmentation Research Center",
+    "historical_date": "Undated as a whole; item dates in reading.md",
+    "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+    "absolute_path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+    "bytes": 8114831,
+    "sha256": "9767520847035437a147c31920756533c03e2841ad3985b092a6b20cbc34c185",
+    "pdf_pages": 71,
+    "retrieval_url_inherited": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf",
+    "retrieval_provenance": "Recorded capture, not distributed: source-record.json, finding ps-xi; retained 2026-09-19. No new download or live URL check in Batch C."
+  },
+  "coverage": {
+    "visually_read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "leaf_faces": 15,
+    "one_leaf_face_per_pdf_page": true,
+    "partly_uncertain_handwriting": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "printed_pagination": "No reliable document page numbers in this mixed first slice; NLS outline/message numbers are not page numbers.",
+    "not_read_pdf_pages": "16-71",
+    "stop_reason": "Reached PDF p. 15, the assigned limit, before the 30-written-leaf cap."
+  },
+  "retained_page_images": [
+    {
+      "pdf_page": 1,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-01.png",
+      "sha256": "cda59388c7de763df62f396434e3b82376eebccec860dc24f02c3286490471d7"
+    },
+    {
+      "pdf_page": 2,
+      "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf#page=2",
+      "sha256": "d1d5ced2baefd54bb279a8a0118a1949d674784425b39bc4f010788cc8b1ce14"
+    },
+    {
+      "pdf_page": 3,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-03.png",
+      "sha256": "5b4e741cc15bd8bcc3e1f9c8323a5257de404b2104a5efea5866e3617a0f8ba5"
+    },
+    {
+      "pdf_page": 8,
+      "path": "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/_file/bulkupload/102697717-05-0001.pdf#page=8",
+      "sha256": "105e28eedbd501cad7028822445a75430b061179b82c1e3251e6876880b59a92"
+    },
+    {
+      "pdf_page": 11,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-11.png",
+      "sha256": "791e7b3b5699470ba7b534ec533a5dbe7d975d9ff6486d6d03515b98adc76d6f"
+    },
+    {
+      "pdf_page": 14,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-14.png",
+      "sha256": "74b2e8e151185128ae54b05358d7fd3c3c00d4bf02e0fdec45442ed1b7dffd30"
+    },
+    {
+      "pdf_page": 15,
+      "path": "Recorded capture, not distributed: chm-102697717-pdf-15.png",
+      "sha256": "fae687881e691f4402671bacc2a7ed3ac553b740f89bf987810728f7d19991d7"
+    }
+  ],
+  "retrieval": {
+    "new_requests": 0
+  }
+}

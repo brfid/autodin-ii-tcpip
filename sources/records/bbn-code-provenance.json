@@ -1,0 +1,313 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "purpose": "Provenance and source locations for static inspection of preserved BBN Unix TCP implementations in the posts TCP/IP-AUTODIN II research brief.",
+  "provenance_note": "The accompanying jnc_bbn.txt identifies the distribution as from Noel Chiappa and attributes most TCP code to Mike Wingfield. Matching archive bytes does not prove identity with the UCLA printout or the March 15, 1979 build in IEN 98. Archive timestamps are recorded as preservation metadata, not authorial dates.",
+  "archive": {
+    "path": "../README.md#bbn-source-distributions",
+    "bytes": 480306,
+    "sha256": "00f1b98bdabc60429622b410b46fb52748bc1d08d226de898e67b635cd999365"
+  },
+  "public_collection": "https://www.tuhs.org/cgi-bin/utree.pl?file=BBN-V6",
+  "files": [
+    {
+      "path": "https://www.tuhs.org/cgi-bin/utree.pl?file=BBN-V6/tcp/tcp.c",
+      "archive_member": "Recorded capture, not distributed: tcp.c",
+      "bytes": 76941,
+      "sha256": "c8fb21e6bfd7e9ef0303a0fd755b3f3c2509797cfbaf36ca011cb9c2481fed1c",
+      "matches_archive": true,
+      "archive_mtime_utc": "1979-12-31T15:45:13+00:00"
+    },
+    {
+      "path": "https://www.tuhs.org/cgi-bin/utree.pl?file=BBN-V6/tcp/auth.c",
+      "archive_member": "Recorded capture, not distributed: auth.c",
+      "bytes": 7791,
+      "sha256": "4ac5384c69398d8fcf935b1405650069493ece164aa91b2e4414681e1c43cbb1",
+      "matches_archive": true,
+      "archive_mtime_utc": "1979-12-31T15:44:58+00:00"
+    },
+    {
+      "path": "https://www.tuhs.org/cgi-bin/utree.pl?file=BBN-V6/tcp/psipin.c",
+      "archive_member": "Recorded capture, not distributed: psipin.c",
+      "bytes": 33676,
+      "sha256": "acb2a44d7ed6fdb3ca42b3bdc4e50386ebc927d1202efb4a6a1a951136b091de",
+      "matches_archive": true,
+      "archive_mtime_utc": "1979-12-31T15:45:03+00:00"
+    },
+    {
+      "path": "https://www.tuhs.org/cgi-bin/utree.pl?file=BBN-V6/tcp/psipout.c",
+      "archive_member": "Recorded capture, not distributed: psipout.c",
+      "bytes": 14813,
+      "sha256": "716ad708d0302e1eb0afe31959f432c10692e403860244b2fba6ba1164063f93",
+      "matches_archive": true,
+      "archive_mtime_utc": "1979-12-31T15:45:06+00:00"
+    },
+    {
+      "path": "https://www.tuhs.org/cgi-bin/utree.pl?file=BBN-V6/tcp/tcpstru.h",
+      "archive_member": "Recorded capture, not distributed: tcpstru.h",
+      "bytes": 15820,
+      "sha256": "d0c1e8ba91a2a744f272d33810446b5378f563401c41571fb86f10d2b2b155ba",
+      "matches_archive": true,
+      "archive_mtime_utc": "1979-12-31T15:44:25+00:00"
+    },
+    {
+      "path": "Recorded capture, not distributed: hdrmasks.h",
+      "archive_member": "Recorded capture, not distributed: hdrmasks.h",
+      "bytes": 2100,
+      "sha256": "baf66c1c36803722ff1840217d1ff80b655d4a33638ac9d7831da31a591f3282",
+      "matches_archive": true,
+      "archive_mtime_utc": "1979-12-31T15:44:19+00:00"
+    },
+    {
+      "path": "Recorded capture, not distributed: build.info",
+      "archive_member": "Recorded capture, not distributed: build.info",
+      "bytes": 444,
+      "sha256": "109d999404ce09caf829f4e65030ccc8179b9375191bff54ad8bec831399f6ba",
+      "matches_archive": true,
+      "archive_mtime_utc": "1979-12-31T15:44:43+00:00"
+    },
+    {
+      "path": "Recorded capture, not distributed: tcp",
+      "archive_member": "Recorded capture, not distributed: tcp",
+      "bytes": 50428,
+      "sha256": "8cc002cd624234db1b9ef95dbe33700674579e0fbc3d977e2483ac2c306428af",
+      "matches_archive": true,
+      "archive_mtime_utc": "1980-01-09T02:59:22+00:00"
+    }
+  ],
+  "document_pages_checked": [
+    {
+      "path": "https://history.rfc-editor.org/ien/ien98.txt",
+      "pdf_pages": [
+        3,
+        4
+      ],
+      "printed_pages": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "path": "https://www.rfc-editor.org/ien/ien21.pdf",
+      "pdf_pages": [
+        4,
+        67
+      ],
+      "printed_pages": [
+        "iii",
+        "62"
+      ]
+    },
+    {
+      "path": "https://archive.org/download/DTIC_ADA060668/DTIC_ADA060668.pdf",
+      "pdf_pages": [
+        3,
+        14,
+        18,
+        19
+      ],
+      "printed_pages": [
+        "cover",
+        "7",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "pdf_pages": [
+        14
+      ],
+      "printed_pages": [
+        "461"
+      ]
+    }
+  ],
+  "comparison_2026_09_12": {
+    "question": "How the security/precedence/TCC authorization path at connection opening differs between the 1979 BBN PDP-11 C TCP daemon and a dated 1980s BBN distribution.",
+    "release_identity_source": "The archive's own LABEL file, transcribing the physical tape label: 'BBN TCP/IP3.0 BETA-TEST Distribution / 1600 BPI File 1 - Tar of /usr/src/sys File 2 - Tar of /usr/netsrc / November 24, 1981 #4'. LABEL itself carries the archive timestamp 1992-11-30 and is a preservation-era transcription, not a 1981 file. The accompanying tape1.txt is a modern secondary description and is not the source of the release string.",
+    "internal_dating_controls": "tape1-files/history runs 30 Nov 79 to 11 Aug 81 across tree generations sys.2 to sys.5 and dates the networking work ('vmu4.1.test rfg 5 Jan 81 Added TCP network code to kernel'; 'vmu4.3.tcp rfg 2 March 81 first production tcp kernel'). Archive member timestamps run 1981-05 to 1981-11, latest bbnnet/ip_input.c at 1981-11-20.",
+    "extraction_check": "tape1-files is a byte-identical extraction of tape1.tgz: recursive comparison of all 740 files reported no differences. The archive was extracted to session scratch space for the check; nothing was re-extracted into the implementation tree.",
+    "excluded_from_comparison": "bbnnet-oct82 is not from this tape. Its own README attributes it to the Stanford AI Laboratory online archives and all 31 files carry the uniform timestamp 1982-10-07. nosc-files and clem-cole were not entered; the traced path did not lead there.",
+    "archive": {
+      "path": "../README.md#bbn-source-distributions",
+      "bytes": 1237813,
+      "sha256": "82b968169c70f8672779ecef33d56683c00b24f59a1403d25e65baeb25f44ff8",
+      "description_file": "../README.md#bbn-source-distributions",
+      "description_file_sha256": "2d186d1485e41b3b75ebd2d7f7e5e7c59e79dd2c24e6732ad644e3b41332f059"
+    },
+    "files": [
+      {
+        "path": "../extracts/bbn-vax-1981/LABEL.txt",
+        "archive_member": "LABEL",
+        "bytes": 150,
+        "sha256": "033b19c2b82761448dd91c0018bf739a800798e48067b43df2303c0418a16277",
+        "matches_archive": true,
+        "archive_mtime_utc": "1992-11-30T15:10:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/history.txt",
+        "archive_member": "history",
+        "bytes": 5383,
+        "sha256": "c99f027ec94a47bc59266390c4d88d963d6e11b6e098b46d48a28b5ba688919b",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-09-04T01:23:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/conf/files.txt",
+        "archive_member": "conf/files",
+        "bytes": 2271,
+        "sha256": "ec4ff5f5b2ea6b9d288e0d3d98548c6d58c16e046f59a5a9e94f094b517b4399",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-10-15T04:54:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/include/con.h.txt",
+        "archive_member": "include/con.h",
+        "bytes": 4386,
+        "sha256": "81f8afb38961b52fad0a5993c06a46a0d535a74e7df5baebd3fa7ba3f2c32d9a",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-10-26T23:31:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/bbnnet/con.h.txt",
+        "archive_member": "bbnnet/con.h",
+        "bytes": 4454,
+        "sha256": "fb70c9d4056c398d5e92b95e75a128b8a654cc05d9185f29d3e015ab962d6304",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-11-04T04:54:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/bbnnet/ip.h.txt",
+        "archive_member": "bbnnet/ip.h",
+        "bytes": 1739,
+        "sha256": "b3d1e1a05f7bec30208a84a0ed3a7a790c510c410b946cc9327a13aaffbd5637",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-10-02T00:46:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/bbnnet/tcp.h.txt",
+        "archive_member": "bbnnet/tcp.h",
+        "bytes": 5658,
+        "sha256": "6cbb749d86603ffbd2e889602d32e5d3a4910dcd4227266696f2dfd3458355fe",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-10-09T06:36:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/bbnnet/netuser.c.txt",
+        "archive_member": "bbnnet/netuser.c",
+        "bytes": 18708,
+        "sha256": "fc30755d4951958eb32aa3ac63655cfdd7dc211d4e4b08d227d3e03542f0b771",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-11-03T00:29:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/bbnnet/ip_input.c.txt",
+        "archive_member": "bbnnet/ip_input.c",
+        "bytes": 10983,
+        "sha256": "aa298eb90bf2a3e1b73180a5f50830cc9c4ec34517c5c4a4d17d3e99feaede0b",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-11-20T06:59:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/bbnnet/ip_output.c.txt",
+        "archive_member": "bbnnet/ip_output.c",
+        "bytes": 8226,
+        "sha256": "3af6cda5c7989cdc2d9ae46efe922fcc26def04dbf45cd1d6a4fe5b5e8ae864f",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-11-09T23:54:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/bbnnet/tcp_input.c.txt",
+        "archive_member": "bbnnet/tcp_input.c",
+        "bytes": 10449,
+        "sha256": "454524176b8735098d5a53f08a1d2d86e06a24ec3309fc0b5ea19a6f8e4e8207",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-11-03T05:17:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/bbnnet/tcp_prim.c.txt",
+        "archive_member": "bbnnet/tcp_prim.c",
+        "bytes": 8949,
+        "sha256": "99beec580ba684a0ceb929266a6b8a60bace00bf9b4e39ae14bafe0429e415ce",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-11-03T05:20:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/doc/net.5.n.txt",
+        "archive_member": "doc/net.5.n",
+        "bytes": 13679,
+        "sha256": "0814af4056c7b6e41232cbacebdedd61933788e3a20d3665b6f27adb88a14028",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-10-26T23:28:00Z"
+      },
+      {
+        "path": "../extracts/bbn-vax-1981/doc/net.5.P.txt",
+        "archive_member": "doc/net.5.P",
+        "bytes": 22130,
+        "sha256": "169fdde5be55b7be2e02cca4313ad686090be7559a5d315b1ad1c3a0a94ec3ba",
+        "matches_archive": true,
+        "archive_mtime_utc": "1981-10-26T23:28:00Z"
+      },
+      {
+        "path": "Recorded capture, not distributed: README",
+        "archive_member": "bbnnet-oct82/README",
+        "bytes": 540,
+        "sha256": "8075b7d4150b94b099397606b2701b91feb533f0ae349b6f7a85db3c70e43989",
+        "matches_archive": true,
+        "archive_mtime_utc": "2017-11-18T01:07:00Z"
+      }
+    ],
+    "findings": {
+      "retained_requirement": "None of the AUTODIN II-derived security, precedence, or TCC mechanisms survives in executable form. What survives is a general carrier: an arbitrary outgoing IP option string, with a 40-byte length limit as the only rule enforced.",
+      "revised_implementation": "Values are no longer requested at open, checked against a per-user table, stored in the connection, encoded by the protocol code, or required on receipt. They are composed by the application, passed through unverified via the NETTCPOPT ioctl, and never read on receipt. struct con has no security, precedence, compartment, or TCC field; struct tcb holds only t_opts and t_optlen; the network errno set has no unauthorized value; ip_output never writes ip_tos.",
+      "disabled_code": "bbnnet/ip_input.c lines 375-397: the incoming IP option walk is present and commented out, and the live path removes options for every protocol. Even enabled, the commented loop only skips options and contains no security case.",
+      "unresolved_identity": "doc/net.5.P includes its struct by reference from /usr/src/sys.4/h/con.h and prints c_prec, c_sec, and c_compt, an RFC 791-shaped triple absent from the shipped sys.5 headers, where those slots are c_lo and c_hi and c_mode has widened from char to short. /usr/src/sys.4/h/con.h is not on the tape, so the date of the change is not established.",
+      "renaming_test": "c_lo and c_hi are not treated as a renamed precedence and security pair: they reach only raw_range for IP and raw connections (netuser.c line 179), the TCP open path ignores them, and no security, precedence, or TCC field is carried into the TCB.",
+      "design_intent": "IEN 168, Robert F. Gurwitz, BBN, 'VAX-UNIX Networking Support Project Implementation Description', January 1981, section 2.1.2, states that precedence and security levels will be supported and defers IP option processing to a later stage of development. The 1981 state is a documented deferral, not evidence of a decision to drop a requirement.",
+      "limits": "One beta distribution, one machine class, from the DARPA-funded VAX reference implementation rather than the DCA AUTODIN II contract. The 1979 implementation's own authorization defaulted to off. Establishes what this distribution does; does not establish a decision, a policy, or the behavior of operational defense hosts."
+    },
+    "next_leads": [
+      "The separately provenanced October 1982 copy in bbnnet-oct82, from the SAIL archives",
+      "The UCLA Wingfield printout, Collection 2327, for the 1979 side",
+      "/usr/src/sys.4/h/con.h, the intermediate connection structure, not held"
+    ],
+    "exclusions_observed": "No compilation, emulation, or test execution. No repository tests or validation, no commits, no publication, no archival inquiries."
+  },
+  "web_sources_checked": [
+    {
+      "url": "https://history.rfc-editor.org/ien/ien168.txt",
+      "document": "IEN 168, Robert F. Gurwitz, BBN, VAX-UNIX Networking Support Project Implementation Description, January 1981",
+      "retrieved_local": "2026-09-12",
+      "note": "Reached via a 302 redirect from https://www.rfc-editor.org/ien/ien168.txt. Passages quoted in the brief are sections 1, 2.1.2, and 2.2.2."
+    }
+  ],
+  "public_source_comparison_2026_10_12": {
+    "method": "Complete TUHS source-view text compared with the preserved files; only outer framing newlines normalized.",
+    "files": [
+      {
+        "url": "https://www.tuhs.org/cgi-bin/utree.pl?file=BBN-V6/tcp/auth.c",
+        "matches_preserved_file": true,
+        "source_sha256": "4ac5384c69398d8fcf935b1405650069493ece164aa91b2e4414681e1c43cbb1"
+      },
+      {
+        "url": "https://www.tuhs.org/cgi-bin/utree.pl?file=BBN-V6/tcp/psipin.c",
+        "matches_preserved_file": true,
+        "source_sha256": "acb2a44d7ed6fdb3ca42b3bdc4e50386ebc927d1202efb4a6a1a951136b091de"
+      },
+      {
+        "url": "https://www.tuhs.org/cgi-bin/utree.pl?file=BBN-V6/tcp/psipout.c",
+        "matches_preserved_file": true,
+        "source_sha256": "716ad708d0302e1eb0afe31959f432c10692e403860244b2fba6ba1164063f93"
+      },
+      {
+        "url": "https://www.tuhs.org/cgi-bin/utree.pl?file=BBN-V6/tcp/tcp.c",
+        "matches_preserved_file": true,
+        "source_sha256": "c8fb21e6bfd7e9ef0303a0fd755b3f3c2509797cfbaf36ca011cb9c2481fed1c"
+      },
+      {
+        "url": "https://www.tuhs.org/cgi-bin/utree.pl?file=BBN-V6/tcp/tcpstru.h",
+        "matches_preserved_file": true,
+        "source_sha256": "d0c1e8ba91a2a744f272d33810446b5378f563401c41571fb86f10d2b2b155ba"
+      }
+    ]
+  }
+}

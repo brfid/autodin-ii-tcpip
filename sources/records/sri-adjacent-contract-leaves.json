@@ -1,0 +1,267 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "schema_version": 1,
+  "date": "2026-10-07",
+  "state": "Initial six complete; extension gate not met; stopped at IMG_6655.jpg",
+  "question": "Do IMG_6650-6655 identify an applicable contract, accepted modification, proposal disposition, or direct decision lead relevant to ECU 79-99 or ECU 80-149?",
+  "scope": {
+    "exact_directory": "Recorded capture, not distributed: SRI CHM archives",
+    "initial_files": [
+      "../unique/sri-contract-leaves/img_6650.jpg",
+      "../unique/sri-contract-leaves/img_6651.jpg",
+      "../unique/sri-contract-leaves/img_6652.jpg",
+      "../unique/sri-contract-leaves/img_6653.jpg",
+      "../unique/sri-contract-leaves/img_6654.jpg",
+      "../unique/sri-contract-leaves/img_6655.png"
+    ],
+    "conditional_files_not_opened_or_fetched": [
+      "Recorded capture, not distributed: IMG_6656.jpg",
+      "Recorded capture, not distributed: IMG_6657.jpg",
+      "Recorded capture, not distributed: IMG_6658.jpg",
+      "Recorded capture, not distributed: IMG_6659.jpg",
+      "Recorded capture, not distributed: IMG_6660.jpg",
+      "Recorded capture, not distributed: IMG_6661.jpg",
+      "Recorded capture, not distributed: IMG_6662.jpg",
+      "Recorded capture, not distributed: IMG_6663.jpg",
+      "Recorded capture, not distributed: IMG_6664.jpg",
+      "Recorded capture, not distributed: IMG_6665.jpg",
+      "Recorded capture, not distributed: IMG_6666.jpg",
+      "Recorded capture, not distributed: IMG_6667.jpg",
+      "Recorded capture, not distributed: IMG_6668.jpg",
+      "Recorded capture, not distributed: IMG_6669.jpg"
+    ],
+    "extension_condition": "Initial six must establish a 1975-82 connection or explicitly identify disposition of the cited proposals.",
+    "gate_result": "Failed: no document issue date, applicable contract identity, signatures, or proposal identifier established. A 1 March 1983 delivery target is not an issue date."
+  },
+  "items": [
+    {
+      "supplied_description": "Undated NIC work-statement/deliverable continuation",
+      "images": [
+        "IMG_6650.jpg",
+        "IMG_6651.jpg",
+        "IMG_6652.jpg",
+        "IMG_6653.jpg"
+      ],
+      "printed_locators": "Task 10 and Task 11; sections 6-8; deliverables a-ab; no conventional printed page numbers.",
+      "boundary_evidence": "The text/item sequence crosses photograph boundaries: item f is split between 6650/6651; o/p and aa/ab follow in sequence. Start of work statement is outside selected slice.",
+      "signatures": "None visible on these four foreground pages.",
+      "status": "Work-statement language and a DELETE stamp are visible; executed, proposed, or revision status not independently identified."
+    },
+    {
+      "printed_title": "CONTRACT DATA REQUIREMENTS LIST",
+      "form": "DD Form 1423, edition 1 JAN 78",
+      "images": [
+        "IMG_6654.jpg",
+        "IMG_6655.jpg"
+      ],
+      "printed_locators": "A001-A004; IMG_6655 page 1 of 8",
+      "boundary_evidence": "Same requirement content appears in both photographs; 6654 is partial and 6655 fuller. Matching section-6 deliverable names support content association, not attachment to an identified executed instrument.",
+      "signatures": "Prepared-by/date and approved-by/date fields blank. Red checks are not signatures.",
+      "unfilled_fields": [
+        "attachment/exhibit",
+        "contract/PR",
+        "category",
+        "system/item",
+        "contractor",
+        "prepared by",
+        "date",
+        "approved by",
+        "date"
+      ],
+      "completeness": "One of eight labeled CDRL pages visible; full CDRL and contract boundaries not established."
+    }
+  ],
+  "established": [
+    {
+      "finding": "A Resource Handbook is assigned a target delivery date of 1 March 1983.",
+      "source": "IMG_6652.jpg",
+      "locator": "section 6 item y, paragraph 5 Task 7",
+      "status": "Delivery requirement; not issue date or delivery result."
+    },
+    {
+      "finding": "TCP/IP support software is listed If Required, as directed by DCA Code 252.",
+      "source": "IMG_6652.jpg",
+      "locator": "section 6 item u, paragraph 5 Task 2",
+      "status": "Conditional work/deliverable language; not implementation evidence."
+    },
+    {
+      "finding": "The CDRL contract-identification and approval fields are blank.",
+      "source": "IMG_6655.jpg",
+      "locator": "header and footer, page 1 of 8",
+      "status": "No accepted instrument established."
+    }
+  ],
+  "inferences": [
+    {
+      "inference": "The typescript pages are textually continuous and the CDRL corresponds to the same kinds of deliverables.",
+      "basis": "Continuing alphabetical items and matching paragraph references.",
+      "limit": "Does not establish contract, date, adoption or complete item extent."
+    }
+  ],
+  "contrary_and_limits": [
+    "The 1983 delivery target is contrary to treating the slice as self-evidently the 1981 ECU 80-149 instrument, but does not prove a post-1982 document date.",
+    "No ECU 79-99 or ECU 80-149 identifier appears in the selected six.",
+    "Paragraph 4 Task 2 and paragraph 5 Task 2 serve different functions in these pages; do not equate them or either with ECU 79-99 Task 2.",
+    "No Task 5 disposition is established; do not infer deletion or restoration from its absence here.",
+    "The DELETE stamp on section 7 has no identified author/date/contractual effect.",
+    "Partial duplication and CDRL page 1 of 8 defeat a six-images-equals-six-distinct-leaves or complete-instrument claim.",
+    "Background sheets and show-through were not separate readings.",
+    "No ordered analysis, named decision rationale, or applicable signed modification was identified within the actual six-photo reading. This does not establish archive-wide absence."
+  ],
+  "comparisons": [
+    {
+      "source": "ECU 79-99 and undated addendum associated with 5 November 1979 cost sheets",
+      "effect": "No execution/disposition connection established; existing proposal qualification unchanged."
+    },
+    {
+      "source": "ECU 80-149, 18 December 1980, 1981 contract year",
+      "reuse": "Same research and September 14 source record; article western-union footnote",
+      "effect": "Thematically related repository/TCP/IP deliverables do not establish acceptance of that proposal or date this fragment."
+    }
+  ],
+  "reused_context": [
+    {
+      "path": "Recorded capture, not distributed: IMG_6646.txt",
+      "status": "retained OCR only; original not opened"
+    },
+    {
+      "path": "Recorded capture, not distributed: IMG_6647.txt",
+      "status": "retained OCR only; original not opened"
+    },
+    {
+      "path": "Recorded capture, not distributed: IMG_6648.txt",
+      "status": "retained OCR only; original not opened"
+    },
+    {
+      "path": "Recorded capture, not distributed: IMG_6649.txt",
+      "status": "retained OCR only; original not opened"
+    },
+    {
+      "path": "Recorded capture, not distributed: sri-photo-IMG_6655.txt",
+      "status": "poor retained sample OCR read; original visually inspected in this batch"
+    }
+  ],
+  "visual_coverage": {
+    "photos_opened": 6,
+    "photo_names": [
+      "IMG_6650.jpg",
+      "IMG_6651.jpg",
+      "IMG_6652.jpg",
+      "IMG_6653.jpg",
+      "IMG_6654.jpg",
+      "IMG_6655.jpg"
+    ],
+    "distinct_foreground_page_contents": 5,
+    "count_limit": "Four continuation pages plus one CDRL page content shown in two captures; physical leaf identity not asserted.",
+    "new_ocr_pages": 0,
+    "selected_text_derivative": "checked-extracts.md",
+    "incomplete_or_uncertain": [
+      "No document title/date/contract for typescript continuation.",
+      "Top-margin typewriter-like strings are unresolved, not treated as pagination or identifiers.",
+      "CDRL page 1 of 8 only; underlying/background pages not read.",
+      "IMG_6650 right-column clipping and IMG_6651 right-column clipping recorded."
+    ]
+  },
+  "images": [
+    {
+      "original_path": "../unique/sri-contract-leaves/img_6650.jpg",
+      "format": "JPEG",
+      "bytes": 2096596,
+      "sha256": "1a714503c1595813833e6e7e9695090a2dc80d284ce54ae38431ecf0abb9f1a8",
+      "pixel_dimensions": [
+        3024,
+        4032
+      ],
+      "visual_review": "Foreground page inspected.",
+      "locator": "No conventional printed page number; Task 10; Task 11; section 6 items a-f",
+      "description": "NIC work-statement continuation; begins mid-handbook task, ends mid-item f",
+      "limits": "Right edge of some deliverable-table entries cropped.",
+      "new_ocr": false
+    },
+    {
+      "original_path": "../unique/sri-contract-leaves/img_6651.jpg",
+      "format": "JPEG",
+      "bytes": 1752641,
+      "sha256": "1051b572ea2b973c2e93d0b016288515d7985e79da39b049279d0313a841a0f8",
+      "pixel_dimensions": [
+        3024,
+        4032
+      ],
+      "visual_review": "Foreground page inspected.",
+      "locator": "No conventional printed page number; section 6 item f continuation and g-o",
+      "description": "Protocol specifications/changes and repository administrative deliverables",
+      "limits": "Right edge of some recipient wording cropped.",
+      "new_ocr": false
+    },
+    {
+      "original_path": "../unique/sri-contract-leaves/img_6652.jpg",
+      "format": "JPEG",
+      "bytes": 1945263,
+      "sha256": "bc622e0af49f0ecc0651df3008a24aee237655b85de15e7d79ccd7622ac10e42",
+      "pixel_dimensions": [
+        3024,
+        4032
+      ],
+      "visual_review": "Foreground page inspected; original-detail second inspection also performed.",
+      "locator": "No conventional printed page number; section 6 items p-aa; item y",
+      "description": "TCP/IP software if required; Resource Handbook target delivery 1 March 1983",
+      "limits": "Delivery target does not date the document.",
+      "new_ocr": false
+    },
+    {
+      "original_path": "../unique/sri-contract-leaves/img_6653.jpg",
+      "format": "JPEG",
+      "bytes": 2024101,
+      "sha256": "e284739e6992e88fc3eaa6a15d18a7eda87a16a598b5d41cafe9ce310935a19f",
+      "pixel_dimensions": [
+        3024,
+        4032
+      ],
+      "visual_review": "Foreground page inspected.",
+      "locator": "No conventional printed page number; section 6 item ab; sections 7-8",
+      "description": "Security section marked DELETE; special considerations",
+      "limits": "Deletion authority/date/effect unknown.",
+      "new_ocr": false
+    },
+    {
+      "original_path": "../unique/sri-contract-leaves/img_6654.jpg",
+      "format": "JPEG",
+      "bytes": 1822772,
+      "sha256": "49d55c171905cbca96cab4a31d4889cb07da43aef465a74006cb6f43297a522e",
+      "pixel_dimensions": [
+        3024,
+        4032
+      ],
+      "visual_review": "Foreground page inspected.",
+      "locator": "DD Form 1423 A001-A004; page label outside captured portion",
+      "description": "Partial alternate capture of CDRL requirements shown in IMG_6655",
+      "limits": "Right-hand portion outside frame.",
+      "new_ocr": false
+    },
+    {
+      "original_path": "../unique/sri-contract-leaves/img_6655.png",
+      "format": "JPEG",
+      "bytes": 2016423,
+      "sha256": "b47372bd2576e425229cd20e0e6ccb1fcf3136ed26c7b6dcbef9cc5c928686da",
+      "pixel_dimensions": [
+        3024,
+        4032
+      ],
+      "visual_review": "Foreground page inspected; original-detail second inspection also performed.",
+      "locator": "DD Form 1423, page 1 of 8; A001-A004",
+      "description": "Contract data requirements list; blank identifying and approval fields",
+      "limits": "One CDRL page only; repeated page content with IMG_6654.",
+      "new_ocr": false
+    }
+  ],
+  "decisive_originals_for_lead_review": [
+    "../unique/sri-contract-leaves/img_6652.jpg",
+    "../unique/sri-contract-leaves/img_6655.png"
+  ],
+  "derivatives": [
+    "reading.md",
+    "checked-extracts.md",
+    "source-record.json",
+    "cross-review-postel.md"
+  ]
+}

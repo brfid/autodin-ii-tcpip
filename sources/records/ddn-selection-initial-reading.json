@@ -1,0 +1,124 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "focus": "The 1981-82 AUTODIN II-to-DDN selection",
+  "date": "2026-09-12",
+  "state": "pass complete, question partly answered",
+  "superseded_in_part_by": {
+    "date": "2026-09-12",
+    "principal_corrections": [
+      "The DCA evaluation panel concluded on 25 February 1982 and the Director of DCA approved the following day, before the Task Force's March recommendation. Not recorded here.",
+      "The Task Force's grounds are six, not three.",
+      "'to produce essentially proposals' is a misquotation of 'to prepare what were essentially proposals', and it is on printed p. 7, not pp. 7-8.",
+      "The 'no really convincing set of comparative costs' sentence concerns common user networks against dedicated links, not the two designs.",
+      "A normalized comparative cost analysis existed and 'gave a heavy edge to REPLICA'.",
+      "The bounded protocol-keyword negative holds for TCP, IP, Transmission Control Protocol and Internet Protocol, but 'Internet' occurs once at printed p. 3 and 'protocols' once at printed p. 39.",
+      "The DSB epilogue is legible and was read in full; the degraded-scan limitation recorded here does not hold for the verified copy.",
+      "DCEC-TN-8-83 covers the design process only through January 1982, and its shared traffic model computed TCP overhead for both designs."
+    ]
+  },
+  "current_state": "../../questions.md",
+  "sources_examined": [
+    {
+      "identity": "DCA, Defense Data Network Program Plan, January 1982 revised May 1982 (abridged)",
+      "location": "Recorded capture, not distributed: DDN Program Plan",
+      "coverage": "All 155 photographs already carry OCR in supporting/ddn-bbn-text/index.json; the whole OCR set was searched and read for this pass.",
+      "visually_inspected_this_pass": [
+        {
+          "photo": "2015-09-15 11.47.35.jpg",
+          "printed_pages": "1",
+          "for": "the comparison still to come; 'this is not a proposal'"
+        },
+        {
+          "photo": "2015-09-15 11.47.45.jpg",
+          "printed_pages": "6-7",
+          "for": "Table 1.2-1 backbone delay, DDN I against A-Spec columns; error rate, misdelivery, availability"
+        },
+        {
+          "photo": "2015-09-15 11.55.33.jpg",
+          "printed_pages": "226-227",
+          "for": "design team's own assessment of its design's limits"
+        },
+        {
+          "photo": "2015-09-15 11.56.46.jpg",
+          "printed_pages": "250-251",
+          "for": "Cost Format I, 'Revised: 9 February 1982', footnote 4 DDN Team vs DCEC"
+        },
+        {
+          "photo": "2015-09-15 11.56.56.jpg",
+          "printed_pages": "254-255",
+          "for": "DCEC supplemental cost sheet; $32.5M FY89 against 72 dedicated systems at $35.2M/yr"
+        },
+        {
+          "photo": "2015-09-15 11.57.03.jpg",
+          "printed_pages": "257",
+          "for": "'the short time allotted to developing this alternative'"
+        }
+      ],
+      "identity_established": "The Replica design team's own competing plan, named in the April 2 1982 directive as the January 1982 ARPAnet Replica Program Plan; abridged and reissued with a revised foreword and the directive at p. v, while section 1 and section 6.0 retain pre-decision wording.",
+      "corrections": [
+        "An OCR reading of '$39.2 million' for the dedicated-systems comparison is wrong; the original at printed p. 255 reads '72 dedicated systems cost $35.2 million a year, not including overhead and six large systems'.",
+        "The plan's terminal count (1446) differs from DCEC's reconstructed baseline (1359) on the same 91 systems and 488 hosts. Preserved, not reconciled."
+      ]
+    },
+    {
+      "identity": "Report of Defense Science Board Task Force on AUTODIN II, OUSDRE, December 1982, 43 pp.",
+      "url": "https://apps.dtic.mil/sti/pdfs/ADA127476.pdf",
+      "dtic": "ADA127476",
+      "prior_state": "Listed in batch 2 discovery as 'leads_located_not_examined'. Examined for the first time in this pass.",
+      "structure": "Exec Summary 1; I The Problem 3; II DCS Alternatives Evaluation 7; III DSB Task Force Evaluation 12; IV Task Force Concerns 24; V Recommendations 27; VI Epilogue 28; App A Terms of Reference 33; App B Membership 35; App C DepSecDef Termination Memo 37; App D Follow-On DDN Implementation Review Tasking 39.",
+      "key_dates": {
+        "terms_of_reference": "September 1981, final report requested not later than 15 February 1982",
+        "recommendations_submitted_to_DSB_chairman": "8 March 1982",
+        "forwarded_to_DUSDRE_C3I": "9 March 1982",
+        "briefed_DUSDRE_C3I_and_Director_DCA": "9 March 1982",
+        "briefed_USDRE": "12 March 1982",
+        "DepSecDef_directive": "2 April 1982",
+        "report_publication": "December 1982",
+        "DTIC_stamp": "29 April 1983"
+      },
+      "bounded_negative": "Two passes over the converted text found no occurrence of TCP, IP, Transmission Control Protocol or Internet Protocol. Not established; a negative from a text-conversion route over a degraded scan. Verify against the original."
+    },
+    {
+      "identity": "R. Prishivalko, Modeling Efforts for the AUTODIN II 'Fly-Off' Study, DCEC Systems Analysis Division R820, DCEC-TN-8-83, August 1983",
+      "url": "https://apps.dtic.mil/sti/pdfs/ADA134275.pdf",
+      "dtic": "ADA134275",
+      "prior_state": "Not previously recorded in this project.",
+      "why_it_matters": "DCEC supported both design teams and the evaluation team, so this is the closest examined account to the missing evaluation record. It independently dates the tasking to September 1981, names the DIN II and Replica teams, describes the shared URDB requirements baseline and its defects, lists the shared models (GUPTA, CULINES, MUXLOC/CONLOC, GRINDER), and states that performance criteria were never specified sufficiently to permit meaningful comparison of the two designs."
+    }
+  ],
+  "sources_screened_and_deprioritized": [
+    {
+      "identity": "Computer Sciences Corporation, Recommended Test and Evaluation and IV&V Actions for the Defense Data Network, DDN-TE-1, August 1983, contract DCA100-78-C-0053",
+      "url": "https://apps.dtic.mil/sti/pdfs/ADA134167.pdf",
+      "reason": "Deployment-phase test and evaluation of the selected system. Outside this chunk's selection scope; the chunk requires selection and deployment to be kept distinct."
+    },
+    {
+      "identity": "DSB Appendix D follow-on DDN Implementation Review, final report due October 1984",
+      "reason": "Deployment source. Recorded as a lead for a later question, not pursued."
+    }
+  ],
+  "retrieval_failures": [
+    {
+      "url": "https://www.gao.gov/products/b-206979",
+      "attempts": 4,
+      "outcome": "Refused by the fetch proxy with HTTP 429 rate limiting on every attempt, including after 75s and 180s waits. The decision was NOT re-read in this pass; the brief's account stands from the batch 2 reading and was not re-verified.",
+      "note": "A gao.gov-restricted search for a 1982-83 AUTODIN II / DDN audit returned only B-206979 itself. Whether the separately announced audit was ever issued is unresolved."
+    },
+    {
+      "url": "https://apps.dtic.mil/sti/citations/ADA127476",
+      "outcome": "HTTP 403 on the citation landing page. The full-text PDF at apps.dtic.mil/sti/pdfs/ADA127476.pdf was reachable."
+    },
+    {
+      "target": "DSB report section VI Epilogue, pp. 28-31",
+      "outcome": "The source scan is degraded in this section; the text conversion returned OCR artifacts and could not supply a clean transcription. Coherent fragments only: PMO staffing at 44 of the required positions, WIN hardware replacement, ARPANET reconfiguration planned mid-1983, MINET European testbed through November 1983, SACDIN IMP and Monitoring Center hardware ordered and SIP interface development initiated, an October 1982 Task Force review, and selection of a security architecture 'Option 2.2'."
+    }
+  ],
+  "targets_still_not_held": [
+    "The evaluation team's own report on the two program plans, with its criteria and its 'complex quantitative method based on disaggregated subjective judgments'. Highest-value remaining document for this chunk.",
+    "The DIN II design team's 1981-82 plan (extends previous AUTODIN II plans in consonance with Western Union; retrieval handle DCA200-C-637).",
+    "The unabridged January and May 1982 program plans, with the appendices and node/TAC/trunk location lists the abridgement removed.",
+    "The separate GAO audit announced in B-206979.",
+    "The survivability drawdown curves and any numeric comparison between the two designs.",
+    "NARA RG 330 / UD-13W IPTO series NAID 23063473 and 23063474, unchanged and not retried."
+  ]
+}

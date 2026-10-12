@@ -1,0 +1,191 @@
+NIC 50002 AND ITS SUCCESSOR CATALOGUE WITNESSES, FEBRUARY 1986 TO FEBRUARY 1993
+Chunk 5c pass, 14 September 2026. Verbatim entries for the BLACKER Front End
+Interface Control Document and the DDN Subscriber Security Guide, in edition order.
+
+Cover dates are read from each document's own title page, not from catalogue
+metadata. Every PDF was taken from the Internet Archive DTIC mirror
+(https://archive.org/download/DTIC_ADAnnnnnn/DTIC_ADAnnnnnn.pdf); apps.dtic.mil
+returned HTTP 403 on the single probe run in this pass. Text below is from
+pdftotext -layout (discovery); the four passages marked INSPECTED were read as
+150-160 dpi page images before being quoted.
+
+-------------------------------------------------------------------------------
+1. FEBRUARY 1986 -- NIC 50002, "TCP/IP Implementations and Vendors Guide"
+   AD-A165418, 160 pages
+   sha256 22b7b6612bc8f99dc740fcf74b07074d30b9ba0b2537e5608a7183d6ffd0426f
+
+   NO ENTRY for either document. This edition is organised by vendor from
+   section 1.3 onward (1.3 = Burroughs) and carries no "Obtaining Protocol
+   Documentation" section at all. Its silence is STRUCTURAL, not evidential:
+   it is not a negative about either document.
+
+   The title changes to "DDN Protocol Implementations and Vendors Guide" with
+   the next edition.
+
+-------------------------------------------------------------------------------
+2. AUGUST 1986 -- NIC 50002, AD-A173060, 220 pages
+   sha256 b728fb3da27b7a002343c1b2d737d1db072ecceaa868643acf82fe87bf248497
+   Printed page 5 / PDF page 20. INSPECTED as an image.
+
+   1.3.4. Blacker Front End Interface Control Document
+
+   The Blacker Front End Interface Control Document contains the specification
+   for end-to-end data encryption on the DDN. It may be obtained via FTP or
+   Kermit from the SRI-NIC.ARPA host using pathname NETINFO:BLACKER.DOC and is
+   also reproduced in the 1985 DDN Protocol Handbook.
+
+   [Same page, 1.3.3: the handbook is a three-volume set, December 1985, DTIC
+   order numbers ADA166324 / 325 / 326, total 2749 pages.]
+
+   Printed page 6 / PDF page 21:
+
+   1.3.7. DDN Subscriber Security Guide
+
+   Describes the security architecture of the DDN. Published by DCA, November
+   1983. Available from DTIC or NIC.
+        NIC Price: $10.00 domestic, $13.00 foreign
+        DTIC Order No.: AD-A152 524
+
+   NO "update pending" sentence.
+
+-------------------------------------------------------------------------------
+3. AUGUST 1987 -- NIC 50002, AD-A187689, 276 pages
+   sha256 d639fe7ae9ca570eedf8f6d3b69630c7ad39ab33f59faa7ec6a621f6fa813a7e
+   Printed page 9 / PDF page 19. INSPECTED as an image.
+
+   1.3.4. Blacker Front End Interface Control Document
+
+   The Blacker Front End Interface Control Document contains the specification
+   for end-to-end data encryption on the DDN. It may be obtained via FTP or
+   KERMIT from the SRI-NIC.ARPA host using pathname NETINFO:BLACKER.DOC and is
+   also reproduced in the DDN Protocol Handbook.
+
+   1.3.6. DDN Subscriber Interface Guide
+
+   The DDN Subscriber Interface Guide describes representative hardware
+   connections to the DDN, and includes guidelines for connecting equipment to
+   the DDN.
+        NIC Price: $10.00 domestic/$13.00 foreign
+
+   1.3.7. DDN Subscriber Security Guide
+
+   This guide describes the security architecture of the DDN.
+        NIC Price: $10.00 domestic/$13.00 foreign
+
+   NO "update pending" sentence, and no publication date, on either guide.
+   This is the last edition before the note appears.
+
+   This edition introduces a "REVISIONS THIS EDITION" section, but it records
+   only new and discontinued PRODUCTS. No edition of NIC 50002 carries a change
+   note for section 1.3, so no edition states why the pending sentence was
+   added or removed.
+
+-------------------------------------------------------------------------------
+4. FEBRUARY 1988 -- NIC 50002, AD-A192186, 342 pages
+   sha256 dd99edb3065686bfc38535b2842968fb153e5d5a6553b93e35b14af32078d114
+   Printed page 7 / PDF page 22. INSPECTED as an image.
+
+   1.3.5. Blacker Front End Interface Control Document
+
+   The Blacker Front End Interface Control Document contains the specification
+   for end-to-end data encryption on the DDN. It may be obtained via FTP or
+   KERMIT from the SRI-NIC.ARPA host using pathname NETINFO:BLACKER.DOC and is
+   also reproduced in the DDN Protocol Handbook.
+
+   1.3.7. DDN Subscriber Interface Guide
+
+   The DDN Subscriber Interface Guide describes representative hardware
+   connections to the DDN, and includes guidelines for connecting equipment to
+   the DDN. Published by DCA, July 1983. An update to this document is pending.
+        NIC Price: $10.00 domestic/$13.00 foreign
+
+   1.3.8. DDN Subscriber Security Guide
+
+   This guide describes the security architecture of the DDN. Published by DCA,
+   November 1983. An update to this document is pending.
+        NIC Price: $10.00 domestic/$13.00 foreign
+
+   FIRST APPEARANCE of the pending sentence, and it appears on BOTH subscriber
+   guides in the same edition.
+
+-------------------------------------------------------------------------------
+5. AUGUST 1988 -- NIC 50002, AD-A199688, 353 pages
+   sha256 60228d28fa7f6e4b8744e0e24ecdfc08362f06616ce0e5d86a9db142f952d76d
+   Printed page 7 / PDF page 20. Page image retained; read as text.
+
+   1.3.5 Blacker entry unchanged from February 1988.
+   1.3.8. DDN Subscriber Security Guide: "... Published by DCA, November 1983.
+   An update to this document is pending."
+
+-------------------------------------------------------------------------------
+6. FEBRUARY 1989 -- NIC 50002, AD-A206354, 405 pages
+   sha256 ca66b0f75edce8b10954514105eb9ba1a3a900e9b10637473c6689f9727a7ba4
+   Printed page 7 / PDF page 25. INSPECTED as an image.
+
+   1.3.5 Blacker entry unchanged.
+   1.3.7 Subscriber Interface Guide: pending sentence present.
+   1.3.8 Subscriber Security Guide: pending sentence present.
+
+   This is the edition held at vtda.org and already cited in section 9d.
+
+-------------------------------------------------------------------------------
+7. AUGUST 1990 -- NIC 50002, local native text
+   retained source: hosts asn etc
+   netinfo archive/vendors-guide.doc
+   369367 bytes, md5 bbfe3ec24d399cc68f27c02263f4c88e
+   Title page "August 1990"; internal line "Last edit: April, 1990".
+
+   1.3.5. Blacker Front End Interface Control Document
+
+   The Blacker Front End Interface Control Document contains the specification
+   for  end-to-end  data encryption on the DDN.  It may be obtained via FTP or
+   KERMIT from the NIC.DDN.MIL host using pathname NETINFO:BLACKER.DOC and  is
+   also reproduced in the DDN Protocol Handbook.
+
+   [Host name has changed from SRI-NIC.ARPA to NIC.DDN.MIL; the pathname has not.]
+
+   1.3.7. DDN Subscriber Interface Guide
+   ... Published by DCA, July 1983.
+
+   1.3.8. DDN Subscriber Security Guide
+   This guide describes the security architecture of the DDN.    Published  by
+   DCA, November 1983.
+
+   The word "pending" does not occur anywhere in the file. BOTH pending
+   sentences are gone, and NO successor is named for either guide.
+
+-------------------------------------------------------------------------------
+8. DECEMBER 1991 -- netinfo/nic-pubs.txt (already in the record)
+   md5 26990e258d5b1c0e2cad815f6e564a3f
+   "2. DDN SUBSCRIBER SECURITY GUIDE / A description of the security
+   architecture designed for the DDN. Published by the Defense Communications
+   Agency (now DISA), November 1983. / DTIC Order No.: AD-A152 524"
+
+-------------------------------------------------------------------------------
+9. FEBRUARY 1993 -- DDN New User Guide, NIC 60001
+   netinfo/nug.doc, md5 1dc8114d90f789a364138ef7a982fcf5
+   NEW WITNESS in this pass. Bibliography entry:
+
+   DDN Subscriber Security Guide.  Defense Data Network, Program Management
+   Office, Defense Information Systems Agency, Washington, D.C.  1983.
+   [AD-A152 524]
+
+   Footer of the neighbouring page reads "NIC 60001, February 1993". This
+   extends the catalogue-witness range past the end of BBN's stated 1985-1992
+   range: a NIC publication of February 1993 still names only the November 1983
+   guide.
+
+-------------------------------------------------------------------------------
+10. netinfo/what-the-nic-does.txt, md5 f1b55d1ec68cda0d3fc4206f3fd822a9
+    NEW WITNESS in this pass. In the NIC's own list of files and publications,
+    the DDN Subscriber Security Guide is named among publications with NO
+    online pathname, while netinfo/vendors-guide.doc and netinfo/x25.doc are
+    given pathnames. The security guide was a hardcopy NIC publication, not an
+    online one.
+
+-------------------------------------------------------------------------------
+NEGATIVE HELD ACROSS ALL SIX PDF EDITIONS
+   No occurrence of "KI-111" in any edition.
+   No occurrence of "DDNCOG" in any edition.
+   No occurrence of "Subscriber Guide to Security Services", "Guide to
+   Security Services" or "Security Services" as a document title.

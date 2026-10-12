@@ -1,0 +1,93 @@
+{
+  "record_type": "Historical source identity, reading observations and bounded retrieval coverage",
+  "date": "2026-09-16",
+  "state": "Pass complete, question open. The CALS guideline cites the companion Evolution document, not the guide. The reported MILCOM proceedings search did not recover the paper. The guide and p. 57 remain unheld; public availability is unresolved.",
+  "current_state": "../../questions.md",
+  "gate": {
+    "rule_applied": "Verify readability file by file before any local search or local negative.",
+    "applicability": "No local collection was searched. Every source is public and was retrieved over the network, so no local negative is recorded."
+  },
+  "principal_findings": [
+    {
+      "id": "F1",
+      "claim": "NTIS PB92119445 does not cite the Subscriber Guide. Its title-range match is the companion Evolution of Security Services: 1986-1992.",
+      "source": "CALS DoD/Industry Steering Group, Program Acquisition Manager's Guidelines for Implementing CALS Communications, dated April 1, 1989, 70 PDF pages.",
+      "reading": "Title page, PDF 1, checked visually: 'dated: APRIL 1, 1989'. Printed 55 / PDF 59, checked visually: 'A phased security enhancement plan will be prepared jointly by NSA and DCA as an update to the Defense Data Network Evolution of Security Services: 1986-1992 (Defense Communications Agency, 1985).' Printed 63 / PDF 67, checked visually: the same title as a reference entry. The OCR layer has no Shirey, Subscriber Guide, KI-111 or B600.",
+      "consequence": "Lead closed. It adds no fifth citation of the guide."
+    },
+    {
+      "id": "F2",
+      "claim": "An April 1989 DoD/industry planning document says BLACKER coordinates its security service from the host's DoD IP security option and that initial BLACKER deployment was still scheduled.",
+      "reading": "Printed 55 / PDF 59, checked visually: 'BLACKER devices use the security option from the host's DoD IP header to coordinate their security service. This means that host computers directly attached to BLACKER devices currently cannot use any protocol besides DoD IP at the internet layer.' The same paragraph says OSI modifications 'will be scheduled so that the current schedule for initial BLACKER deployment is not delayed.' The section, printed 50 / PDF 54, checked visually, presents itself as a summary of Gross and Wilder, The Department of Defense Open Systems Interconnection (OSI) Implementation Strategy, 19 May 1988, MTR 87W00155, sponsored by DCA and ASD(C3I).",
+      "consequence": "The April 1989 guideline relays planning language from a May 1988 MITRE strategy, not a fresh deployment survey. Its IP-security-option statement concerns a security label used to coordinate services, not a cryptographic keying or gateway-address rule."
+    },
+    {
+      "id": "F3",
+      "claim": "The Mundy and Shirey paper is not in the MILCOM 1987 proceedings as IEEE Xplore holds them.",
+      "coverage": "IEEE Xplore search API: title phrase, author Shirey, author Mundy 1985-1990, a control query that finds MILCOM 1987 DDN papers, and a full enumeration of the 217 records under publication title MILCOM 1987, retained as text/ieee-xplore-milcom1987-contents.tsv.",
+      "result": "No record by Mundy or Shirey and no DDN security architecture title. Printed pages run to 948 with eleven gaps of 2 to 7 pages, so completeness is not proven.",
+      "consequence": "Supports Shirey's April 1990 statement (5e, printed 67 / PDF 2) that the release 'came too late for the conference proceedings,' against three bibliographies that cite the proceedings. Not proof, given the page gaps."
+    },
+    {
+      "id": "F4",
+      "claim": "No public copy of the 1987 paper's text was found, and a separate 1987 briefing by Mundy is named.",
+      "reading": "Internet Archive full text, two phrase queries, eight items' OCR checked (search log step 5). NPS thesis AD-A196806, March 1988, TEXT: ref. 15, 'Mundy, R., Defense Data Network Security Architecture: An Overview, Navy DDN Program Management Review, November 1987.' SPARTA AD-A196891, TEXT: acknowledgements list 'Lt. Col. Russ Mundy, DDN PMO'. SPARTA AD-A325143, 28 February 1990, TEXT: an appendix restating services in terms of the original DDN security architecture, with no address rule, no KI-111 and no citation of the guide.",
+      "consequence": "The co-author was in the DDN Program Management Office. The November 1987 briefing is an unheld handle that would need an inquiry. Whether 'R. Mundy', 'Russ Mundy' and the bibliographies' 'G.R. Mundy' are one person is likely but not established."
+    }
+  ],
+  "four_open_questions_after_this_pass": {
+    "introduction_decision": "open",
+    "rationale": "open",
+    "requirements_at_p57_of_the_guide": "Open; the guide was not recovered in the recorded searches.",
+    "autodin_ii_ancestry_of_the_address_rule": "open"
+  },
+  "exact_remaining_retrieval_handles": [
+    {
+      "handle": "Mundy, R., Defense Data Network Security Architecture: An Overview, Navy DDN Program Management Review, November 1987",
+      "route": "inquiry; excluded"
+    },
+    {
+      "handle": "Gross, P. and R. Wilder, The Department of Defense Open Systems Interconnection (OSI) Implementation Strategy, 19 May 1988, MITRE MTR 87W00155",
+      "route": "public status unknown; not searched, by scope. Source of the 1989 BLACKER IP-security-option statement, not a candidate for the guide."
+    },
+    {
+      "handle": "CHM DDN Library 85-1150, DDNCOG minutes, and the guide itself",
+      "route": "inquiry; excluded (unchanged from 5d and 5e)"
+    }
+  ],
+  "scope_observed": {
+    "bounded_action": "Both named leads opened and closed."
+  },
+  "source_fingerprints": [
+    {
+      "id": "PB92119445",
+      "what": "CALS DoD/Industry Steering Group, Program Acquisition Manager's Guidelines for Implementing CALS Communications, April 1, 1989, 70 PDF pages",
+      "url": "https://ntrl.ntis.gov/NTRL/ (search PB92119445, Download PDF)",
+      "bytes": 2874730,
+      "sha256": "b6ba0584ec768597b09cbc77112707e10225430d2e3673c25612c3c54938f768"
+    },
+    {
+      "id": "AD-A196806",
+      "what": "NPS thesis, Defense Data Network and the Naval Security Group, March 1988; OCR read only",
+      "url": "https://archive.org/download/DTIC_ADA196806/DTIC_ADA196806.pdf",
+      "ia_sha1_pdf": "c37c969c28b904dc43c200edc56a6dd2ff58300e",
+      "sha256_ocr_text": "95242fa54d0d8a25a1f5f05f4d5b5c29c987e25a3f7be208051912391c05fa33"
+    },
+    {
+      "id": "AD-A325143",
+      "what": "SPARTA, DoD Supplements Recommendations for GOSIP, 28 February 1990; OCR read only",
+      "url": "https://archive.org/download/DTIC_ADA325143/DTIC_ADA325143.pdf",
+      "ia_sha1_pdf": "781a11c8c2178b81f4ab2335be65761e7f906b1b",
+      "sha256_ocr_text": "405c4ec0bec06f4877d4180af7a4579abe7cd98ce16fafd810668518a99bc1d1"
+    }
+  ],
+  "handoff": {
+    "current_work_queue": "notes.md",
+    "evidence_and_open_questions": "research.md"
+  },
+  "validation": {
+    "date": "2026-09-19",
+    "status": "Interpretive corrections applied; original dated retrieval observations retained.",
+    "limits": "CALS p. 55 independently checked visually. The underlying strategy was not read, and the guideline cannot establish BLACKER deployment status as of April 1989."
+  }
+}
